@@ -2063,10 +2063,10 @@ window.cooldowns = [
     [ 11, 11 ],
     null,
     null,
-    null,
     [ 9, 9 ],
-    null,
-    null,
+    [ 17, 12 ],
+    [ 15, 11 ],
+    [ 15, 11 ],
     null,
     null,
     null,//Chopper

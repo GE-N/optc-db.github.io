@@ -6841,11 +6841,11 @@ window.captains = {
         rcv: function(p) { return p.unit.type == "QCK" || p.unit.type == "PSY" ? 1.2 : 1; },
     },
     2028: {
-        atk: function(p) { return p.unit.type == "QCK" || p.unit.type == "PSY" ? 2 : 1; },
+        atk: function(p) { return p.unit.type == "QCK" ? 2 : 1; },
     },
     2029: {
-        atk: function(p) { return p.unit.type == "QCK" || p.unit.type == "PSY" ? 2.5 : 1; },
-        hp: function(p) { return p.unit.type == "QCK" || p.unit.type == "PSY" ? 1.2 : 1; },
+        atk: function(p) { return p.unit.type == "QCK" ? 2.5 : 1; },
+        hp: function(p) { return p.unit.type == "QCK" ? 1.2 : 1; },
     },
     2030: {
         atk: function(p) { return p.unit.type == "STR" || p.unit.type == "INT" ? 2 : 1; },
@@ -6957,6 +6957,25 @@ window.captains = {
     },
     2065: {
         atk: function(p) { return 2.25; },
+    },
+    2066: {
+        atk: function(p) { return p.unit.class.has("Fighter") ? 3 : 1; },
+        hp: function(p) { return p.unit.class.has("Fighter") ? 1.5 : 1; },
+    },
+    2068: {
+        damageSorter: function(d) { return CrunchUtils.classSort(d, 3.4375, [ "Slasher" ]); },
+        hitAtk: function(p) {
+            if (!p.unit.class.has("Slasher")) return 1;
+            return p.modifiers.slice(0, p.chainPosition).subcontains(["Perfect", "Perfect", "Perfect"]) ? 3.4375 : 2.75;
+        },
+        hitModifiers: ["Perfect", "Perfect", "Perfect", "Perfect", "Perfect", "Perfect"]
+    },
+    2069: {
+        atk: function(p) { return p.unit.class.has("Free Spirit") ? 2 : 1; }
+    },
+    2070: {
+        atk: function(p) { return p.unit.class.has("Free Spirit") ? 2 : 1; },
+        hp: function(p) { return p.unit.class.has("Free Spirit") ? 2 : 1; }
     },
     2087: {
         atk: function(p){
