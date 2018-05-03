@@ -7945,9 +7945,9 @@ window.details = {
         },
         sailorNotes: "#{beneficial}",
         limit: [
-            { "description": "Boosts base ATK by 1" },
             { "description": "Boosts base HP by 20" },
             { "description": "Boosts base HP by 40" },
+            { "description": "Boosts base ATK by 30" },
             { "description": "Acquire Potential 2: [INT] Damage Reduction" },
             { "description": "Boosts base RCV by 30" },
             { "description": "Boosts base ATK by 40" },
