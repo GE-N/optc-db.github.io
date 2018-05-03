@@ -25408,7 +25408,7 @@ window.details = {
         sailor: {
             "base": "None",
             "level1": "Boosts base ATK and HP of [STR] and [INT] characters by 100",
-            "level2": "Makes [PSY] and [QCK] orbs \"beneficial\" for all characters",
+            "level2": "Makes [PSY] and [QCK] orbs \"beneficial\" for this unit",
         },
         sailorNotes: "#{beneficial}",
         limit: [
@@ -25490,7 +25490,7 @@ window.details = {
         sailor: {
             "base": "None",
             "level1": "Boosts base HP and ATK of [QCK] and [PSY] characters by 100",
-            "level2": "Makes [STR] and [INT] orbs \"beneficial\" for all characters",
+            "level2": "Makes [STR] and [INT] orbs \"beneficial\" for this unit",
         },
         sailorNotes: "#{beneficial}",
         limit: [
@@ -26012,18 +26012,18 @@ window.details = {
         specialName: "Noise & Escape",
     },
     2063: {//Kizaru
-        captain: "Not Translated",
+        captain: "Boosts ATK of [DEX], [PSY] and [INT] characters by 1.5x",
         special: "Cuts the current HP of one enemy by 20%, locks all orbs for 1 turn and boosts ATK of characters with the same Type as your Captain by 1.75x for 3 turns",
         specialName: "Ama no Murakumo",
     },
     2064: {//Kizaru
         captain: {
-            "base": "Boosts ATK of [DEX], [PSY] and [INT] characters by 1.5x",
-            "level1": "Not Translated",
-            "level2": "Not Translated",
-            "level3": "Not Translated",
-            "level4": "Not Translated",
-            "level5": "Not Translated",
+            "base": "Boosts ATK of [DEX], [PSY] and [INT] characters by 2x",
+            "level1": "Boosts ATK of [DEX], [PSY] and [INT] characters by 2.25x",
+            "level2": "Reduces cooldown of all specials by 1 turn at the start of the fight, boosts ATK of [DEX], [PSY] and [INT] characters by 2.25x",
+            "level3": "Reduces cooldown of all specials by 1 turn at the start of the fight, boosts ATK of [DEX], [PSY] and [INT] characters by 2.25x and if there is a [DEX], [PSY] and [INT] character in your crew, boosts chain multiplier by 1.1x",
+            "level4": "Reduces cooldown of all specials by 1 turn at the start of the fight, boosts ATK of [DEX], [PSY] and [INT] characters by 2.25x and if there is a [DEX], [PSY] and [INT] character in your crew, boosts chain multiplier by 1.2x",
+            "level5": "Reduces cooldown of all specials by 1 turn at the start of the fight, boosts ATK of [DEX], [PSY] and [INT] characters by 2.25x and if there is a [DEX], [PSY] and [INT] character in your crew, boosts chain multiplier by 1.3x",
             "level6": "Reduces cooldown of all specials by 1 turn at the start of the fight, boosts ATK of [DEX], [PSY] and [INT] characters by 2.5x and if there is a [DEX], [PSY] and [INT] character in your crew, boosts chain multiplier by 1.5x",
         },
         special: "Cuts the current HP of one enemy by 20%, locks all orbs for 1 turn and boosts ATK of characters with the same Type as your Captain by 1.75x for 3 turns",
