@@ -2062,7 +2062,7 @@ window.units = [
     [ "Apoo", "STR", [ "Free Spirit", "Shooter" ], 4, 12, null, 3, 50, 261406, null, null, null, null, null, null, null ],
     [ "\"Roar of the Sea\" Scratchman Apoo, The Explosion that Trembles Light", "STR", [ "Free Spirit", "Shooter" ], 5, 20, 6, 4, 99, 2000000, null, null, null, 1832, 1181, 301, null ],
     [ "Kizaru", "DEX", [ "Fighter", "Free Spirit" ], 4, 30, 6, 1, 50, 130703, 348, 122, 29, 1069, 368, 117, null ],
-    [ "Kizaru, Raging Waves of Light", "DEX", [ "Fighter", "Free Spirit" ], 5, 60, 4, 1, 99, 5000000, 830, 290, 94, 2612, 1362, 268, null ],
+    [ "Kizaru, Raging Waves of Light", "DEX", [ "Fighter", "Free Spirit" ], 5, 60, 4, 2, 99, 5000000, 830, 290, 94, 2612, 1362, 268, null ],
     [ "Charlotte Pudding", "PSY", [ "Shooter", "Striker" ], 4, 15, 5, 4, 99, 1000000, 201, 109, 18, 2018, 1110, 264, 1 ],
     [ "Jinbe, Warlord of the Sea", "INT", [ "Fighter", "Powerhouse" ], '6+', 65, 4, 5, 99, 5000000, 1, 1, 1, 3980, 1484, 352, null],
     [ "LRR Tashigi", "PSY", [ "Slasher", "Cerebral" ], 4, 20, null, 4, 70, 1066998, null, null, null, null, null, null, null ],
