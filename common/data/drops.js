@@ -7,7 +7,7 @@ window.drops = {
             thumb: 28,
             global: true,
             nakama: 1002800,
-            completion: '5x Rainbow Gems',	
+            completion: '5x Rainbow Gems',
             gamewith: 3417,
             '01': [ 119, 120 ],
             '02': [ 27, 115, 119, 120 ],
@@ -1995,11 +1995,19 @@ window.drops = {
         },
         
         {
-            name: 'Strawhat Pirates Pizza Party!!',
+            name: 'Strawhat Pirates Pizza Party!! Part 1',
             thumb: 2087,
             nakama: null,
             gamewith: 102409,
             'All Difficulties': [ 2087, 2088, 2089, 2090, 2091, -1910, -1440, -1442, -1895, -1902, -1714 ]
+        },
+        
+        {
+            name: 'Strawhat Pirates Pizza Party!! Part 2',
+            thumb: 2092,
+            nakama: null,
+            gamewith: null,
+            'All Difficulties': [ 2092, 2093, 2094, 2095 ]
         },
         
     ],
@@ -2508,7 +2516,7 @@ window.drops = {
             name: 'Clash!! Zoro',
             thumb: 2097,
             nakama: null,
-            gamewith: null,
+            gamewith: 105734,
             Ultimate: [ 2096 ],
             Master: [ 2096 ],
             Expert : [ 2096 ],
@@ -2618,7 +2626,7 @@ window.drops = {
             thumb: 2109,
             nakama: null,
             gamewith: null,
-            'Raging Sea': [ 2108 ]
+            'Sweet Sea': [ 2108 ]
         },
         
     ],
@@ -2969,7 +2977,7 @@ window.drops = {
             gamewith: 98232,
             showManual: true,
             'Aokiji': [ 298, 1225, 1226, 1280, 1281 ],
-            'Akainu': [ 1223, 1270, 1283, 1417, 1418 ],
+            'Akainu': [ 1223, 1279, 1283, 1417, 1418 ],
         },
    ],
 
