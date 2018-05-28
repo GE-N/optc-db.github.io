@@ -755,7 +755,7 @@ window.matchers = [
         name: 'Has Limit Break',
         target: 'limit',
         matcher: /\S/i,
-        icon: ""
+        icon: "pt-skill"
     },
     
     {
@@ -804,7 +804,7 @@ window.matchers = [
         name: 'Damage Reduction Potential Ability',
         target: 'limit',
         matcher: /Damage Reduction/i,
-        icon: 'dif'
+        icon: 'dif-str'
     },
     
     {
