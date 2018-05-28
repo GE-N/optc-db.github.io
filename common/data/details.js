@@ -8990,10 +8990,10 @@ window.details = {
                 "Name": "Cooldown Reduction",
                 "description": [
                     "Level 1: Reduce own Special Cooldown by 3 turns at the start of the fight",
-                    "Level 2: Reduce own Special Cooldown by ? turn at the start of the fight",
-                    "Level 3: Reduce own Special Cooldown by ? turn at the start of the fight",
-                    "Level 4: Reduce own Special Cooldown by ? turn at the start of the fight",
-                    "Level 5: Reduce own Special Cooldown by ? turn at the start of the fight"
+                    "Level 2: Reduce own Special Cooldown by 5 turn at the start of the fight",
+                    "Level 3: Reduce own Special Cooldown by 7 turn at the start of the fight",
+                    "Level 4: Reduce own Special Cooldown by 10 turn at the start of the fight",
+                    "Level 5: Reduce own Special Cooldown by 15 turn at the start of the fight"
                 ]
             },
         ]
@@ -22185,11 +22185,11 @@ window.details = {
         specialName: "Barrier Crash",
         special: [
             {
-                "description": "Reduces any damage received above 5,000 HP by 97% for 2 turns, recovers 20% of crew's MAX HP, reduces enemies' ATK Up and Enrage Buffs by 5 turns.",
+                "description": "Reduces any damage received above 5,000 HP by 97% for 2 turns, recovers 20% of crew's MAX HP, reduces enemies's ATK Up and Enrage Buffs by 5 turns.",
                 "cooldown": [ 28, 13 ],
             },
             {
-                "description": "Reduces any damage received above 3,000 HP by 97% for 2 turns, recovers 50% of crew's MAX HP, reduces enemies' ATK Up, Enrage, End of Turn Damage/Percent Cut and Resilience Buffs by 5 turns.",
+                "description": "Reduces any damage received above 3,000 HP by 97% for 2 turns, recovers 50% of crew's MAX HP, reduces enemies's ATK Up, Enrage, End of Turn Damage/Percent Cut and Resilience Buffs by 5 turns.",
                 "cooldown": [ 33, 18 ],
             },
         ],
@@ -26396,7 +26396,7 @@ window.details = {
     },
     2077: {//Carrot
         captain: "Boosts ATK of Fighter characters by 2x",
-        special: "Reduces Paralysis and Despair duration by 4 turns, delays all enemies for 1 turn, changes [STR], [DEX], [QCK], [INT] and [PSY] orbs into [PSY] orbs and boosts ATK against enemies with reduced defense by 1.75x for ? turns",
+        special: "Reduces Paralysis and Despair duration by 4 turns, delays all enemies for 1 turn, changes [STR], [DEX], [QCK], [INT] and [PSY] orbs into [PSY] orbs and boosts ATK against enemies with reduced defense by 1.75x for 1 turns",
         specialName: "Eleclaw",
         sailor: "Completely resists Paralysis on this character",
     },
@@ -26427,13 +26427,13 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "[STR] Damage Reduction",
+                "Name": "Enrage",
                 "description": [
-                    "Level 1: Reduce damage taken from [STR] characters by 1%",
-                    "Level 2: Reduce damage taken from [STR] characters by 2%",
-                    "Level 3: Reduce damage taken from [STR] characters by 3%",
-                    "Level 4: Reduce damage taken from [STR] characters by 4%",
-                    "Level 5: Reduce damage taken from [STR] characters by 5%"
+                    "Boosts base ATK by 50",
+                    "Boosts base ATK by 75",
+                    "Boosts base ATK by 100",
+                    "Boosts base ATK by 150",
+                    "Boosts base ATK by 250"
                 ]
             },
             {
@@ -26443,7 +26443,7 @@ window.details = {
                     "Level 2: If you hit a perfect with this character, there is a 30% chance to deal 5% of this character's attack in extra damage",
                     "Level 3: If you hit a perfect with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
                     "Level 4: If you hit a perfect with this character, there is a 50% chance to deal 7% of this character's attack in extra damage",
-                    "Level 5: If you hit a perfect with this character, there is a 70% chance to deal 8% of this character's attack in extra damage"
+                    "Level 5: If you hit a perfect with this character, there is a 60% chance to deal 8% of this character's attack in extra damage"
                 ]
             },
         ]
@@ -26605,7 +26605,7 @@ window.details = {
         specialName: "Humble Words to Excite the Party",
     },
     2092: {//Pizza Zoro
-        captain: "Boosts ATK of all characters by 2x. If you use \"One Sword Style: Yakkodori - Banquet\"  boosts ATK of all characters by 2.6x instead.",
+        captain: "Boosts ATK of all characters by 2x. If you use \"One Sword Style: Yakkodori - Banquet\" boosts ATK of all characters by 2.6x instead.",
         special: "Deals 15x character's ATK in [PSY] damage to all enemies, reduces the defense of all enemies by 50% and boosts ATK against enemies with reduced defense by 1.5x for 1 turn.",
         specialName: "One Sword Style: Yakkodori - Banquet",
     },
@@ -26664,7 +26664,7 @@ window.details = {
                     "Level 1: Boosts base ATK by 30",
                     "Level 2: Boosts base ATK by 60",
                     "Level 3: Boosts base ATK by 90",
-                    "Level 4: Boosts base ATK by 100",
+                    "Level 4: Boosts base ATK by 120",
                     "Level 5: Boosts base ATK by 150"
                 ]
             },
@@ -26869,7 +26869,7 @@ window.details = {
                 "Name": "Reduce No Healing duration",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
-                    "Level 2: Reduces No Healing duration by 2 turn",
+                    "Level 2: Reduces No Healing duration by 2 turns",
                     "Level 3: Reduces No Healing duration by 3 turns",
                     "Level 4: Reduces No Healing duration by 4 turns",
                     "Level 5: Reduces No Healing duration by 5 turns"
