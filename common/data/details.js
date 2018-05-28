@@ -8990,10 +8990,10 @@ window.details = {
                 "Name": "Cooldown Reduction",
                 "description": [
                     "Level 1: Reduce own Special Cooldown by 3 turns at the start of the fight",
-                    "Level 2: Reduce own Special Cooldown by 5 turn at the start of the fight",
-                    "Level 3: Reduce own Special Cooldown by 7 turn at the start of the fight",
-                    "Level 4: Reduce own Special Cooldown by 10 turn at the start of the fight",
-                    "Level 5: Reduce own Special Cooldown by 15 turn at the start of the fight"
+                    "Level 2: Reduce own Special Cooldown by 5 turns at the start of the fight",
+                    "Level 3: Reduce own Special Cooldown by 7 turns at the start of the fight",
+                    "Level 4: Reduce own Special Cooldown by 10 turns at the start of the fight",
+                    "Level 5: Reduce own Special Cooldown by 15 turns at the start of the fight"
                 ]
             },
         ]
@@ -22199,11 +22199,11 @@ window.details = {
         specialName: "Barrier Crash",
         special: [
             {
-                "description": "Reduces any damage received above 5,000 HP by 97% for 2 turns, recovers 20% of crew's MAX HP, reduces enemies' ATK Up and Enrage Buffs by 5 turns.",
+                "description": "Reduces any damage received above 5,000 HP by 97% for 2 turns, recovers 20% of crew's MAX HP, reduces enemies's ATK Up and Enrage Buffs by 5 turns.",
                 "cooldown": [ 28, 13 ],
             },
             {
-                "description": "Reduces any damage received above 3,000 HP by 97% for 2 turns, recovers 50% of crew's MAX HP, reduces enemies' ATK Up, Enrage, End of Turn Damage/Percent Cut and Resilience Buffs by 5 turns.",
+                "description": "Reduces any damage received above 3,000 HP by 97% for 2 turns, recovers 50% of crew's MAX HP, reduces enemies's ATK Up, Enrage, End of Turn Damage/Percent Cut and Resilience Buffs by 5 turns.",
                 "cooldown": [ 33, 18 ],
             },
         ],
@@ -26396,7 +26396,7 @@ window.details = {
     },
     2077: {//Carrot
         captain: "Boosts ATK of Fighter characters by 2x",
-        special: "Reduces Paralysis and Despair duration by 4 turns, delays all enemies for 1 turn, changes [STR], [DEX], [QCK], [INT] and [PSY] orbs into [PSY] orbs and boosts ATK against enemies with reduced defense by 1.75x for 1 turns",
+        special: "Reduces Paralysis and Despair duration by 4 turns, delays all enemies for 1 turn, changes [STR], [DEX], [QCK], [INT] and [PSY] orbs into [PSY] orbs and boosts ATK against enemies with reduced defense by 1.75x for 1 turn",
         specialName: "Eleclaw",
         sailor: "Completely resists Paralysis on this character",
     },
