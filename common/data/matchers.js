@@ -754,55 +754,64 @@ window.matchers = [
     {
         name: 'Has Limit Break',
         target: 'limit',
-        matcher: /\S/i
+        matcher: /\S/i,
+        icon: ""
     },
     
     {
         name: 'Enrage Potential Ability',
         target: 'limit',
-        matcher: /Enrage/i
+        matcher: /Enrage/i,
+        icon: 'enrage'
     },
     
     {
         name: 'Reduce No Healing Potential Ability',
         target: 'limit',
-        matcher: /Reduce No Healing/i
+        matcher: /Reduce No Healing/i,
+        icon: 'reduce-anti-heal'
     },
     
     {
         name: 'Critical Hit Potential Ability',
         target: 'limit',
-        matcher: /Critical Hit/i
+        matcher: /Critical Hit/i,
+        icon: 'critical-hit'
     },
     
     {
         name: 'Slot Bind Self-reduction Potential Ability',
         target: 'limit',
-        matcher: /Slot Bind Self-reduction/i
+        matcher: /Slot Bind Self-reduction/i,
+        icon: 'slot-bind-reduction'
     },
     
     {
         name: 'Barrier Penetration Potential Ability',
         target: 'limit',
-        matcher: /Barrier Penetration/i
+        matcher: /Barrier Penetration/i,
+        icon: 'barrier-penetration'
     },
     
     {
         name: 'Pinch Healing Potential Ability',
         target: 'limit',
-        matcher: /Pinch Healing/i
+        matcher: /Pinch Healing/i,
+        icon: 'pinch-healing'
     },
     
     {
         name: 'Damage Reduction Potential Ability',
         target: 'limit',
-        matcher: /Damage Reduction/i
+        matcher: /Damage Reduction/i,
+        icon: 'dif'
     },
     
     {
         name: 'Cooldown Reduction Potential Ability',
         target: 'limit',
-        matcher: /Cooldown Reduction/i
+        matcher: /Cooldown Reduction/i,
+        icon: 'reduction-cd'
     },
 
 ];
