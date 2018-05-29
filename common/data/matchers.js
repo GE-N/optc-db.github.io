@@ -47,7 +47,8 @@ window.matchers = [
     {
         name: 'Special boosting captains',
         target: 'captain',
-        matcher: /Boosts damage.+specials/i
+        matcher: /Boosts damage.+specials/i,
+        icon: 'atk up'
     },
 
     {
@@ -498,7 +499,7 @@ window.matchers = [
         name: 'Additional Damage dealer',
         target: 'special',
         matcher: /Additional.+Damage/i,
-        icon: 'end turn dmg'
+        icon: 'bonus-dmg'
     },
     
     {
@@ -853,7 +854,8 @@ window.matchers = [
     {
         name: 'Additional Damage dealer',
         target: 'sailor',
-        matcher: /Additional.+Damage/i
+        matcher: /Additional.+Damage/i,
+        icon: 'bonus-dmg'
     },
     
     /* * * * * Limit Break * * * * */
