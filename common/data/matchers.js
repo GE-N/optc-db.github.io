@@ -744,21 +744,21 @@ window.matchers = [
         name: 'Type-boosting sailors',
         target: 'sailor',
         matcher: /Boosts base (ATK|HP|RCV|ATK and HP|ATK and RCV|HP and RCV|ATK, HP and RCV) of[^,]+(STR|DEX|QCK|PSY|INT)\b/i,
-        icon: 'atk boost'
+        icon: 'atk-up-type'
     },
     
     {
         name: 'Class-boosting sailors',
         target: 'sailor',
         matcher: /Boosts base (ATK|HP|RCV|ATK and HP|ATK and RCV|HP and RCV|ATK, HP and RCV) of[^,]+(Slasher|Striker|Fighter|Shooter|Free Spirit|Cerebral|Powerhouse|Driven)/i,
-        icon: 'atk boost'
+        icon: 'atk-up-class'
     },
     
     {
         name: 'ATK boosting sailors',
         target: 'sailor',
         matcher: /Boosts base ATK/i,
-        icon: 'atk boost'
+        icon: 'atk up'
     },
 
     {
