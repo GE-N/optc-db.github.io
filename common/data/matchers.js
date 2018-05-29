@@ -239,7 +239,8 @@ window.matchers = [
     {
         name: 'Multiple Stage specials',
         target: 'special',
-        matcher: /description/i
+        matcher: /description/i,
+        icon: 'cd-multi-stage'
     },
 
     {
@@ -629,7 +630,7 @@ window.matchers = [
         name: 'Enemy Enrage buff remover',
         target: 'special',
         matcher: /(removes|reduces).+Enrage/i,
-        icon: 'enrage'
+        icon: 'enrage enemy'
     },
 
     {
