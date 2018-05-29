@@ -225,13 +225,15 @@ window.matchers = [
     {
         name: 'Type-boosting specials',
         target: 'special',
-        matcher: /Boosts (ATK|HP|RCV|ATK and HP|ATK and RCV|HP and RCV|ATK, HP and RCV) of[^,]+(STR|DEX|QCK|PSY|INT)\b/i
+        matcher: /Boosts (ATK|HP|RCV|ATK and HP|ATK and RCV|HP and RCV|ATK, HP and RCV) of[^,]+(STR|DEX|QCK|PSY|INT)\b/i,
+        icon: 'atk up'
     },
 
     {
         name: 'Class-boosting specials',
         target: 'special',
-        matcher: /Boosts (ATK|HP|RCV|ATK and HP|ATK and RCV|HP and RCV|ATK, HP and RCV) of[^,]+(Slasher|Striker|Fighter|Shooter|Free Spirit|Cerebral|Powerhouse|Driven)/i
+        matcher: /Boosts (ATK|HP|RCV|ATK and HP|ATK and RCV|HP and RCV|ATK, HP and RCV) of[^,]+(Slasher|Striker|Fighter|Shooter|Free Spirit|Cerebral|Powerhouse|Driven)/i,
+        icon: 'atk up'
     },
     
     {
@@ -243,55 +245,64 @@ window.matchers = [
     {
         name: 'Universal ATK boosting specials',
         target: 'special',
-        matcher: /Boosts ATK[^,]+(all characters)/i
+        matcher: /Boosts ATK[^,]+(all characters)/i,
+        icon: 'atk up'
     },
     
     {
         name: '1.25x ATK specials',
         target: 'special',
-        matcher: /Boosts ATK.+by 1.25x/i
+        matcher: /Boosts ATK.+by 1.25x/i,
+        icon: 'atk up'
     },
     
     {
         name: '1.5x ATK specials',
         target: 'special',
-        matcher: /Boosts ATK.+by 1.5x/i
+        matcher: /Boosts ATK.+by 1.5x/i,
+        icon: 'atk up'
     },
 
     {
         name: '1.75x ATK specials',
         target: 'special',
-        matcher: /Boosts ATK.+by 1.75x/i
+        matcher: /Boosts ATK.+by 1.75x/i,
+        icon: 'atk up'
     },
 
     {
         name: '2x ATK specials',
         target: 'special',
-        matcher: /Boosts ATK.+by 2x/i
+        matcher: /Boosts ATK.+by 2x/i,
+        icon: 'atk up'
     },
     
     {
         name: '2.25x ATK specials',
         target: 'special',
-        matcher: /Boosts ATK.+by 2.25x/i
+        matcher: /Boosts ATK.+by 2.25x/i,
+        icon: 'atk up'
     },
 
     {
         name: 'Conditional ATK boosters',
         target: 'special',
-        matcher: /Boosts ATK.+against.+enemies/i
+        matcher: /Boosts ATK.+against.+enemies/i,
+        icon: 'atk up'
     },
 
     {
         name: 'Following-turn ATK boosters',
         target: 'special',
-        matcher: /(Following the activation.+boosts.+ATK|If during that turn.+boosts.+ATK)/i
+        matcher: /(Following the activation.+boosts.+ATK|If during that turn.+boosts.+ATK)/i,
+        icon: 'atk up'
     },
     
     {
         name: 'Color Affinity boosters',
         target: 'special',
-        matcher: /Boosts the Color Affinity/i
+        matcher: /Boosts the Color Affinity/i,
+        icon: 'color affinity'
     },
     
     {
@@ -303,25 +314,29 @@ window.matchers = [
     {
         name: 'RCV boosters',
         target: 'special',
-        matcher: /Boosts.+RCV/i
+        matcher: /Boosts.+RCV/i,
+        icon: 'rcv up'
     },
 
     {
         name: 'Orb lockers',
         target: 'special',
-        matcher: /locks (orbs|all orbs|orb|own orb)/i
+        matcher: /locks (orbs|all orbs|orb|own orb)/i,
+        icon: 'orb lock'
     },
 
     {
         name: 'Orb boosters',
         target: 'special',
-        matcher: /amplifies.+orb/i
+        matcher: /amplifies.+orb/i,
+        icon: 'orb boost'
     },
 
     {
         name: 'Orb chance boosters',
         target: 'special',
-        matcher: /boosts chances of getting.+orbs/i
+        matcher: /boosts chances of getting.+orbs/i,
+        icon: 'orb match'
     },
 
     {
@@ -329,49 +344,57 @@ window.matchers = [
         target: 'special',
         matcher: /(Badly Matching orbs into.+Matching orbs)/i,
         //include: [ 900, 901, 996, 997, 933, 938, 939 ],
+        icon: 'orb match'
     },
 
     {
         name: 'Orb controllers',
         target: 'special',
-        matcher: /(Changes.+(orb|orbs))/i
+        matcher: /(Changes.+(orb|orbs))/i,
+        icon: 'orb match'
     },
     
     {
         name: 'Full-board orb controllers',
         target: 'special',
-        matcher: /(Changes[^,]+all orbs|Changes the orbs in|Changes[^,]*every other orb)/i
+        matcher: /(Changes[^,]+all orbs|Changes the orbs in|Changes[^,]*every other orb)/i,
+        icon: 'orb match'
     },
 
     {
         name: 'Self-orb controllers',
         target: 'special',
-        matcher: /Changes.+own orb.+into/i
+        matcher: /Changes.+own orb.+into/i,
+        icon: 'orb match'
     },
 
     {
         name: 'Orb randomizers',
         target: 'special',
-        matcher: /randomizes.+orb/i
+        matcher: /randomizes.+orb/i,
+        icon: 'orb random'
     },
 
     {
         name: 'Orb switchers',
         target: 'special',
-        matcher: /switches orbs/i
+        matcher: /switches orbs/i,
+        icon: 'orb switch'
     },
     
     {
         name: 'Orb matchers',
         target: 'special',
         matcher: /(Changes.+(orb|orbs|orbs,))[^,]+Matching/i,
-        include: [ 1036, 1037 ]
+        include: [ 1036, 1037 ],
+        icon: 'orb match'
     },
 
     {
         name: 'Slot emptiers',
         target: 'special',
-        matcher: /(Empties|Changes.+into.+\[EMPTY\])/i
+        matcher: /(Empties|Changes.+into.+\[EMPTY\])/i,
+        icon: 'Socket'
     },
 
     /*{
@@ -383,85 +406,99 @@ window.matchers = [
     {
         name: 'Delayers',
         target: 'special',
-        matcher: /delays/i
+        matcher: /delays/i,
+        icon: 'delay'
     },
     
     {
         name: 'Damage dealer',
         target: 'special',
-        matcher: /deals.+to/i
+        matcher: /deals.+to/i,
+        icon: 'damage-dealer'
     },
     
     {
         name: 'Single-target damage dealer',
         target: 'special',
-        matcher: /deals.+to one enemy/i
+        matcher: /deals.+to one enemy/i,
+        icon: 'damage-dealer'
     },
 
     {
         name: 'Multi-target damage dealers',
         target: 'special',
-        matcher: /Deals.+to (all|random) enemies/i
+        matcher: /Deals.+to (all|random) enemies/i,
+        icon: 'damage-dealer'
     },
 
     {
         name: 'Area of Effect damage dealers',
         target: 'special',
-        matcher: /Deals.+to all enemies/i
+        matcher: /Deals.+to all enemies/i,
+        icon: 'damage-dealer'
     },
 
     {
         name: 'Multi-hit damage dealers',
         target: 'special',
-        matcher: /Deals \d+ hits/i
+        matcher: /Deals \d+ hits/i,
+        icon: 'damage-dealer'
     },
 
     {
         name: 'Fixed damage dealers',
         target: 'special',
-        matcher: /Deals.+fixed damage/i
+        matcher: /Deals.+fixed damage/i,
+        icon: 'damage-dealer'
     },
 
     {
         name: 'Typeless damage dealers',
         target: 'special',
-        matcher: /Deals.+typeless damage/i
+        matcher: /Deals.+typeless damage/i,
+        icon: 'damage-dealer'
     },
 
     {
         name: 'Typed damage dealers',
         target: 'special',
-        matcher: /Deals.+(\[STR\]|\[DEX\]|\[QCK\]|\[PSY\]|\[INT\]) damage/i
+        matcher: /Deals.+(\[STR\]|\[DEX\]|\[QCK\]|\[PSY\]|\[INT\]) damage/i,
+        icon: 'damage-dealer'
     },
     
     {
         name: 'Additional Damage dealer',
         target: 'special',
-        matcher: /Additional.+Damage/i
+        matcher: /Additional.+Damage/i,
+        icon: 'end turn dmg'
     },
     
     {
         name: 'Defence and Barrier Buff Ignoring damage dealer',
         target: 'special',
-        matcher: /Deals.+ignore damage negating abilities and barriers/i
+        matcher: /Deals.+ignore damage negating abilities and barriers/i,
+        icon: 'damage-dealer'
     },
 
     {
         name: 'Health cutters',
         target: 'special',
-        matcher: /Cuts.+current HP.+enem/i
+        matcher: /Cuts.+current HP.+enem/i,
+        icon: 'health-cut'
     },
 
     {
         name: 'HP-based damage dealers',
         target: 'specialNotes',
-        matcher: /specialProportional/i
+        matcher: /specialProportional/i,
+        icon: ''
     },
 
     {
         name: 'Defense reducers',
         target: 'special',
-        matcher: /Reduces the defense/i
+        matcher: /Reduces the defense/i,
+        icon: 'defense boost'
     },
 
     /*{
@@ -479,13 +516,15 @@ window.matchers = [
     {
         name: 'Damage reducers',
         target: 'special',
-        matcher: /Reduces (any )?damage received/i
+        matcher: /Reduces (any )?damage received/i,
+        icon: 'dmg reduction'
     },
 
     {
         name: 'Damage nullifiers',
         target: 'special',
-        matcher: /Reduces (any )?damage received.+100%/i
+        matcher: /Reduces (any )?damage received.+100%/i,
+        icon: 'null dmg'
     },
     
     /*{
@@ -497,170 +536,198 @@ window.matchers = [
     {
         name: 'Bind reducers',
         target: 'special',
-        matcher: /(reduces|removes).+bind.+duration/i
+        matcher: /(reduces|removes).+bind.+duration/i,
+        icon: 'reduce bind'
     },
 
     {
         name: 'Despair reducers',
         target: 'special',
-        matcher: /(reduces|removes).+despair.+duration/i
+        matcher: /(reduces|removes).+despair.+duration/i,
+        icon: 'reduce despair'
     },
     
     {
         name: 'Silence reducers',
         target: 'special',
-        matcher: /(reduces|removes).+silence.+duration/i
+        matcher: /(reduces|removes).+silence.+duration/i,
+        icon: 'silence'
     },
     
     {
         name: 'Paralysis reducers',
         target: 'special',
-        matcher: /(reduces|removes).+Paralysis/i 
+        matcher: /(reduces|removes).+Paralysis/i,
+        icon: 'paralyze'
     },
 
     {
         name: 'Block orb removers',
         target: 'special',
         matcher: /(empties.+with \[BLOCK\]|changes.+\[BLOCK\].+into|including.+\[BLOCK\])/i,
-        include: [ 1383, 1384 ]
+        include: [ 1383, 1384 ],
+        icon: 'orb match'
     },
 
     {
         name: 'Blindness removers',
         target: 'special',
-        matcher: /(reduces|removes).+blindness/i
+        matcher: /(reduces|removes).+blindness/i,
+        icon: 'blindness'
     },
 
     {
         name: 'Healers',
         target: 'special',
-        matcher: /Recovers/i
+        matcher: /Recovers/i,
+        icon: 'heal'
     },
 
     {
         name: 'Health reducers',
         target: 'special',
-        matcher: /Reduces crew's (current )?HP/i
+        matcher: /Reduces crew's (current )?HP/i,
+        icon: 'hp down'
     },
 
     {
         name: 'Poisoners',
         target: 'special',
-        matcher: /(poisons|Inflicts Toxic)/i
+        matcher: /(poisons|Inflicts Toxic)/i,
+        icon: 'poison'
     },
 
     {
         name: 'Poison removers',
         target: 'special',
-        matcher: /removes.+poison/i 
+        matcher: /removes.+poison/i,
+        icon: 'poison'
     },
 
     {
         name: 'Crew ATK DOWN remover',
         target: 'special',
-        matcher: /(removes|reduces).+ATK DOWN/i 
+        matcher: /(removes|reduces).+ATK DOWN/i,
+        icon: 'atk down'
     },
 
     {
         name: 'Crew positive buff remover',
         target: 'special',
-        matcher: /removes.+positive buffs/i 
+        matcher: /removes.+positive buffs/i,
+        icon: ''
     },
 
     {
         name: 'Enemy End of Turn buff remover',
         target: 'special',
-        matcher: /(removes|reduces).+End of Turn/i 
+        matcher: /(removes|reduces).+End of Turn/i,
+        icon: 'end turn dmg'
     },
 
     {
         name: 'Enemy Enrage buff remover',
         target: 'special',
-        matcher: /(removes|reduces).+Enrage/i 
+        matcher: /(removes|reduces).+Enrage/i,
+        icon: 'enrage'
     },
 
     {
         name: 'Enemy ATK UP buff remover',
         target: 'special',
-        matcher: /(removes|reduces).+ATK UP/i 
+        matcher: /(removes|reduces).+ATK UP/i,
+        icon: 'atk up'
     },
 
     {
         name: 'Enemy Threshold Damage Reduction remover',
         target: 'special',
-        matcher: /(removes|reduces).+Threshold Damage Reduction/i 
+        matcher: /(removes|reduces).+Threshold Damage Reduction/i,
+        icon: 'treshold'
     },
 
     {
         name: 'Enemy Resilience remover',
         target: 'special',
-        matcher: /(removes|reduces).+Resilience/i 
+        matcher: /(removes|reduces).+Resilience/i,
+        icon: 'resilence'
     },
 
     {
         name: 'Enemy Percent Damage Reduction remover',
         target: 'special',
-        matcher: /(removes|reduces).+Percent Damage Reduction/i 
+        matcher: /(removes|reduces).+Percent Damage Reduction/i,
+        icon: 'dmg reduction'
     },
 
     {
         name: 'Enemy Increased Defense removers',
         target: 'special',
-        matcher: /(removes|reduces).+Increased Defense/i 
+        matcher: /(removes|reduces).+Increased Defense/i,
+        icon: 'defense boost'
     },
 
     {
         name: 'Enemy Barrier removers',
         target: 'special',
-        matcher: /(removes|reduces).+enemy Barrier/i 
+        matcher: /(removes|reduces).+enemy Barrier/i,
+        icon: 'hit barrier'
     },
 
     {
         name: 'Zombies',
         target: 'special',
-        matcher: /Protects from defeat/i
+        matcher: /Protects from defeat/i,
+        icon: 'resilence'
     },
     
     {
         name: 'End of Turn Damage Dealer',
         target: 'special',
-        matcher: /(deals|cuts).+end of the turn/i
+        matcher: /(deals|cuts).+end of the turn/i,
+        icon: 'end turn dmg'
     },
     
     {
         name: 'Special cooldown reducers',
         target: 'special',
-        matcher: /reduces special cooldown/i
+        matcher: /reduces special cooldown/i,
+        icon: 'reduce cd'
     },
     
     {
         name: 'Chain Boosters',
         target: 'special',
-        matcher: /Adds.+to Chain/i 
+        matcher: /Adds.+to Chain/i,
+        icon: 'chainlimit'
     },
     
     {
         name: 'Chain Lockers',
         target: 'special',
-        matcher: /Locks the chain multiplier/i 
+        matcher: /Locks the chain multiplier/i,
+        icon: 'chain reducer'
     },
     
     {
         name: 'Chain Multiplier Limit Removers',
         target: 'special',
-        matcher: /(removes|reduces).+Chain Multiplier Limit/i 
+        matcher: /(removes|reduces).+Chain Multiplier Limit/i,
+        icon: 'chain reducer'
     },
     
     {
         name: 'Chain Coefficient Reduction Removers',
         target: 'special',
-        matcher: /(removes|reduces).+Chain Coefficient Reduction/i 
+        matcher: /(removes|reduces).+Chain Coefficient Reduction/i,
+        icon: 'chainlimit'
     },
     
     {
         name: '"Beneficial" Orb Enablers',
         target: 'special',
-        matcher: /"beneficial/i
+        matcher: /"beneficial/i,
+        icon: 'orb match'
     },
     
     /* * * * * Sailor * * * * */
@@ -668,73 +735,85 @@ window.matchers = [
     {
         name: 'Has Sailor Ability',
         target: 'sailor',
-        matcher: /\S/i
+        matcher: /\S/i,
+        icon: 'has sailor'
     },
     
     {
         name: 'Type-boosting sailors',
         target: 'sailor',
-        matcher: /Boosts base (ATK|HP|RCV|ATK and HP|ATK and RCV|HP and RCV|ATK, HP and RCV) of[^,]+(STR|DEX|QCK|PSY|INT)\b/i
+        matcher: /Boosts base (ATK|HP|RCV|ATK and HP|ATK and RCV|HP and RCV|ATK, HP and RCV) of[^,]+(STR|DEX|QCK|PSY|INT)\b/i,
+        icon: 'atk boost'
     },
     
     {
         name: 'Class-boosting sailors',
         target: 'sailor',
-        matcher: /Boosts base (ATK|HP|RCV|ATK and HP|ATK and RCV|HP and RCV|ATK, HP and RCV) of[^,]+(Slasher|Striker|Fighter|Shooter|Free Spirit|Cerebral|Powerhouse|Driven)/i
+        matcher: /Boosts base (ATK|HP|RCV|ATK and HP|ATK and RCV|HP and RCV|ATK, HP and RCV) of[^,]+(Slasher|Striker|Fighter|Shooter|Free Spirit|Cerebral|Powerhouse|Driven)/i,
+        icon: 'atk boost'
     },
     
     {
         name: 'ATK boosting sailors',
         target: 'sailor',
-        matcher: /Boosts base ATK/i
+        matcher: /Boosts base ATK/i,
+        icon: 'atk boost'
     },
 
     {
         name: 'HP boosting sailors',
         target: 'sailor',
-        matcher: /Boosts base (HP|ATK and HP|ATK, HP)|Boosts.+and their HP/i
+        matcher: /Boosts base (HP|ATK and HP|ATK, HP)|Boosts.+and their HP/i,
+        icon: 'hp up'
     },
 
     {
         name: 'RCV boosting sailors',
         target: 'sailor',
-        matcher: /Boosts base (RCV|ATK and RCV|HP and RCV|ATK, HP and RCV)|Boosts.+and their RCV/i
+        matcher: /Boosts base (RCV|ATK and RCV|HP and RCV|ATK, HP and RCV)|Boosts.+and their RCV/i,
+        icon: 'rcv up'
     },
     
     {
         name: '"Beneficial" Orb sailors',
         target: 'sailor',
-        matcher: /"beneficial/i
+        matcher: /"beneficial/i,
+        icon: 'orb match'
     },
     
     {
         name: 'Paralysis reducers',
         target: 'sailor',
-        matcher: /(reduces|removes|resists).+Paralysis/i 
+        matcher: /(reduces|removes|resists).+Paralysis/i,
+        icon: 'paralyze'
     },
 
     {
         name: 'Blindness removers',
         target: 'sailor',
-        matcher: /(reduces|removes|resists).+blindness/i
+        matcher: /(reduces|removes|resists).+blindness/i,
+        icon: 'blindness'
     },
     
     {
         name: 'Silence reducers',
         target: 'sailor',
-        matcher: /(reduces|removes|resists).+silence/i
+        matcher: /(reduces|removes|resists).+silence/i,
+        icon: 'silence'
     },
     
     {
         name: 'Special Rewind Restorers',
         target: 'sailor',
-        matcher: /Restores (his|her) own special/i
+        matcher: /Restores (his|her) own special/i,
+        icon: 'reduce cd'
     },
     
     {
         name: 'Orb Retainer',
         target: 'sailor',
-        matcher: /If this character has.+(STR|DEX|QCK|PSY|INT|RCV).+(GOOD|GREAT|PERFECT)/i
+        matcher: /If this character has.+(STR|DEX|QCK|PSY|INT|RCV).+(GOOD|GREAT|PERFECT)/i,
+        icon: 'orb match'
     },
     
     {
