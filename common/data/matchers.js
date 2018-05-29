@@ -5,37 +5,43 @@ window.matchers = [
     {
         name: 'Type-boosting captains',
         target: 'captain',
-        matcher: /Boosts (ATK|HP|RCV|ATK and HP|ATK and RCV|HP and RCV|ATK, HP and RCV) of[^,]+(STR|DEX|QCK|PSY|INT)\b/i
+        matcher: /Boosts (ATK|HP|RCV|ATK and HP|ATK and RCV|HP and RCV|ATK, HP and RCV) of[^,]+(STR|DEX|QCK|PSY|INT)\b/i,
+        icon: 'atk-up-type'
     },
 
     {
         name: 'Class-boosting captains',
         target: 'captain',
-        matcher: /Boosts (ATK|HP|RCV|ATK and HP|ATK and RCV|HP and RCV|ATK, HP and RCV) of[^,]+(Slasher|Striker|Fighter|Shooter|Free Spirit|Cerebral|Powerhouse|Driven)/i
+        matcher: /Boosts (ATK|HP|RCV|ATK and HP|ATK and RCV|HP and RCV|ATK, HP and RCV) of[^,]+(Slasher|Striker|Fighter|Shooter|Free Spirit|Cerebral|Powerhouse|Driven)/i,
+        icon: 'atk-up-class'
     },
 
     {
         name: 'Universal ATK boosting captains',
         target: 'captain',
-        matcher: /Boosts.+ATK of (all characters|all others)/i
+        matcher: /Boosts.+ATK of (all characters|all others)/i,
+        icon: 'atk up'
     },
 
     {
         name: 'ATK boosting captains',
         target: 'captain',
-        matcher: /Boosts ATK/i
+        matcher: /Boosts ATK/i,
+        icon: 'atk up'
     },
 
     {
         name: 'HP boosting captains',
         target: 'captain',
-        matcher: /Boosts (HP|ATK and HP|ATK, HP)|Boosts.+and their HP/i
+        matcher: /Boosts (HP|ATK and HP|ATK, HP)|Boosts.+and their HP/i,
+        icon: 'hp up'
     },
 
     {
         name: 'RCV boosting captains',
         target: 'captain',
-        matcher: /Boosts (RCV|ATK and RCV|HP and RCV|ATK, HP and RCV)|Boosts.+and their RCV/i
+        matcher: /Boosts (RCV|ATK and RCV|HP and RCV|ATK, HP and RCV)|Boosts.+and their RCV/i,
+        icon: 'rcv up'
     },
 
     {
@@ -47,13 +53,15 @@ window.matchers = [
     {
         name: '2x ATK and HP captains',
         target: 'captain',
-        matcher: /Boosts (ATK and HP|ATK, HP).+by 2x/i
+        matcher: /Boosts (ATK and HP|ATK, HP).+by 2x/i,
+        icon: 'atk up'
     },
 
     {
         name: '2x ATK and RCV captains',
         target: 'captain',
-        matcher: /Boosts ATK and RCV.+by 2x/i
+        matcher: /Boosts ATK and RCV.+by 2x/i,
+        icon: 'atk up'
     },
 
     /*{
@@ -77,7 +85,8 @@ window.matchers = [
     {
         name: '2x ATK captains',
         target: 'captain',
-        matcher: /Boosts (their )?ATK.+by 2x/i
+        matcher: /Boosts (their )?ATK.+by 2x/i,
+        icon: 'atk up'
     },
 
     /*{
@@ -89,75 +98,87 @@ window.matchers = [
     {
         name: '2.5x ATK captains',
         target: 'captain',
-        matcher: /Boosts (their )?ATK.+by 2.5x/i
+        matcher: /Boosts (their )?ATK.+by 2.5x/i,
+        icon: 'atk up'
     },
 
     {
         name: '2.75x ATK captains',
         target: 'captain',
         matcher: /Boosts (their )?ATK.+by 2.75x/i,
-        include: [ 529, 530, 668, 669 ]
+        include: [ 529, 530, 668, 669 ],
+        icon: 'atk up'
     },
 
     {
         name: '3x ATK captains',
         target: 'captain',
-        matcher: /Boosts (their )?ATK.+by 3x/i
+        matcher: /Boosts (their )?ATK.+by 3x/i,
+        icon: 'atk up'
     },
 
     {
         name: '3.25x ATK captains',
         target: 'captain',
-        matcher: /Boosts (their )?ATK.+by 3.25x/i
+        matcher: /Boosts (their )?ATK.+by 3.25x/i,
+        icon: 'atk up'
     },
 
     {
         name: '3.5x ATK captains',
         target: 'captain',
-        matcher: /Boosts (their )?ATK.+by 3.5x/i
+        matcher: /Boosts (their )?ATK.+by 3.5x/i,
+        icon: 'atk up'
     },
 
     {
         name: '3.75x ATK captains',
         target: 'captain',
-        matcher: /Boosts (their )?ATK.+by 3.75x/i
+        matcher: /Boosts (their )?ATK.+by 3.75x/i,
+        icon: 'atk up'
     },
 
     {
         name: '4x ATK captains',
         target: 'captain',
-        matcher: /Boosts (their )?ATK.+by 4x/i
+        matcher: /Boosts (their )?ATK.+by 4x/i,
+        icon: 'atk up'
     },
 
     {
         name: '4.25x ATK captains',
         target: 'captain',
-        matcher: /Boosts (their )?ATK.+by 4.25x/i
+        matcher: /Boosts (their )?ATK.+by 4.25x/i,
+        icon: 'atk up'
     },
 
     {
         name: 'HP-based ATK captains',
         target: 'captain',
-        matcher: /Boosts ATK.+proportionally to/i
+        matcher: /Boosts ATK.+proportionally to/i,
+        icon: 'hp up'
     },
 
     {
         name: 'Positional captains',
         target: 'captain',
-        matcher: /(after scoring|following a chain|perfect|great|good)/i
+        matcher: /(after scoring|following a chain|perfect|great|good)/i,
+        icon: ''
     },
     
     {
         name: '"Beneficial" Orb captains',
         target: 'captain',
-        matcher: /"beneficial/i
+        matcher: /"beneficial/i,
         //matcher: /Makes ((STR|DEX|QCK|PSY|INT|\[RCV\]|\[TND\])|((STR|DEX|QCK|PSY|INT|\[RCV\]|\[TND\]) and (STR|DEX|QCK|PSY|INT|\[RCV\]|\[TND\]))) orbs "beneficial"/i
+        icon: 'orb match'
     },
 
     {
         name: 'Chain multipliers',
         target: 'captain',
-        matcher: /Boosts.+chain multiplier/i
+        matcher: /Boosts.+chain multiplier/i,
+        icon: 'chain reducer'
     },
     
     {
@@ -169,37 +190,43 @@ window.matchers = [
     {
         name: 'Cooldown reducers',
         target: 'captain',
-        matcher: /Reduces cooldown.+by/i
+        matcher: /Reduces cooldown.+by/i,
+        icon: 'reduce cd'
     },
 
     {
         name: 'Damage reducers',
         target: 'captain',
-        matcher: /Reduces (any )?damage received/i
+        matcher: /Reduces (any )?damage received/i,
+        icon: 'dmg reduction'
     },
 
     {
         name: 'Healers',
         target: 'captain',
-        matcher: /Recovers/i
+        matcher: /Recovers/i,
+        icon: 'heal'
     },
 
     {
         name: 'Tankers',
         target: 'captain',
-        matcher: /Reduces (any )?damage.+if HP.+99/i
+        matcher: /Reduces (any )?damage.+if HP.+99/i,
+        icon: 'treshold'
     },
 
     {
         name: 'Zombies',
         target: 'captain',
-        matcher: /Protects from defeat/i
+        matcher: /Protects from defeat/i,
+        icon: 'resilence'
     },
     
     {
         name: 'End of Turn Damage Dealer',
         target: 'captain',
-        matcher: /(deals|cuts).+end of each turn/i
+        matcher: /(deals|cuts).+end of each turn/i,
+        icon: 'end turn dmg'
     },
     
     {
@@ -226,14 +253,14 @@ window.matchers = [
         name: 'Type-boosting specials',
         target: 'special',
         matcher: /Boosts (ATK|HP|RCV|ATK and HP|ATK and RCV|HP and RCV|ATK, HP and RCV) of[^,]+(STR|DEX|QCK|PSY|INT)\b/i,
-        icon: 'atk up'
+        icon: 'atk-up-type'
     },
 
     {
         name: 'Class-boosting specials',
         target: 'special',
         matcher: /Boosts (ATK|HP|RCV|ATK and HP|ATK and RCV|HP and RCV|ATK, HP and RCV) of[^,]+(Slasher|Striker|Fighter|Shooter|Free Spirit|Cerebral|Powerhouse|Driven)/i,
-        icon: 'atk up'
+        icon: 'atk-up-class'
     },
     
     {
@@ -395,7 +422,7 @@ window.matchers = [
         name: 'Slot emptiers',
         target: 'special',
         matcher: /(Empties|Changes.+into.+\[EMPTY\])/i,
-        icon: 'Socket'
+        icon: 'orb empty'
     },
 
     /*{
