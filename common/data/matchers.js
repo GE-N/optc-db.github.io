@@ -164,7 +164,7 @@ window.matchers = [
         name: 'Positional captains',
         target: 'captain',
         matcher: /(after scoring|following a chain|perfect|great|good)/i,
-        icon: ''
+        icon: 'GGP'
     },
     
     {
@@ -185,7 +185,8 @@ window.matchers = [
     {
         name: 'Combo Boost Captains',
         target: 'captain',
-        matcher: /Boosts.+hit in the chain/i
+        matcher: /Boosts.+hit in the chain/i,
+        icon: 'combo'
     },
 
     {
@@ -233,19 +234,22 @@ window.matchers = [
     {
         name: 'Beli Boosters',
         target: 'captain',
-        matcher: /boosts.+Beli/i
+        matcher: /boosts.+Beli/i,
+        icon: 'beli'
     },
     
     {
         name: 'EXP Boosters',
         target: 'captain',
-        matcher: /boosts.+EXP/i
+        matcher: /boosts.+EXP/i,
+        icon: 'exp-boost'
     },
     
     {
         name: 'Drop Doublers',
         target: 'captain',
-        matcher: /duplicating a drop/i
+        matcher: /duplicating a drop/i,
+        icon: 'drop'
     },
 
     /* * * * * Specials * * * * */
@@ -337,7 +341,8 @@ window.matchers = [
     {
         name: 'Combo Boost Specials',
         target: 'special',
-        matcher: /Boost.+hit in the chain/i
+        matcher: /Boost.+hit in the chain/i,
+        icon: 'combo'
     },
     
     {
@@ -644,7 +649,7 @@ window.matchers = [
         name: 'Crew positive buff remover',
         target: 'special',
         matcher: /removes.+positive buffs/i,
-        icon: ''
+        icon: 'remove-positive'
     },
 
     {
@@ -848,7 +853,8 @@ window.matchers = [
     {
         name: 'Blow Away Resistance',
         target: 'sailor',
-        matcher: /Cannot be Blown away/i
+        matcher: /Cannot be Blown away/i,
+        icon: 'blowaway'
     },
     
     {
