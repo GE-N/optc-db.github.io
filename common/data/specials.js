@@ -4716,6 +4716,20 @@ window.specials = {
         orb: function(p) { return p.unit.class.has("Fighter") ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 2, [p.friendCaptain, p.captain], p.effectName) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1, [p.friendCaptain, p.captain], p.effectName); },
         warning: "Selected special (%name%) assumes that the enemy has Delay Protection."
     },
+    2049: {
+        chain: function(p) { return 3; },
+        chainLimiter: function(p) {
+            var prev = p.hitcombo[p.hitcombo.length - 1][p.chainPosition - 1]
+            return p.chainPosition === 0 ? 1 : (prev == 'Good'  || prev == 'Great' || prev == 'Perfect') ? 3 : 1;
+        }
+    },
+    2050: {
+        chain: function(p) { return 3; },
+        chainLimiter: function(p) {
+            var prev = p.hitcombo[p.hitcombo.length - 1][p.chainPosition - 1]
+            return p.chainPosition === 0 ? 1 : (prev == 'Good'  || prev == 'Great' || prev == 'Perfect') ? 3 : 1;
+        }
+    },
     2051: {
         atk: function(p) { return p.unit.class.has("Fighter") ? 1.75 : 1; },
         type: "class",
@@ -5060,16 +5074,12 @@ window.specials = {
         def: function(p) { return 0; }
     },
     2120: {
-        atk: function(p) { return (p.unit.class.has("Fighter") || p.unit.class.has("Striker") || p.unit.class.has("Shooter") || p.unit.class.has("Cerebral") || p.unit.class.has("Powerhouse")) ? (p.delayed > 0) ? 2 : 1.75 : 1; },
+        atk: function(p) { return ((p.unit.class.has("Fighter") || p.unit.class.has("Striker") || p.unit.class.has("Shooter") || p.unit.class.has("Cerebral") || p.unit.class.has("Powerhouse")) && (p.delayed > 0)) ? 2 : (p.unit.class.has("Fighter") || p.unit.class.has("Powerhouse")) ? 1.75 : 1; },
         type: "class",
     },
     2121: {
-        atk: function(p) { return (p.unit.class.has("Fighter") || p.unit.class.has("Striker") || p.unit.class.has("Shooter") || p.unit.class.has("Cerebral") || p.unit.class.has("Powerhouse")) ? (window.specials[2121].multiplier > 0) ? 2 : 1.75 : 1; },
+        atk: function(p) { return ((p.unit.class.has("Fighter") || p.unit.class.has("Striker") || p.unit.class.has("Shooter") || p.unit.class.has("Cerebral") || p.unit.class.has("Powerhouse")) && (p.delayed > 0)) ? 2 : (p.unit.class.has("Fighter") || p.unit.class.has("Powerhouse")) ? 1.75 : 1; },
         type: "class",
-        onActivation: function(p) {
-            console.log(p);
-            window.specials[2121].multiplier = p.delayed;
-        }
     },
     2122: {
         def: function(p) { return 0.2; },
@@ -5078,6 +5088,24 @@ window.specials = {
     2123: {
         def: function(p) { return 0.2; },
         orb: function(p) { return (p.unit.class.has("Powerhouse") || p.unit.class.has("Cerebral")) ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.75, [p.friendCaptain, p.captain], p.effectName) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1, [p.friendCaptain, p.captain], p.effectName); }
+    },
+    2127: {
+        atk: function(p) { return p.unit.class.has("Cerebral") ? 1.5 : 1; },
+        type: "class",
+        orb: function(p) { return p.unit.class.has("Cerebral") ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.5, [p.friendCaptain, p.captain], p.effectName) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1, [p.friendCaptain, p.captain], p.effectName); }	
+    },
+    2128: {
+        turnedOn: false,
+        onActivation: function(p) {
+            window.specials[2128].turnedOn = true;
+        },
+        onDeactivation: function(p) {
+            window.specials[2128].turnedOn = false;
+        }
+    },
+    2129: {
+        atk: function(p) { return 1.2; },
+        type: "class"
     },
     5000: {
         atk: function(p) { return p.unit.type == "PSY" || p.unit.type == "INT" ? 1.5 : 1; },
