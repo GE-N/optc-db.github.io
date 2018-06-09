@@ -1608,7 +1608,7 @@ window.units = [
     [ "Van Augur, BlackBeard Pirates", "DEX", [ "Shooter", "Driven" ], 4, 25, 5, 4, 99, 3000000, 87, 55, 22, 2006, 1050, 280, 1 ],
     [ "Doc Q, BlackBeard Pirates", "INT", [ "Free Spirit", "Shooter" ], 4, 25, 4, 4, 99, 3000000, 51, 59, 31, 1502, 1138, 340, 1 ],
     [ "Kami Eneru, Endless Dreams of Arch Enemies", "QCK", [ "Shooter", "Striker" ], 5, 30, 4, 3, 70, 1066998, 350, 219, 56, 1256, 756, 236, 1 ],
-    [ "Kami Eneru, Clash of the Great Pirate Era  [Fairy Vearth]", "QCK", [ "Shooter", "Striker" ], 6, 55, 4, 5, 99, 5000000, 1189, 681, 170, 2890, 1503, 414, 1 ],
+    [ "Kami Eneru, Clash of the Great Pirate Era [Fairy Vearth]", "QCK", [ "Shooter", "Striker" ], 6, 55, 4, 5, 99, 5000000, 1189, 681, 170, 2890, 1503, 414, 1 ],
     [ "Bartholomew Kuma, Endless Dreams of Arch Enemies", "PSY", [ "Shooter", "Cerebral" ], 4, 15, 5, 3, 50, 392109, 212, 123, 25, 1400, 554, 114, 1 ],
     [ "Bartholomew Kuma, Clash of the Great Pirate Era [Crew Obliterator]", "PSY", [ "Shooter", "Cerebral" ], 5, 30, 4, 4, 99, 4000000, 1323, 489, 69, 3035, 1300, 220, 1 ],
     [ "Rob Lucci, Endless Dreams of Arch Enemies", "DEX", [ "Fighter", "Slasher" ], 4, 15, 4, 3, 50, 392109, 155, 160, 19, 1256, 690, 94, 1 ],
