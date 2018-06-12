@@ -13739,9 +13739,17 @@ window.details = {
         special: "Randomize [RCV], [TND] and [BLOCK] orbs. Makes [STR], [DEX] and [QCK] orbs \"beneficial\" to Driven and Slasher characters for 2 turns",
         specialNotes: "#{beneficial}",
         specialName: "Onigumo of Dismantling Swordsmanship",
+        sailor: "Reduces Paralysis for 5 turns for himself"
+    },
+    1324: {//Onigumo
+        captain: "Reduces cooldown of all specials by 2 turns at the start of the fight, boosts ATK of Slasher and Driven characters by 1.6x",
+        captainNotes: "The bonus is cumulative. Slasher + Driven characters get a 2.56x bonus.",
+        special: "Randomize [RCV], [TND] and [BLOCK] orbs. Makes [STR], [DEX] and [QCK] orbs \"beneficial\" to Driven and Slasher characters for 2 turns",
+        specialNotes: "#{beneficial}",
+        specialName: "Onigumo of Dismantling Swordsmanship",
         sailor: {
             "base": "Reduces Paralysis for 5 turns for himself",
-            "level1": "Boosts base ATK, HP and RCV of Shooter characters by 30",
+            "level1": "Boosts base ATK, HP and RCV of Slasher and Driven characters by 30",
         },
         limit: [
             { "description": "Boosts base HP by 30" },
@@ -13757,7 +13765,7 @@ window.details = {
             { "description": "Boosts base ATK by 40" },
             { "description": "Reduce base Special Cooldown by 1 turn" },
             { "description": "Boosts base HP by 80" },
-            { "description": "Acquire Sailor Ability 1: Boosts base ATK, HP and RCV of Shooter characters by 30" },
+            { "description": "Acquire Sailor Ability 1: Boosts base ATK, HP and RCV of Slasher and Driven characters by 30" },
             { "description": "Acquire Potential 2: Slot Bind Self-reduction" },
         ],
         potential: [
@@ -13782,14 +13790,6 @@ window.details = {
                 ]
             },
         ]
-    },
-    1324: {//Onigumo
-        captain: "Reduces cooldown of all specials by 2 turns at the start of the fight, boosts ATK of Slasher and Driven characters by 1.6x",
-        captainNotes: "The bonus is cumulative. Slasher + Driven characters get a 2.56x bonus.",
-        special: "Randomize [RCV], [TND] and [BLOCK] orbs. Makes [STR], [DEX] and [QCK] orbs \"beneficial\" to Driven and Slasher characters for 2 turns",
-        specialNotes: "#{beneficial}",
-        specialName: "Onigumo of Dismantling Swordsmanship",
-        sailor: "Reduces Paralysis for 5 turns for himself"
     },
     1325: {//Halloween Corazon
         captain: "Recovers 3x character's RCV in HP at the end of each turn",
@@ -23267,13 +23267,13 @@ window.details = {
     },
     1889: {//Cavendish
         captain: {
-            "base": "Boosts ATK of Driven characters by 1.5x, recovers 1.5x character's RCV in HP at the end of each turn. Boosts ATK of Driven characters by 1.8x following a chain of same type attacks no lower than Good",
-            "level1": "Boosts ATK of Driven characters by 1.5x, recovers 1.6x character's RCV in HP at the end of each turn. Boosts ATK of Driven characters by 1.95x following a chain of same type attacks no lower than Good",
-            "level2": "Boosts ATK of Driven characters by 1.5x, recovers 1.7x character's RCV in HP at the end of each turn. Boosts ATK of Driven characters by 2.1x following a chain of same type attacks no lower than Good",
-            "level3": "Boosts ATK of Driven characters by 1.5x, recovers 1.8x character's RCV in HP at the end of each turn. Boosts ATK of Driven characters by 2.25x following a chain of same type attacks no lower than Good",
-            "level4": "Boosts ATK of Driven characters by 1.75x, recovers 1.9x character's RCV in HP at the end of each turn. Boosts ATK of Driven characters by 2.625x following a chain of same type attacks no lower than Good",
-            "level5": "Boosts ATK of Driven characters by 2x, recovers 2x character's RCV in HP at the end of each turn. Boosts ATK of Driven characters by 3x following a chain of same type attacks no lower than Good",
-            "level6": "Boosts ATK of Driven characters by 2.5x, recovers 2 character's RCV in HP at the end of each turn. Boosts ATK of Driven characters by 3.75x following a chain of same type attacks no lower than Good",
+            "base": "Boosts ATK of Driven characters by 1.5x, recovers 1.5x character's RCV in HP at the end of each turn. Boosts ATK of Driven characters by 1.8x following a chain of 3 same Type attacks no lower than Good",
+            "level1": "Boosts ATK of Driven characters by 1.5x, recovers 1.6x character's RCV in HP at the end of each turn. Boosts ATK of Driven characters by 1.95x following a chain of 3 same Type attacks no lower than Good",
+            "level2": "Boosts ATK of Driven characters by 1.5x, recovers 1.7x character's RCV in HP at the end of each turn. Boosts ATK of Driven characters by 2.1x following a chain of 3 same Type attacks no lower than Good",
+            "level3": "Boosts ATK of Driven characters by 1.5x, recovers 1.8x character's RCV in HP at the end of each turn. Boosts ATK of Driven characters by 2.25x following a chain of 3 same Type attacks no lower than Good",
+            "level4": "Boosts ATK of Driven characters by 1.75x, recovers 1.9x character's RCV in HP at the end of each turn. Boosts ATK of Driven characters by 2.625x following a chain of 3 same Type attacks no lower than Good",
+            "level5": "Boosts ATK of Driven characters by 2x, recovers 2x character's RCV in HP at the end of each turn. Boosts ATK of Driven characters by 3x following a chain of 3 same Type attacks no lower than Good",
+            "level6": "Boosts ATK of Driven characters by 2.5x, recovers 2 character's RCV in HP at the end of each turn. Boosts ATK of Driven characters by 3.75x following a chain of 3 same Type attacks no lower than Good",
         },
         special: "Removes all positive buffs on your team, recovers 1,224 HP, changes Badly Matching orbs into Matching orbs. Boosts ATK of Driven characters by 1.75x for 1 turn and amplifies the effect of orbs by 1.75x for Driven characters for 1 turn",
         specialName: "A Star Descending from the Twinkling Night Sky",
@@ -28338,8 +28338,35 @@ window.details = {
     },
     2130: {//Diesel
         captain: "Reduces cooldown of all specials by 1 turn at the start of the fight and boosts ATK of [QCK] characters by 1.5x",
-        special: "Reduces Paralysis duration by 2 turns and ",
+        special: "Reduces Paralysis duration by 2 turns and changes the captain's orb into a Matching orb",
         specialName: "The Fast Runner's Emergency Report",
+    },
+    2131: {//Ivankov
+        captain: "Boosts ATK of Cerebral characters by 1.2x",
+        special: "Removes Poison and reduces Paralysis duration by 4 turns. If you are on a Treasure Map, boosts ATK of Fighter, Shooter and Cerebral characters depending on your Treasure Map Level for 1 turn",
+        specialName: "Laser Treatment Fist",
+        specialNotes: "Level 1-10: 1.75x ATK boost<br\>Level 11-20: 2x ATK boost<br\>Level 21+: 2.25x ATK boost",
+    },
+    2132: {//Ivankov
+        captain: "Boosts ATK of Cerebral characters by 1.5x and their RCV by 1.2x",
+        special: "Removes Poison and reduces Paralysis duration by 4 turns. If you are on a Treasure Map, boosts ATK of Fighter, Shooter and Cerebral characters depending on your Treasure Map Level for 1 turn",
+        specialName: "Laser Treatment Fist",
+        specialNotes: "Level 1-10: 1.75x ATK boost<br\>Level 11-20: 2x ATK boost<br\>Level 21+: 2.25x ATK boost",
+    },
+    2133: {//Jozu
+        captain: "Boosts ATK of Powerhouse characters by 1.2x",
+        special: "Reduces crew's ATK DOWN duration by 3 turns, makes [PSY] orbs \"beneficial\" for all characters for 3 turns and locks all orbs for 1 turn",
+        specialName: "Destory - Charge",
+    },
+    2134: {//Jozu
+        captain: "Boosts ATK of Powerhouse characters by 1.5x and their HP by 1.2x",
+        special: "Reduces crew's ATK DOWN duration by 3 turns, makes [PSY] orbs \"beneficial\" for all characters for 3 turns and locks all orbs for 1 turn",
+        specialName: "Destory - Charge",
+    },
+    2135: {//Mr. 1
+        captain: "Boosts ATK of [QCK] characters by 1.3x",
+        special: "Deals 15x character's ATK in [QCK] damage to one enemy, changes own orb into [QCK] and amplifies the effect of orbs for [QCK] characters by 1.75x for 1 turn",
+        specialName: "Sparkling Daisy",
     },
     2200: {//Doflamingo Raid v2
         captain: "Boosts ATK of Driven and Cerebral characters by 2.5x when HP is 50% or below, 1.5x otherwise",
