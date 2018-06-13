@@ -28015,7 +28015,7 @@ window.details = {
         ],
         specialNotes: "Upon activating the special, all orbs will be changed to the orb Brûlée has, including [RAINBOW] and [BLOCK] orbs. This will not override other [BLOCK] orbs.",
         specialName: "Light Reflecting a Virtual Image",
-        sailor: "Makes PSY orbs \"beneficial\" for Cerebral characters",
+        sailor: "Makes [PSY] orbs \"beneficial\" for Cerebral characters",
         sailorNotes: "#{beneficial}",
     },
     2115: {//Brulee
@@ -28156,8 +28156,7 @@ window.details = {
         captain: "Boosts ATK of [QCK] and [PSY] characters by 2x",
         special: "Reduces enemy's Threshold Damage Reduction, Percent Damage Reduction, Increased Defense and End of Turn Heal duration by 5 turns, crew's ATK DOWN duration by 5 turns and changes adjacent orbs into Matching Orbs.",
         specialName: "Death-Inducing Lullaby",
-        sailor: "Boosts own base ATK by 350 if this character is the last in the chain to attack",
-        limit: "This character has a limit break."
+        sailor: "Boosts own base ATK by 350 if this character is the last in the chain to attack"
     },
     2119: {//Bobbin
         captain: "Boosts ATK of [QCK] and [PSY] characters by 2.5x",
@@ -28325,7 +28324,7 @@ window.details = {
         specialName: "The Witch's Meal",
     },
     2128: {//Randolph
-        captain: "Boosts ATK of DEX characters by 2x and boosts chain multiplier by 1.2x",
+        captain: "Boosts ATK of [DEX] characters by 2x and boosts chain multiplier by 1.2x",
         special: "Reduces Special Cooldown of your right column by 1 turn and makes [DEX] and [RCV] orbs \"beneficial\" for Slasher and Striker characters for 1 turn",
         specialName: "Cutting Lifelines",
     },
