@@ -24073,8 +24073,7 @@ window.details = {
     1924: {//Rayleigh
         captain: "Boosts ATK of Slasher and Cerebral characters by 2.5x, recovers 2x character's RCV in HP at the end of each turn",
         special: "Randomizes all non-matching orbs, boosts ATK of all characters by 1.75x for 1 turn",
-        specialName: "Maelstrom at Sea",
-        limit: "This character has a Limit Break Tree"
+        specialName: "Maelstrom at Sea"
     },
     1925: {//Coby
         captain: "Boosts ATK of Driven characters by 2.5x",
@@ -28207,7 +28206,7 @@ window.details = {
         ]
     },
     2120: {//Oven
-        captain: "Boosts ATK of Powerhouse and Fighter characters by 1.5x and reduces damage received by ?%",
+        captain: "Boosts ATK of Powerhouse and Fighter characters by 1.5x",
         captainNotes: "The bonus is cumulative. Powerhouse + Fighter characters get a 2.25x bonus",
         special: "If enemies are delayed at the time the special was activated, boost ATK of Fighter, Striker, Shooter, Cerebral and Powerhouse characters by 2x for 1 turn, boosts Fighter and Powerhouse characters by 1.75x for 3 turns otherwise.",
         specialName: "Grilled Scorch Blow",
