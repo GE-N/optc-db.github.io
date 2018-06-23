@@ -326,7 +326,7 @@ window.matchers = [
     {
         name: 'Conditional ATK boosters',
         target: 'special',
-        matcher: /Boosts ATK\D*against.+enemies/i,
+        matcher: /Boosts ATK.+against.+enemies/i,
         icon: 'atk up'
     },
 
@@ -872,49 +872,57 @@ window.matchers = [
     {
         name: '"Beneficial" Orb sailors',
         target: 'sailor',
-        matcher: /"beneficial/i
+        matcher: /"beneficial/i,
+        icon: 'orb match'
     },
     
     {
         name: 'STR Orb Team "Beneficial" Orb sailors',
         target: 'sailor',
-        matcher: /\[STR\].+\\"beneficial\\".+for (Free Spirit|Striker|Slasher|Fighter|Shooter|Driven|Powerhouse|Cerebral|all|\[STR\]|\[DEX\]|\[QCK\]|\[PSY\]|\[INT\]) characters/i
+        matcher: /\[STR\].+\\"beneficial\\".+for (Free Spirit|Striker|Slasher|Fighter|Shooter|Driven|Powerhouse|Cerebral|all|\[STR\]|\[DEX\]|\[QCK\]|\[PSY\]|\[INT\]) characters/i,
+        icon: 'orb match'
     },
     
     {
         name: 'DEX Orb Team "Beneficial" Orb sailors',
         target: 'sailor',
-        matcher: /\[DEX\].+\\"beneficial\\".+for (Free Spirit|Striker|Slasher|Fighter|Shooter|Driven|Powerhouse|Cerebral|all|\[STR\]|\[DEX\]|\[QCK\]|\[PSY\]|\[INT\]) characters/i
+        matcher: /\[DEX\].+\\"beneficial\\".+for (Free Spirit|Striker|Slasher|Fighter|Shooter|Driven|Powerhouse|Cerebral|all|\[STR\]|\[DEX\]|\[QCK\]|\[PSY\]|\[INT\]) characters/i,
+        icon: 'orb match'
     },
     
     {
         name: 'QCK Orb Team "Beneficial" Orb sailors',
         target: 'sailor',
-        matcher: /\[QCK\].+\\"beneficial\\".+for (Free Spirit|Striker|Slasher|Fighter|Shooter|Driven|Powerhouse|Cerebral|all|\[STR\]|\[DEX\]|\[QCK\]|\[PSY\]|\[INT\]) characters/i
+        matcher: /\[QCK\].+\\"beneficial\\".+for (Free Spirit|Striker|Slasher|Fighter|Shooter|Driven|Powerhouse|Cerebral|all|\[STR\]|\[DEX\]|\[QCK\]|\[PSY\]|\[INT\]) characters/i,
+        icon: 'orb match'
     },
     
     {
         name: 'PSY Orb Team "Beneficial" Orb sailors',
         target: 'sailor',
-        matcher: /\[PSY\].+\\"beneficial\\".+for (Free Spirit|Striker|Slasher|Fighter|Shooter|Driven|Powerhouse|Cerebral|all|\[STR\]|\[DEX\]|\[QCK\]|\[PSY\]|\[INT\]) characters/i
+        matcher: /\[PSY\].+\\"beneficial\\".+for (Free Spirit|Striker|Slasher|Fighter|Shooter|Driven|Powerhouse|Cerebral|all|\[STR\]|\[DEX\]|\[QCK\]|\[PSY\]|\[INT\]) characters/i,
+        icon: 'orb match'
     },
     
     {
         name: 'INT Orb Team "Beneficial" Orb sailors',
         target: 'sailor',
-        matcher: /\[INT\].+\\"beneficial\\".+for (Free Spirit|Striker|Slasher|Fighter|Shooter|Driven|Powerhouse|Cerebral|all|\[STR\]|\[DEX\]|\[QCK\]|\[PSY\]|\[INT\]) characters/i
+        matcher: /\[INT\].+\\"beneficial\\".+for (Free Spirit|Striker|Slasher|Fighter|Shooter|Driven|Powerhouse|Cerebral|all|\[STR\]|\[DEX\]|\[QCK\]|\[PSY\]|\[INT\]) characters/i,
+        icon: 'orb match'
     },
     
     {
         name: 'TND Orb Team "Beneficial" Orb sailors',
         target: 'sailor',
-        matcher: /\[TND\].+\\"beneficial\\".+for (Free Spirit|Striker|Slasher|Fighter|Shooter|Driven|Powerhouse|Cerebral|all|\[STR\]|\[DEX\]|\[QCK\]|\[PSY\]|\[INT\]) characters/i
+        matcher: /\[TND\].+\\"beneficial\\".+for (Free Spirit|Striker|Slasher|Fighter|Shooter|Driven|Powerhouse|Cerebral|all|\[STR\]|\[DEX\]|\[QCK\]|\[PSY\]|\[INT\]) characters/i,
+        icon: 'orb match'
     },
     
     {
         name: 'RCV Orb Team "Beneficial" Orb sailors',
         target: 'sailor',
-        matcher: /\[RCV\].+\\"beneficial\\".+for (Free Spirit|Striker|Slasher|Fighter|Shooter|Driven|Powerhouse|Cerebral|all|\[STR\]|\[DEX\]|\[QCK\]|\[PSY\]|\[INT\]) characters/i
+        matcher: /\[RCV\].+\\"beneficial\\".+for (Free Spirit|Striker|Slasher|Fighter|Shooter|Driven|Powerhouse|Cerebral|all|\[STR\]|\[DEX\]|\[QCK\]|\[PSY\]|\[INT\]) characters/i,
+        icon: 'orb match'
     },
     
     /* * * * * Limit Break * * * * */
