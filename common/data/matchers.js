@@ -96,11 +96,11 @@ window.matchers = [
         icon: 'atk up'
     },
 
-    /*{
+    {
         name: '2.25x ATK captains',
         target: 'captain',
         matcher: /Boosts (their )?ATK\D*by 2.25x/i
-    },*/
+    },
 
     {
         name: '2.5x ATK captains',
