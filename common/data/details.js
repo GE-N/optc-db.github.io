@@ -13729,7 +13729,9 @@ window.details = {
         special: "Deals 15x character's ATK as [DEX] damage to all enemies. Boosts ATK against delayed enemies by 1.5x for 2 turns",
         specialName: "Front Line Dissection",
         sailor: "Boosts base ATK of Slasher and Cerebral characters by 75 if your captain is a Cerebral character",
-        limit: "This character has a Limit Break Tree"
+        limit: [
+            { "description": "Reduce base Special Cooldown by 3 turns" },
+        ]
     },
     1323: {//Onigumo
         captain: "Reduces cooldown of all specials by 2 turns at the start of the fight, boosts ATK of Slasher and Driven characters by 1.3x",
