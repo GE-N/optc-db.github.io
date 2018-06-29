@@ -3421,26 +3421,31 @@ window.evolutions = {
     },
     2136: {
         evolution: 2137,
-        evolvers: [  ]
+        evolvers: [ 115, 116, 117, 118, 104 ]
     },
     1832: {
         evolution: 2138,
+        //evolvers: [ 'skullJudge', 'skullJudge', 'skullJudge', 'skullJudge', 'skullJudge' ]
         evolvers: [  ]
     },
     1834: {
         evolution: 2139,
+        //evolvers: [ 'skullReiju', 'skullReiju', 'skullReiju', 'skullReiju', 'skullReiju' ]
         evolvers: [  ]
     },
     1836: {
         evolution: 2140,
+        //evolvers: [ 'skullIchiji', 'skullIchiji', 'skullIchiji', 'skullIchiji', 'skullIchiji' ]
         evolvers: [  ]
     },
     1838: {
         evolution: 2141,
+        //evolvers: [ 'skullNiji', 'skullNiji', 'skullNiji', 'skullNiji', 'skullNiji' ]
         evolvers: [  ]
     },
     1840: {
         evolution: 2142,
+        //evolvers: [ 'skullYonji', 'skullYonji', 'skullYonji', 'skullYonji', 'skullYonji' ]
         evolvers: [  ]
     },
     2143: {
@@ -3451,9 +3456,37 @@ window.evolutions = {
         evolution: 2146,
         evolvers: [ 117, 78, 84, 95, 100 ]
     },
+    2147: {
+        evolution: 2148,
+        evolvers: [  ]
+    },
+    2149: {
+        evolution: 2150,
+        evolvers: [  ]
+    },
+    2151: {
+        evolution: 2152,
+        evolvers: [  ]
+    },
+    2153: {
+        evolution: 2154,
+        evolvers: [  ]
+    },
+    2155: {
+        evolution: 2156,
+        evolvers: [  ]
+    },
+    2157: {
+        evolution: 2158,
+        evolvers: [  ]
+    },
     1698: {
         evolution: 2159,
         evolvers: [ 'skullDEX', 118, 86, 302, 267 ]
+    },
+    2162: {
+        evolution: 2163,
+        evolvers: [  ]
     },
     2200: {
         evolution: 2201,
