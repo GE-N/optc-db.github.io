@@ -7020,11 +7020,41 @@ window.captains = {
         hp: function(p) { return p.unit.class.has("Free Spirit") ? 2 : 1; }
     },
     2073: {
-        atk: function(p) { return p.slot == p.sourceSlot ? 4.25 : 4; },
+        damageSorter: function(d) { return CrunchUtils.gearSort(d, 4.25); },
+        hitAtk: function(p) {
+            switch(p.gear[p.sourceSlot]){
+                case "0":
+                    return 3; break;
+                case "1":
+                    return p.modifiers.slice(0, p.chainPosition).subcontains(["Perfect", "Perfect"]) ? 3.5 : 1; break;
+                case "2":
+                    return 4; break;
+                case "3":
+                    return p.slot == p.sourceSlot ? 4.25 : 4; break;
+                default:
+                    return 3;
+            }
+        },
+        hitModifiers: ["Perfect", "Perfect", "Perfect", "Perfect", "Perfect", "Perfect"],
         hp: function(p) { return 1.25; }
     },
     2074: {
-        atk: function(p) { return p.slot == p.sourceSlot ? 4.25 : 4; },
+        damageSorter: function(d) { return CrunchUtils.gearSort(d, 4.25); },
+        hitAtk: function(p) {
+            switch(p.gear[p.sourceSlot]){
+                case "0":
+                    return 3; break;
+                case "1":
+                    return p.modifiers.slice(0, p.chainPosition).subcontains(["Perfect", "Perfect"]) ? 3.5 : 1; break;
+                case "2":
+                    return 4; break;
+                case "3":
+                    return p.slot == p.sourceSlot ? 4.25 : 4; break;
+                default:
+                    return 3;
+            }
+        },
+        hitModifiers: ["Perfect", "Perfect", "Perfect", "Perfect", "Perfect", "Perfect"],
         hp: function(p) { return 1.25; }
     },
     2075: {
@@ -7295,6 +7325,11 @@ window.captains = {
     2135: {
         atk: function(p) { return p.unit.type == "QCK" ? 1.3 : 1; },
     },
+    2136: {
+        atk: function(p) { 
+            return ((window.specials[2136].turnedOn || window.specials[2137].turnedOn) && p.sourceSlot == 1) ? 2 : 1.5;
+        },
+    },
     2137: {
         atk: function(p) { 
             if(p.actions[p.sourceSlot]) return ((window.specials[2136].turnedOn || window.specials[2137].turnedOn) && p.sourceSlot == 1) ? 4 : 2.5;
@@ -7372,8 +7407,8 @@ window.captains = {
         chainModifier: function(p) { return  p.classCount.Fighter == 6 ? 4 : 1; }
     },
     2149: {
-        atk: function(p) { return p.unit.class.has("Fighter") ? 1 : 1; },//Change this
-        hp: function(p) { return p.unit.class.has("Fighter") ? 1 : 1; },//Change this
+        atk: function(p) { return p.unit.class.has("Fighter") ? 2.25 : 1; },
+        hp: function(p) { return p.unit.class.has("Fighter") ? 1.2 : 1; },
     },
     2150: {
         atk: function(p) { return p.unit.class.has("Fighter") ? 2.5 : 1; },
@@ -7388,20 +7423,20 @@ window.captains = {
         hp: function(p) { return 1.3; },
     },
     2153: {
-        atk: function(p) { return !p.unit.class.has("Fighter") ? 1 : (((CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 2, [p.friendCaptain, p.captain], p.effectName) == 2) && (p.orb != 'g')) ? 1 : 1); },//Change This
+        atk: function(p) { return !p.unit.class.has("Fighter") ? 1 : (((CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 2, [p.friendCaptain, p.captain], p.effectName) == 2) && (p.orb != 'g')) ? 2.5 : 2.25); },
     },
     2154: {
         atk: function(p) { return !p.unit.class.has("Fighter") ? 1 : (((CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 2, [p.friendCaptain, p.captain], p.effectName) == 2) && (p.orb != 'g')) ? 2.75 : 2.5); },
     },
     2155: {
-        atk: function(p) { return p.unit.class.has("Fighter") ? 1 : 1; },//Change This
+        atk: function(p) { return p.unit.class.has("Fighter") ? 1.5 : 1; },
     },
     2156: {
         atk: function(p) { return p.unit.class.has("Fighter") ? 1.75 : 1; },
     },
     2157: {
-        atk: function(p) { return p.unit.class.has("Cerebral") ? 1 : 1; },//Change This
-        hp: function(p) { return p.unit.class.has("Cerebral") ? 1 : 1; },//Change This
+        atk: function(p) { return p.unit.class.has("Cerebral") ? 2.25 : 1; },
+        hp: function(p) { return p.unit.class.has("Cerebral") ? 1.2 : 1; },
     },
     2158: {
         atk: function(p) { return p.unit.class.has("Cerebral") ? 2.75 : 1; },
@@ -7418,6 +7453,28 @@ window.captains = {
             else
                 return 1;
                },
+    },
+    2160: {
+        atk: function(p){
+            var specialEnabled = false;
+            for(var i=0;i<2;i++)
+            {
+                if(window.specials[2160].turnedOn[i]==true || window.specials[2161].turnedOn[i]==true){ specialEnabled = true; }
+            }
+            return p.unit.class.has("Shooter") ? specialEnabled ? 1 : 1 : 1;//Change This
+        },
+        hp: function(p) { return p.unit.class.has("Shooter") ? 1 : 1; },//Change This
+    },
+    2161: {
+        atk: function(p){
+            var specialEnabled = false;
+            for(var i=0;i<2;i++)
+            {
+                if(window.specials[2160].turnedOn[i]==true || window.specials[2161].turnedOn[i]==true){ specialEnabled = true; }
+            }
+            return p.unit.class.has("Shooter") ? specialEnabled ? 3.25 : 2.5 : 1;
+        },
+        hp: function(p) { return p.unit.class.has("Shooter") ? 1.2 : 1; },
     },
     2162: {
         atk: function(p) { return p.unit.class.has("Fighter") ? 1 : 1; },//Change this
