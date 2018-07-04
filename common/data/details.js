@@ -14323,10 +14323,10 @@ window.details = {
                 "Name": "Reduce No Healing duration",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
-                    "Level 2: Reduces No Healing duration by ? turn",
-                    "Level 3: Reduces No Healing duration by ? turns",
-                    "Level 4: Reduces No Healing duration by ? turns",
-                    "Level 5: Reduces No Healing duration by ? turns"
+                    "Level 2: Reduces No Healing duration by 2 turn",
+                    "Level 3: Reduces No Healing duration by 3 turns",
+                    "Level 4: Reduces No Healing duration by 4 turns",
+                    "Level 5: Reduces No Healing duration by 5 turns"
                 ]
             },
         ]
@@ -26435,7 +26435,7 @@ window.details = {
             { "description": "Acquire 1 additional Socket slot" },
             { "description": "Boosts base HP by 50" },
             { "description": "Boosts base ATK by 40" },
-            { "description": "Acquire Sailor Ability 1: Boosts base ATK of Shooter characters by 30" },
+            { "description": "Acquire Sailor Ability 1: Boosts base ATK of Slasher characters by 30" },
             { "description": "Boosts base HP by 30" },
             { "description": "Acquire Potential 2: Critical Hit" },
         ],
@@ -26624,13 +26624,13 @@ window.details = {
     },
     2047: {//Koala
         captain: "Boosts ATK of Fighter characters by 2.5x if they have a matching orb, by 2x otherwise",
-        special: "Deals 20x character's ATK in [QCK] damage to all enemies. If enemies have All Debuff Protection or Delay Debuff Protection at the time the special was activated, amplifies the effect of orbs by 2x for 1 turn and changes all orbs, including [BLOCK] orbs, on Fighter characters into Matching orbs",
+        special: "Deals 20x character's ATK in [QCK] damage to all enemies. If enemies have All Debuff Protection or Delay Debuff Protection at the time the special was activated, amplifies the effect of orbs for Fighter characters by 2x for 1 turn and changes all orbs, including [BLOCK] orbs, on Fighter characters into Matching orbs",
         specialName: "Fishman Karate Mid-Air Roundhouse Kick",
         sailor: "Boosts own base ATK by 250 if this character is the last in the chain to attack",
     },
     2048: {//Koala
         captain: "Boosts ATK of Fighter characters by 3.25x if they have a matching orb, by 2x otherwise",
-        special: "Deals 20x character's ATK in [QCK] damage to all enemies. If enemies have All Debuff Protection or Delay Debuff Protection at the time the special was activated, amplifies the effect of orbs by 2x for 1 turn and changes all orbs, including [BLOCK] orbs, on Fighter characters into Matching orbs",
+        special: "Deals 20x character's ATK in [QCK] damage to all enemies. If enemies have All Debuff Protection or Delay Debuff Protection at the time the special was activated, amplifies the effect of orbs for Fighter characters by 2x for 1 turn and changes all orbs, including [BLOCK] orbs, on Fighter characters into Matching orbs",
         specialName: "Fishman Karate Mid-Air Roundhouse Kick",
         sailor: {
             "base": "Boosts own base ATK by 250 if this character is the last in the chain to attack",
