@@ -248,11 +248,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 3: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 4: This character's attack will ignore barriers if HP is above 80%",
-                    "Level 5: This character's attack will ignore barriers if HP is above 50%"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
             },
         ]
@@ -2620,11 +2620,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 3: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 4: This character's attack will ignore barriers if HP is above 80%",
-                    "Level 5: This character's attack will ignore barriers if HP is above 50%"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
             },
         ],
@@ -2745,11 +2745,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 3: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 4: This character's attack will ignore barriers if HP is above 80%",
-                    "Level 5: This character's attack will ignore barriers if HP is above 50%"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
             },
         ]
@@ -3477,11 +3477,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 3: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 4: This character's attack will ignore barriers if HP is above 80%",
-                    "Level 5: This character's attack will ignore barriers if HP is above 50%"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
             },
         ]
@@ -4633,11 +4633,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above ??%",
-                    "Level 3: This character's attack will ignore barriers if HP is above ??%",
-                    "Level 4: This character's attack will ignore barriers if HP is above ??%",
-                    "Level 5: This character's attack will ignore barriers if HP is above 50%"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
             },
         ]
@@ -4912,11 +4912,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 3: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 4: This character's attack will ignore barriers if HP is above 80%",
-                    "Level 5: This character's attack will ignore barriers if HP is above 50%"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
             },
         ]
@@ -7360,11 +7360,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above ??%",
-                    "Level 3: This character's attack will ignore barriers if HP is above ??%",
-                    "Level 4: This character's attack will ignore barriers if HP is above ??%",
-                    "Level 5: This character's attack will ignore barriers if HP is above ??%"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn"
                 ]
             },
         ]
@@ -8502,11 +8502,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above ??%",
-                    "Level 3: This character's attack will ignore barriers if HP is above ??%",
-                    "Level 4: This character's attack will ignore barriers if HP is above ??%",
-                    "Level 5: This character's attack will ignore barriers if HP is above 50%"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
             },
         ]
@@ -8840,11 +8840,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 3: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 4: This character's attack will ignore barriers if HP is above 80%",
-                    "Level 5: This character's attack will ignore barriers if HP is above 50%"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
             },
         ]
@@ -9046,11 +9046,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 3: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 4: This character's attack will ignore barriers if HP is above 80%",
-                    "Level 5: This character's attack will ignore barriers if HP is above 50%"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
             },
         ]
@@ -9994,11 +9994,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 3: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 4: This character's attack will ignore barriers if HP is above 80%",
-                    "Level 5: This character's attack will ignore barriers if HP is above 50%"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
             },
             {
@@ -11654,20 +11654,20 @@ window.details = {
                 "Name": "Enrage",
                 "description": [
                     "Level 1: Boosts base ATK by 30",
-                    "Level 2: Boosts base ATK by ??",
-                    "Level 3: Boosts base ATK by ??",
-                    "Level 4: Boosts base ATK by ??",
-                    "Level 5: Boosts base ATK by ??"
+                    "Level 2: Boosts base ATK by 60",
+                    "Level 3: Boosts base ATK by 90",
+                    "Level 4: Boosts base ATK by 100",
+                    "Level 5: Boosts base ATK by 150"
                 ]
             },
             {
                 "Name": "Critical Hit",
                 "description": [
                     "Level 1: If you hit a perfect with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
-                    "Level 2: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
-                    "Level 3: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
-                    "Level 4: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage",
-                    "Level 5: If you hit a perfect with this character, there is a ??% chance to deal ?% of this character's attack in extra damage"
+                    "Level 2: If you hit a perfect with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "Level 3: If you hit a perfect with this character, there is a 60% chance to deal 5% of this character's attack in extra damage",
+                    "Level 4: If you hit a perfect with this character, there is a 70% chance to deal 6% of this character's attack in extra damage",
+                    "Level 5: If you hit a perfect with this character, there is a 80% chance to deal 7% of this character's attack in extra damage"
                 ]
             },
         ],
@@ -11995,11 +11995,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above 90%",
-                    "Level 3: This character's attack will ignore barriers if HP is above 70%",
-                    "Level 4: This character's attack will ignore barriers if HP is above 50%",
-                    "Level 5: This character's attack will ignore barriers"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers at the start of the turn"
                 ]
             },
         ]
@@ -12280,11 +12280,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above ??%",
-                    "Level 3: This character's attack will ignore barriers if HP is above ??%",
-                    "Level 4: This character's attack will ignore barriers if HP is above ??%",
-                    "Level 5: This character's attack will ignore barriers if HP is above ??%"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn"
                 ]
             },
         ]
@@ -12397,11 +12397,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 3: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 4: This character's attack will ignore barriers if HP is above 80%",
-                    "Level 5: This character's attack will ignore barriers if HP is above 50%"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
             },
         ],
@@ -12534,14 +12534,14 @@ window.details = {
     },
     1231: {//Smoker
         captain: "Boosts ATK of Striker and Driven characters by 1.75x and reduces RCV of all characters by 50%. If this character becomes your captain in the middle of an island, reduces damage received by 30% and boosts ATK of Striker and Driven characters by 2.1875x instead",
-        special: "Deals large [DEX] damage to one enemy. Swaps this unit with your captain for 2 turns",
+        special: "Deals 30x character's ATK in [DEX] damage to one enemy. Swaps this unit with your captain for 2 turns",
         specialNotes: "This is the same type of ability as raid boss Shiki's swap.",
         specialName: "Armed - White Launcher",
         sailor: "Boosts base ATK of Striker characters by 50",
     },
     1232: {//Smoker
         captain: "Boosts ATK of Striker and Driven characters by 2.25x and reduces RCV of all characters by 50%. If this character becomes your captain in the middle of an island, reduces damage received by 30% and boosts ATK of Striker and Driven characters by 2.925x instead",
-        special: "Deals large [DEX] damage to one enemy. Swaps this unit with your captain for 2 turns",
+        special: "Deals 30x character's ATK in [DEX] damage to one enemy. Swaps this unit with your captain for 2 turns",
         specialNotes: "This is the same type of ability as raid boss Shiki's swap. You cannot use it if another effect swaps your captain. (Such as if Shiki swaps first)",
         specialName: "Armed - White Launcher",
         sailor: {
@@ -13085,7 +13085,7 @@ window.details = {
         captain: "Recovers 3x character's RCV in HP at the end of each turn. Deals 3x character's ATK in [DEX] damage to all enemies at the end of each turn.",
         special: "Reduces Bind and Despair duration by 2 turns. Makes Badly Matching and [BLOCK] orbs not reduce damage for 4 turns",
         specialNotes: "Ex. A [STR] character with a [QCK] orb will still deal regular damage",
-        sailor: "Boosts base ATK of all characters by 100 if your captain is a Driven character",
+        sailor: "Boosts base ATK of all characters by 100 if your Captain is a Driven character",
         specialName: "Horrifying Suggestion",
     },
     1270: {//Laffitte
@@ -13093,7 +13093,7 @@ window.details = {
         special: "Reduces Bind and Despair duration by 2 turns. Makes Badly Matching and [BLOCK] orbs not reduce damage for 4 turns",
         specialNotes: "Ex. A [STR] character with a [QCK] orb will still deal regular damage",
         sailor: {
-            "base": "Boosts base ATK of all characters by 100 if your captain is a Driven character",
+            "base": "Boosts base ATK of all characters by 100 if your Captain is a Driven character",
             "level1": "Reduces Blindness duration by 3 turns",
         },
         specialName: "Horrifying Suggestion",
@@ -13182,11 +13182,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 3: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 4: This character's attack will ignore barriers if HP is above 80%",
-                    "Level 5: This character's attack will ignore barriers if HP is above 50%"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
             },
         ]
@@ -13722,13 +13722,13 @@ window.details = {
         captain: "Boosts ATK of Cerebral and Slasher characters by 2.25x and reduces damage received by 10% if there's a [STR], [DEX], [QCK], [INT] and [PSY] character on your crew.",
         special: "Deals 15x character's ATK as [DEX] damage to all enemies. Boosts ATK against delayed enemies by 1.5x for 2 turns",
         specialName: "Front Line Dissection",
-        sailor: "Boosts base ATK of Slasher and Cerebral characters by 75 if your captain is a Cerebral character",
+        sailor: "Boosts base ATK of Slasher and Cerebral characters by 75 if your Captain is a Cerebral character",
     },
     1322: {//Momonga
         captain: "Boosts ATK of Cerebral and Slasher characters by 2.5x and reduces damage received by 10% if there's a [STR], [DEX], [QCK], [INT] and [PSY] character on your crew.",
         special: "Deals 15x character's ATK as [DEX] damage to all enemies. Boosts ATK against delayed enemies by 1.5x for 2 turns",
         specialName: "Front Line Dissection",
-        sailor: "Boosts base ATK of Slasher and Cerebral characters by 75 if your captain is a Cerebral character",
+        sailor: "Boosts base ATK of Slasher and Cerebral characters by 75 if your Captain is a Cerebral character",
         limit: [
             { "description": "Reduce base Special Cooldown by 3 turns" },
         ]
@@ -14147,11 +14147,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 3: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 4: This character's attack will ignore barriers if HP is above 80%",
-                    "Level 5: This character's attack will ignore barriers if HP is above 50%"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn"
                 ]
             },
         ]
@@ -14809,11 +14809,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 3: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 4: This character's attack will ignore barriers if HP is above 80%",
-                    "Level 5: This character's attack will ignore barriers if HP is above 50%"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
             },
         ],
@@ -15813,11 +15813,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 3: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 4: This character's attack will ignore barriers if HP is above 80%",
-                    "Level 5: This character's attack will ignore barriers if HP is above 50%"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
             },
         ]
@@ -16301,11 +16301,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 3: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 4: This character's attack will ignore barriers if HP is above 80%",
-                    "Level 5: This character's attack will ignore barriers if HP is above 50%"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
             },
         ],
@@ -16372,11 +16372,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above ??%",
-                    "Level 3: This character's attack will ignore barriers if HP is above ??%",
-                    "Level 4: This character's attack will ignore barriers if HP is above ??%",
-                    "Level 5: This character's attack will ignore barriers if HP is above ??%"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn"
                 ]
             },
         ],
@@ -16441,11 +16441,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above ??%",
-                    "Level 3: This character's attack will ignore barriers if HP is above ??%",
-                    "Level 4: This character's attack will ignore barriers if HP is above ??%",
-                    "Level 5: This character's attack will ignore barriers if HP is above ??%"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn"
                 ]
             },
         ]
@@ -16662,13 +16662,13 @@ window.details = {
         captain: "Boosts ATK of [PSY] characters by 2x",
         special: "Reduces Despair duration by 3 turns, boosts own ATK by 1.5x for 1 turn",
         specialName: "Buffalo Roar",
-        sailor: "Boosts base ATK of Powerhouse characters by 20 if your captain is a Powerhouse character",
+        sailor: "Boosts base ATK of Powerhouse characters by 20 if your Captain is a Powerhouse character",
     },
     1512: {//Kingdew
         captain: "Boosts ATK of Fighter and Powerhouse characters by 2x",
         special: "Removes Poison, boosts ATK of Powerhouse characters by 1.5x for 1 turn if HP is below 30%",
         specialName: "Enlightened Spirit",
-        sailor: "Makes [RCV] orbs \"beneficial\" for this unit if your captain is a Powerhouse character",
+        sailor: "Makes [RCV] orbs \"beneficial\" for this unit if your Captain is a Powerhouse character",
         sailorNotes: "#{beneficial}",
     },
     1513: {//Anniversary Sanji
@@ -16789,13 +16789,13 @@ window.details = {
     1529: {//Cavendish
         captain: "Boosts ATK of all characters by 1.5x, but boosts his OWN attack by 3x",
         special: "For Slasher characters, if HP is above 50% at the time the special was activated, amplifies the effects of orbs by 2.25x for 1 turn, 2x otherwise",
-        sailor: "Reduces ATK of all characters by .5x if your captain is a [STR] or [QCK] character",
+        sailor: "Reduces ATK of all characters by .5x if your Captain is a[STR] or [QCK] character",
         specialName: "Blue Bird Sword",
     },
     1530: {//Cavendish
         captain: "Boosts ATK of all characters by 1.75x, but boosts his OWN attack by 3.5x",
         special: "For Slasher characters, if HP is above 50% at the time the special was activated, amplifies the effects of orbs by 2.25x for 1 turn, 2x otherwise",
-        sailor: "Reduces ATK of all characters by .5x if your captain is a [STR] or [QCK] character",
+        sailor: "Reduces ATK of all characters by .5x if your Captain is a[STR] or [QCK] character",
         specialName: "Blue Bird Sword",
     },
     1531: {//Legend Usopp
@@ -16898,11 +16898,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above 90%",
-                    "Level 3: This character's attack will ignore barriers if HP is above 70%",
-                    "Level 4: This character's attack will ignore barriers if HP is above 50%",
-                    "Level 5: This character's attack will ignore barriers if HP is above 30%"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers at the start of the turn if HP is above 30%"
                 ]
             },
         ]
@@ -17067,11 +17067,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 3: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 4: This character's attack will ignore barriers if HP is above 80%",
-                    "Level 5: This character's attack will ignore barriers if HP is above 50%"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
             },
         ]
@@ -17252,11 +17252,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above 90%",
-                    "Level 3: This character's attack will ignore barriers if HP is above 70%",
-                    "Level 4: This character's attack will ignore barriers if HP is above 50%",
-                    "Level 5: This character's attack will ignore barriers if HP is above 30%"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers at the start of the turn if HP is above 30%"
                 ]
             },
         ]
@@ -19192,11 +19192,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 3: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 4: This character's attack will ignore barriers if HP is above 80%",
-                    "Level 5: This character's attack will ignore barriers if HP is above 50%"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
             },
         ]
@@ -19354,11 +19354,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 3: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 4: This character's attack will ignore barriers if HP is above 80%",
-                    "Level 5: This character's attack will ignore barriers if HP is above 50%"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
             },
         ]
@@ -19621,11 +19621,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above 90%",
-                    "Level 3: This character's attack will ignore barriers if HP is above 70%",
-                    "Level 4: This character's attack will ignore barriers if HP is above 50%",
-                    "Level 5: This character's attack will ignore barriers"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers at the start of the turn"
                 ]
             },
             {
@@ -20398,11 +20398,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 3: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 4: This character's attack will ignore barriers if HP is above 80%",
-                    "Level 5: This character's attack will ignore barriers if HP is above 50%"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
             },
         ]
@@ -20471,11 +20471,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 3: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 4: This character's attack will ignore barriers if HP is above 80%",
-                    "Level 5: This character's attack will ignore barriers if HP is above 50%"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
             },
             {
@@ -20636,11 +20636,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above 80%",
-                    "Level 3: This character's attack will ignore barriers if HP is above 70%",
-                    "Level 4: This character's attack will ignore barriers if HP is above 50%",
-                    "Level 5: This character's attack will ignore barriers"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers at the start of the turn"
                 ]
             },
         ]
@@ -20859,11 +20859,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above 90%",
-                    "Level 3: This character's attack will ignore barriers if HP is above 70%",
-                    "Level 4: This character's attack will ignore barriers if HP is above 50%",
-                    "Level 5: This character's attack will ignore barriers"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers at the start of the turn"
                 ]
             },
         ]
@@ -20890,12 +20890,12 @@ window.details = {
     },
     1769: {//Ben Beckman
         captain: "Boosts ATK of Cerebral characters by 2.5x",
-        special: "Delays all enemies for 1 turn. If your captain is a Cerebral Character, boosts ATK against delayed enemies by 1.5x for 1 turn and changes adjacent orbs into Matching Orbs",
+        special: "Delays all enemies for 1 turn. If your Captain is aCerebral Character, boosts ATK against delayed enemies by 1.5x for 1 turn and changes adjacent orbs into Matching Orbs",
         specialName: "Restraining Gunpoint",
     },
     1770: {//Ben Beckman
         captain: "Boosts ATK of Cerebral characters by 2.5x and their HP by 1.2x at the start of the chain and boosts ATK of Cerebral characters by 3.25x following a chain of Good > Great > PERFECT hits",
-        special: "Delays all enemies for 1 turn. If your captain is a Cerebral Character, boosts ATK against delayed enemies by 1.5x for 1 turn and changes adjacent orbs into Matching Orbs",
+        special: "Delays all enemies for 1 turn. If your Captain is aCerebral Character, boosts ATK against delayed enemies by 1.5x for 1 turn and changes adjacent orbs into Matching Orbs",
         specialName: "Restraining Gunpoint",
         sailor: {
             "base": "None",
@@ -21112,7 +21112,7 @@ window.details = {
         captain: "Boosts ATK of [STR], [DEX] and [QCK] characters by 2.5x after scoring 3 PERFECTs in a row",
         special: "Cuts the current HP of one enemy by 20% that will ignore damage negating abilities and barriers. Changes the orbs in the top row into [STR] orbs, changes the orbs in the middle row into [QCK] orbs, changes the orbs in the bottom row into [DEX] orbs and amplifies the effect of orbs by 1.75x for 1 turn",
         specialNotes: "#{ignoreBarrier}",
-        sailor: "If your captain is a [STR] character, boosts this character's attack against [STR] characters by 1.5x",
+        sailor: "If your Captain is a[STR] character, boosts this character's attack against [STR] characters by 1.5x",
         specialName: "Gomu Gomu no Hawk Rifle",
     },
     1792:{//Lucy Luffy
@@ -21120,7 +21120,7 @@ window.details = {
         special: "Cuts the current HP of one enemy by 20% that will ignore damage negating abilities and barriers. Changes the orbs in the top row into [STR] orbs, changes the orbs in the middle row into [QCK] orbs, changes the orbs in the bottom row into [DEX] orbs and amplifies the effect of orbs by 1.75x for 1 turn",
         specialNotes: "#{ignoreBarrier}",
         sailor: {
-            "base": "If your captain is a [STR] character, boosts this character's attack against [STR] characters by 1.5x",
+            "base": "If your Captain is a[STR] character, boosts this character's attack against [STR] characters by 1.5x",
             "level1": "Boosts base ATK and HP of [DEX] and [QCK] characters by 75 if your Captain is a [STR] character",
         },
         specialName: "Gomu Gomu no Hawk Rifle",
@@ -21283,11 +21283,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 3: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 4: This character's attack will ignore barriers if HP is above 80%",
-                    "Level 5: This character's attack will ignore barriers if HP is above 50%"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
             },
             {
@@ -21819,11 +21819,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above ??%",
-                    "Level 2: This character's attack will ignore barriers if HP is above ??%",
-                    "Level 3: This character's attack will ignore barriers if HP is above ??%",
-                    "Level 4: This character's attack will ignore barriers if HP is above ??%",
-                    "Level 5: This character's attack will ignore barriers if HP is above ??%"
+                    "Level 1: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn"
                 ]
             },
         ],
@@ -22029,7 +22029,7 @@ window.details = {
     1833: {//Reiju
         captain: "Boosts ATK of [INT] characters by 1.75x and Powerhouse characters by 1.2x and the RCV of Powerhouse characters by 1.1x",
         captainNotes: "Attack boost stacks, so a [INT] Powerhouse character has a 2.1x ATK",
-        special: "If your captain is [INT] or [PSY], recovers 7,000 HP, removes Poison and reduces Paralysis, Despair and Silence duration by 3 turns. If the captain is a Powerhouse character, reduces damage received by 70% for 2 turns",
+        special: "If your captain is [INT] or [PSY], recovers 7,000 HP, removes Poison and reduces Paralysis, Despair and Silence duration by 3 turns. If your Captain is aPowerhouse character, reduces damage received by 70% for 2 turns",
         specialName: "Dangerous Healing",
         sailor: "Makes [PSY] orbs \"beneficial\" for this unit",
         sailorNotes: "#{beneficial}",
@@ -22037,7 +22037,7 @@ window.details = {
     1834: {//Reiju
         captain: "Boosts ATK of [INT] characters by 2.25x and Powerhouse characters by 1.3x and the RCV of Powerhouse characters by 1.2x",
         captainNotes: "Attack boost stacks, so a [INT] Powerhouse character has a 2.925x ATK",
-        special: "If your captain is [INT] or [PSY], recovers 7,000 HP, removes Poison and reduces Paralysis, Despair and Silence duration by 3 turns. If the captain is a Powerhouse character, reduces damage received by 70% for 2 turns",
+        special: "If your captain is [INT] or [PSY], recovers 7,000 HP, removes Poison and reduces Paralysis, Despair and Silence duration by 3 turns. If your Captain is a Powerhouse character, reduces damage received by 70% for 2 turns",
         specialName: "Dangerous Healing",
         sailor: {
             "base": "Makes [PSY] orbs \"beneficial\" for this unit",
@@ -22146,7 +22146,7 @@ window.details = {
     1837: {//Niji
         captain: "Boosts ATK of [QCK] characters by 1.75x, boosts ATK of Powerhouse characters by 1.2x and the HP of Powerhouse characters by 1.2x",
         captainNotes: "Attack boost stacks, so a [QCK] Powerhouse character has a 2.1x ATK",
-        special: "If your captain is a [QCK] or [PSY] character, boosts ATK of all characters by 1.75x for 2 turns. If your captain is a Powerhouse character, locks all orbs for 1 turn",
+        special: "If your Captain is a [QCK] or [PSY] character, boosts ATK of all characters by 1.75x for 2 turns. If your Captain is a Powerhouse character, locks all orbs for 1 turn",
         specialName: "Blitz Needle",
         sailor: "Makes [PSY] orbs \"beneficial\" for this unit",
         sailorNotes: "#{beneficial}",
@@ -22154,7 +22154,7 @@ window.details = {
     1838: {//Niji
         captain: "Boosts ATK of [QCK] characters by 2.25x, boosts ATK of Powerhouse characters by 1.3x and the HP of Powerhouse characters by 1.2x",
         captainNotes: "Attack boost stacks, so a [QCK] Powerhouse character has a 2.925x ATK",
-        special: "If your captain is a [QCK] or [PSY] character, boosts ATK of all characters by 1.75x for 2 turns. If your captain is a Powerhouse character, locks all orbs for 1 turn",
+        special: "If your Captain is a [QCK] or [PSY] character, boosts ATK of all characters by 1.75x for 2 turns. If your Captain is a Powerhouse character, locks all orbs for 1 turn",
         specialName: "Blitz Needle",
         sailor: {
             "base": "Makes [PSY] orbs \"beneficial\" for this unit",
@@ -22204,7 +22204,7 @@ window.details = {
     1839: {//Yonji
         captain: "Boosts ATK of [DEX] characters by 1.75x, boosts ATK of Powerhouse characters by 1.2x and the HP of Powerhouse characters by 1.2x",
         captainNotes: "Attack boost stacks, so a [DEX] Powerhouse character has a 2.1x ATK",
-        special: "If your captain is a [DEX] or [PSY] character, boosts ATK against delayed enemies by 1.75x for 1 turn. If your captain is a Powerhouse character, adds 40x characters ATK as additional typeless damage for 1 turn",
+        special: "If your Captain is a [DEX] or [PSY] character, boosts ATK against delayed enemies by 1.75x for 1 turn. If your Captain is a Powerhouse character, adds 40x characters ATK as additional typeless damage for 1 turn",
         specialName: "Burst End Kick",
         specialNotes: "Extra Damage can only be boosted by conditional Boosters.",
         sailor: "Makes [PSY] orbs \"beneficial\" for this unit",
@@ -22213,7 +22213,7 @@ window.details = {
     1840: {//Yonji
         captain: "Boosts ATK of [DEX] characters by 2.25x, boosts ATK of Powerhouse characters by 1.3x and the HP of Powerhouse characters by 1.2x",
         captainNotes: "Attack boost stacks, so a [DEX] Powerhouse character has a 2.925x ATK",
-        special: "If your captain is a [DEX] or [PSY] character, boosts ATK against delayed enemies by 1.75x for 1 turn. If your captain is a Powerhouse character, adds 40x characters ATK as additional typeless damage for 1 turn",
+        special: "If your Captain is a [DEX] or [PSY] character, boosts ATK against delayed enemies by 1.75x for 1 turn. If your Captain is a Powerhouse character, adds 40x characters ATK as additional typeless damage for 1 turn",
         specialName: "Burst End Kick",
         specialNotes: "Extra Damage can only be boosted by conditional Boosters.",
         sailor: {
@@ -22443,12 +22443,12 @@ window.details = {
     },
     1858: {//Leo
         captain: "Boosts ATK of Striker characters by 2x at the start of the chain. Boosts ATK of Striker characters by 2.4x after scoring 3 PERFECTs in a row.",
-        special: "Reduce 3 turns of paralysis, randomize non-matching orbs, including [BLOCK] orbs, Adds 65x character's ATK as Additional Typeless Damage for 1 turn, when the captain is a Striker Character reduces enemies Percent Damage Reduction duration by 3 turns",
+        special: "Reduce 3 turns of paralysis, randomize non-matching orbs, including [BLOCK] orbs, Adds 65x character's ATK as Additional Typeless Damage for 1 turn, when your Captain is a Striker Character reduces enemies Percent Damage Reduction duration by 3 turns",
         sailor: "If this character has an [INT] orb and you hit a PERFECT with him, keep his [INT] orb for the next turn",
     },
     1859: {//Leo
         captain: "Boosts ATK of Striker characters by 2.5x and their HP by 1.2x at the start of the chain. Boosts ATK of Striker characters by 3.25x after scoring 3 PERFECTs in a row.",
-        special: "Reduce 3 turns of paralysis, randomize non-matching orbs, including [BLOCK] orbs, Adds 65x character's ATK as Additional Typeless Damage for 1 turn, when the captain is a Striker Character reduces enemies Percent Damage Reduction duration by 3 turns",
+        special: "Reduce 3 turns of paralysis, randomize non-matching orbs, including [BLOCK] orbs, Adds 65x character's ATK as Additional Typeless Damage for 1 turn, when your Captain is a Striker Character reduces enemies Percent Damage Reduction duration by 3 turns",
         sailor: {
             "base": "If this character has an [INT] orb and you hit a PERFECT with him, keep his [INT] orb for the next turn",
             "level1": "Makes [PSY] orbs \"beneficial\" for this unit",
@@ -22503,11 +22503,11 @@ window.details = {
                 "cooldown": [ 19, 4 ]
             },
             {
-                "description": "Deals 7x character's ATK in [QCK] damage to all enemies, changes [TND] and [RCV] orbs on Shooter characters into Matching Orbs. If your captain is a Shooter Character, boosts ATK against delayed enemies by 1.35x for 1 turn",
+                "description": "Deals 7x character's ATK in [QCK] damage to all enemies, changes [TND] and [RCV] orbs on Shooter characters into Matching Orbs. If your Captain is a Shooter Character, boosts ATK against delayed enemies by 1.35x for 1 turn",
                 "cooldown": [ 24, 9 ]
             },
             {
-                "description": "Deals 11x character's ATK in [QCK] damage to all enemies, changes [TND] and [RCV] orbs on Shooter characters into Matching Orbs. If your captain is a Shooter Character, boosts ATK against delayed enemies by 1.75x for 1 turn",
+                "description": "Deals 11x character's ATK in [QCK] damage to all enemies, changes [TND] and [RCV] orbs on Shooter characters into Matching Orbs. If your Captain is a Shooter Character, boosts ATK against delayed enemies by 1.75x for 1 turn",
                 "cooldown": [ 30, 15 ]
             }
         ],
@@ -22522,11 +22522,11 @@ window.details = {
                 "cooldown": [ 19, 4 ]
             },
             {
-                "description": "Deals 7x character's ATK in [QCK] damage to all enemies, changes [TND] and [RCV] orbs on Shooter characters into Matching Orbs. If your captain is a Shooter Character, boosts ATK against delayed enemies by 1.35x for 1 turn",
+                "description": "Deals 7x character's ATK in [QCK] damage to all enemies, changes [TND] and [RCV] orbs on Shooter characters into Matching Orbs. If your Captain is a Shooter Character, boosts ATK against delayed enemies by 1.35x for 1 turn",
                 "cooldown": [ 24, 9 ]
             },
             {
-                "description": "Deals 11x character's ATK in [QCK] damage to all enemies, changes [TND] and [RCV] orbs on Shooter characters into Matching Orbs. If your captain is a Shooter Character, boosts ATK against delayed enemies by 1.75x for 1 turn",
+                "description": "Deals 11x character's ATK in [QCK] damage to all enemies, changes [TND] and [RCV] orbs on Shooter characters into Matching Orbs. If your Captain is a Shooter Character, boosts ATK against delayed enemies by 1.75x for 1 turn",
                 "cooldown": [ 30, 15 ]
             }
         ],
@@ -22568,11 +22568,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 3: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 4: This character's attack will ignore barriers if HP is above 80%",
-                    "Level 5: This character's attack will ignore barriers if HP is above 50%"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
             },
         ]
@@ -24058,11 +24058,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above 80%",
-                    "Level 3: This character's attack will ignore barriers if HP is above 70%",
-                    "Level 4: This character's attack will ignore barriers if HP is above 50%",
-                    "Level 5: This character's attack will ignore barriers"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers at the start of the turn"
                 ]
             },
         ]
@@ -24392,11 +24392,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above 90%",
-                    "Level 3: This character's attack will ignore barriers if HP is above 70%",
-                    "Level 4: This character's attack will ignore barriers if HP is above 50%",
-                    "Level 5: This character's attack will ignore barriers"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers at the start of the turn"
                 ]
             },
         ]
@@ -24515,12 +24515,12 @@ window.details = {
     },
     1942: {//Senor Pink
         captain: "Boosts ATK of Free Spirit characters by 2x",
-        special: "Changes own orb into [STR], reduces Chain Multiplier Limit and Chain Coefficient Reduction by 3 turns. If your captain is a Free Spirit Character, boosts ATK against delayed enemies by 1.75x for 1 turn",
+        special: "Changes own orb into [STR], reduces Chain Multiplier Limit and Chain Coefficient Reduction by 3 turns. If your Captain is a Free Spirit Character, boosts ATK against delayed enemies by 1.75x for 1 turn",
         specialName: "Manly Synchronized Swimming",
     },
     1943: {//Senor Pink
         captain: "Boosts ATK of Free Spirit characters by 2.5x and recovers 1.5x character's RCV in HP at the end of each turn",
-        special: "Changes own orb into [STR], reduces Chain Multiplier Limit and Chain Coefficient Reduction by 3 turns. If your captain is a Free Spirit Character, boosts ATK against delayed enemies by 1.75x for 1 turn",
+        special: "Changes own orb into [STR], reduces Chain Multiplier Limit and Chain Coefficient Reduction by 3 turns. If your Captain is a Free Spirit Character, boosts ATK against delayed enemies by 1.75x for 1 turn",
         specialName: "Manly Synchronized Swimming",
         sailor: {
             "base": "None",
@@ -25480,13 +25480,13 @@ window.details = {
     },
     1988: {//Oars
         captain: "Boosts ATK of Slasher characters by 2.25x and their RCV by 1.2x",
-        special: "Cuts the current HP of one enemy by 10% and reduces Paralysis and Silence duration by 3 turns. If your captain is a Slasher Character, boosts ATK against delayed enemies by 1.75x for 2 turns",
+        special: "Cuts the current HP of one enemy by 10% and reduces Paralysis and Silence duration by 3 turns. If your Captain is a Slasher Character, boosts ATK against delayed enemies by 1.75x for 2 turns",
         specialName: "Unfaltering Trump Card",
         sailor: "Reduces Paralysis duration by 1 turn",
     },
     1989: {//Oars
         captain: "Boosts ATK of Slasher characters by 2.5x and their RCV by 1.5x",
-        special: "Cuts the current HP of one enemy by 10% and reduces Paralysis and Silence duration by 3 turns. If your captain is a Slasher Character, boosts ATK against delayed enemies by 1.75x for 2 turns",
+        special: "Cuts the current HP of one enemy by 10% and reduces Paralysis and Silence duration by 3 turns. If your Captain is a Slasher Character, boosts ATK against delayed enemies by 1.75x for 2 turns",
         specialName: "Unfaltering Trump Card",
         sailor: {
             "base": "Reduces Paralysis duration by 1 turn",
@@ -25823,11 +25823,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 3: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 4: This character's attack will ignore barriers if HP is above 80%",
-                    "Level 5: This character's attack will ignore barriers if HP is above 50%"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
             },
             {
@@ -25971,11 +25971,11 @@ window.details = {
         captain: "Boosts ATK of Free Spirit characters by 3.25x if they have a [RCV] orb, by 2x otherwise, boosts chances of getting [RCV] orbs and reduces RCV of all characters by 80%",
         special: [
             {
-                "description": "Reduces Bind and Paralysis duration by 3 turns and changes [BLOCK] and [BOMB] orbs into [RCV] orbs. If your captain is a Free Spirit Character, reduces RCV DOWN and Blindness duration by 5 turns",
+                "description": "Reduces Bind and Paralysis duration by 3 turns and changes [BLOCK] and [BOMB] orbs into [RCV] orbs. If your Captain is a Free Spirit Character, reduces RCV DOWN and Blindness duration by 5 turns",
                 "cooldown": [ 11, 6 ],
             },
             {
-                "description": "Reduces Bind and Paralysis duration by 10 turns, recovers 50x character's RCV in HP, and changes [BLOCK] and [BOMB] orbs into [RCV] orbs. If your captain is a Free Spirit Character, reduces RCV DOWN, Silence, and Blindness duration by 5 turns",
+                "description": "Reduces Bind and Paralysis duration by 10 turns, recovers 50x character's RCV in HP, and changes [BLOCK] and [BOMB] orbs into [RCV] orbs. If your Captain is a Free Spirit Character, reduces RCV DOWN, Silence, and Blindness duration by 5 turns",
                 "cooldown": [ 18, 13 ],
             },
         ],
@@ -25989,11 +25989,11 @@ window.details = {
         captainNotes: "#{beneficial}",
         special: [
             {
-                "description": "Reduces Bind and Paralysis duration by 3 turns and changes [BLOCK] and [BOMB] orbs into [RCV] orbs. If your captain is a Free Spirit Character, reduces RCV DOWN and Blindness duration by 5 turns",
+                "description": "Reduces Bind and Paralysis duration by 3 turns and changes [BLOCK] and [BOMB] orbs into [RCV] orbs. If your Captain is a Free Spirit Character, reduces RCV DOWN and Blindness duration by 5 turns",
                 "cooldown": [ 11, 6 ],
             },
             {
-                "description": "Reduces Bind and Paralysis duration by 10 turns, recovers 50x character's RCV in HP, and changes [BLOCK] and [BOMB] orbs into [RCV] orbs. If your captain is a Free Spirit Character, reduces RCV DOWN, Silence, and Blindness duration by 5 turns",
+                "description": "Reduces Bind and Paralysis duration by 10 turns, recovers 50x character's RCV in HP, and changes [BLOCK] and [BOMB] orbs into [RCV] orbs. If your Captain is a Free Spirit Character, reduces RCV DOWN, Silence, and Blindness duration by 5 turns",
                 "cooldown": [ 18, 13 ],
             },
         ],
@@ -26089,11 +26089,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above 90%",
-                    "Level 3: This character's attack will ignore barriers if HP is above 70%",
-                    "Level 4: This character's attack will ignore barriers if HP is above 50%",
-                    "Level 5: This character's attack will ignore barriers"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers at the start of the turn"
                 ]
             },
         ]
@@ -26110,7 +26110,7 @@ window.details = {
     },
     2018: {//FN Shanks
         captain: "Boosts ATK of Free Spirit characters by 1.75x",
-        special: "Reduces Bind and Despair duration by 2 turns, if the captain is a Free Spirit Character changes [BLOCK] orbs into matching orbs",
+        special: "Reduces Bind and Despair duration by 2 turns, if your Captain is a Free Spirit Character changes [BLOCK] orbs into matching orbs",
         specialName: "Treasured Trust",
     },
     2019: {//FN Shanks
@@ -26201,11 +26201,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above 90%",
-                    "Level 3: This character's attack will ignore barriers if HP is above 70%",
-                    "Level 4: This character's attack will ignore barriers if HP is above 50%",
-                    "Level 5: This character's attack will ignore barriers"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers at the start of the turn"
                 ]
             },
         ]
@@ -26283,11 +26283,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above 90%",
-                    "Level 3: This character's attack will ignore barriers if HP is above 70%",
-                    "Level 4: This character's attack will ignore barriers if HP is above 50%",
-                    "Level 5: This character's attack will ignore barriers"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers at the start of the turn"
                 ]
             },
         ]
@@ -27715,11 +27715,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 3: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 4: This character's attack will ignore barriers if HP is above 80%",
-                    "Level 5: This character's attack will ignore barriers if HP is above 50%"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
             },
         ]
@@ -28257,11 +28257,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 3: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 4: This character's attack will ignore barriers if HP is above 80%",
-                    "Level 5: This character's attack will ignore barriers if HP is above 50%"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
             },
         ]
@@ -28325,17 +28325,18 @@ window.details = {
     2124: {//Trebol
         captain: "Boosts ATK of Striker characters by 2.5x and boosts HP of Driven characters by 1.5x",
         special: "Reduces crew's current HP by 60%, deals 8x the amount of HP subtracted in typeless damage to all enemies and amplifies the effect of orbs for Striker characters by 1.5x for 1 turn",
-        specialName: "Trebol Special",
+        specialName: "Beta Betton Mucous Launcher",
     },
     2125: {//Jesus Burgess
-        captain: "Boosts ATK of Fighter characters by 2.5x and reduces damage received by 10%",
+        captain: "Boosts ATK of Powerhouse characters by 2.5x and reduces damage received by 10%",
         special: "Cuts the current HP of one enemy by 25% that will ignore damage negating abilities and barriers",
-        specialName: "Jesus Burgess Special",
+        specialName: "The Mouth that Induces Hatred",
+        specialNotes: "#{ignoreBarrier}",
     },
     2126: {//Doffy
         captain: "Boosts ATK of Striker characters by 2.5x and their HP by 1.3x. If you use \"Fullbright\" THIS DOFLAMINGO boosts ATK of Striker characters by 3x instead for 3 turns",
         captainNotes: "Using Doflamingo's special will change his own captain boost to 3x. If both Doflamingo's specials are used, the total ATK boost will be 9x",
-        special: "Cuts the current HP of each enemy by 20%, changes own orb into [STR] and at the end of the turn, cuts the current HP of each enemy by 10% for 2 turns. If HP is below 30% at the time the special is activated, boosts ATK of Striker and Driven characters by 1.75x for 1 turn",
+        special: "Cuts the current HP of each enemy by 20%, changes own orb into [STR] and at the end of the turn, cuts the current HP of each enemy by 10% for 2 turns. If HP is below 50% at the time the special is activated, boosts ATK of Striker and Driven characters by 1.75x for 1 turn",
         specialName: "Fullbright",
     },
     2127: {//Brulee
@@ -28554,7 +28555,7 @@ window.details = {
     2139: {//Reiju
         captain: "Boosts ATK of [PSY] characters by 2.25x and Powerhouse characters by 1.4x and the RCV of Powerhouse characters by 1.2x",
         captainNotes: "Attack boost stacks, so a [PSY] Powerhouse character has a 3.15x ATK",
-        special: "If your captain is [INT] or [PSY], reduces crew's ATK DOWN and Silence duration by 3 turns and inflicts Toxic to all enemies. If the captain is a Powerhouse character, boosts ATK against enemies inflicted with Toxic by 1.75x for 1 turn",
+        special: "If your captain is [INT] or [PSY], reduces crew's ATK DOWN and Silence duration by 3 turns and inflicts Toxic to all enemies. If your Captain is a Powerhouse character, boosts ATK against enemies inflicted with Toxic by 1.75x for 1 turn",
         specialName: "Dangerous Butterfly",
         specialNotes: "#{toxic : 20x : 2x : 500,000}<br>If enemies are both Poisoned and inflicted with Toxic, only the Toxic damage will damage the enemy at the end of the turn.",
         sailor: {
@@ -28656,7 +28657,7 @@ window.details = {
     2141: {//Niji
         captain: "Boosts ATK of [DEX] characters by 2.25x, boosts ATK of Powerhouse characters by 1.4x and the HP of Powerhouse characters by 1.2x",
         captainNotes: "Attack boost stacks, so a [DEX] Powerhouse character has a 3.15x ATK",
-        special: "If your captain is a [DEX] or [INT] character, locks the chain multiplier at 2.75x for 2 turns. If your captain is a Powerhouse character, reduces enemies' ATK Up and Enrage Buffs by 3 turn",
+        special: "If your Captain is a [DEX] or [INT] character, locks the chain multiplier at 2.75x for 2 turns. If your Captain is a Powerhouse character, reduces enemies' ATK Up and Enrage Buffs by 3 turn",
         specialName: "Super Blue Twin Step",
         sailor: {
             "base": "Makes [INT] orbs \"beneficial\" for this unit",
@@ -28706,7 +28707,7 @@ window.details = {
     2142: {//Yonji
         captain: "Boosts ATK of [STR] characters by 2.25x, boosts ATK of Powerhouse characters by 1.4x and the HP of Powerhouse characters by 1.2x",
         captainNotes: "Attack boost stacks, so a [STR] Powerhouse character has a 3.15x ATK",
-        special: "If your captain is a [STR] or [INT] character, adds 55x characters ATK as additional typeless damage for 1 turn. If your captain is a Powerhouse character, reduces enemies Percent Damage Reduction and Threshold Damage Reduction duration by 3 turns",
+        special: "If your Captain is a [STR] or [INT] character, adds 55x characters ATK as additional typeless damage for 1 turn. If your Captain is a Powerhouse character, reduces enemies Percent Damage Reduction and Threshold Damage Reduction duration by 3 turns",
         specialName: "Burst End Iron Arm",
         specialNotes: "Extra Damage can only be boosted by conditional Boosters.",
         sailor: {
@@ -28856,7 +28857,7 @@ window.details = {
         ]
     },
     2149: {//Zeff
-        captain: "Reduces cooldown of all specials by ? turn at the start of the fight, boosts ATK of Fighter characters by 2.25x and their HP by 1.2x",
+        captain: "Reduces cooldown of all specials by 1 turn at the start of the fight, boosts ATK of Fighter characters by 2.25x and their HP by 1.2x",
         special: "If your Captain is a Fighter character, boosts the Color Affinity of Fighter characters by 1.75x for 1 turn",
         specialNotes: "#{colorAffinity : 1.75}",
         specialName: "Chef's Long Kick",
@@ -28913,7 +28914,7 @@ window.details = {
         potentialNotes: "#{enrage}"
     },
     2151: {//Pudding
-        captain: "Boosts ATK of all characters by ?x and their HP by ?x. If you don't attack with her, reduces damage received by ?% for that turn.",
+        captain: "Boosts ATK of all characters by 1.75x and their HP by 1.3x. If you don't attack with her, reduces damage received by 20% for that turn.",
         special: "Changes all orbs on all characters into Pudding's orb, recovers 5,000 HP, reduces damage received by 80% for 1 turn and reduces Bind, Despair, Paralysis and Increase Damage Taken duration by 4 turns",
         specialName: "Memory Film",
         sailor: "Reduces Paralysis duration for 5 turns for herself",
@@ -28957,25 +28958,25 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 3: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 4: This character's attack will ignore barriers if HP is above 80%",
-                    "Level 5: This character's attack will ignore barriers if HP is above 50%"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
             },
         ]
     },
     2153: {//Tamago
         captain: "Boosts ATK of Fighter Characters by 2.5x if they have a matching orb, by 2.25x otherwise",
-        special: "Deals 75x character's ATK in [DEX] damage to one enemy that will ignore damage negating abilities and barriers. If the captain is a Fighter character, changes all orbs, including [BLOCK] orbs, on Fighter characters into Matching orbs",
+        special: "Deals 75x character's ATK in [DEX] damage to one enemy that will ignore damage negating abilities and barriers. If your Captain is a Fighter character, changes all orbs, including [BLOCK] orbs, on Fighter characters into Matching orbs",
         specialName: "Legs Benedict",
         specialNotes: "#{ignoreBarrier}",
         sailor: "When HP is above 50% at the start of the turn, boosts ATK of Fighter characters by 125",
     },
     2154: {//Tamago
         captain: "Boosts ATK of Fighter Characters by 2.75x if they have a matching orb, by 2.5x otherwise",
-        special: "Deals 75x character's ATK in [DEX] damage to one enemy that will ignore damage negating abilities and barriers. If the captain is a Fighter character, changes all orbs, including [BLOCK] orbs, on Fighter characters into Matching orbs",
+        special: "Deals 75x character's ATK in [DEX] damage to one enemy that will ignore damage negating abilities and barriers. If your Captain is a Fighter character, changes all orbs, including [BLOCK] orbs, on Fighter characters into Matching orbs",
         specialName: "Legs Benedict",
         specialNotes: "#{ignoreBarrier}",
         sailor: {
@@ -29013,11 +29014,11 @@ window.details = {
             {
                 "Name": "Pinch Healing",
                 "description": [
-                    "Level 1: If HP is below 10% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below 15% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below 20% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below 30% at the start of the turn, heals for 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below 50% at the start of the turn, heals for 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 1: If HP is below 10% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a Perfect with this character",
+                    "Level 2: If HP is below 15% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a Perfect with this character",
+                    "Level 3: If HP is below 20% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a Perfect with this character",
+                    "Level 4: If HP is below 30% at the start of the turn, heals for 1.5x this character's RCV at the end of the turn each time you hit a Perfect with this character",
+                    "Level 5: If HP is below 50% at the start of the turn, heals for 1.5x this character's RCV at the end of the turn each time you hit a Perfect with this character"
                 ]
             },
         ],
@@ -29070,8 +29071,8 @@ window.details = {
                 "Name": "Reduce No Healing duration",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
-                    "Level 2: Reduces No Healing duration by 2 turn",
-                    "Level 3: Reduces No Healing duration by 3 turn",
+                    "Level 2: Reduces No Healing duration by 2 turns",
+                    "Level 3: Reduces No Healing duration by 3 turns",
                     "Level 4: Reduces No Healing duration by 4 turns",
                     "Level 5: Reduces No Healing duration by 5 turns"
                 ]
@@ -29208,11 +29209,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above 90%",
-                    "Level 3: This character's attack will ignore barriers if HP is above 70%",
-                    "Level 4: This character's attack will ignore barriers if HP is above 50%",
-                    "Level 5: This character's attack will ignore barriers"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers at the start of the turn"
                 ]
             },
             {
@@ -29228,19 +29229,36 @@ window.details = {
         ]
     },
     2160: {//Doflamingo
-        captain: "Boosts ATK of Shooter characters by ?x and their HP by ?x. If you use \"Punishment for the Weak\" boosts ATK of Shooter characters by ?x instead.",
-        special: "Makes Damage and Health Cutting Specials of Shooter characters bypass all defensive Buffs, deals 150x character's ATK in [QCK] damage to one enemy, changes [RCV],  [TND] and [BLOCK] orbs into Matching orbs and amplifies the effect of orbs for Shooter characters by 2x for 1 turn",
+        captain: "Boosts ATK of Shooter characters by 2.25x. If you use \"Punishment for the Weak\" boosts ATK of Shooter characters by 2.7x instead.",
+        special: "Makes Damage and Health Cutting Specials of Shooter characters bypass all defensive Buffs, deals 150x character's ATK in [QCK] damage to one enemy, changes [RCV], [TND] and [BLOCK] orbs into Matching orbs and amplifies the effect of orbs for Shooter characters by 2x for 1 turn",
         specialName: "Punishment for the Weak",
         sailor: "Boosts base ATK of Shooter characters by 75",
     },
     2161: {//Doflamingo
         captain: "Boosts ATK of Shooter characters by 2.5x and their HP by 1.2x. If you use \"Punishment for the Weak\" boosts ATK of Shooter characters by 3.25x instead.",
-        special: "Makes Damage and Health Cutting Specials of Shooter characters bypass all defensive Buffs, deals 150x character's ATK in [QCK] damage to one enemy, changes [RCV],  [TND] and [BLOCK] orbs into Matching orbs and amplifies the effect of orbs for Shooter characters by 2x for 1 turn",
+        special: "Makes Damage and Health Cutting Specials of Shooter characters bypass all defensive Buffs, deals 150x character's ATK in [QCK] damage to one enemy, changes [RCV], [TND] and [BLOCK] orbs into Matching orbs and amplifies the effect of orbs for Shooter characters by 2x for 1 turn",
         specialName: "Punishment for the Weak",
         sailor: {
             "base": "Boosts base ATK of Shooter characters by 75",
             "level1": "Makes [QCK] orbs \"beneficial\" for Shooter characters",
         },
+        limit: [
+            { "description": "Boosts base HP by 20" },
+            { "description": "Boosts base ATK by 30" },
+            { "description": "Boosts base HP by 20" },
+            { "description": "Acquire Potential 1: [STR] Damage Reduction" },
+            { "description": "Boosts base ATK by 30" },
+            { "description": "Boosts base RCV by 20" },
+            { "description": "Boosts base ATK by 30" },
+            { "description": "Acquire Sailor Ability 1: Makes [QCK] orbs \"beneficial\" for Shooter characters" },
+            { "description": "Boosts base RCV by 20" },
+            { "description": "Boosts base ATK by 30" },
+            { "description": "Boosts base RCV by 30" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Boosts base HP by 60" },
+            { "description": "Acquire Potential 2: Barrier Penetration" },
+        ],
         potential: [
             {
                 "Name": "[STR] Damage Reduction",
@@ -29255,17 +29273,17 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 2: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 3: This character's attack will ignore barriers if HP is above 99%",
-                    "Level 4: This character's attack will ignore barriers if HP is above 80%",
-                    "Level 5: This character's attack will ignore barriers if HP is above 50%"
+                    "Level 1: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is 100% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
             },
         ]
     },
     2162: {//Opera
-        captain: "Boosts ATK of Fighter characters by ?x and their HP by ?x",
+        captain: "Boosts ATK of Fighter characters by 2x and their HP by 1.25x",
         special: "Cuts the current HP of each enemy by 20%. If your crew has 5 or more Fighter characters, reduces Increase Damage Taken, Blindness and Despair duration by 7 turns and delays all enemies for 1 turn.",
         specialName: "Cream Monster",
         sailor: "Makes [STR] orbs \"beneficial\" for Fighter characters",
@@ -29292,7 +29310,7 @@ window.details = {
             { "description": "Boosts base ATK by 30" },
             { "description": "Boosts base RCV by 60" },
             { "description": "Boosts base ATK by 50" },
-            { "description": "Acquire Sailor Ability 2: Reduces Silence duration on this character by 3 turns" },
+            { "description": "Acquire Sailor Ability 1: Reduces Silence duration on this character by 3 turns" },
             { "description": "Acquire Potential 2: Reduce No Healing duration" },
         ],
         potential: [
@@ -29318,14 +29336,38 @@ window.details = {
             },
         ]
     },
+    2164: {//Baby 5
+        captain: "Boosts ATK of Slasher, Striker and Shooter characters by ?x",
+        special: "Changes the captain's orb into [DEX], amplifies the effect of orbs for Fighter characters by 1.75x for 1 turn",
+        specialName: "Irritation of Love",
+        sailor: "If your Captain is a Fighter character, adds 1.5x character's ATK as Additional Typeless Damage",
+    },
+    2165: {//Baby 5
+        captain: "Boosts ATK of Slasher, Striker and Shooter characters by 1.75x",
+        special: "Changes the captain's orb into [DEX], amplifies the effect of orbs for Fighter characters by 1.75x for 1 turn",
+        specialName: "Irritation of Love",
+        sailor: "If your Captain is a Fighter character, adds 1.5x character's ATK as Additional Typeless Damage",
+    },
+    2166: {//Don Sai
+        captain: "Boosts ATK of Striker and Fighter characters by ?x after scoring 3 GREATS in a row, by ?x otherwise.",
+        special: "Deals 50,000 fixed damage to one enemy that will ignore damage negating abilities and barriers. If your captain is a Fighter or Striker character, randomizes orbs, including [BLOCK] orbs.",
+        specialName: "Eight Fists",
+        specialNotes:"#{ignoreBarrier}",
+    },
+    2167: {//Don Sai
+        captain: "Boosts ATK of Striker and Fighter characters by 2.5x after scoring 3 GREATS in a row, by 2x otherwise.",
+        special: "Deals 50,000 fixed damage to one enemy that will ignore damage negating abilities and barriers. If your captain is a Fighter or Striker character, randomizes orbs, including [BLOCK] orbs.",
+        specialName: "Eight Fists",
+        specialNotes:"#{ignoreBarrier}",
+    },
     2200: {//Doflamingo Raid v2
         captain: "Boosts ATK of Driven and Cerebral characters by 2.5x when HP is 50% or below, 1.5x otherwise",
-        special: "Randomizes all non-matching orbs, including [BLOCK] slots and locks all orbs for 1 turn. If Captain is a Cerebral or Driven character, increases duration of any Class/Type boosting buffs and Orb Amplification buffs by 2 turns",
+        special: "Randomizes all non-matching orbs, including [BLOCK] slots and locks all orbs for 1 turn. If your Captain is a Cerebral or Driven character, increases duration of any Class/Type boosting buffs and Orb Amplification buffs by 2 turns",
         specialName: "Athlete",
     },
     2201: {//Doflamingo Raid v2
         captain: "Boosts ATK of Driven and Cerebral characters by 3x when HP is 50% or below, 1.5x otherwise",
-        special: "Randomizes all non-matching orbs, including [BLOCK] slots and locks all orbs for 1 turn. If Captain is a Cerebral or Driven character, increases duration of any Class/Type boosting buffs and Orb Amplification buffs by 2 turns",
+        special: "Randomizes all non-matching orbs, including [BLOCK] slots and locks all orbs for 1 turn. If your Captain is a Cerebral or Driven character, increases duration of any Class/Type boosting buffs and Orb Amplification buffs by 2 turns",
         specialName: "Athlete",
     },
     5000: {//Smoker&Tashigi

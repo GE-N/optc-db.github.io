@@ -834,22 +834,39 @@ window.drops = {
         {
             name: 'Dressrosa - Royal Palace Top Floor to Town Center',
             shortName: 'Dressrosa 4',
-            thumb: null,
+            thumb: 2126,
             nakama: null,
-            gamewith: null,
+            completion: '10x Rainbow Gems',
+            gamewith: 111173,
+            '01': [ 2003 ],
+            '02': [  ],
+            '03': [ 991 ],
+            '04': [ 1292 ],
+            '05': [ 1400 ],
+            '06': [  ],
+            '07': [ 1648 ],
+            '08': [ 2002 ],
+            '09': [ 1421 ],
+            '10': [ 2051 ],
+            '11': [ 2124 ],
+            '12': [ 2003 ],
+            '13': [ 2125 ],
+            '14': [  ],
+            '15': [ 2003, 'skullDoffy'  ],
         },
         
-    ],
+    ], 
 
-    'Weekly Island': [
+    'Booster and Evolver Island': [
 
         {
-            name: 'Rush of Turtles',
+            name: 'Turtle Haven',
             day: 0,
             thumb: 193,
             global: true,
             nakama: 3019300,
-            ' ': [ 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 189, 190, 191, 192, 193 ]
+            'Japan': [ 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 189, 190, 191, 192, 193 ],
+            'Global': [ 105, 106, 107, 108, 109, 189, 190, 191, 192, 193 ]
         },
         {
             name: 'Princess Turtle\'s Dragon Palace',
@@ -883,7 +900,7 @@ window.drops = {
             thumb: 266,
             global: true,
             nakama: 3026600,
-            ' ': [ 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 266 ]
+            ' ': [ 84, 85, 86, 87, 88, 266 ]
         },
 
 
@@ -900,27 +917,28 @@ window.drops = {
             name: 'Scissor Cavern',
             day: 4,
             thumb: 95,
-            global: true,
             nakama: 3009500,
             ' ': [ 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99 ]
         },
 
         {
-            name: 'Scissor Cavern, Inner Cave',
+            name: 'Scissor Cavern, Entrance',
             day: 4,
             thumb: 304,
             global: true,
             nakama: 3030400,
-            ' ': [ 89, 90, 91, 92, 93, 95, 96, 97, 98, 99, 300, 301, 302, 303, 304 ]
+            'Japan': [ 89, 90, 91, 92, 93, 95, 96, 97, 98, 99, 300, 301, 302, 303, 304 ],
+            'Global': [ 89, 90, 91, 92, 93, 95, 96, 97, 98, 99 ]
         },
         
         {
-            name: 'Scissor Cavern, Deepest Parts',
+            name: 'Scissor Cavern, Innermost Grotto',
             day: 4,
             thumb: 1180,
             global: true,
             nakama: 3118000,
-            ' ': [ 89, 90, 91, 92, 93, 95, 96, 97, 98, 99, 300, 301, 302, 303, 304, 1180 ]
+            'Japan': [ 89, 90, 91, 92, 93, 95, 96, 97, 98, 99, 300, 301, 302, 303, 304, 1180 ],
+            'Global': [ 95, 96, 97, 98, 99, 300, 301, 302, 303, 304, 1180 ]
         },
 
         {
@@ -928,7 +946,7 @@ window.drops = {
             thumb: 347,
             global: true,
             nakama: 3034700,
-            ' ': [ 342, 343, 344, 345, 346 ]
+            ' ': [ 342, 343, 344, 345, 346, 347, 348, 349, 350, 351 ]
         },
     ],
 
@@ -962,7 +980,7 @@ window.drops = {
             nakama: 2004600,
             condition: 'None',
             gamewith: 7784,
-            condition: 'Siam and Butchie does not drop in Rookie difficulty',			
+            condition: 'Siam and Butchie do not drop in Rookie difficulty',			
             'All Difficulties': [ 41, 42, 43, 45, -16, -14, -15, -13, -1446 ]
         },
 
@@ -973,7 +991,7 @@ window.drops = {
             nakama: 2006600,
             condition: 'None',
             gamewith: 5852,
-            condition: 'Choo and Kuroobi does not drop in Rookie difficulty',
+            condition: 'Choo and Kuroobi do not drop in Rookie difficulty',
             'All Difficulties': [ 61, 62, 63, 65, -12, -10, -11, -66, -9, -1389 ]
         },
 
@@ -1930,7 +1948,7 @@ window.drops = {
             global: true,
             nakama: 2189100,
             gamewith: 84032,
-            condition: 'Take heavy damage at the start of the island',
+            condition: '99% health cut at the start of the adventure and an increase rate of RCV orbs until stage 4',
             'All Difficulties': [ 1890, 1892, -1314, -1316, -1322, -1741, -1743, -1559 ]
         },
         
@@ -1945,6 +1963,7 @@ window.drops = {
         {
             name: 'Binding and Bonds!',
             thumb: 1933,
+            global: true,
             nakama: 2193300,
             gamewith: 86343,
             condition: 'Take 7% current Health in Environmental Damage every 2 turns',
@@ -2037,6 +2056,14 @@ window.drops = {
             nakama: null,
             gamewith: 109800,
             'All Difficulties': [ 2143, 2145, -2013, -1991, -1989, -1951, -1718, -1475 ]
+        },
+        
+        {
+            name: 'Baby 5 and Don Sai',
+            thumb: 2167,
+            nakama: null,
+            gamewith: null,
+            'All Difficulties': [ 2166, 2164, -1985, -1987, -1993, -1719, -1479, -1481 ]
         },
         
     ],
@@ -2586,7 +2613,7 @@ window.drops = {
             gamewith: 17473,
             slefty: 'coliseums',
             Exhibition: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1103, 1105, 1195, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528, 1552, 1585, 1603, 1629, 1860 ],
-            Underground: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1103, 1105, 1195, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528, 1552, 1585, 1603, 1629, 1791, 1860, 1896, 1977, 2110 ],
+            Underground: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1103, 1105, 1195, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528, 1552, 1585, 1603, 1629, 1791, 1860, 1896, 1977, 2110, 2162 ],
             Chaos: [ 776, 778, 780, 803, 805, 830, 832, 834, 859, 861, 881, 883, 900, 902, 923, 925, 950, 982, 984, 1017, 1015, 1040, 1042, 1086, 1088, 1090, 1101, 1103, 1105, 1140, 1142, 1144, 1195, 1219, 1221, 1250, 1252, 1291, 1293, 1309, 1311, 1337, 1339, 1340, 1375, 1377, 1400, 1421, 1423, 1455, 1457, 1486, 1488, 1525, 1526, 1528, 1552, 1554, 1583, 1585, 1601, 1603, 1627, 1629, 1666, 1693, 1732, 1791, 1827, 1860, 1896, 1944, 1977, 2036, 2110, 2122, 2162 ],
             Neo: [ 1862, 1898, 1975, 2016 ]
         },
