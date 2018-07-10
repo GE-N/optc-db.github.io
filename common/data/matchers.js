@@ -93,7 +93,8 @@ window.matchers = [
     {
         name: '2.25x ATK captains',
         target: 'captain',
-        matcher: /Boosts (their )?ATK\D*by 2.25x/i
+        matcher: /Boosts (their )?ATK\D*by 2.25x/i,
+        icon: 'atk up'
     },
 
     {
@@ -362,25 +363,29 @@ window.matchers = [
     {
         name: '1.5x Orb boost specials',
         target: 'special',
-        matcher: /amplifies.+orb\D*by 1.5x/i
+        matcher: /amplifies.+orb\D*by 1.5x/i,
+        icon: 'orb boost'
     },
 
     {
         name: '1.75x Orb boost specials',
         target: 'special',
-        matcher: /amplifies.+orb\D*by 1.75x/i
+        matcher: /amplifies.+orb\D*by 1.75x/i,
+        icon: 'orb boost'
     },
 
     {
         name: '2x Orb boost specials',
         target: 'special',
-        matcher: /amplifies.+orb\D*by 2x/i
+        matcher: /amplifies.+orb\D*by 2x/i,
+        icon: 'orb boost'
     },
     
     {
         name: '2.25x Orb boost specials',
         target: 'special',
-        matcher: /amplifies.+orb\D*by 2.25x/i
+        matcher: /amplifies.+orb\D*by 2.25x/i,
+        icon: 'orb boost'
     },
 
     {
@@ -542,7 +547,7 @@ window.matchers = [
         name: 'HP-based damage dealers',
         target: 'specialNotes',
         matcher: /specialProportional/i,
-        icon: ''
+        icon: 'health-cut'
     },
 
     {
@@ -665,7 +670,8 @@ window.matchers = [
     {
         name: 'Crew Increase Damage Taken remover',
         target: 'special',
-        matcher: /(removes|reduces).+Increase Damage Taken/i 
+        matcher: /(removes|reduces).+Increase Damage Taken/i,
+        icon: 'damage double'
     },
 
     {
@@ -1004,31 +1010,36 @@ window.matchers = [
     {
         name: 'STR Damage Reduction Potential Ability',
         target: 'limit',
-        matcher: /\[STR\] Damage Reduction/i
+        matcher: /\[STR\] Damage Reduction/i,
+        icon: 'dif-str'
     },
 
     {
         name: 'DEX Damage Reduction Potential Ability',
         target: 'limit',
-        matcher: /\[DEX\] Damage Reduction/i
+        matcher: /\[DEX\] Damage Reduction/i,
+        icon: 'dif-dex'
     },
     
     {
         name: 'QCK Damage Reduction Potential Ability',
         target: 'limit',
-        matcher: /\[QCK\] Damage Reduction/i
+        matcher: /\[QCK\] Damage Reduction/i,
+        icon: 'dif-qck'
     },
     
     {
         name: 'PSY Damage Reduction Potential Ability',
         target: 'limit',
-        matcher: /\[PSY\] Damage Reduction/i
+        matcher: /\[PSY\] Damage Reduction/i,
+        icon: 'dif-psy'
     },
     
     {
         name: 'INT Damage Reduction Potential Ability',
         target: 'limit',
-        matcher: /\[INT\] Damage Reduction/i
+        matcher: /\[INT\] Damage Reduction/i,
+        icon: 'dif-int'
     },
 
 ];
