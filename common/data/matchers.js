@@ -530,10 +530,34 @@ window.matchers = [
     },
     
     {
-        name: 'Defence and Barrier Buff Ignoring damage dealer',
+        name: 'Defense and Barrier Buff Ignoring damage dealer',
         target: 'special',
         matcher: /Deals.+ignore damage negating abilities and barriers/i,
         icon: 'damage-dealer'
+    },
+
+    {
+        name: 'Healers',
+        target: 'special',
+        matcher: /Recovers/i
+    },
+
+    {
+        name: 'Health reducers',
+        target: 'special',
+        matcher: /Reduces crew's (current )?HP/i
+    },
+
+    {
+        name: 'Poisoners',
+        target: 'special',
+        matcher: /(poisons|Inflicts Toxic)/i
+    },
+
+    {
+        name: 'Poison removers',
+        target: 'special',
+        matcher: /removes.+poison/i 
     },
 
     {
@@ -626,115 +650,88 @@ window.matchers = [
     },
 
     {
-        name: 'Blindness removers',
+        name: 'Blindness reducers',
         target: 'special',
         matcher: /(reduces|removes).+blindness/i,
         icon: 'blindness'
     },
 
     {
-        name: 'Healers',
+        name: 'Crew ATK DOWN reducer',
         target: 'special',
-        matcher: /Recovers/i,
-        icon: 'heal'
+        matcher: /(removes|reduces).+ATK DOWN/i 
     },
 
     {
-        name: 'Health reducers',
-        target: 'special',
-        matcher: /Reduces crew's (current )?HP/i,
-        icon: 'hp down'
-    },
-
-    {
-        name: 'Poisoners',
-        target: 'special',
-        matcher: /(poisons|Inflicts Toxic)/i,
-        icon: 'poison'
-    },
-
-    {
-        name: 'Poison removers',
-        target: 'special',
-        matcher: /removes.+poison/i,
-        icon: 'poison'
-    },
-
-    {
-        name: 'Crew ATK DOWN remover',
-        target: 'special',
-        matcher: /(removes|reduces).+ATK DOWN/i,
-        icon: 'atk down'
-    },
-
-    {
-        name: 'Crew Increase Damage Taken remover',
+        name: 'Crew Increase Damage Taken reducer',
         target: 'special',
         matcher: /(removes|reduces).+Increase Damage Taken/i,
         icon: 'damage double'
     },
 
     {
-        name: 'Crew positive buff remover',
+        name: 'Crew positive buff reducer',
         target: 'special',
         matcher: /removes.+positive buffs/i,
         icon: 'remove-positive'
     },
 
     {
-        name: 'Enemy End of Turn buff remover',
+        name: 'Enemy End of Turn buff reducer',
         target: 'special',
         matcher: /(removes|reduces).+End of Turn/i,
         icon: 'end turn dmg'
     },
 
     {
-        name: 'Enemy Enrage buff remover',
+        name: 'Enemy Enrage buff reducer',
         target: 'special',
         matcher: /(removes|reduces).+Enrage/i,
         icon: 'enrage enemy'
     },
 
     {
-        name: 'Enemy ATK UP buff remover',
+        name: 'Enemy ATK UP buff reducer',
         target: 'special',
         matcher: /(removes|reduces).+ATK UP/i,
         icon: 'atk up'
     },
 
     {
-        name: 'Enemy Threshold Damage Reduction remover',
+        name: 'Enemy Increased Defense reducer',
         target: 'special',
-        matcher: /(removes|reduces).+Threshold Damage Reduction/i,
-        icon: 'treshold'
+        matcher: /(removes|reduces).+Increased Defense/i 
     },
 
     {
-        name: 'Enemy Resilience remover',
+        name: 'Enemy Percent Damage Reduction reducer',
         target: 'special',
-        matcher: /(removes|reduces).+Resilience/i,
-        icon: 'resilence'
+        matcher: /(removes|reduces).+Percent Damage Reduction/i 
     },
 
     {
-        name: 'Enemy Percent Damage Reduction remover',
+        name: 'Enemy Damage Nullification reducer',
         target: 'special',
-        matcher: /(removes|reduces).+Percent Damage Reduction/i,
-        icon: 'dmg reduction'
+        matcher: /(removes|reduces).+Damage Nullification/i 
     },
 
     {
-        name: 'Enemy Increased Defense removers',
+        name: 'Enemy Threshold Damage Reduction reducer',
         target: 'special',
-        matcher: /(removes|reduces).+Increased Defense/i,
-        icon: 'defense boost'
+        matcher: /(removes|reduces).+Threshold Damage Reduction/i 
     },
 
     {
-        name: 'Enemy Barrier removers',
+        name: 'Enemy Barrier reducer',
         target: 'special',
         matcher: /(removes|reduces).+enemy Barrier/i,
         icon: 'hit barrier'
+    },
+
+    {
+        name: 'Enemy Resilience reducer',
+        target: 'special',
+        matcher: /(removes|reduces).+Resilience/i 
     },
 
     {
@@ -773,14 +770,14 @@ window.matchers = [
     },
     
     {
-        name: 'Chain Multiplier Limit Removers',
+        name: 'Chain Multiplier Limit reducer',
         target: 'special',
         matcher: /(removes|reduces).+Chain Multiplier Limit/i,
         icon: 'chain reducer'
     },
     
     {
-        name: 'Chain Coefficient Reduction Removers',
+        name: 'Chain Coefficient Reduction reducer',
         target: 'special',
         matcher: /(removes|reduces).+Chain Coefficient Reduction/i,
         icon: 'chainlimit'
@@ -845,7 +842,7 @@ window.matchers = [
     },
 
     {
-        name: 'Blindness removers',
+        name: 'Blindness reducers',
         target: 'sailor',
         matcher: /(reduces|removes|resists).+blindness/i,
         icon: 'blindness'
@@ -863,6 +860,12 @@ window.matchers = [
         target: 'sailor',
         matcher: /Restores (his|her) own special/i,
         icon: 'reduce cd'
+    },
+    
+    {
+        name: 'Special Cooldown Reducer on Special Activation',
+        target: 'sailor',
+        matcher: /When any.+character uses a special, reduces own cooldown/i
     },
     
     {
@@ -896,50 +899,43 @@ window.matchers = [
     {
         name: 'STR Orb Team "Beneficial" Orb sailors',
         target: 'sailor',
-        matcher: /\[STR\].+beneficial.+for (Free Spirit|Striker|Slasher|Fighter|Shooter|Driven|Powerhouse|Cerebral|all|\[STR\]|\[DEX\]|\[QCK\]|\[PSY\]|\[INT\]) characters/i,
-        icon: 'orb match'
+        matcher: /Makes.+\[STR\][^\"\d]+orbs \\"beneficial\\"[^\"\d]+characters/i
     },
     
     {
         name: 'DEX Orb Team "Beneficial" Orb sailors',
         target: 'sailor',
-        matcher: /\[DEX\].+beneficial.+for (Free Spirit|Striker|Slasher|Fighter|Shooter|Driven|Powerhouse|Cerebral|all|\[STR\]|\[DEX\]|\[QCK\]|\[PSY\]|\[INT\]) characters/i,
-        icon: 'orb match'
+        matcher: /Makes.+\[DEX\][^\"\d]+orbs \\"beneficial\\"[^\"\d]+characters/i
     },
     
     {
         name: 'QCK Orb Team "Beneficial" Orb sailors',
         target: 'sailor',
-        matcher: /\[QCK\].+beneficial.+for (Free Spirit|Striker|Slasher|Fighter|Shooter|Driven|Powerhouse|Cerebral|all|\[STR\]|\[DEX\]|\[QCK\]|\[PSY\]|\[INT\]) characters/i,
-        icon: 'orb match'
+        matcher: /Makes.+\[QCK\][^\"\d]+orbs \\"beneficial\\"[^\"\d]+characters/i
     },
     
     {
         name: 'PSY Orb Team "Beneficial" Orb sailors',
         target: 'sailor',
-        matcher: /\[PSY\].+beneficial.+for (Free Spirit|Striker|Slasher|Fighter|Shooter|Driven|Powerhouse|Cerebral|all|\[STR\]|\[DEX\]|\[QCK\]|\[PSY\]|\[INT\]) characters/i,
-        icon: 'orb match'
+        matcher: /Makes.+\[PSY\][^\"\d]+orbs \\"beneficial\\"[^\"\d]+characters/i
     },
     
     {
         name: 'INT Orb Team "Beneficial" Orb sailors',
         target: 'sailor',
-        matcher: /\[INT\].+beneficial.+for (Free Spirit|Striker|Slasher|Fighter|Shooter|Driven|Powerhouse|Cerebral|all|\[STR\]|\[DEX\]|\[QCK\]|\[PSY\]|\[INT\]) characters/i,
-        icon: 'orb match'
+        matcher: /Makes.+\[INT\][^\"\d]+orbs \\"beneficial\\"[^\"\d]+characters/i
     },
     
     {
         name: 'TND Orb Team "Beneficial" Orb sailors',
         target: 'sailor',
-        matcher: /\[TND\].+beneficial.+for (Free Spirit|Striker|Slasher|Fighter|Shooter|Driven|Powerhouse|Cerebral|all|\[STR\]|\[DEX\]|\[QCK\]|\[PSY\]|\[INT\]) characters/i,
-        icon: 'orb match'
+        matcher: /Makes.+\[TND\][^\"\d]+orbs \\"beneficial\\"[^\"\d]+characters/i
     },
     
     {
         name: 'RCV Orb Team "Beneficial" Orb sailors',
         target: 'sailor',
-        matcher: /\[RCV\].+beneficial.+for (Free Spirit|Striker|Slasher|Fighter|Shooter|Driven|Powerhouse|Cerebral|all|\[STR\]|\[DEX\]|\[QCK\]|\[PSY\]|\[INT\]) characters/i,
-        icon: 'orb match'
+        matcher: /Makes.+\[RCV\][^\"\d]+orbs \\"beneficial\\"[^\"\d]+characters/i
     },
     
     /* * * * * Limit Break * * * * */
