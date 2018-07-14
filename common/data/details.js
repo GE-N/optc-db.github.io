@@ -3244,10 +3244,10 @@ window.details = {
                 "Name": "Cooldown Reduction",
                 "description": [
                     "Level 1: Reduce own Special Cooldown by 1 turn at the start of the fight",
-                    "Level 2: Reduce own Special Cooldown by 2 turn at the start of the fight",
-                    "Level 3: Reduce own Special Cooldown by 3 turn at the start of the fight",
-                    "Level 4: Reduce own Special Cooldown by 4 turn at the start of the fight",
-                    "Level 5: Reduce own Special Cooldown by 5 turn at the start of the fight"
+                    "Level 2: Reduce own Special Cooldown by 2 turns at the start of the fight",
+                    "Level 3: Reduce own Special Cooldown by 3 turns at the start of the fight",
+                    "Level 4: Reduce own Special Cooldown by 4 turns at the start of the fight",
+                    "Level 5: Reduce own Special Cooldown by 5 turns at the start of the fight"
                 ]
             },
         ]
@@ -9599,8 +9599,8 @@ window.details = {
                 "Name": "Reduce No Healing duration",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
-                    "Level 2: Reduces No Healing duration by 2 turn",
-                    "Level 3: Reduces No Healing duration by 3 turn",
+                    "Level 2: Reduces No Healing duration by 2 turns",
+                    "Level 3: Reduces No Healing duration by 3 turns",
                     "Level 4: Reduces No Healing duration by 5 turns",
                     "Level 5: Reduces No Healing duration by 7 turns"
                 ]
@@ -14247,20 +14247,20 @@ window.details = {
                 "Name": "[PSY] Damage Reduction",
                 "description": [
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
-                    "Level 2: Reduce damage taken from [PSY] characters by ?%",
-                    "Level 3: Reduce damage taken from [PSY] characters by ?%",
-                    "Level 4: Reduce damage taken from [PSY] characters by ?%",
-                    "Level 5: Reduce damage taken from [PSY] characters by ?%"
+                    "Level 2: Reduce damage taken from [PSY] characters by 2%",
+                    "Level 3: Reduce damage taken from [PSY] characters by 3%",
+                    "Level 4: Reduce damage taken from [PSY] characters by 4%",
+                    "Level 5: Reduce damage taken from [PSY] characters by 5%"
                 ]
             },
             {
                 "Name": "Slot Bind Self-reduction",
                 "description": [
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
-                    "Level 2: Reduces Slot Bind duration by ? turns on this character",
-                    "Level 3: Reduces Slot Bind duration by ? turns on this character",
-                    "Level 4: Reduces Slot Bind duration by ? turns on this character",
-                    "Level 5: Reduces Slot Bind duration by ? turns on this character"
+                    "Level 2: Reduces Slot Bind duration by 2 turns on this character",
+                    "Level 3: Reduces Slot Bind duration by 3 turns on this character",
+                    "Level 4: Reduces Slot Bind duration by 5 turns on this character",
+                    "Level 5: Reduces Slot Bind duration by 7 turns on this character"
                 ]
             },
         ]
@@ -14622,10 +14622,10 @@ window.details = {
                 "Name": "Barrier Penetration",
                 "description": [
                     "Level 1: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
-                    "Level 2: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
-                    "Level 3: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
-                    "Level 4: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn",
-                    "Level 5: This character's normal attack will ignore barriers if HP is above ??% at the start of the turn"
+                    "Level 2: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
             },
         ]
@@ -16283,10 +16283,10 @@ window.details = {
                 "Name": "Cooldown Reduction",
                 "description": [
                     "Level 1: Reduce own Special Cooldown by 1 turn at the start of the fight",
-                    "Level 2: Reduce own Special Cooldown by 2 turn at the start of the fight",
-                    "Level 3: Reduce own Special Cooldown by 3 turn at the start of the fight",
-                    "Level 4: Reduce own Special Cooldown by 4 turn at the start of the fight",
-                    "Level 5: Reduce own Special Cooldown by 5 turn at the start of the fight"
+                    "Level 2: Reduce own Special Cooldown by 2 turns at the start of the fight",
+                    "Level 3: Reduce own Special Cooldown by 3 turns at the start of the fight",
+                    "Level 4: Reduce own Special Cooldown by 4 turns at the start of the fight",
+                    "Level 5: Reduce own Special Cooldown by 5 turns at the start of the fight"
                 ]
             },
         ]
@@ -17784,7 +17784,7 @@ window.details = {
                     "Level 2: If HP is below ??% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
                     "Level 3: If HP is below ??% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
                     "Level 4: If HP is below ??% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below ??% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 5: If HP is below 50% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
                 ]
             },
         ]
@@ -20269,7 +20269,7 @@ window.details = {
                     "Level 2: This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
                     "Level 3: This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
                     "Level 4: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
-                    "Level 5: This character's normal attack will ignore barriers at the start of the turn"
+                    "Level 5: This character's normal attack will ignore barriers"
                 ]
             },
             {
@@ -21284,7 +21284,7 @@ window.details = {
                     "Level 2: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
                     "Level 3: This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
                     "Level 4: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
-                    "Level 5: This character's normal attack will ignore barriers at the start of the turn"
+                    "Level 5: This character's normal attack will ignore barriers"
                 ]
             },
         ]
@@ -21507,7 +21507,7 @@ window.details = {
                     "Level 2: This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
                     "Level 3: This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
                     "Level 4: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
-                    "Level 5: This character's normal attack will ignore barriers at the start of the turn"
+                    "Level 5: This character's normal attack will ignore barriers"
                 ]
             },
         ]
@@ -24706,7 +24706,7 @@ window.details = {
                     "Level 2: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
                     "Level 3: This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
                     "Level 4: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
-                    "Level 5: This character's normal attack will ignore barriers at the start of the turn"
+                    "Level 5: This character's normal attack will ignore barriers"
                 ]
             },
         ]
@@ -26849,7 +26849,7 @@ window.details = {
                     "Level 2: This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
                     "Level 3: This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
                     "Level 4: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
-                    "Level 5: This character's normal attack will ignore barriers at the start of the turn"
+                    "Level 5: This character's normal attack will ignore barriers"
                 ]
             },
         ]
@@ -26931,7 +26931,7 @@ window.details = {
                     "Level 2: This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
                     "Level 3: This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
                     "Level 4: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
-                    "Level 5: This character's normal attack will ignore barriers at the start of the turn"
+                    "Level 5: This character's normal attack will ignore barriers"
                 ]
             },
         ]
@@ -30042,7 +30042,7 @@ window.details = {
                 "Name": "Reduce No Healing duration",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
-                    "Level 2: Reduces No Healing duration by 2 turn",
+                    "Level 2: Reduces No Healing duration by 2 turns",
                     "Level 3: Reduces No Healing duration by 3 turns",
                     "Level 4: Reduces No Healing duration by 4 turns",
                     "Level 5: Reduces No Healing duration by 5 turns"
@@ -30075,7 +30075,7 @@ window.details = {
         specialNotes:"#{ignoreBarrier}",
     },
     2168: {//Inuarashi
-        captain: "If there's a [STR], [DEX], [QCK], [PSY] and [INT] character in your crew, boosts ATK of all characters by ?x and their HP by ?x. If you use \"Lightning Counterattack\" in this turn and there's a [STR], [DEX], [QCK], [PSY] and [INT] character in your crew boosts ATK of all characters by ?x instead, by ?x otherwise.",
+        captain: "If there\'s a [STR], [DEX], [QCK], [PSY] and [INT] character in your crew, boosts ATK of all characters by 2x. If you use \"Lightning Counterattack\" in this turn and there\'s a [STR], [DEX], [QCK], [PSY] and [INT] character in your crew boosts ATK of all characters by 2.75x instead, by 1.37x otherwise.",
         special: "Reduces Silence duration by 4 turns and reduces enemy Threshold Damage Reduction duration by 3 turns. If you are on a Treasure Map, amplifies the effects of orbs for all characters depending on your Treasure Map Level for 1 turn",
         specialName: "Lightning Counterattack",
         specialNotes: "Level 1-10: 1.75x orb boost<br\>Level 11-20: 2x orb boost<br\>Level 21+: 2.25x orb boost",
