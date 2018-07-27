@@ -29144,7 +29144,7 @@ window.details = {
             },
         ],
         specialName: "Slow Ballad",
-        sailor: "Makes PSY orbs \"beneficial\" for this character",
+        sailor: "Makes [PSY] orbs \"beneficial\" for this character",
         sailorNotes: "#{beneficial}",
     },
     2117: {//Amande
@@ -29161,7 +29161,7 @@ window.details = {
         ],
         specialName: "Slow Ballad",
         sailor: {
-            "base": "Makes PSY orbs \"beneficial\" for this character",
+            "base": "Makes [PSY] orbs \"beneficial\" for this character",
             "level1": "Adds 2x character's ATK as Additional Typeless Damage",
         },
         sailorNotes: "#{beneficial} <br> #{additionalDamage : 2x}",
@@ -30539,12 +30539,12 @@ window.details = {
     },
     2176: {//Nekomamushi
         captain: "Boosts ATK of Striker characters by ?x and their HP by ?x",
-        special: "Reduces Bind duration by 2 turns and changes own orb into [QCK]. if your captain is a Striker character, adds .5x to Chain multiplier for 2 turns.",
+        special: "Reduces Bind duration by 2 turns and changes own orb into [QCK]. If your captain is a Striker character, adds .5x to Chain multiplier for 2 turns.",
         specialName: "Cat Toy",
     },
     2177: {//Nekomamushi
         captain: "Boosts ATK of Striker characters by 2.25x and their HP by 1.1x",
-        special: "Reduces Bind duration by 2 turns and changes own orb into [QCK]. if your captain is a Striker character, adds .5x to Chain multiplier for 2 turns.",
+        special: "Reduces Bind duration by 2 turns and changes own orb into [QCK]. If your captain is a Striker character, adds .5x to Chain multiplier for 2 turns.",
         specialName: "Cat Toy",
     },
     2178: {//Roddy
