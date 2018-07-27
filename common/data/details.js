@@ -4018,7 +4018,7 @@ window.details = {
         sailor: {
             "base": "None",
             "level1": "When any other character uses a special, reduces own cooldown by 2 turns",
-            "level2": "if your captain is a Shooter chracter, makes [STR], [QCK], [DEX], [PSY] and [INT] orbs \"beneficial\" for this character",
+            "level2": "If your captain is a Shooter chracter, makes [STR], [QCK], [DEX], [PSY] and [INT] orbs \"beneficial\" for this character",
         },
         limit: [
             { "description": "Boosts base HP by 20" },
@@ -4034,7 +4034,7 @@ window.details = {
             { "description": "Acquire Sailor Ability 1: When any other character uses a special, reduces own cooldown by 2 turns" },
             { "description": "Boosts base ATK by 80" },
             { "description": "Reduce base Special Cooldown by 1 turn" },
-            { "description": "Acquire Sailor Ability 2: if your captain is a Shooter chracter, makes [STR], [QCK], [DEX], [PSY] and [INT] orbs \"beneficial\" for this character" },
+            { "description": "Acquire Sailor Ability 2: If your captain is a Shooter chracter, makes [STR], [QCK], [DEX], [PSY] and [INT] orbs \"beneficial\" for this character" },
             { "description": "Acquire Potential 2: Barrier Penetration" },
         ],
         potential: [
@@ -13273,7 +13273,7 @@ window.details = {
         specialName: "Burning Vanguard",
         sailor: {
             "base": "None",
-            "level1": "Reduces Paralysis duration on this character by 3 turn",
+            "level1": "Reduces Paralysis duration on this character by 3 turns",
         },
         limit: [
             { "description": "Boosts base RCV by 10" },
@@ -16113,7 +16113,7 @@ window.details = {
         specialNotes: "Increases timing window to hit a PERFECT. (Animation remains the same)",
         specialName: "Flail Hidden From God",
         sailor: {
-            "base": "if your captain is a Powerhouse character, completely resists Blindness",
+            "base": "If your captain is a Powerhouse character, completely resists Blindness",
             "level1": "Makes [TND] orbs \"beneficial\" for Powerhouse characters",
         },
         sailorNotes: "#{beneficial}",
@@ -19624,7 +19624,7 @@ window.details = {
         special: "Reduces Bind and Despair duration by 5 turns. if your captain is a Striker character, locks the chain multiplier at 2.75x for 1 turn",
         specialName: "Summon Dragon",
         sailor: {
-            "base": "if your captain is a Striker character, makes [DEX] orbs \"beneficial\" for Striker characters",
+            "base": "If your captain is a Striker character, makes [DEX] orbs \"beneficial\" for Striker characters",
             "level1": "Boosts base ATK, HP and RCV of Striker characters by 75",
         },
         sailorNotes: "#{beneficial}",
@@ -20850,12 +20850,12 @@ window.details = {
     },
     1720: {//Secret Jinbe
         captain: "Boosts ATK of Fighter characters by 2.5x",
-        special: "if your captain is a Fighter character, changes adjacent orbs into matching orbs and locks the chain multiplier at 2.5x for 1 turn",
+        special: "If your captain is a Fighter character, changes adjacent orbs into matching orbs and locks the chain multiplier at 2.5x for 1 turn",
         specialName: "Passive Aggressive Boss"
     },
     1721: {//Secret Jinbe
         captain: "Boosts HP of Fighter characters by 1.4x and boosts ATK of Fighter characters by 2.75x if they have a matching orb, by 2.5x otherwise.",
-        special: "if your captain is a Fighter character, changes adjacent orbs into matching orbs and locks the chain multiplier at 2.5x for 1 turn",
+        special: "If your captain is a Fighter character, changes adjacent orbs into matching orbs and locks the chain multiplier at 2.5x for 1 turn",
         specialName: "Passive Aggressive Boss",
         sailor: {
             "base": "None",
@@ -22091,7 +22091,7 @@ window.details = {
         captain: "Boosts ATK of [STR], [DEX] and [QCK] characters by 2.5x after scoring 3 PERFECTs in a row",
         special: "Cuts the current HP of one enemy by 20% that will ignore damage negating abilities and barriers. Changes the orbs in the top row into [STR] orbs, changes the orbs in the middle row into [QCK] orbs, changes the orbs in the bottom row into [DEX] orbs and amplifies the effect of orbs by 1.75x for 1 turn",
         specialNotes: "#{ignoreBarrier}",
-        sailor: "if your captain is a [STR] character, boosts this character's attack against [STR] characters by 1.5x",
+        sailor: "If your captain is a [STR] character, boosts this character's attack against [STR] characters by 1.5x",
         specialName: "Gomu Gomu no Hawk Rifle",
     },
     1792:{//Lucy Luffy
@@ -22099,7 +22099,7 @@ window.details = {
         special: "Cuts the current HP of one enemy by 20% that will ignore damage negating abilities and barriers. Changes the orbs in the top row into [STR] orbs, changes the orbs in the middle row into [QCK] orbs, changes the orbs in the bottom row into [DEX] orbs and amplifies the effect of orbs by 1.75x for 1 turn",
         specialNotes: "#{ignoreBarrier}",
         sailor: {
-            "base": "if your captain is a [STR] character, boosts this character's attack against [STR] characters by 1.5x",
+            "base": "If your captain is a [STR] character, boosts this character's attack against [STR] characters by 1.5x",
             "level1": "Boosts base ATK and HP of [DEX] and [QCK] characters by 75 if your captain is a [STR] character",
         },
         specialName: "Gomu Gomu no Hawk Rifle",
@@ -23125,7 +23125,7 @@ window.details = {
     1837: {//Niji
         captain: "Boosts ATK of [QCK] characters by 1.75x, boosts ATK of Powerhouse characters by 1.2x and the HP of Powerhouse characters by 1.2x",
         captainNotes: "Attack boost stacks, so a [QCK] Powerhouse character has a 2.1x ATK",
-        special: "if your captain is a [QCK] or [PSY] character, boosts ATK of all characters by 1.75x for 2 turns. if your captain is a Powerhouse character, locks all orbs for 1 turn",
+        special: "If your captain is a [QCK] or [PSY] character, boosts ATK of all characters by 1.75x for 2 turns. if your captain is a Powerhouse character, locks all orbs for 1 turn",
         specialName: "Blitz Needle",
         sailor: "Makes [PSY] orbs \"beneficial\" for this character",
         sailorNotes: "#{beneficial}",
@@ -23133,7 +23133,7 @@ window.details = {
     1838: {//Niji
         captain: "Boosts ATK of [QCK] characters by 2.25x, boosts ATK of Powerhouse characters by 1.3x and the HP of Powerhouse characters by 1.2x",
         captainNotes: "Attack boost stacks, so a [QCK] Powerhouse character has a 2.925x ATK",
-        special: "if your captain is a [QCK] or [PSY] character, boosts ATK of all characters by 1.75x for 2 turns. if your captain is a Powerhouse character, locks all orbs for 1 turn",
+        special: "If your captain is a [QCK] or [PSY] character, boosts ATK of all characters by 1.75x for 2 turns. if your captain is a Powerhouse character, locks all orbs for 1 turn",
         specialName: "Blitz Needle",
         sailor: {
             "base": "Makes [PSY] orbs \"beneficial\" for this character",
@@ -23183,7 +23183,7 @@ window.details = {
     1839: {//Yonji
         captain: "Boosts ATK of [DEX] characters by 1.75x, boosts ATK of Powerhouse characters by 1.2x and the HP of Powerhouse characters by 1.2x",
         captainNotes: "Attack boost stacks, so a [DEX] Powerhouse character has a 2.1x ATK",
-        special: "if your captain is a [DEX] or [PSY] character, boosts ATK against delayed enemies by 1.75x for 1 turn. if your captain is a Powerhouse character, adds 40x characters ATK as additional typeless damage for 1 turn",
+        special: "If your captain is a [DEX] or [PSY] character, boosts ATK against delayed enemies by 1.75x for 1 turn. if your captain is a Powerhouse character, adds 40x characters ATK as additional typeless damage for 1 turn",
         specialName: "Burst End Kick",
         specialNotes: "#{additionalDamage : 40x}",
         sailor: "Makes [PSY] orbs \"beneficial\" for this character",
@@ -23192,7 +23192,7 @@ window.details = {
     1840: {//Yonji
         captain: "Boosts ATK of [DEX] characters by 2.25x, boosts ATK of Powerhouse characters by 1.3x and the HP of Powerhouse characters by 1.2x",
         captainNotes: "Attack boost stacks, so a [DEX] Powerhouse character has a 2.925x ATK",
-        special: "if your captain is a [DEX] or [PSY] character, boosts ATK against delayed enemies by 1.75x for 1 turn. if your captain is a Powerhouse character, adds 40x characters ATK as additional typeless damage for 1 turn",
+        special: "If your captain is a [DEX] or [PSY] character, boosts ATK against delayed enemies by 1.75x for 1 turn. if your captain is a Powerhouse character, adds 40x characters ATK as additional typeless damage for 1 turn",
         specialName: "Burst End Kick",
         specialNotes: "#{additionalDamage : 40x}",
         sailor: {
@@ -26007,7 +26007,7 @@ window.details = {
     },
     1971: {//Sabo
         captain: "Boosts ATK of Cerebral characters by 1.3x and their HP and RCV by 1.05x and boosts chain by 1.1x if HP is above 70% or below 30% at the start of the turn",
-        special: "if your captain is a Cerebral character, changes [STR], [DEX], [QCK], [INT] and [PSY] orbs on Cerebral characters into Matching orbs, reduces the defense of all enemies by 80% and boosts ATK against enemies with reduced defense by 1.75x for 1 turn",
+        special: "If your captain is a Cerebral character, changes [STR], [DEX], [QCK], [INT] and [PSY] orbs on Cerebral characters into Matching orbs, reduces the defense of all enemies by 80% and boosts ATK against enemies with reduced defense by 1.75x for 1 turn",
         specialName: "Blissful Selection",
     },
     1972: {//Sabo
@@ -26020,7 +26020,7 @@ window.details = {
             "level5": "Boosts ATK of Cerebral characters by 2x and their HP and RCV by 1.2x and boosts chain by 1.4x if HP is above 70% or below 30% at the start of the turn",
             "level6": "Boosts ATK of Cerebral characters by 2.25x and their HP and RCV by 1.2x and boosts chain by 1.5x if HP is above 70% or below 30% at the start of the turn",
         },
-        special: "if your captain is a Cerebral character, changes [STR], [DEX], [QCK], [INT] and [PSY] orbs on Cerebral characters into Matching orbs, reduces the defense of all enemies by 80% and boosts ATK against enemies with reduced defense by 1.75x for 1 turn",
+        special: "If your captain is a Cerebral character, changes [STR], [DEX], [QCK], [INT] and [PSY] orbs on Cerebral characters into Matching orbs, reduces the defense of all enemies by 80% and boosts ATK against enemies with reduced defense by 1.75x for 1 turn",
         specialName: "Blissful Selection",
         sailor: {
             "base": "None",
@@ -27671,7 +27671,7 @@ window.details = {
         sailorNotes: "#{beneficial}",
         sailor: {
             "base": "Makes [INT] orbs \"beneficial\" for Powerhouse characters",
-            "level1": "if your captain is a Powerhouse character, completely resists Blindness",
+            "level1": "If your captain is a Powerhouse character, completely resists Blindness",
         },
         limit: [
             { "description": "Boosts base RCV by 10" },
@@ -28156,12 +28156,12 @@ window.details = {
     },
     2075: {//Legend Nami
         captain: "Reduces cooldown of all specials by 1 turn at the start of the fight and boosts ATK of [DEX] characters by 3.75x and makes [STR] and [QCK] orbs \"beneficial\" to [DEX] characters",
-        special: "if your captain is a Free Spirit, Cerebral, Powerhouse or Driven character, boosts the Color Affinity of Free Spirit, Cerebral, Powerhouse and Driven characters by 1.75x for 1 turn and amplifies the effects of orbs for Free Spirit, Cerebral, Powerhouse and Driven characters by 2x for 1 turn",
+        special: "If your captain is a Free Spirit, Cerebral, Powerhouse or Driven character, boosts the Color Affinity of Free Spirit, Cerebral, Powerhouse and Driven characters by 1.75x for 1 turn and amplifies the effects of orbs for Free Spirit, Cerebral, Powerhouse and Driven characters by 2x for 1 turn",
         specialName: "Weather Egg: Thunderbreed Tempo",
     },
     2076: {//Legend Nami
         captain: "Reduces cooldown of all specials by 1 turn at the start of the fight and boosts ATK of [DEX] characters by 3.75x and makes [STR] and [QCK] orbs \"beneficial\" to [DEX] characters",
-        special: "if your captain is a Free Spirit, Cerebral, Powerhouse or Driven character, boosts the Color Affinity of Free Spirit, Cerebral, Powerhouse and Driven characters by 1.75x for 1 turn and amplifies the effects of orbs for Free Spirit, Cerebral, Powerhouse and Driven characters by 2x for 1 turn",
+        special: "If your captain is a Free Spirit, Cerebral, Powerhouse or Driven character, boosts the Color Affinity of Free Spirit, Cerebral, Powerhouse and Driven characters by 1.75x for 1 turn and amplifies the effects of orbs for Free Spirit, Cerebral, Powerhouse and Driven characters by 2x for 1 turn",
         specialName: "Weather Egg: Thunderbreed Tempo",
         sailor: {
             "base": "None",
@@ -29707,7 +29707,7 @@ window.details = {
     2141: {//Niji
         captain: "Boosts ATK of [DEX] characters by 2.25x, boosts ATK of Powerhouse characters by 1.4x and the HP of Powerhouse characters by 1.2x",
         captainNotes: "Attack boost stacks, so a [DEX] Powerhouse character has a 3.15x ATK",
-        special: "if your captain is a [DEX] or [INT] character, locks the chain multiplier at 2.75x for 2 turns. if your captain is a Powerhouse character, reduces enemies' ATK Up and Enrage Buffs by 3 turn",
+        special: "If your captain is a [DEX] or [INT] character, locks the chain multiplier at 2.75x for 2 turns. if your captain is a Powerhouse character, reduces enemies' ATK Up and Enrage Buffs by 3 turn",
         specialName: "Super Blue Twin Step",
         sailor: {
             "base": "Makes [INT] orbs \"beneficial\" for this character",
@@ -29757,7 +29757,7 @@ window.details = {
     2142: {//Yonji
         captain: "Boosts ATK of [STR] characters by 2.25x, boosts ATK of Powerhouse characters by 1.4x and the HP of Powerhouse characters by 1.2x",
         captainNotes: "Attack boost stacks, so a [STR] Powerhouse character has a 3.15x ATK",
-        special: "if your captain is a [STR] or [INT] character, adds 55x characters ATK as additional typeless damage for 1 turn. if your captain is a Powerhouse character, reduces enemies Percent Damage Reduction and Threshold Damage Reduction duration by 3 turns",
+        special: "If your captain is a [STR] or [INT] character, adds 55x characters ATK as additional typeless damage for 1 turn. if your captain is a Powerhouse character, reduces enemies Percent Damage Reduction and Threshold Damage Reduction duration by 3 turns",
         specialName: "Burst End Iron Arm",
         specialNotes: "#{additionalDamage : 55x}",
         sailor: {
@@ -29908,14 +29908,14 @@ window.details = {
     },
     2149: {//Zeff
         captain: "Reduces cooldown of all specials by 1 turn at the start of the fight, boosts ATK of Fighter characters by 2.25x and their HP by 1.2x",
-        special: "if your captain is a Fighter character, boosts the Color Affinity of Fighter characters by 1.75x for 1 turn",
+        special: "If your captain is a Fighter character, boosts the Color Affinity of Fighter characters by 1.75x for 1 turn",
         specialNotes: "#{colorAffinity : 1.75}",
         specialName: "Chef's Long Kick",
         sailor: "When any other character uses a special, reduces own cooldown by 3 turns",
     },
     2150: {//Zeff
         captain: "Reduces cooldown of all specials by 1 turn at the start of the fight, boosts ATK of Fighter characters by 2.5x and their HP by 1.2x",
-        special: "if your captain is a Fighter character, boosts the Color Affinity of Fighter characters by 1.75x for 1 turn",
+        special: "If your captain is a Fighter character, boosts the Color Affinity of Fighter characters by 1.75x for 1 turn",
         specialNotes: "#{colorAffinity : 1.75}",
         specialName: "Chef's Long Kick",
         sailor: {
@@ -30390,13 +30390,13 @@ window.details = {
         captain: "Boosts ATK of Slasher, Striker and Shooter characters by 1.5x",
         special: "Changes the captain's orb into [DEX], amplifies the effect of orbs for Fighter characters by 1.75x for 1 turn",
         specialName: "Irritation of Love",
-        sailor: "if your captain is a Fighter character, adds 1.5x character's ATK as Additional Typeless Damage",
+        sailor: "If your captain is a Fighter character, adds 1.5x character's ATK as Additional Typeless Damage",
     },
     2165: {//Baby 5
         captain: "Boosts ATK of Slasher, Striker and Shooter characters by 1.75x",
         special: "Changes the captain's orb into [DEX], amplifies the effect of orbs for Fighter characters by 1.75x for 1 turn",
         specialName: "Irritation of Love",
-        sailor: "if your captain is a Fighter character, adds 1.5x character's ATK as Additional Typeless Damage",
+        sailor: "If your captain is a Fighter character, adds 1.5x character's ATK as Additional Typeless Damage",
     },
     2166: {//Don Sai
         captain: "Boosts ATK of Striker and Fighter characters by 2x after scoring 3 GREATS in a row, by 1.5x otherwise.",
@@ -30773,13 +30773,13 @@ window.details = {
         captain: "Boosts ATK of Striker and Slasher characters proportionally to the crew's current HP, by ?x at max and reduce damage received by ?%",
         special: "Reduces enemy's Threshold Damage Reduction duration by 5 turns and boosts ATK of Slasher and Striker characters by 1.75x for 1 turn. if your captain is a Slasher or Striker character, reduces RCV DOWN and Increase Damage Taken duration by 3 turns.",
         specialName: "Heart-Throbbing Beach Volleyball",
-        sailor: "if your captain is a Slasher or Striker character, reduces Blindness duration by 5 turns",
+        sailor: "If your captain is a Slasher or Striker character, reduces Blindness duration by 5 turns",
     },
     2191: {//Rebecca
         captain: "Boosts ATK of Striker and Slasher characters proportionally to the crew's current HP, by 2.5x at max and reduce damage received by 15%",
         special: "Reduces enemy's Threshold Damage Reduction duration by 5 turns and boosts ATK of Slasher and Striker characters by 1.75x for 1 turn. if your captain is a Slasher or Striker character, reduces RCV DOWN and Increase Damage Taken duration by 3 turns.",
         specialName: "Heart-Throbbing Beach Volleyball",
-        sailor: "if your captain is a Slasher or Striker character, reduces Blindness duration by 5 turns",
+        sailor: "If your captain is a Slasher or Striker character, reduces Blindness duration by 5 turns",
     },
     2192: {//Kuma
         captain: "Boosts ATK of Shooter characters by ?x and recovers ?x character's RCV in HP at the end of each turn",
