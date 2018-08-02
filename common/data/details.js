@@ -13248,20 +13248,20 @@ window.details = {
                 "Name": "[STR] Damage Reduction",
                 "description": [
                     "Level 1: Reduce damage taken from [STR] characters by 1%",
-                    "Level 2: Reduce damage taken from [STR] characters by ?%",
-                    "Level 3: Reduce damage taken from [STR] characters by ?%",
-                    "Level 4: Reduce damage taken from [STR] characters by ?%",
-                    "Level 5: Reduce damage taken from [STR] characters by ?%"
+                    "Level 2: Reduce damage taken from [STR] characters by 2%",
+                    "Level 3: Reduce damage taken from [STR] characters by 3%",
+                    "Level 4: Reduce damage taken from [STR] characters by 4%",
+                    "Level 5: Reduce damage taken from [STR] characters by 5%"
                 ]
             },
             {
                 "Name": "Enrage",
                 "description": [
                     "Level 1: Boosts base ATK by 30",
-                    "Level 2: Boosts base ATK by ?",
-                    "Level 3: Boosts base ATK by ?",
-                    "Level 4: Boosts base ATK by ?",
-                    "Level 5: Boosts base ATK by ?"
+                    "Level 2: Boosts base ATK by 60",
+                    "Level 3: Boosts base ATK by 90",
+                    "Level 4: Boosts base ATK by 120",
+                    "Level 5: Boosts base ATK by 150"
                 ]
             },
         ],
@@ -13307,20 +13307,20 @@ window.details = {
                 "Name": "[DEX] Damage Reduction",
                 "description": [
                     "Level 1: Reduce damage taken from [DEX] characters by 1%",
-                    "Level 2: Reduce damage taken from [DEX] characters by ?%",
-                    "Level 3: Reduce damage taken from [DEX] characters by ?%",
-                    "Level 4: Reduce damage taken from [DEX] characters by ?%",
-                    "Level 5: Reduce damage taken from [DEX] characters by ?%"
+                    "Level 2: Reduce damage taken from [DEX] characters by 2%",
+                    "Level 3: Reduce damage taken from [DEX] characters by 3%",
+                    "Level 4: Reduce damage taken from [DEX] characters by 4%",
+                    "Level 5: Reduce damage taken from [DEX] characters by 5%"
                 ]
             },
             {
                 "Name": "Slot Bind Self-reduction",
                 "description": [
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
-                    "Level 2: Reduces Slot Bind duration by ? turns on this character",
-                    "Level 3: Reduces Slot Bind duration by ? turns on this character",
-                    "Level 4: Reduces Slot Bind duration by ? turns on this character",
-                    "Level 5: Reduces Slot Bind duration by ? turns on this character"
+                    "Level 2: Reduces Slot Bind duration by 2 turns on this character",
+                    "Level 3: Reduces Slot Bind duration by 3 turns on this character",
+                    "Level 4: Reduces Slot Bind duration by 4 turns on this character",
+                    "Level 5: Reduces Slot Bind duration by 5 turns on this character"
                 ]
             },
         ]
@@ -17599,7 +17599,7 @@ window.details = {
                     "Level 2: This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
                     "Level 3: This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
                     "Level 4: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
-                    "Level 5: This character's normal attack will ignore barriers at the start of the turn if HP is above 30%"
+                    "Level 5: This character's normal attack will ignore barriers if HP is above 30% at the start of the turn"
                 ]
             },
         ]
@@ -17953,7 +17953,7 @@ window.details = {
                     "Level 2: This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
                     "Level 3: This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
                     "Level 4: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
-                    "Level 5: This character's normal attack will ignore barriers at the start of the turn if HP is above 30%"
+                    "Level 5: This character's normal attack will ignore barriers if HP is above 30% at the start of the turn"
                 ]
             },
         ]
@@ -25472,7 +25472,7 @@ window.details = {
                     "Level 2: This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
                     "Level 3: This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
                     "Level 4: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
-                    "Level 5: This character's normal attack will ignore barriers at the start of the turn"
+                    "Level 5: This character's normal attack will ignore barriers"
                 ]
             },
         ]
@@ -27169,7 +27169,7 @@ window.details = {
                     "Level 2: This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
                     "Level 3: This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
                     "Level 4: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
-                    "Level 5: This character's normal attack will ignore barriers at the start of the turn"
+                    "Level 5: This character's normal attack will ignore barriers"
                 ]
             },
         ]
@@ -30656,7 +30656,7 @@ window.details = {
     },
     2180: {//Whitebeard&Marco
         captain: {
-            "character1": "Boosts ATK of PSY characters by 3.5x, boosts ATK of all other characters by 2.75x, reduce damage received by 15% and makes [PSY] orbs \"beneficial\" to all characters",
+            "character1": "Boosts ATK of PSY characters by 3.5x, boosts ATK of all other characters by 2.75x, reduce damage received by 20% and makes [PSY] orbs \"beneficial\" to all characters",
             "character2": "Boosts ATK of INT characters by 3.5x, boosts ATK of all other characters by 2.75x, boosts RCV of all characters by 1.25x and makes [PSY] orbs \"beneficial\" to all characters",
             "combined": "Boosts ATK of [PSY] and [INT] characters by 4.25x, boosts ATK of all other characters by 3x, boosts RCV of all characters by 1.5x, reduce damage received by 20% and makes [PSY] and [INT] orbs \"beneficial\" to all characters"
         },
@@ -30671,7 +30671,7 @@ window.details = {
     },
     2181: {//Whitebeard&Marco
         captain: {
-            "character1": "Boosts ATK of PSY characters by 3.5x, boosts ATK of all other characters by 2.75x, reduce damage received by 15% and makes [PSY] orbs \"beneficial\" to all characters",
+            "character1": "Boosts ATK of PSY characters by 3.5x, boosts ATK of all other characters by 2.75x, reduce damage received by 20% and makes [PSY] orbs \"beneficial\" to all characters",
             "character2": "Boosts ATK of INT characters by 3.5x, boosts ATK of all other characters by 2.75x, boosts RCV of all characters by 1.25x and makes [PSY] orbs \"beneficial\" to all characters",
             "combined": "Boosts ATK of [PSY] and [INT] characters by 4.25x, boosts ATK of all other characters by 3x, boosts RCV of all characters by 1.5x, reduce damage received by 20% and makes [PSY] and [INT] orbs \"beneficial\" to all characters"
         },
@@ -30806,6 +30806,23 @@ window.details = {
             "base": "Boosts base ATK, HP and RCV of [PSY] and [INT] characters by 30",
             "level1": "Makes [INT] orbs \"beneficial\" for this character",
         },
+        limit: [
+            { "description": "Boosts base ATK by 15" },
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Acquire Potential 1: [INT] Damage Reduction" },
+            { "description": "Boosts base ATK by 20" },
+            { "description": "Boosts base RCV by 20" },
+            { "description": "Boosts base HP by 70" },
+            { "description": "Boosts base ATK by 25" },
+            { "description": "Boosts base RCV by 20" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Boosts base HP by 90" },
+            { "description": "Acquire Sailor Ability 1: Makes [INT] orbs \"beneficial\" for this character" },
+            { "description": "Boosts base ATK by 40" },
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Acquire Potential 2: Barrier Penetration" },
+        ],
         potential: [
             {
                 "Name": "[INT] Damage Reduction",
@@ -30911,6 +30928,44 @@ window.details = {
                 ]
             },
         ]
+    },
+    2196: {//Blackbeard
+        captain: "Boosts ATK of Driven characters by 3.75x when HP is 10% or below, 2x otherwise boosts HP of Driven characters by 1.2x",
+        special: "Reduces enemy's Threshold Damage Reduction, Percent Damage Reduction, End of Turn Damage/Percent Cut, End of Turn Heal, Increased Defense, Damage Nullification, Barrier, ATK Up, Enrage and Resilience Buffs duration by 1 turn. Boosts ATK of all characters by 2x if HP is below 10% at the time the special is activated.",
+        specialName: "Blackbeard Special",
+    },
+    2197: {//Blackbeard
+        captain: "Boosts ATK of Driven characters by 3.75x when HP is 10% or below, 2x otherwise boosts HP of Driven characters by 1.2x",
+        special: "Reduces enemy's Threshold Damage Reduction, Percent Damage Reduction, End of Turn Damage/Percent Cut, End of Turn Heal, Increased Defense, Damage Nullification, Barrier, ATK Up, Enrage and Resilience Buffs duration by 1 turn. Boosts ATK of all characters by 2x if HP is below 10% at the time the special is activated.",
+        specialName: "Blackbeard Special",
+        sailor: {
+            "base": "None",
+            "level1": "When HP is below 10% at the start of the turn, boosts base ATK of all characters by 100",
+            "level2": "Makes [PSY] orbs \"beneficial\" for this character",
+        },
+        potential: [
+            {
+                "Name": "Enrage",
+                "description": [
+                    "Level 1: Boosts base ATK by 50",
+                    "Level 2: Boosts base ATK by 75",
+                    "Level 3: Boosts base ATK by 100",
+                    "Level 4: Boosts base ATK by 150",
+                    "Level 5: Boosts base ATK by 200"
+                ]
+            },
+            {
+                "Name": "Barrier Penetration",
+                "description": [
+                    "Level 1: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is above 75% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers"
+                ]
+            },
+        ],
+        potentialNotes: "#{enrage}"
     },
     2214: {//Reiju
         captain: "Boosts ATK of all characters by ?x and their RCV by ?x. If you defeat an enemy, increases ATK boost slightly. Stacks up to 8 times to a maximum of ?x.",
@@ -31697,14 +31752,14 @@ window.details = {
         ],
     },
     5016: {//Whitebeard&Marco
-        captain: "Boosts ATK of PSY characters by 3.5x, boosts ATK of all other characters by 2.75x, reduce damage received by 15% and makes [PSY] orbs \"beneficial\" to all characters",
+        captain: "Boosts ATK of PSY characters by 3.5x, boosts ATK of all other characters by 2.75x, reduce damage received by 20% and makes [PSY] orbs \"beneficial\" to all characters",
         special: "Cuts the current HP of each enemy by 30%, recovers 20,000 HP, randomizes all orbs into either [PSY], [INT] or [RCV] orbs and becomes Whitebeard & Marco for 3 turns",
         specialNotes: "Change Action: When Change is activated, reduces Paralysis and Silence duration by 1 turn, makes [RCV] orbs \"beneficial\" for all characters for 1 turn and changes their own orb into a [RCV] orb<br>#{beneficial}",
         specialName: "Immortal Blue Flame Shockwave",
         sailor: "Boosts base ATK of [PSY] and [INT] characters by 75",
     },
     5017: {//Whitebeard&Marco
-        captain: "Boosts ATK of PSY characters by 3.5x, boosts ATK of all other characters by 2.75x, reduce damage received by 15% and makes [PSY] orbs \"beneficial\" to all characters",
+        captain: "Boosts ATK of PSY characters by 3.5x, boosts ATK of all other characters by 2.75x, reduce damage received by 20% and makes [PSY] orbs \"beneficial\" to all characters",
         special: "Cuts the current HP of each enemy by 30%, recovers 20,000 HP, randomizes all orbs into either [PSY], [INT] or [RCV] orbs and becomes Whitebeard & Marco for 3 turns",
         specialNotes: "Change Action: When Change is activated, reduces Paralysis and Silence duration by 1 turn, makes [RCV] orbs \"beneficial\" for all characters for 1 turn and changes their own orb into a [RCV] orb<br>#{beneficial}",
         specialName: "Immortal Blue Flame Shockwave",
