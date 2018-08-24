@@ -149,7 +149,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
         result.cost = { cost: cost, level: Math.max(1,Math.floor(cost / 2) * 2 - 18) };
         $scope.numbers = jQuery.extend($scope.numbers, result);
         $scope.numbers.hp = Math.max(1,hpMax);
-        checkHealAndZombie(result, $scope.numbers);
+        checkHealAndZombie(result, $scope.numbers, [$scope.data.actionleft, $scope.data.actionright]);
         $timeout(function() { crunchSelfInhibit = false; });
     }
 
@@ -225,13 +225,13 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
                                      || ((window.specials[1746].turnedOn|| window.specials[1747].turnedOn) && x.unit.class.has("Shooter"))
                                      || ((window.specials[1940].turnedOn|| window.specials[1941].turnedOn) && (x.unit.type == "STR" || x.unit.type == "QCK" || x.unit.type == "PSY"))) ? 2 : 'str';
             
-            if (orb == 0.5) orb = (window.specials[1269].turnedOn || window.specials[1270].turnedOn || window.specials[1330].turnedOn || window.specials[1546].turnedOn || window.specials[1547].turnedOn || window.specials[1557].turnedOn) ? 1 : .5;
+            if (orb == 0.5) orb = (window.specials[1269].turnedOn || window.specials[1270].turnedOn || window.specials[1330].turnedOn || window.specials[1546].turnedOn || window.specials[1547].turnedOn || window.specials[1557].turnedOn || window.specials[1890].turnedOn || window.specials[1891].turnedOn || window.specials[2227].turnedOn) ? 1 : .5;
             
             //Captain Meat orbs because Nekomamushi
             if (orb =='meat'){
                 for (temp = 0; temp < 2; temp++){
                     if (team[temp].unit != null){
-                        if ([ 1610, 1609, 1532, 1531 ].includes(team[temp].unit.number + 1)){
+                        if ([ 1610, 1609, 1532, 1531, 2232 ].includes(team[temp].unit.number + 1)){
                             orb = 2;
                         }
                         if ([ 2012, 2013 ].includes(team[temp].unit.number + 1) && x.unit.class.has("Free Spirit")){
@@ -922,7 +922,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
             // activate turn counter if necessary
             if (n < 2 && (id == 794 || id == 795 || id == 1124 || id == 1125 || id == 1191 || id == 1192 || id == 1219 || id == 1220 || id == 1288 || id == 1289 || id == 1361 || id == 1362 || id == 1525 || id == 1557 || id == 1558 || id == 1559 || id == 1560 || id == 1561 || id == 1562 || id == 1712 || id == 1713 || id == 1716 || id == 1764 || id == 1907 || id == 1908 || id == 2015 || id == 2049 || id == 2050 || id == 2198 || id ==2199 || id == 2214 || id == 2215))
                 $scope.tdata.turnCounter.enabled = true;
-            if (n < 2 && (id == 1609 || id == 1610))
+            if (n < 2 && (id == 1609 || id == 1610 || id == 2232))
                 $scope.tdata.healCounter.enabled = true;
         });
         if (conflictWarning) 
@@ -1133,7 +1133,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
         });
     };
 
-    var checkHealAndZombie = function(data, numbers) {
+    var checkHealAndZombie = function(data, numbers, capActions) {
         delete numbers.zombie;
         delete numbers.healPerTurn;
         // compute data
@@ -1151,10 +1151,23 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
                         if (x.hasOwnProperty('rcvStatic'))
                             rcvtemp += x.rcvStatic(getParameters(i));
                     });
-                    if ([1250, 1251].has(id)){
+                    if ([1000, 1001, 1250, 1251, 1319, 1320, 1750, 1751, 1922, 2211, 1889].has(id)){
+                        var hitsCount = { 'Perfect': 0, 'Great': 0, 'Good': 0, 'Below Good': 0, 'Miss': 0 };
+                        var teamlength = 0;
+                        
+                        for(var teamIter = 0; teamIter < 6; teamIter++){ teamlength = data.team[teamIter] != null ? teamlength + 1 : teamlength; }
+                        for(var hitsIter = 0; hitsIter < teamlength; hitsIter++){ hitsCount[hitModifiers[0][hitsIter]]++; }
+                        
                         healAmount += id == 1250 ? Math.floor(([0, .5, .75, 1, 1.5, 2, 2.5][classCounter().Powerhouse]) * (data.team[i].rcv + rcvtemp)) : 0;
                         healAmount += id == 1251 ? Math.floor(([0, .5, .75, 1, 1.5, 2, 3.5][classCounter().Powerhouse]) * (data.team[i].rcv + rcvtemp)) : 0;
-                        //console.log(hitModifiers); DO THIS FOR CORAZON
+                        healAmount += id == 1889 ? capActions[i] ? 2 * (data.team[i].rcv + rcvtemp) : 1.5 * (data.team[i].rcv + rcvtemp) : 0;
+                        healAmount += id == 2211 ? capActions[i] ? 510 : 51 : 0;
+                        healAmount += (id == 1000 || id == 1001) ? (1.5 * (data.team[i].rcv + rcvtemp) * hitsCount['Good']) + (.5 * (data.team[i].rcv + rcvtemp) * hitsCount['Great']) : 0;
+                        healAmount += (id == 1319) ? (1 * (data.team[i].rcv + rcvtemp) * hitsCount['Good']) + (.1 * (data.team[i].rcv + rcvtemp) * hitsCount['Perfect']) : 0;
+                        healAmount += (id == 1320) ? (1.5 * (data.team[i].rcv + rcvtemp) * hitsCount['Good']) + (.1 * (data.team[i].rcv + rcvtemp) * hitsCount['Perfect']) : 0;
+                        healAmount += (id == 1750 || id == 1751 || id == 1922) ? (.5 * (data.team[i].rcv + rcvtemp) * hitsCount['Perfect']) : 0;
+                        
+                        healAmount = Math.floor(healAmount);
                     }
                     else
                         healAmount += Math.floor((data.team[i].rcv + rcvtemp) * zombie.multiplier);
