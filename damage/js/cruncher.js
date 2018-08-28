@@ -177,11 +177,27 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
                 }
             }
         }
+        //console.log(overallDamage);
         // return results
         for (var l=0;l<overallDamage.damage.length;++l) {
             overallDamage.damage[l].multipliers = overallDamage.damage[l].multipliers.filter(function(x) { return x[0] != 1; });
             overallDamage.damage[l].multipliers.sort(function(x,y) { return x[1].localeCompare(y[1]); });
         }
+        /*console.log(overallDamage);
+        for(var key in overallDamage.damage){
+            if(parseInt(key)){
+                console.log(overallDamage.damage[key].position);
+                if((overallDamage.damage[key].unit.unit.number == 2232 || overallDamage.damage[key].unit.unit.number == 2233) && overallDamage.damage[key].position < 2 && $scope.tdata.semlaCounter.value >= 3 && parseInt(key) != 5){
+                    var temp = overallDamage.damage[key];
+                    var m = parseInt(key);
+                    while(m < 5){
+                        overallDamage.damage[toString(m)] = overallDamage.damage[toString(m + 1)];
+                        m++;
+                    }
+                    overallDamage.damage['5'] = temp;
+                }
+            }
+        }*/
         return overallDamage;
     };
 
@@ -207,7 +223,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
             var ship = getShipBonus('atk',false,x.unit,n), againstType = type;
             var multipliers = [ ];
             if (orb == 'g') orb = 1.5;
-            if (orb == 0.5 && x.unit.type == 'DEX') orb = (window.specials[1221].turnedOn || window.specials[1222].turnedOn) ? 2 : 0.5;
+            if (orb == 0.5 && x.unit.type == 'DEX') orb = (window.specials[1221].turnedOn || window.specials[1222].turnedOn || window.specials[2235].turnedOn || window.specials[2236].turnedOn) ? 2 : 0.5;
             if (orb == 0.5 && x.unit.type == 'DEX' && x.unit.class.has("Driven")) orb = (window.specials[1259].turnedOn || window.specials[1260].turnedOn || window.specials[1323].turnedOn || window.specials[1324].turnedOn) ? 2 : 0.5;
             if (orb == 0.5 && x.unit.type == 'DEX' && x.unit.class.has("Slasher")) orb = (window.specials[1323].turnedOn || window.specials[1324].turnedOn) ? 2 : 0.5;
             if (orb == 0.5 && x.unit.type == 'DEX' && x.unit.class.has("Fighter")) orb = (window.specials[1593].turnedOn || window.specials[1463]. turnedOn || window.specials[1462]. turnedOn) ? 2 : 0.5;
@@ -215,7 +231,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
             if (orb == 0.5 && x.unit.type == 'DEX' && x.unit.class.has("Free Spirit")) orb = (window.specials[1593].turnedOn) ? 2 : 0.5;
             if (orb == 0.5 && x.unit.type == 'DEX' && x.unit.class.has("Shooter")) orb = (window.specials[1640].turnedOn || window.specials[1746].turnedOn || window.specials[1747].turnedOn) ? 2 : 0.5;
             if (orb == 0.5 && x.unit.type == 'DEX' && x.unit.class.has("Striker")) orb = (window.specials[1651].turnedOn || window.specials[1652].turnedOn) ? 2 : 0.5;
-            if (orb == 'str') orb = (window.specials[1221].turnedOn || window.specials[1222].turnedOn 
+            if (orb == 'str') orb = (window.specials[1221].turnedOn || window.specials[1222].turnedOn || window.specials[2235].turnedOn || window.specials[2236].turnedOn 
                                      || ((window.specials[1259].turnedOn || window.specials[1260].turnedOn) && x.unit.class.has("Driven"))
                                      || ((window.specials[1323].turnedOn || window.specials[1324].turnedOn) && (x.unit.class.has("Driven") || x.unit.class.has("Slasher")))
                                      || (window.specials[1528].turnedOn && x.unit.class.has("Powerhouse"))
@@ -231,7 +247,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
             if (orb =='meat'){
                 for (temp = 0; temp < 2; temp++){
                     if (team[temp].unit != null){
-                        if ([ 1610, 1609, 1532, 1531, 2232 ].includes(team[temp].unit.number + 1)){
+                        if ([ 1610, 1609, 1532, 1531, 2232, 2233, 2234 ].includes(team[temp].unit.number + 1)){
                             orb = 2;
                         }
                         if ([ 2012, 2013 ].includes(team[temp].unit.number + 1) && x.unit.class.has("Free Spirit")){
@@ -645,6 +661,9 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
                     chainMultiplier = Math.min(mapEffect.chainLimiter(params[n]), chainMultiplier);
                 else if (special.hasOwnProperty('chainLimiter'))
                     chainMultiplier = Math.min(special.chainLimiter(params[n]), chainMultiplier);
+                if($scope.tdata.semlaCounter.value >= 3 && (x.unit.unit.number == 2232 || x.unit.unit.number == 2233) && x.position < 2){
+                    chainMultiplier = 1.0;
+                }
                 // add or update chain multiplier to multiplier list
                 for (i=0;i<x.multipliers.length;++i) {
                     if (x.multipliers[i][1] != 'chain') continue;
@@ -874,6 +893,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
         // deactivate turn counter (will be reactivated if necessary)
         $scope.tdata.turnCounter.enabled = false;
         $scope.tdata.healCounter.enabled = false;
+        $scope.tdata.semlaCounter.enabled = false;
         // get ship bonus
         shipBonus = jQuery.extend({ bonus: window.ships[$scope.data.ship[0]] },{ level: $scope.data.ship[1] });
         // orb map effects
@@ -924,6 +944,8 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
                 $scope.tdata.turnCounter.enabled = true;
             if (n < 2 && (id == 1609 || id == 1610 || id == 2232))
                 $scope.tdata.healCounter.enabled = true;
+            if (n < 2 && (id == 2233 || id == 2234))
+                $scope.tdata.semlaCounter.enabled = true;
         });
         if (conflictWarning) 
             $scope.notify({ type: 'error', text: 'One or more specials you selected cannot be activated due to an active map effect.' });
@@ -1102,6 +1124,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
             slot: slotNumber,
             turnCounter: $scope.tdata.turnCounter.value,
             healCounter: $scope.tdata.healCounter.value,
+            semlaCounter: $scope.tdata.semlaCounter.value,
             chainPosition: chainPosition,
             classCount: classCounter(),
             colorCount: colorCounter(),
