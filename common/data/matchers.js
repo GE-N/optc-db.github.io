@@ -806,6 +806,12 @@ window.matchers = [
         icon: 'orb match'
     },
     
+    {
+        name: 'Tap Timing supporters',
+        target: 'special',
+        matcher: /makes PERFECTs easier to hit/i
+    },
+    
     /* * * * * Sailor * * * * */
     
     {
