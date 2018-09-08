@@ -1022,7 +1022,8 @@ window.matchers = [
     {
         name: 'Double Special Activation Potential Ability',
         target: 'limit',
-        matcher: /Double Special Activation/i
+        matcher: /Double Special Activation/i,
+        icon: 'double-special'
     },
     
     {
