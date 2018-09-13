@@ -6740,7 +6740,8 @@ window.captains = {
                 minModifier: 'Good'
             }]) ? 4.0625 : 3.25 : 1;
         },
-        hitModifiers: ["Perfect", "Perfect", "Perfect", "Perfect", "Perfect", "Perfect"]
+        hitModifiers: ["Perfect", "Perfect", "Perfect", "Perfect", "Perfect", "Perfect"],
+        hp: function(p) { return p.unit.type == "QCK" || p.unit.type == "PSY" ? 1.35 : 1; },
     },
     2025: {
         damageSorter: function(d) { return CrunchUtils.okamaSort(d, ['PSY', 'PSY', 'QCK']); },
@@ -6756,7 +6757,8 @@ window.captains = {
                 minModifier: 'Good'
             }]) ? 4.0625 : 3.25 : 1;
         },
-        hitModifiers: ["Perfect", "Perfect", "Perfect", "Perfect", "Perfect", "Perfect"]
+        hitModifiers: ["Perfect", "Perfect", "Perfect", "Perfect", "Perfect", "Perfect"],
+        hp: function(p) { return p.unit.type == "QCK" || p.unit.type == "PSY" ? 1.35 : 1; },
     },
     2026: {
         atk: function(p) { return p.unit.type == "QCK" || p.unit.type == "PSY" ? 2 : 1; },
@@ -7759,7 +7761,7 @@ window.captains = {
         hitAtk: function(p) {
             var reduction = 1;
             if(p.classCount.Striker >= 1) reduction *= .5;//Change This
-            if(p.classCount.Slasher >= 1) reduction *= .5;//Change This
+            if(p.classCount.Shooter >= 1) reduction *= .5;//Change This
             if(p.classCount.Cerebral >= 1) reduction *= .5;//Change This
             return p.modifiers.slice(0, p.chainPosition).subcontains(["Good", "Great", "Perfect"]) ? 4 * reduction : 2 * reduction;
         },
@@ -7770,7 +7772,7 @@ window.captains = {
         hitAtk: function(p) {
             var reduction = 1;
             if(p.classCount.Striker >= 1) reduction *= .5;//Change This
-            if(p.classCount.Slasher >= 1) reduction *= .5;//Change This
+            if(p.classCount.Shooter >= 1) reduction *= .5;//Change This
             if(p.classCount.Cerebral >= 1) reduction *= .5;//Change This
             return p.modifiers.slice(0, p.chainPosition).subcontains(["Good", "Great", "Perfect"]) ? 4 * reduction : 2 * reduction;
         },
