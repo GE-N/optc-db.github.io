@@ -128,10 +128,10 @@
             case 9019: return 'https://onepiece-treasurecruise.com/wp-content/uploads/Jerma_skull_f5.png'; break;
             case 'skullDoffy':
             case 9020: return 'https://onepiece-treasurecruise.com/wp-content/uploads/Doflamingo_skull_f.png'; break;
-            // case 'skullEneru':
-            // case 9021: return 'https://onepiece-treasurecruise.com/wp-content/uploads/Eneru_skull_f.png'; break;
-            // case 'skullHiguma':
-            // case 9022: return 'https://onepiece-treasurecruise.com/wp-content/uploads/Higuma_skull_f.png'; break;
+            case 'skullEnel':
+            case 9021: return 'https://onepiece-treasurecruise.com/wp-content/uploads/enel_skull_f.png'; break;
+            case 'skullHiguma':
+            case 9022: return 'https://onepiece-treasurecruise.com/wp-content/uploads/higuma_skull_f.png'; break;
         }
         if (n === null || n === undefined)
             return 'https://onepiece-treasurecruise.com/wp-content/themes/onepiece-treasurecruise/images/noimage.png';
@@ -148,8 +148,8 @@
         var id = ('0000' + n).slice(-4).replace(/(057[54])/, '0$1'); // missing aokiji image
         switch(id){
             case '0742': return 'https://onepiece-treasurecruise.com/wp-content/uploads/f0742-2.png'; break;
-            case '2500': return 'http://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5011.png'; break;
-            case '2501': return 'http://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5012.png'; break;
+            case '2262': return 'http://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5011.png'; break;
+            case '2263': return 'http://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5012.png'; break;
             case '2502': return 'http://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5013.png'; break;
             case '2503': return 'http://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5014.png'; break;
             case '2504': return 'http://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5015.png'; break;
@@ -228,17 +228,17 @@
             case 9019: return 'https://onepiece-treasurecruise.com/wp-content/uploads/Jerma_skull_c5.png'; break;
             case 'skullDoffy':
             case 9020: return 'https://onepiece-treasurecruise.com/wp-content/uploads/Doflamingo_skull_c.png'; break;
-            // case 'skullEneru':
-            // case 9021: return 'https://onepiece-treasurecruise.com/wp-content/uploads/Eneru_skull_c.png'; break;
-            // case 'skullHiguma':
-            // case 9022: return 'https://onepiece-treasurecruise.com/wp-content/uploads/Higuma_skull_c.png'; break;
+            case 'skullEnel':
+            case 9021: return 'https://onepiece-treasurecruise.com/wp-content/uploads/Enel_skull_c.png'; break;
+            case 'skullHiguma':
+            case 9022: return 'https://onepiece-treasurecruise.com/wp-content/uploads/Higuma_skull_c.png'; break;
         }
         if (window.units[n - 1].incomplete)
             return 'https://onepiece-treasurecruise.com/wp-content/themes/onepiece-treasurecruise/images/noimage.png';
         var id = ('0000' + n).slice(-4).replace(/(057[54])/, '0$1'); // missing aokiji image
         switch(id){
-            case '2500': return 'http://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/c5012.png'; break;
-            case '2501': return 'http://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/c5013.png'; break;
+            case '2262': return 'http://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/c5012.png'; break;
+            case '2263': return 'http://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/c5013.png'; break;
             case '2502': return 'http://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/character_1719.png'; break;
             case '2503': return 'http://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/character_1720.png'; break;
             default: break;

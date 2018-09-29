@@ -6863,7 +6863,7 @@ window.captains = {
     },
     2050: {
         atk: function(p) {
-            return (p.unit.class.has("Powerhouse") || p.unit.class.has("Fighter")) ? Math.max(1.0, 3.5 - 0.1 * p.turnCounter) : 1;
+            return (p.unit.class.has("Powerhouse") || p.unit.class.has("Fighter")) ? Math.max(1.0, 3.5 - 0.07 * p.turnCounter) : 1;
         }
     },
     2051: {
@@ -7817,13 +7817,95 @@ window.captains = {
         atk: function(p) { return (p.unit.class.has("Free Spirit") || p.unit.class.has("Cerebral")) ? p.percHP >= 99.0 ? 1 : 1 : 1; }//Change this
     },
     2261: {
-        atk: function(p) { return (p.unit.class.has("Free Spirit") || p.unit.class.has("Cerebral")) ? p.percHP >= 99.0 ? 3 : 2.5 : 1; }
+        atk: function(p) { return (p.unit.class.has("Free Spirit") || p.unit.class.has("Cerebral")) ? p.percHP >= 99.0 ? 3 : 2.5 : 1; }//add limit break
     },
-    2500: {
+    2262: {
         atk: function(p) { return (p.unit.class.has("Driven") || p.unit.class.has("Cerebral")) ? p.percHP <= 50.0 ? 2.5 : 1.5 : 1; }
     },
-    2501: {
+    2263: {
         atk: function(p) { return (p.unit.class.has("Driven") || p.unit.class.has("Cerebral")) ? p.percHP <= 50.0 ? 3 : 1.5 : 1; }
+    },
+    2264: {
+        atk: function(p) {
+            if(p.unit.type == "STR" || p.unit.type == "DEX" || p.unit.type == "PSY"){
+                if(p.colorCount.STR>=1 && p.colorCount.DEX>=1 && p.colorCount.PSY>=1){
+                    return ((CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 2, [p.friendCaptain, p.captain], p.effectName) == 2) && (p.orb != 'g')) ? 4 : 3;
+                }
+                else return 1;
+            }
+            else return 1;
+        },
+        hp: function(p) {
+            if(p.colorCount.STR>=1 && p.colorCount.DEX>=1 && p.colorCount.PSY>=1)
+                return 1.35;
+            else
+                return 1;
+               },
+    },
+    2265: {
+        atk: function(p) {
+            if(p.unit.type == "STR" || p.unit.type == "DEX" || p.unit.type == "PSY"){
+                if(p.colorCount.STR>=1 && p.colorCount.DEX>=1 && p.colorCount.PSY>=1){
+                    return ((CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 2, [p.friendCaptain, p.captain], p.effectName) == 2) && (p.orb != 'g')) ? 4 : 3;
+                }
+                else return 1;
+            }
+            else return 1;
+        },
+        hp: function(p) {
+            if(p.colorCount.STR>=1 && p.colorCount.DEX>=1 && p.colorCount.PSY>=1)
+                return 1.35;
+            else
+                return 1;
+               },
+    },
+    2266: {
+        atk: function(p){ return p.unit.class.has("Powerhouse") ? 1 : 1; },//Change This
+        hp: function(p){ return p.unit.class.has("Powerhouse") ? 1 : 1; },//Change This
+    },
+    2267: {
+        atk: function(p){ return p.unit.class.has("Powerhouse") ? 2.5 : 1; },
+        hp: function(p){ return p.unit.class.has("Powerhouse") ? 1.25 : 1; },
+    },
+    2268: {
+        atk: function(p){ return p.unit.type == "STR" || p.unit.type == "DEX" ? 2 : 1; },//Change this
+    },
+    2269: {
+        atk: function(p){ return p.unit.type == "STR" || p.unit.type == "DEX" ? 2.25 : 1; },
+    },
+    2270: {
+        atk: function(p){ return p.unit.class.has("Powerhouse") ? 1 : 1; },//Change This
+        rcv: function(p){ return 0; },//Change This
+    },
+    2271: {
+        atk: function(p){ return p.unit.class.has("Powerhouse") ? 2.75 : 1; },
+        rcv: function(p){ return 0; },
+    },
+    2272: {
+        atk: function(p){ return p.unit.class.has("Powerhouse") || p.unit.class.has("Slasher") ? 1 : 1; },//Change this
+        chainModifier: function(p) { return 1; }//Change this
+    },
+    2273: {
+        atk: function(p){ return p.unit.class.has("Powerhouse") || p.unit.class.has("Slasher") ? 1.75 : 1; },
+        chainModifier: function(p) { return 2; }
+    },
+    2276: {
+        atk: function(p) { return p.unit.stars <= 4 ? 1 : 1; }//change this
+    },
+    2277: {
+        atk: function(p) { return p.unit.stars <= 4 ? 2.5 : 1; }
+    },
+    2278: {
+        atk: function(p) { return 1.25; },
+        hp: function(p) { return 1.25; }
+    },
+    2279: {
+        atk: function(p) { return p.unit.type == "STR" ? 1.2 : 1; },
+        hp: function(p) { return p.unit.type == "STR" ? 1.1 : 1; }
+    },
+    2287: {
+        atk: function(p){ return p.unit.type == "STR" ? 3.25 : 1; },
+        hp: function(p){ return p.unit.type == "STR" ? 1.2 : 1; },
     },
     2502: {
         hitAtk: function(p) {

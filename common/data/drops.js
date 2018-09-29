@@ -2071,7 +2071,7 @@ window.drops = {
         },
         
         {
-            name: 'Brûlée\'s Gibier Party',
+            name: 'Brûlée\'s Cauldron Party',
             thumb: 2127,
             nakama: 2212700,
             gamewith: 108421,
@@ -2116,6 +2116,14 @@ window.drops = {
             nakama: null,
             gamewith: 118916,
             'All Difficulties': [ 2252, 2254, 2255, -2023, -2025, -1959, -2082, -2080, -2068, -1782, -1781 ]
+        },
+        
+        {
+            name: 'Buggy Pirates',
+            thumb: 2277,
+            nakama: null,
+            gamewith: null,
+            'All Difficulties': [ 2276, 2278, 2279, -2074, -2076, -2078, -2072, -2050, -2115, -1784, -2053 ]
         },
         
     ],
@@ -2656,13 +2664,21 @@ window.drops = {
         
         {
             name: 'Clash!! Heavenly Demon Doflamingo',
-            thumb: 2501,
+            thumb: 2263,
             global: true,
             nakama: 4220100,
+            gamewith: 120331,
+            Ultimate: [ 2262 ],
+            Master: [ 2262 ],
+            Expert: [ 2262 ]
+        },
+        
+        {
+            name: 'Clash!! Vinsmoke Judge',
+            thumb: 2281,
+            nakama: null,
             gamewith: null,
-            Ultimate: [ 2500 ],
-            Master: [ 2500 ],
-            Expert: [ 2500 ]
+            Ultimate: [ 2280 ],
         },
 
     ],
@@ -2676,7 +2692,7 @@ window.drops = {
             global: true,
             gamewith: 17473,
             slefty: 'coliseums',
-            Chaos: [ 776, 778, 780, 803, 805, 830, 832, 834, 859, 861, 881, 883, 900, 902, 923, 925, 950, 952, 982, 984, 1017, 1015, 1040, 1042, 1086, 1088, 1090, 1101, 1103, 1105, 1140, 1142, 1144, 1195, 1219, 1221, 1250, 1252, 1291, 1293, 1309, 1311, 1337, 1339, 1340, 1375, 1377, 1400, 1421, 1423, 1455, 1457, 1486, 1488, 1525, 1526, 1528, 1552, 1554, 1583, 1585, 1601, 1603, 1627, 1629, 1666, 1693, 1732, 1791, 1827, 1860, 1896, 1944, 1977, 2036, 2110, 2122, 2162, 2192, 2248 ],
+            Chaos: [ 776, 778, 780, 803, 805, 830, 832, 834, 859, 861, 881, 883, 900, 902, 923, 925, 950, 952, 982, 984, 1017, 1015, 1040, 1042, 1086, 1088, 1090, 1101, 1103, 1105, 1140, 1142, 1144, 1195, 1219, 1221, 1250, 1252, 1291, 1293, 1309, 1311, 1337, 1339, 1340, 1375, 1377, 1400, 1421, 1423, 1455, 1457, 1486, 1488, 1525, 1526, 1528, 1552, 1554, 1583, 1585, 1601, 1603, 1627, 1629, 1666, 1693, 1732, 1791, 1827, 1860, 1896, 1944, 1977, 2036, 2110, 2122, 2162, 2192, 2248, 2288 ],
             Neo: [ 1862, 1898, 1975, 2016 ]
         },
         
@@ -2805,6 +2821,14 @@ window.drops = {
             nakama: 8221100,
             gamewith: 116377,
             'Raging Sea': [ 2210 ]
+        },
+
+        {
+            name: 'Red Hair Shanks',
+            thumb: 2261,
+            nakama: null,
+            gamewith: 119738,
+            'Raging Sea': [ 2260 ]
         },
         
     ],
@@ -3178,7 +3202,7 @@ window.drops = {
             nakama: null,
             gamewith: 117538,
             showManual: true,
-            'All Difficulties': [ /*9020*/, -545, -602, -1896, -1929 ],
+            'All Difficulties': [ 9021, -545, -602, -1896, -1929 ],
         },
         
         {
@@ -3186,7 +3210,7 @@ window.drops = {
             thumb: 2259,
             nakama: null,
             gamewith: 119604,
-            'All Difficulties': [ /*9021*/ ],
+            'All Difficulties': [ 9022 ],
         },
         
         {
@@ -3356,6 +3380,14 @@ window.drops = {
             nakama: 7101600,
             gamewith: 107299,
             completion: 'Ship: Nostra Castello',
+        },
+        
+        {
+            name: 'Forest of Training: Mother',
+            thumb: 1016,
+            nakama: null,
+            gamewith: 118924,
+            completion: 'Ship: Queen Mama Chanter',
         },
 
    ]

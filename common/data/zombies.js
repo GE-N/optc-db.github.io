@@ -615,6 +615,21 @@ window.zombies = {
         type: 'healer',
         amount: 800
     },
+    2260: { // Shanks
+        type: 'healer',
+        multiplier: 1.2
+    },
+    2261: { // Shanks
+        type: 'healer',
+    },
+    2269: { // Praline
+        type: 'healer',
+        multiplier: 1.5
+    },
+    2275: { // Camie
+        type: 'healer',
+        multiplier: 5
+    },
     5001: { // Smoker/Tashigi
         type: 'healer',
         amount: 300

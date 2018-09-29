@@ -342,7 +342,7 @@ window.matchers = [
     {
         name: 'RCV boosters',
         target: 'special',
-        matcher: /Boosts.+RCV/i,
+        matcher: /Boosts RCV/i,
         icon: 'rcv up'
     },
 
@@ -649,6 +649,12 @@ window.matchers = [
         target: 'special',
         matcher: /(reduces|removes).+Paralysis.+duration/i,
         icon: 'paralyze'
+    },
+    
+    {
+        name: 'Burn reducers',
+        target: 'special',
+        matcher: /(reduces|removes).+Burn.+duration/i 
     },
 
     {
