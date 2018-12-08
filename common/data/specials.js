@@ -6283,7 +6283,6 @@ window.specials = {
     },
     2341: {
         affinity: function(p) { return ((p.unit.class.has("Fighter") || p.unit.class.has("Slasher") || p.unit.class.has("Striker") || p.unit.class.has("Shooter") || p.unit.class.has("Cerebral")) && window.specials[2341].multiplier != 0) ? 1.75 : 1; },
-        type: "condition",
         orb: function(p) { return ((p.unit.class.has("Fighter") || p.unit.class.has("Slasher") || p.unit.class.has("Striker") || p.unit.class.has("Shooter") || p.unit.class.has("Cerebral")) && window.specials[2341].multiplier != 1) ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 2, [p.friendCaptain, p.captain], p.effectName) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1, [p.friendCaptain, p.captain], p.effectName); },
         onActivation: function(p) {
             var n = (window.specials[2341].multiplier == 1 ? 2 : (window.specials[2341].multiplier == 2 | window.specials[2341].multiplier == undefined) ? 0 : 1);
@@ -6296,7 +6295,6 @@ window.specials = {
     },
     2342: {
         affinity: function(p) { return ((p.unit.class.has("Fighter") || p.unit.class.has("Slasher") || p.unit.class.has("Striker") || p.unit.class.has("Shooter") || p.unit.class.has("Cerebral")) && window.specials[2342].multiplier != 0) ? 1.75 : 1; },
-        type: "condition",
         orb: function(p) { return ((p.unit.class.has("Fighter") || p.unit.class.has("Slasher") || p.unit.class.has("Striker") || p.unit.class.has("Shooter") || p.unit.class.has("Cerebral")) && window.specials[2342].multiplier != 1) ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 2, [p.friendCaptain, p.captain], p.effectName) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1, [p.friendCaptain, p.captain], p.effectName); },
         onActivation: function(p) {
             var n = (window.specials[2342].multiplier == 1 ? 2 : (window.specials[2342].multiplier == 2 | window.specials[2342].multiplier == undefined) ? 0 : 1);
@@ -6316,6 +6314,7 @@ window.specials = {
         type: "class"
     },
     2345: {
+        delay: function(p) { return 1; },
         chain: function(p) { return window.specials[2345].multiplier; },
         chainLimiter: function(p) {
             if (window.specials[2345].multiplier != 1){
@@ -6337,6 +6336,7 @@ window.specials = {
         },
     },
     2346: {
+        delay: function(p) { return 1; },
         chain: function(p) { return window.specials[2346].multiplier; },
         chainLimiter: function(p) {
             if (window.specials[2346].multiplier != 1){
@@ -6383,6 +6383,7 @@ window.specials = {
         affinity: function(p) { return p.unit.class.has("Striker") || p.unit.class.has("Cerebral") ? 1.3 : 1; },
     },
     2353: {
+        def: function(p) { return (window.specials[2353].multiplier == 1.75) ? 0 : 1; },
         atk: function(p) { return window.specials[2353].multiplier; },
         type: "condition",
         onActivation: function(p) {
@@ -6395,6 +6396,7 @@ window.specials = {
         },
     },
     2354: {
+        def: function(p) { return (window.specials[2354].multiplier == 1.75) ? 0 : 1; },
         atk: function(p) { return window.specials[2354].multiplier; },
         type: "condition",
         onActivation: function(p) {
@@ -6405,6 +6407,32 @@ window.specials = {
                 name: '2354warning'
             });
         },
+    },
+    2355: {
+        orb: function(p) { return (p.unit.class.has("Slasher")) ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.75, [p.friendCaptain, p.captain], p.effectName) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1, [p.friendCaptain, p.captain], p.effectName); }	
+    },
+    2356: {
+        orb: function(p) { return (p.unit.class.has("Slasher")) ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.75, [p.friendCaptain, p.captain], p.effectName) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1, [p.friendCaptain, p.captain], p.effectName); }	
+    },
+    2357: {
+        atk: function(p) { return p.slot == p.sourceSlot ? 2.25 : 1; },
+        type: "type",
+        orb: function(p) { return p.slot == p.sourceSlot ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 2, [p.friendCaptain, p.captain], p.effectName) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1, [p.friendCaptain, p.captain], p.effectName)}
+    },
+    2358:{
+        atk: function(p) { return (p.unit.class.has("Fighter") || p.unit.class.has("Slasher") || p.unit.class.has("Striker")) ? window.specials[2358].multiplier : 1; },
+        type: "class",
+        onActivation: function(p) {
+            var n = (window.specials[2358].multiplier == 1.75 ? 1 : window.specials[2358].multiplier == 2 ? 2 : 0);
+            window.specials[2358].multiplier = [1.75, 2, 2.25][n];
+            p.scope.notify({
+                text: 'Using the ' + [1.75, 2, 2.25][n] + 'x ATK boost. To switch to the ' + [2, 2.25, 1.75][n] + 'x ATK boost, disable and re-enable this special',
+                name: '2131warning'
+            });
+        },
+    },
+    2359: {
+        affinity: function(p){ return p.unit.class.has("Fighter") || p.unit.class.has("Cerebral") ? 1.75 : 1; }
     },
     2400: {
         atk: function(p) { return p.unit.type == "STR" ? window.specials[2400].multiplier : 1; },
