@@ -3809,15 +3809,15 @@ window.evolutions = {
     },
     2355: {
         evolution: 2356,
-        evolvers: [  ]
+        evolvers: [ 118, 78, 83, 300, 100 ]
     },
     1123: {
         evolution: 2357,
-        evolvers: [  ]
+        evolvers: [ 'skullCavendish', 'skullCavendish', 'skullCavendish', 'skullCavendish', 'skullCavendish',]
     },
     2361: {
         evolution: 2362,
-        evolvers: [  ]
+        evolvers: [ 115, 116, 117, 118, 103 ]
     },
     2400: {
         evolution: 2401,
@@ -3833,10 +3833,14 @@ window.evolutions = {
     },
     2406: {
         evolution: 2407,
-        evolvers: [  ]
+        evolvers: [ 118, 87, 92, 98, 103 ]
     },
     2502: {
         evolution: 2503,
         evolvers: [ 118, 86, 266, 302, 267 ]
+    },
+    1763: {
+        evolution: 2505,
+        evolvers: [ 'skullQCK', 'skullQCK', 'skullQCK', 1180, 301 ]
     },
 };
