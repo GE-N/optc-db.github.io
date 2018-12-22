@@ -1098,5 +1098,12 @@ window.matchers = [
         matcher: /\[INT\] Damage Reduction/i,
         icon: 'dif-int'
     },
-
+    
+    /* * * * * Support Abiliites * * * * */
+    
+    {
+        name: 'Has Support Ability',
+        target: 'support',
+        matcher: /\S/i
+    },
 ];
