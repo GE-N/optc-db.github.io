@@ -523,8 +523,9 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
                     captAffinityMult *= captain.captAffinityMultiplier(unit);
                 });
         
+        //console.log(affinityMult);
         //Calculate the new Affinity mult
-        if(affinityMult != 1){
+        if(affinityMult != 1 || captAffinityMult != 1){
             if(typeMult == 2) typeMult *= (affinityMult * captAffinityMult);
             if(typeMult == 0.5) typeMult /= (affinityMult * captAffinityMult);
         }
@@ -880,7 +881,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
                     }
                 }
             }
-            if (specialid == 2364 || specialid == 2365) var staticDamage = Math.ceil(multSpecial);
+            if (specialid == 2364 || specialid == 2365) var staticDamage = Math.ceil(multSpecial*conditionalMultiplier);
             else var staticDamage = Math.ceil((baseDamage)*multSpecial*conditionalMultiplier);
             if((hitModifier == 'Great')||(hitModifier == 'Good')||(hitModifier == 'Perfect')){
                 resultDamage += staticDamage;

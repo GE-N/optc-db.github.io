@@ -169,9 +169,9 @@ window.matchers = [
     },
     
     {
-        name: '"Beneficial" Orb captains',
+        name: 'Beneficial Orb captains',
         target: 'captain',
-        matcher: /"beneficial/i,
+        matcher: /beneficial/i
         //matcher: /Makes ((STR|DEX|QCK|PSY|INT|\[RCV\]|\[TND\])|((STR|DEX|QCK|PSY|INT|\[RCV\]|\[TND\]) and (STR|DEX|QCK|PSY|INT|\[RCV\]|\[TND\]))) orbs "beneficial"/i
         icon: 'orb match'
     },
@@ -818,10 +818,9 @@ window.matchers = [
     },
     
     {
-        name: '"Beneficial" Orb Enablers',
+        name: 'Beneficial Orb Enablers',
         target: 'special',
-        matcher: /"beneficial/i,
-        icon: 'orb match'
+        matcher: /beneficial/i
     },
     
     {
@@ -937,59 +936,51 @@ window.matchers = [
     },
     
     {
-        name: '"Beneficial" Orb sailors',
+        name: 'Beneficial Orb sailors',
         target: 'sailor',
-        matcher: /"beneficial/i,
-        icon: 'orb match'
+        matcher: /beneficial/i
     },
     
     {
-        name: 'STR Orb Team "Beneficial" Orb sailors',
+        name: 'STR Orb Team Beneficial Orb sailors',
         target: 'sailor',
-        matcher: /\[STR\].+beneficial.+for (Free Spirit|Striker|Slasher|Fighter|Shooter|Driven|Powerhouse|Cerebral|all|\[STR\]|\[DEX\]|\[QCK\]|\[PSY\]|\[INT\]) characters/i,
-        icon: 'orb match'
+        matcher: /Makes.+\[STR\][^\"\d]+orbs beneficial[^\"\d]+characters/i
     },
     
     {
-        name: 'DEX Orb Team "Beneficial" Orb sailors',
+        name: 'DEX Orb Team Beneficial Orb sailors',
         target: 'sailor',
-        matcher: /\[DEX\].+beneficial.+for (Free Spirit|Striker|Slasher|Fighter|Shooter|Driven|Powerhouse|Cerebral|all|\[STR\]|\[DEX\]|\[QCK\]|\[PSY\]|\[INT\]) characters/i,
-        icon: 'orb match'
+        matcher: /Makes.+\[DEX\][^\"\d]+orbs beneficial[^\"\d]+characters/i
     },
     
     {
-        name: 'QCK Orb Team "Beneficial" Orb sailors',
+        name: 'QCK Orb Team Beneficial Orb sailors',
         target: 'sailor',
-        matcher: /\[QCK\].+beneficial.+for (Free Spirit|Striker|Slasher|Fighter|Shooter|Driven|Powerhouse|Cerebral|all|\[STR\]|\[DEX\]|\[QCK\]|\[PSY\]|\[INT\]) characters/i,
-        icon: 'orb match'
+        matcher: /Makes.+\[QCK\][^\"\d]+orbs beneficial[^\"\d]+characters/i
     },
     
     {
-        name: 'PSY Orb Team "Beneficial" Orb sailors',
+        name: 'PSY Orb Team Beneficial Orb sailors',
         target: 'sailor',
-        matcher: /\[PSY\].+beneficial.+for (Free Spirit|Striker|Slasher|Fighter|Shooter|Driven|Powerhouse|Cerebral|all|\[STR\]|\[DEX\]|\[QCK\]|\[PSY\]|\[INT\]) characters/i,
-        icon: 'orb match'
+        matcher: /Makes.+\[PSY\][^\"\d]+orbs beneficial[^\"\d]+characters/i
     },
     
     {
-        name: 'INT Orb Team "Beneficial" Orb sailors',
+        name: 'INT Orb Team Beneficial Orb sailors',
         target: 'sailor',
-        matcher: /\[INT\].+beneficial.+for (Free Spirit|Striker|Slasher|Fighter|Shooter|Driven|Powerhouse|Cerebral|all|\[STR\]|\[DEX\]|\[QCK\]|\[PSY\]|\[INT\]) characters/i,
-        icon: 'orb match'
+        matcher: /Makes.+\[INT\][^\"\d]+orbs beneficial[^\"\d]+characters/i
     },
     
     {
-        name: 'TND Orb Team "Beneficial" Orb sailors',
+        name: 'TND Orb Team Beneficial Orb sailors',
         target: 'sailor',
-        matcher: /\[TND\].+beneficial.+for (Free Spirit|Striker|Slasher|Fighter|Shooter|Driven|Powerhouse|Cerebral|all|\[STR\]|\[DEX\]|\[QCK\]|\[PSY\]|\[INT\]) characters/i,
-        icon: 'orb match'
+        matcher: /Makes.+\[TND\][^\"\d]+orbs beneficial[^\"\d]+characters/i
     },
     
     {
-        name: 'RCV Orb Team "Beneficial" Orb sailors',
+        name: 'RCV Orb Team Beneficial Orb sailors',
         target: 'sailor',
-        matcher: /\[RCV\].+beneficial.+for (Free Spirit|Striker|Slasher|Fighter|Shooter|Driven|Powerhouse|Cerebral|all|\[STR\]|\[DEX\]|\[QCK\]|\[PSY\]|\[INT\]) characters/i,
-        icon: 'orb match'
+        matcher: /Makes.+\[RCV\][^\"\d]+orbs beneficial[^\"\d]+characters/i
     },
     
     /* * * * * Limit Break * * * * */
