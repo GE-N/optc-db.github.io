@@ -833,9 +833,10 @@ window.drops = {
         },
         
         {
-            name: 'Dressrosa - Royal Palace Top Floor to Town Center',
+            name: 'Dressrosa - The Royal Palace\'s Top Floor to Central Town',
             shortName: 'Dressrosa 4',
             thumb: 2126,
+            global: true,
             nakama: 1212600,
             completion: '10x Rainbow Gems',
             gamewith: 111173,
@@ -2178,7 +2179,7 @@ window.drops = {
         },
         
         {
-            name: 'Mother Caramel',
+            name: 'Our Lady\'s Motherly Love',
             thumb: 2377,
             nakama: null,
             gamewith: null,
@@ -2776,7 +2777,7 @@ window.drops = {
             global: true,
             gamewith: 17473,
             slefty: 'coliseums',
-            Chaos: [ 776, 778, 780, 803, 805, 830, 832, 834, 859, 861, 881, 883, 900, 902, 923, 925, 950, 952, 982, 984, 1017, 1015, 1040, 1042, 1086, 1088, 1090, 1101, 1103, 1105, 1140, 1142, 1144, 1195, 1219, 1221, 1250, 1252, 1291, 1293, 1309, 1311, 1337, 1339, 1340, 1375, 1377, 1400, 1421, 1423, 1455, 1457, 1486, 1488, 1525, 1526, 1528, 1552, 1554, 1583, 1585, 1601, 1603, 1627, 1629, 1666, 1693, 1732, 1791, 1827, 1860, 1896, 1944, 1977, 2036, 2110, 2122, 2162, 2192, 2248, 2288, 2322, 2353 ],
+            Chaos: [ 776, 778, 780, 803, 805, 830, 832, 834, 859, 861, 881, 883, 900, 902, 923, 925, 950, 952, 982, 984, 1017, 1015, 1040, 1042, 1086, 1088, 1090, 1101, 1103, 1105, 1140, 1142, 1144, 1195, 1219, 1221, 1250, 1252, 1291, 1293, 1309, 1311, 1337, 1339, 1340, 1375, 1377, 1400, 1421, 1423, 1455, 1457, 1486, 1488, 1525, 1526, 1528, 1552, 1554, 1583, 1585, 1601, 1603, 1627, 1629, 1666, 1693, 1732, 1791, 1827, 1860, 1896, 1944, 1977, 2036, 2110, 2122, 2162, 2192, 2248, 2288, 2322, 2353, 2374 ],
             Neo: [ 1862, 1898, 1975, 2016 ]
         },
         
@@ -2905,6 +2906,7 @@ window.drops = {
         {
             name: 'Kami Enel',
             thumb: 2211,
+            global: true,
             nakama: 8221100,
             gamewith: 116377,
             'Raging Sea': [ 2210 ]
@@ -2938,7 +2940,7 @@ window.drops = {
             name: 'Cat Burglar Nami',
             thumb: 2362,
             nakama: null,
-            gamewith: null,
+            gamewith: 134017,
             'Winter Sea': [ 2361, 9025 ]
         },
 
@@ -3113,7 +3115,7 @@ window.drops = {
             name: 'Invasion! Charlotte Linlin',
             thumb: 2381,
             nakama: null,
-            gamewith: null,
+            gamewith: 136823,
             condition: 'Has a chance of appearing at the end of ANY Raid boss. You MUST use the same team that you just used to complete the Raid boss to fight Charlotte Linlin.',
             'All Difficulties': [ 2380, 9010, 9011, 9012, 9013, 9014 ]
         },
@@ -3367,8 +3369,9 @@ window.drops = {
         },
         
         {
-            name: 'Kami\'s Return',
+            name: 'Kami Rises Again',
             thumb: 2232,
+            global: true,
             nakama: null,
             gamewith: 117538,
             showManual: true,

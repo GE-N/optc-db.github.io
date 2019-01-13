@@ -692,11 +692,23 @@ window.zombies = {
     },
     2366: { // Flampe
         type: 'healer',
-        multiplier: 5//Change this
+        multiplier: 3
     },
     2367: { // Flampe
         type: 'healer',
         multiplier: 5
+    },
+    2369: { // Mont-d'Or
+        type: 'healer',
+        amount: 700
+    },
+    2388: { // Makino
+        type: 'healer',
+        multiplier: 2
+    },
+    2392: { // Iceberg
+        type: 'healer',
+        amount: 500
     },
     2407: { // Ace
         type: 'healer',
