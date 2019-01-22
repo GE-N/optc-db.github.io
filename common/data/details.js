@@ -37037,7 +37037,7 @@ window.details = {
         ],
         specialName: "Tropical Country Flowers",
         specialNotes: "#{stages}<br>#{silence}",
-        sailor: "Reduces Silence duration on this character by 3 turns",
+        sailor: "Reduces Silence duration on this character by 2 turns",
         sailorNotes: "#{silence}",
     },
     2216: {//Conis
@@ -37369,14 +37369,12 @@ window.details = {
     2237: {//Smoothie
         captain: "Boosts ATK of all characters by 3x following a chain of Good > Great > PERFECT hits and recovers 300 HP at end of each turn",
         special: "Recovers 5,000, removes Poison duration completely, reduces Paralysis, Bind, Despair and Burn duration by 2 turns, changes adjacent orbs into Matching Orbs and switches orbs between slots three times",
-        specialNotes: "We don't know what Burn is yet.",
         specialName: "Human Juicer",
         sailor: "Boosts base ATK of characters in the top row by 50",
     },
     2238: {//Smoothie
         captain: "Boosts ATK of all characters by 3.5x following a chain of Good > Great > PERFECT hits and recovers 500 HP at end of each turn",
         special: "Recovers 5,000, removes Poison duration completely, reduces Paralysis, Bind, Despair and Burn duration by 2 turns, changes adjacent orbs into Matching Orbs and switches orbs between slots three times",
-        specialNotes: "We don't know what Burn is yet.",
         specialName: "Human Juicer",
         sailor: {
             "base": "Boosts base ATK of characters in the top row by 50",
@@ -41218,14 +41216,14 @@ window.details = {
         captain: "Boosts ATK of Slasher and Powerhouse characters by ?x if they have a matching orb, by ?x otherwise, and boosts their HP by ?x.",
         special: "Deals 100x character's ATK in [INT] damage to one enemy, makes [DEX], [QCK] and [INT] orbs beneficial for Slasher and Powerhouse characters for 1 turn. If your captain is a Slasher or Powerhouse character, boosts the Color Affinity of Slasher and Powerhouse characters by 1.75x for 3 turns",
         specialNotes: "#{beneficial}",
-        specialName: "Smoothie Special",
+        specialName: "Juice Slash",
         sailor: "Boosts base ATK, HP and RCV of Slasher and Powerhouse characters by 50",
     },
     2375: {//Smoothie
         captain: "Boosts ATK of Slasher and Powerhouse characters by 2.75x if they have a matching orb, by 2.25x otherwise, and boosts their HP by 1.25x.",
         special: "Deals 100x character's ATK in [INT] damage to one enemy, makes [DEX], [QCK] and [INT] orbs beneficial for Slasher and Powerhouse characters for 1 turn. If your captain is a Slasher or Powerhouse character, boosts the Color Affinity of Slasher and Powerhouse characters by 1.75x for 3 turns",
         specialNotes: "#{beneficial}",
-        specialName: "Smoothie Special",
+        specialName: "Juice Slash",
         sailor: {
             "base": "Boosts base ATK, HP and RCV of Slasher and Powerhouse characters by 50",
             "level1": "Makes [PSY] orbs beneficial for this character",
@@ -41682,6 +41680,29 @@ window.details = {
                     "Level 3: When the supported character uses their special, boosts base ATK of the supported character by 1.3x until the next stage.",
                     "Level 4: When the supported character uses their special, boosts base ATK of the supported character by 1.35x until the next stage.",
                     "Level 5: When the supported character uses their special, boosts base ATK of the supported character by 1.5x until the next stage."
+                ]
+            }
+        ]
+    },
+    2398: {//Big Emperor
+        captain: "Boosts ATK of Shooter characters by 2.5x and their HP by 1.2x. If you use \"Tactics Fifteen \"Big Emperor\"\" in this turn boosts ATK of Shooter characters by 2.75x instead.",
+        special: "Increases damage received by ?x for 2 turns and amplifies the effect of orbs for Shooter characters by 1.75x for 2 turns. If during that turn you score 5 PERFECT hits, changes all orbs on Shooter characters into Matching orbs in the following turn.",
+        specialName: "Tactics Fifteen \"Big Emperor\"",
+        sailor: {
+            "base": "None",
+            "level1": "Makes [STR] and [QCK] orbs beneficial for this character",
+            "level2": "Makes [TND] orbs beneficial for Shooter characters",
+        },
+        sailorNotes: "#{beneficial}",
+        support: [
+            {
+                "Characters": "Shooter Characters",
+                "description": [
+                    "Level 1: Adds 1% of this character's base HP to the supported character's base HP.",
+                    "Level 2: Adds 2% of this character's base HP to the supported character's base HP.",
+                    "Level 3: Adds 3% of this character's base HP to the supported character's base HP.",
+                    "Level 4: Adds 4% of this character's base HP to the supported character's base HP.",
+                    "Level 5: Adds 5% of this character's base HP to the supported character's base HP."
                 ]
             }
         ]
