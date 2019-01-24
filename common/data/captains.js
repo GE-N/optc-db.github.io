@@ -7764,9 +7764,9 @@ window.captains = {
     2250: {
         hitAtk: function(p) {
             var reduction = 1;
-            if(p.classCount.Striker >= 1) reduction *= .5;//Change This
-            if(p.classCount.Shooter >= 1) reduction *= .5;//Change This
-            if(p.classCount.Cerebral >= 1) reduction *= .5;//Change This
+            if(p.classCount.Striker >= 1) reduction *= .2;
+            if(p.classCount.Shooter >= 1) reduction *= .2;
+            if(p.classCount.Cerebral >= 1) reduction *= .2;
             return p.modifiers.slice(0, p.chainPosition).subcontains(["Good", "Great", "Perfect"]) ? 4 * reduction : 2 * reduction;
         },
         hitModifiers: ["Good", "Great", "Perfect", "Perfect", "Perfect", "Perfect"],
@@ -7775,9 +7775,9 @@ window.captains = {
     2251: {
         hitAtk: function(p) {
             var reduction = 1;
-            if(p.classCount.Striker >= 1) reduction *= .5;//Change This
-            if(p.classCount.Shooter >= 1) reduction *= .5;//Change This
-            if(p.classCount.Cerebral >= 1) reduction *= .5;//Change This
+            if(p.classCount.Striker >= 1) reduction *= .2;
+            if(p.classCount.Shooter >= 1) reduction *= .2;
+            if(p.classCount.Cerebral >= 1) reduction *= .2;
             return p.modifiers.slice(0, p.chainPosition).subcontains(["Good", "Great", "Perfect"]) ? 4 * reduction : 2 * reduction;
         },
         hitModifiers: ["Good", "Great", "Perfect", "Perfect", "Perfect", "Perfect"],
@@ -8629,6 +8629,14 @@ window.captains = {
     2509: {
         atk: function(p) { return (p.unit.class.has("Fighter") || p.unit.class.has("Shooter") || p.unit.class.has("Free Spirit")) ? Math.min(4.25, 3.0 + 0.25 * p.turnCounter) : 1; },
         hp: function(p) { return (p.unit.class.has("Fighter") || p.unit.class.has("Shooter") || p.unit.class.has("Free Spirit")) ? 1.25 : 1; },
+    },
+    2510: {
+        atk: function(p) { return (p.unit.class.has("Fighter")) ? 1.5 : 1; },
+        hp: function(p) { return (p.unit.class.has("Fighter")) ? 1.5 : 1; },
+    },
+    2511: {
+        atk: function(p) { return (p.unit.class.has("Fighter")) ? 2.25 : 1; },
+        hp: function(p) { return (p.unit.class.has("Fighter")) ? 1.5 : 1; },
     },
     5000: {
         atk: function(p) { return p.unit.type == "PSY" || p.unit.type == "INT" ? 2.5 : 1; },

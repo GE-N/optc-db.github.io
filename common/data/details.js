@@ -37845,6 +37845,7 @@ window.details = {
     },
     2250: {//Garp
         captain: "Boosts ATK of all characters by 2x at the start of the chain and their HP by 1.5x, boosts ATK of all characters by 4x following a chain of Good > Great > PERFECT hits, makes [PSY] and [RCV] orbs beneficial for all characters. Reduces ATK based on how many Striker, Shooter or Cerebral characters you have on your crew.",
+        captainNotes: "ATK reduction is .2x for each Striker, Shooter or Cerebral class on your team. This stacks if you have each class on your team, so a team with a Striker, Shooter, and Cerebral character will get a 99.2% ATK reduction from Garp.",
         special: [
             {
                 "description": "Cuts the current HP of one enemy by 10% that will ignore damage negating abilities and barriers, locks the chain multiplier at 3x for 1 turn and reduces Silence duration by 1 turn",
@@ -37860,6 +37861,7 @@ window.details = {
     },
     2251: {//Garp
         captain: "Boosts ATK of all characters by 2x at the start of the chain and their HP by 1.5x, boosts ATK of all characters by 4x following a chain of Good > Great > PERFECT hits, makes [PSY] and [RCV] orbs beneficial for all characters. Reduces ATK based on how many Striker, Shooter or Cerebral characters you have on your crew.",
+        captainNotes: "ATK reduction is .2x for each Striker, Shooter or Cerebral class on your team. This stacks if you have each class on your team, so a team with a Striker, Shooter, and Cerebral character will get a 99.2% ATK reduction from Garp.",
         special: [
             {
                 "description": "Cuts the current HP of one enemy by 10% that will ignore damage negating abilities and barriers, locks the chain multiplier at 3x for 1 turn and reduces Silence duration by 1 turn",
@@ -41673,27 +41675,66 @@ window.details = {
         specialName: "Senior Apprentice's Assistance",
         support: [
             {
-                "Characters": "Luffy, Koala and Hack",
+                "Characters": "Franky",
                 "description": [
-                    "Level 1: When the supported character uses their special, boosts base ATK of the supported character by 1.2x until the next stage.",
-                    "Level 2: When the supported character uses their special, boosts base ATK of the supported character by 1.25x until the next stage.",
-                    "Level 3: When the supported character uses their special, boosts base ATK of the supported character by 1.3x until the next stage.",
-                    "Level 4: When the supported character uses their special, boosts base ATK of the supported character by 1.35x until the next stage.",
-                    "Level 5: When the supported character uses their special, boosts base ATK of the supported character by 1.5x until the next stage."
+                    "Level 1: Once per adventure, when you are inflicted with Chain Coefficient Reduction, reduces Despair and Silence on the supported character by 1 turn.",
+                    "Level 2: Once per adventure, when you are inflicted with Chain Coefficient Reduction, reduces Despair and Silence on the supported character by 2 turn.",
+                    "Level 3: Once per adventure, when you are inflicted with Chain Coefficient Reduction, reduces Despair and Silence on the supported character by 3 turn.",
+                    "Level 4: Once per adventure, when you are inflicted with Chain Coefficient Reduction, reduces Despair and Silence on the supported character by 3 turn and reduces Special Cooldown of the supported character by 1 turn.",
+                    "Level 5: Once per adventure, when you are inflicted with Chain Coefficient Reduction, reduces Despair and Silence on the supported character by 3 turn and reduces Special Cooldown of the supported character by 2 turns."
                 ]
             }
         ]
     },
     2398: {//Big Emperor
         captain: "Boosts ATK of Shooter characters by 2.5x and their HP by 1.2x. If you use \"Tactics Fifteen \"Big Emperor\"\" in this turn boosts ATK of Shooter characters by 2.75x instead.",
-        special: "Increases damage received by ?x for 2 turns and amplifies the effect of orbs for Shooter characters by 1.75x for 2 turns. If during that turn you score 5 PERFECT hits, changes all orbs on Shooter characters into Matching orbs in the following turn.",
+        special: "Increases damage received by 1.25x for 2 turns and amplifies the effect of orbs for Shooter characters by 1.75x for 2 turns. If during that turn you score 5 PERFECT hits, changes all orbs on Shooter characters into Matching orbs in the following turn.",
         specialName: "Tactics Fifteen \"Big Emperor\"",
         sailor: {
-            "base": "None",
-            "level1": "Makes [STR] and [QCK] orbs beneficial for this character",
-            "level2": "Makes [TND] orbs beneficial for Shooter characters",
+            "base": "Makes [STR] and [QCK] orbs beneficial for this character",
+            "level1": "Makes [TND] orbs beneficial for Shooter characters",
         },
         sailorNotes: "#{beneficial}",
+        limit: [
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Boosts base HP by 20" },
+            { "description": "Boosts base HP by 30" },
+            { "description": "Acquire Potential 1: Enrage" },
+            { "description": "Boosts base HP by 40" },
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Acquire Sailor Ability 1: Makes [TND] orbs beneficial for Shooter characters" },
+            { "description": "Boosts base ATK by 30" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Boosts base HP by 60" },
+            { "description": "Boosts base ATK by 45" },
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Boosts base ATK by 60" },
+            { "description": "Acquire Potential 2: Barrier Penetration" },
+        ],
+        potential: [
+            {
+                "Name": "Enrage",
+                "description": [
+                    "Level 1: Boosts base ATK by 50",
+                    "Level 2: Boosts base ATK by 75",
+                    "Level 3: Boosts base ATK by 100",
+                    "Level 4: Boosts base ATK by 125",
+                    "Level 5: Boosts base ATK by 150"
+                ]
+            },
+            {
+                "Name": "Barrier Penetration",
+                "description": [
+                    "Level 1: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
+                ]
+            },
+        ],
+        potentialNotes: "#{enrage}",
         support: [
             {
                 "Characters": "Shooter Characters",
@@ -42267,6 +42308,16 @@ window.details = {
                 ]
             },
         ]
+    },
+    2510: {
+        special: "Randomizes all orbs into either [STR] or [RCV] orbs, reduces Bind and Despair duration by 1 turn and boosts ATK of Fighter characters by 1.75x for 1 turn.",
+        specialName: "Meteor Fist Shower [Neo]",
+        captain: "Boosts ATK and HP Fighter characters by 1.5x"
+    },
+    2511: {
+        special: "Randomizes all orbs into either [STR] or [RCV] orbs, reduces Bind and Despair duration by 1 turn and boosts ATK of Fighter characters by 1.75x for 1 turn.",
+        specialName: "Meteor Fist Shower [Neo]",
+        captain: "Boosts ATK Fighter characters by 2.25x and their HP by 1.5x",
     },
     5000: {//Smoker&Tashigi
         captain: "Boosts ATK of [INT] and [PSY] characters by 2.5x, reduce damage received by 7% and makes [INT] and [PSY] orbs beneficial for [INT] and [PSY] characters",
