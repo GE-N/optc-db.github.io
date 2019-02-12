@@ -714,7 +714,7 @@ window.matchers = [
     {
         name: 'Enemy End of Turn Damage/Percent Cut buff reducer',
         target: 'special',
-        matcher: /(removes|reduces).+End of Turn Damage\\/Percent Cut.+duration/i,
+        matcher: /(removes|reduces).+End of Turn Damage\/Percent Cut.+duration/i,
         icon: 'end turn dmg'
     },
 
