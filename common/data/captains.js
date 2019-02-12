@@ -8625,10 +8625,16 @@ window.captains = {
         atk: function(p) { return p.unit.class.has("Slasher") ? 2 : 1; }
     },
     2430: {
-        atk: function(p) { return p.unit.class.has("Driven") ? 1 : 1; }//change this
+        atk: function(p) { return p.unit.class.has("Driven") ? 2.5 : 1; }
     },
     2431: {
         atk: function(p) { return p.unit.class.has("Driven") ? 3 : 1; }
+    },
+    2435: {
+        atk: function(p) { return (p.unit.class.has("Slasher") || p.unit.class.has("Driven")) ? 2.25 : 1; }
+    },
+    2436: {
+        atk: function(p) { return !(p.unit.class.has("Striker") || p.unit.class.has("Driven")) ? 1 : (((CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 2, [p.friendCaptain, p.captain], p.effectName) == 2) && (p.orb != 'g')) ? 2.7 : 2.25); }
     },
     2500: {
         atk: function(p) { return p.unit.type == "STR" || p.unit.type == "QCK" ? 2.75 : 1; },
@@ -8825,10 +8831,10 @@ window.captains = {
         atk: function(p) { return p.slot == p.sourceSlot ? 3.75 : p.unit.class.has("Driven") ? 3.25 : 1; }
     },
     5038: {
-        atk: function(p) { return p.unit.class.has("Driven") ? 3.25 : 1; }
+        atk: function(p) { return p.unit.class.has("Driven") ? 4.25 : 1; }
     },
     5039: {
-        atk: function(p) { return p.unit.class.has("Driven") ? 3.25 : 1; }
+        atk: function(p) { return p.unit.class.has("Driven") ? 4.25 : 1; }
     },
     5040: {
         atk: function(p) { return p.unit.class.has("Driven") ? 3.25 : 1; }
@@ -8837,36 +8843,33 @@ window.captains = {
         atk: function(p) { return p.slot == p.sourceSlot ? 3.75 : p.unit.class.has("Driven") ? 3.25 : 1; }
     },
     5042: {
-        atk: function(p) { return p.unit.class.has("Driven") ? 3.25 : 1; }
+        atk: function(p) { return p.unit.class.has("Driven") ? 4.25 : 1; }
     },
     5043: {
-        atk: function(p) { return p.unit.class.has("Driven") ? 3.25 : 1; }
+        atk: function(p) { return p.unit.class.has("Driven") ? 4.25 : 1; }
     },
     5044: {
-        atk: function(p) { return p.unit.class.has("Driven") ? 3.25 : 1; }
-    },
-    5045: {
         atk: function(p) { return p.unit.class.has("Slasher") ? 2 : 1; }
     },
-    5046: {
+    5045: {
         atk: function(p) { return p.unit.class.has("Slasher") ? 2.25 : 1; }
+    },
+    5046: {
+        atk: function(p) { return p.unit.class.has("Slasher") ? 3 : 1; }
     },
     5047: {
         atk: function(p) { return p.unit.class.has("Slasher") ? 3 : 1; }
     },
     5048: {
-        atk: function(p) { return p.unit.class.has("Slasher") ? 3 : 1; }
-    },
-    5049: {
         atk: function(p) { return p.unit.class.has("Slasher") ? 2.25 : 1; }
     },
-    5050: {
+    5049: {
         atk: function(p) { return p.unit.class.has("Slasher") ? 2.5 : 1; }
     },
-    5051: {
+    5050: {
         atk: function(p) { return p.unit.class.has("Slasher") ? 3 : 1; }
     },
-    5052: {
+    5051: {
         atk: function(p) { return p.unit.class.has("Slasher") ? 3 : 1; }
     },
 };

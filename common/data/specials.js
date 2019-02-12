@@ -1348,12 +1348,10 @@ window.specials = {
     1028: {
         //TODO
         hit: function(n,p) { return n > 30 ? 1.75 : 1; },
-        type: "condition"
     },
     1029: {
         //TODO
         hit: function(n,p) { return n > 30 ? 1.75 : 1; },
-        type: "condition"
     },
     1030: {
         atk: function(p) { return p.slot == p.sourceSlot ? 2.25 : 1; },
@@ -1784,12 +1782,10 @@ window.specials = {
     1237: {
         //TODO
         hit: function(n,p) { return n > 30 ? 2 : 1; },
-        type: "condition"
     },
     1238: {
         //TODO
         hit: function(n,p) { return n > 30 ? 2 : 1; },
-        type: "condition"
     },
     1239: {
         turnedOn: [ false, false ],
@@ -6573,12 +6569,10 @@ window.specials = {
     2380: {
         //TODO
         hit: function(n,p) { return (n > 12 && (p.unit.class.has("Driven") || p.unit.class.has("Powerhouse"))) ? 2.25 : 1; },
-        type: "condition",
     },
     2381: {
         //TODO
         hit: function(n,p) { return (n > 12 && (p.unit.class.has("Driven") || p.unit.class.has("Powerhouse"))) ? 2.25 : 1; },
-        type: "condition",
     },
     2383:{
         atk: function(p) { return (p.unit.type == "STR" || p.unit.type == "QCK" || p.unit.type == "PSY") ? window.specials[2383].multiplier : 1; },
@@ -6917,6 +6911,10 @@ window.specials = {
             window.specials[2425].turnedOn = p.captain.class.has("Slasher") ? true : false;
         },
     },
+    2435: {
+        atk: function(p) { return p.unit.class.has("Slasher") || p.unit.class.has("Driven") ? 1.5 : 1},
+        type: "class"
+    },
     2500: {
         atk: function(p) { return !(p.unit.type == "STR" || p.unit.type == "QCK") ? 1 : window.specials[2500].multiplier; },
         type: "type",
@@ -7208,7 +7206,7 @@ window.specials = {
     },
     5044: {
         atk: function(p) { return p.delayed > 0 ? window.specials[5044].multiplier : 1; },
-        type: "conditional",
+        type: "condition",
         delay: function(p) { return window.specials[5044].multiplier == 1.75 ? 2 : 0; },
         onActivation: function(p) {
             var n = (p.percHP <= 50 ? 1.75 : 1);
@@ -7217,7 +7215,7 @@ window.specials = {
     },
     5045: {
         atk: function(p) { return p.delayed > 0 ? window.specials[5045].multiplier : 1; },
-        type: "conditional",
+        type: "condition",
         delay: function(p) { return window.specials[5045].multiplier == 1.75 ? 2 : 0; },
         onActivation: function(p) {
             var n = (p.percHP <= 50 ? 1.75 : 1);
@@ -7226,7 +7224,7 @@ window.specials = {
     },
     5046: {
         atk: function(p) { return p.delayed > 0 ? window.specials[5046].multiplier : 1; },
-        type: "conditional",
+        type: "condition",
         delay: function(p) { return window.specials[5046].multiplier == 1.75 ? 2 : 0; },
         onActivation: function(p) {
             var n = (p.percHP <= 50 ? 1.75 : 1);
@@ -7235,7 +7233,7 @@ window.specials = {
     },
     5047: {
         atk: function(p) { return p.delayed > 0 ? window.specials[5047].multiplier : 1; },
-        type: "conditional",
+        type: "condition",
         delay: function(p) { return window.specials[5047].multiplier == 1.75 ? 2 : 0; },
         onActivation: function(p) {
             var n = (p.percHP <= 50 ? 1.75 : 1);
@@ -7244,7 +7242,7 @@ window.specials = {
     },
     5048: {
         atk: function(p) { return p.delayed > 0 ? window.specials[5048].multiplier : 1; },
-        type: "conditional",
+        type: "condition",
         delay: function(p) { return window.specials[5048].multiplier == 1.75 ? 2 : 0; },
         onActivation: function(p) {
             var n = (p.percHP <= 50 ? 1.75 : 1);
@@ -7253,7 +7251,7 @@ window.specials = {
     },
     5049: {
         atk: function(p) { return p.delayed > 0 ? window.specials[5049].multiplier : 1; },
-        type: "conditional",
+        type: "condition",
         delay: function(p) { return window.specials[5049].multiplier == 1.75 ? 2 : 0; },
         onActivation: function(p) {
             var n = (p.percHP <= 50 ? 1.75 : 1);
@@ -7262,7 +7260,7 @@ window.specials = {
     },
     5050: {
         atk: function(p) { return p.delayed > 0 ? window.specials[5050].multiplier : 1; },
-        type: "conditional",
+        type: "condition",
         delay: function(p) { return window.specials[5050].multiplier == 1.75 ? 2 : 0; },
         onActivation: function(p) {
             var n = (p.percHP <= 50 ? 1.75 : 1);
@@ -7271,7 +7269,7 @@ window.specials = {
     },
     5051: {
         atk: function(p) { return p.delayed > 0 ? window.specials[5051].multiplier : 1; },
-        type: "conditional",
+        type: "condition",
         delay: function(p) { return window.specials[5051].multiplier == 1.75 ? 2 : 0; },
         onActivation: function(p) {
             var n = (p.percHP <= 50 ? 1.75 : 1);

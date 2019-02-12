@@ -27829,15 +27829,15 @@ window.details = {
         captain: "Boosts ATK of Shooter characters by 1.5x at the start of the chain.<br>Boosts ATK of Shooter characters by 1.65x after the 1st PERFECT in a row, by 1.815x after the 2nd PERFECT in a row, by 1.9965x after the 3rd PERFECT in a row, by 2.19615x after the 4th PERFECT in a row and by 2.415765x after the 5th PERFECT in a row.",
         special: [
             {
-                "description": "Deals 100,000 fixed damage to one enemy and removes ATK DOWN debuff from your team",
+                "description": "Deals 100,000 fixed damage to one enemy and removes ATK DOWN duration completely",
                 "cooldown": [ 14, 10 ]
             },
             {
-                "description": "Deals 300,000 fixed damage to one enemy and removes ATK DOWN debuff from your team",
+                "description": "Deals 300,000 fixed damage to one enemy and removes ATK DOWN duration completely",
                 "cooldown": [ 18, 14 ]
             },
             {
-                "description": "Deals 500,000 fixed damage to one enemy, removes ATK DOWN debuff from your team and reduces enemy Barrier duration by 1 turn",
+                "description": "Deals 500,000 fixed damage to one enemy, removes ATK DOWN duration completely and reduces enemy Barrier duration by 1 turn",
                 "cooldown": [ 22, 18 ]
             }
         ],
@@ -27848,15 +27848,15 @@ window.details = {
         captain: "Boosts ATK of Shooter characters by 2.2x at the start of the chain.<br>Boosts ATK of Shooter characters by 2.42x after the 1st PERFECT in a row, by 2.662x after the 2nd PERFECT in a row, by 2.9282x after the 3rd PERFECT in a row, by 3.22102x after the 4th PERFECT in a row and by 3.543122x after the 5th PERFECT in a row.",
         special: [
             {
-                "description": "Deals 100,000 fixed damage to one enemy and removes ATK down debuff from your team",
+                "description": "Deals 100,000 fixed damage to one enemy and removes ATK DOWN duration completely",
                 "cooldown": [ 14, 10 ]
             },
             {
-                "description": "Deals 300,000 fixed damage to one enemy and removes ATK down debuff from your team",
+                "description": "Deals 300,000 fixed damage to one enemy and removes ATK DOWN duration completely",
                 "cooldown": [ 18, 14 ]
             },
             {
-                "description": "Deals 500,000 fixed damage to one enemy, removes ATK down debuff from your team and reduces enemy Barrier duration by 1 turn",
+                "description": "Deals 500,000 fixed damage to one enemy, removes ATK DOWN duration completely and reduces enemy Barrier duration by 1 turn",
                 "cooldown": [ 22, 18 ]
             }
         ],
@@ -28714,15 +28714,15 @@ window.details = {
         captain: "Reduces cooldown of all specials by 2 turns at the start of the fight, boosts ATK of Shooter characters by 2.5x",
         special: [
             {
-                "description": "Deals 3x character's ATK in [QCK] damage to all enemies, changes [TND] and [RCV] orbs on Shooter characters into Matching Orbs,",
+                "description": "Deals 3x character's ATK in [QCK] damage to all enemies, changes Shooter character's [TND] and [RCV] orbs into Matching orbs,",
                 "cooldown": [ 19, 4 ]
             },
             {
-                "description": "Deals 7x character's ATK in [QCK] damage to all enemies, changes [TND] and [RCV] orbs on Shooter characters into Matching Orbs. If your captain is a Shooter Character, boosts ATK against delayed enemies by 1.35x for 1 turn",
+                "description": "Deals 7x character's ATK in [QCK] damage to all enemies, changes Shooter character's [TND] and [RCV] orbs into Matching orbs. If your Captain is a Shooter Character, boosts ATK against delayed enemies by 1.35x for 1 turn",
                 "cooldown": [ 24, 9 ]
             },
             {
-                "description": "Deals 11x character's ATK in [QCK] damage to all enemies, changes [TND] and [RCV] orbs on Shooter characters into Matching Orbs. If your captain is a Shooter Character, boosts ATK against delayed enemies by 1.75x for 1 turn",
+                "description": "Deals 11x character's ATK in [QCK] damage to all enemies, changes Shooter character's [TND] and [RCV] orbs into Matching orbs. If your Captain is a Shooter Character, boosts ATK against delayed enemies by 1.75x for 1 turn",
                 "cooldown": [ 30, 15 ]
             }
         ],
@@ -36152,12 +36152,12 @@ window.details = {
     },
     2170: {//Sicilian
         captain: "Boosts ATK of [DEX] characters by 1.5x",
-        special: "Deals 15x character's ATK in [DEX] damage to all enemies, delays all enemies for 1 turn and if enemies have a barrier at the time the special was activated, boosts ATK of all characters by 1.75x, 1.5x otherwise.",
+        special: "Deals 15x character's ATK in [DEX] damage to one enemy, delays all enemies for 1 turn and if enemies have a barrier at the time the special was activated, boosts ATK of all characters by 1.75x, 1.5x otherwise.",
         specialName: "Lightning Slash",
     },
     2171: {//Sicilian
         captain: "Boosts ATK of [DEX] characters by 2.25x",
-        special: "Deals 15x character's ATK in [DEX] damage to all enemies, delays all enemies for 1 turn and if enemies have a barrier at the time the special was activated, boosts ATK of all characters by 1.75x, 1.5x otherwise.",
+        special: "Deals 15x character's ATK in [DEX] damage to ome enemy, delays all enemies for 1 turn and if enemies have a barrier at the time the special was activated, boosts ATK of all characters by 1.75x, 1.5x otherwise.",
         specialName: "Lightning Slash",
     },
     2172: {//Swimsuit Shirahoshi
@@ -42589,12 +42589,12 @@ window.details = {
     2427: {//Cavendish
         captain: "Boosts ATK of Slasher characters by 1.75x, but boosts his OWN attack by 2.5x",
         special: "Deals 15x character's ATK in [PSY] damage to one enemy and amplifies the effect of orbs for Slasher characters by 1.5x and boosts ATK of Slasher characters by 1.5x for 1 turn",
-        specialName: "Cavendish Special",
+        specialName: "Swan Lake Sword",
     },
     2428: {//Cavendish
         captain: "Boosts ATK of Slasher characters by 2x, but boosts his OWN attack by 2.75x",
         special: "Deals 15x character's ATK in [PSY] damage to one enemy and amplifies the effect of orbs for Slasher characters by 1.5x and boosts ATK of Slasher characters by 1.5x for 1 turn",
-        specialName: "Cavendish Special",
+        specialName: "Swan Lake Sword",
         support: [
             {
                 "Characters": "Suleiman, Bartolomeo",
@@ -42610,8 +42610,8 @@ window.details = {
     },
     2429: {//Suleiman
         captain: "Boosts ATK of Slasher characters by 2x",
-        special: "Deals 15x character's ATK in [PSY] damage to all enemies. If your Captain is a Slasher character, changes [RCV], [TND], [EMPTY], [BLOCK] and [BOMB] orbs on Slasher characters into Matching orbs and reduces the defense of all enemies by 50% for 1 turn.",
-        specialName: "Suleiman Special",
+        special: "Deals 15x character's ATK in [INT] damage to all enemies. If your Captain is a Slasher character, changes [RCV], [TND], [EMPTY], [BLOCK] and [BOMB] orbs on Slasher characters into Matching orbs and reduces the defense of all enemies by 50% for 1 turn.",
+        specialName: "Ghost Execution",
         support: [
             {
                 "Characters": "Cavendish",
@@ -42626,11 +42626,11 @@ window.details = {
         ]
     },
     2430: {//Pudding
-        captain: "Boosts ATK of Driven characters by ?x and recovers ?x character's RCV in HP at the end of each turn",
+        captain: "Boosts ATK of Driven characters by 2.5x and recovers 1x character's RCV in HP at the end of each turn",
         special: "Reduces Silence duration by 5 turns, reduces enemy's Percent Damage Reduction and Resilience Buffs duration by 5 turns, changes [BLOCK] and Badly Matching orbs into [G] orbs. If there are 6 Driven characters in your crew when the special is activated, changes [STR], [DEX], [QCK], [PSY], [INT] orbs into Matching orbs and recovers 5,000 HP at the end of the turn for 3 turns.",
         sailor: "Reduces Silence duration on this character by 5 turns",
         sailorNotes: "#{silence}",
-        specialName: "Pudding Special",
+        specialName: "Memory Filament: Flashback",
     },
     2431: {//Pudding
         captain: "Boosts ATK of Driven characters by 3x and recovers 2x character's RCV in HP at the end of each turn",
@@ -42640,26 +42640,43 @@ window.details = {
             "level1": "Makes [PSY] orbs beneficial for Driven characters"
         },
         sailorNotes: "#{beneficial}<br>#{silence}",
-        specialName: "Pudding Special",
+        specialName: "Memory Filament: Flashback",
+        limit: [
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Acquire Potential 1: [INT] Damage Reduction" },
+            { "description": "Boosts base HP by 30" },
+            { "description": "Boosts base HP by 40" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Boosts base RCV by 20" },
+            { "description": "Boosts base HP by 80" },
+            { "description": "Boosts base ATK by 20" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Acquire Sailor Ability 1: Makes [PSY] orbs beneficial for Driven characters" },
+            { "description": "Boosts base ATK by 30" },
+            { "description": "Boosts base ATK by 50" },
+            { "description": "Acquire Potential 2: Barrier Penetration" },
+        ],
         potential: [
             {
                 "Name": "[INT] Damage Reduction",
                 "description": [
-                    "Level 1: Reduce damage taken from [INT] characters by ?%",
-                    "Level 2: Reduce damage taken from [INT] characters by ?%",
-                    "Level 3: Reduce damage taken from [INT] characters by ?%",
-                    "Level 4: Reduce damage taken from [INT] characters by ?%",
-                    "Level 5: Reduce damage taken from [INT] characters by ?%"
+                    "Level 1: Reduce damage taken from [INT] characters by 1%",
+                    "Level 2: Reduce damage taken from [INT] characters by 2%",
+                    "Level 3: Reduce damage taken from [INT] characters by 3%",
+                    "Level 4: Reduce damage taken from [INT] characters by 4%",
+                    "Level 5: Reduce damage taken from [INT] characters by 5%"
                 ]
             },
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
-                    "Level 2: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
-                    "Level 3: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
-                    "Level 4: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
-                    "Level 5: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn"
+                    "Level 1: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 60% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
             },
         ],
@@ -42667,11 +42684,45 @@ window.details = {
             {
                 "Characters": "Sanji and Chiffon",
                 "description": [
-                    "Level 1: Adds ?% of this character's base ATK and RCV to the supported character's base ATK and RCV.",
-                    "Level 2: Adds ?% of this character's base ATK and RCV to the supported character's base ATK and RCV.",
-                    "Level 3: Adds ?% of this character's base ATK and RCV to the supported character's base ATK and RCV.",
-                    "Level 4: Adds ?% of this character's base ATK and RCV to the supported character's base ATK and RCV.",
+                    "Level 1: Adds 5% of this character's base ATK and RCV to the supported character's base ATK and RCV.",
+                    "Level 2: Adds 6% of this character's base ATK and RCV to the supported character's base ATK and RCV.",
+                    "Level 3: Adds 8% of this character's base ATK and RCV to the supported character's base ATK and RCV.",
+                    "Level 4: Adds 10% of this character's base ATK and RCV to the supported character's base ATK and RCV.",
                     "Level 5: Adds 12% of this character's base ATK and RCV to the supported character's base ATK and RCV."
+                ]
+            }
+        ]
+    },
+    2435: {//Dagama
+        captain: "Reduces cooldown of all specials by 2 turns at the start of the fight and boosts ATK of Slasher and Driven characters by 2.25x",
+        special: "Reduces Bind and ATK DOWN duration by 2 turns and boosts ATK of Slasher and Driven characters by 1.5x for 1 turn.",
+        specialName: "Tactician's Twin Blade Slash",
+        support: [
+            {
+                "Characters": "Elizabello, Chinjao, Sai, Ideo and Hajrudin",
+                "description": [
+                    "Level 1: Adds 5% of this character's base ATK to the supported character's base ATK, boosts the supported character's ATK by 1.5x against Crocodile and when the supported character hits a PERFECT, reduces enemy's End of Turn Damage/Percent Cut duration by 5 turns.",
+                    "Level 2: Adds 7% of this character's base ATK to the supported character's base ATK, boosts the supported character's ATK by 1.5x against Crocodile and when the supported character hits a PERFECT, reduces enemy's End of Turn Damage/Percent Cut duration by 5 turns.",
+                    "Level 3: Adds 10% of this character's base ATK to the supported character's base ATK, boosts the supported character's ATK by 1.5x against Crocodile and when the supported character hits a PERFECT, reduces enemy's End of Turn Damage/Percent Cut duration by 5 turns.",
+                    "Level 4: Adds 15% of this character's base ATK to the supported character's base ATK, boosts the supported character's ATK by 1.5x against Crocodile and when the supported character hits a PERFECT, reduces enemy's End of Turn Damage/Percent Cut duration by 5 turns.",
+                    "Level 5: Adds 20% of this character's base ATK to the supported character's base ATK, boosts the supported character's ATK by 1.5x against Crocodile and when the supported character hits a PERFECT, reduces enemy's End of Turn Damage/Percent Cut duration by 5 turns."
+                ]
+            }
+        ]
+    },
+    2436: {//Orlumbus
+        captain: "Boosts ATK of Striker characters by 2.7x if they have a matching orb, by 2.25x otherwise",
+        special: "Changes all orbs on all characters into Orlumbus's orb and locks all orbs for 1 turn.",
+        specialName: "Adventurer's Assistance",
+        support: [
+            {
+                "Characters": "Hajrudin, Cavendish, Ideo, Bartolomeo, Leo and Sai",
+                "description": [
+                    "Level 1: Once per an adventure, when the supported character uses their special, changes [RCV] orbs on Driven characters into the supported character's orb.",
+                    "Level 2: Once per an adventure, when the supported character uses their special, changes [RCV] and [EMPTY] orbs on Driven characters into the supported character's orb.",
+                    "Level 3: Once per an adventure, when the supported character uses their special, changes [RCV], [EMPTY] and [BOMB] orbs on Driven characters into the supported character's orb.",
+                    "Level 4: Once per an adventure, when the supported character uses their special, changes [RCV], [TND], [EMPTY] and [BOMB] orbs on Driven characters into the supported character's orb.",
+                    "Level 5: Once per an adventure, when the supported character uses their special, changes [RCV], [TND], [EMPTY] and [BOMB] orbs on Driven characters into the supported character's orb and locks the supported character's orb for 1 turn."
                 ]
             }
         ]
