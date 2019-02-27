@@ -2183,7 +2183,7 @@ window.drops = {
             thumb: 2377,
             nakama: null,
             gamewith: null,
-            'All Difficulties': [ 2376, 2378, 2379, -2234, -2201, -2203, -2242, -2161, -2244 ]
+            'All Difficulties': [ 2376, 2378, 2379, -2234, -2500, -2201, -2203, -2242, -2161, -2244 ]
         },
         
         {
@@ -2192,6 +2192,14 @@ window.drops = {
             nakama: null,
             gamewith: 141693,
             'All Difficulties': [ 2427, 2429, -2236, -2265, -2205, -2238, -2267, -2269, -2125, -2240 ]
+        },
+        
+        {
+            name: 'Pudding\'s Sweet Cooking',
+            thumb: null,
+            nakama: null,
+            gamewith: 141693,
+            'All Difficulties': [ -2441, -2302, -2273, -2271, -2275, -2308, -2310, -2199 ]
         },
         
     ],
@@ -2996,7 +3004,7 @@ window.drops = {
             thumb: 2443,
             nakama: null,
             gamewith: null,
-            'Raging Sea': [ 2442, 9026 ]
+            'Primordial Sea': [ 2442, 9026 ]
         },
         
     ],
@@ -3654,17 +3662,20 @@ var bonuses = [
     { type: 'stamina' , x: 6 , y: 12 },
     { type: 'stamina' , x: 6 , y: 19 },
     { type: 'stamina' , x: 6 , y: 26 },
+    { type: 'stamina' , x: 6 , y: 33 },
     { type: 'drop'    , x: 6 , y: 1  },
     { type: 'drop'    , x: 6 , y: 8  },
     { type: 'drop'    , x: 6 , y: 15 },
     { type: 'drop'    , x: 6 , y: 22 },
     { type: 'drop'    , x: 6 , y: 29 },
+    { type: 'drop'    , x: 6 , y: 36 },
     { type: 'beli'    , x: 6 , y: 3  },
     { type: 'beli'    , x: 1 , y: 4  },
     { type: 'beli'    , x: 6 , y: 10 },
     { type: 'beli'    , x: 6 , y: 17 },
     { type: 'beli'    , x: 6 , y: 24 },
     { type: 'beli'    , x: 6 , y: 31 },
+    { type: 'beli'    , x: 6 , y: 38 },
     { type: 'exp'     , x: 2 , y: 2  },
     { type: 'exp'     , x: 6 , y: 2  },
     { type: 'exp'     , x: 5 , y: 5, stop: 5 },
@@ -3672,5 +3683,6 @@ var bonuses = [
     { type: 'exp'     , x: 6 , y: 9, stop: 2 },
     { type: 'exp'     , x: 6 , y: 13 },
     { type: 'exp'     , x: 6 , y: 20 },
-    { type: 'exp'     , x: 6 , y: 27 }
+    { type: 'exp'     , x: 6 , y: 27 },
+    { type: 'exp'     , x: 6 , y: 34 },
 ];
