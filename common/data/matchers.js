@@ -453,6 +453,20 @@ window.matchers = [
         icon: 'orb empty'
     },
 
+    {
+        name: 'Block orb removers',
+        target: 'special',
+        matcher: /(empties.+with \[BLOCK\]|changes.+\[BLOCK\].+into|including.+\[BLOCK\])/i,
+        include: [ 1383, 1384 ],
+        icon: 'orb match'
+    },
+    
+    {
+        name: 'Beneficial Orb Enablers',
+        target: 'special',
+        matcher: /beneficial/i
+    },
+
     /*{
         name: 'Slot fillers',
         target: 'special',
@@ -664,14 +678,6 @@ window.matchers = [
     },
 
     {
-        name: 'Block orb removers',
-        target: 'special',
-        matcher: /(empties.+with \[BLOCK\]|changes.+\[BLOCK\].+into|including.+\[BLOCK\])/i,
-        include: [ 1383, 1384 ],
-        icon: 'orb match'
-    },
-
-    {
         name: 'Blindness reducers',
         target: 'special',
         matcher: /(reduces|removes).+blindness.+duration/i,
@@ -821,12 +827,6 @@ window.matchers = [
         target: 'special',
         matcher: /(removes|reduces).+Chain Coefficient Reduction/i,
         icon: 'chainlimit'
-    },
-    
-    {
-        name: 'Beneficial Orb Enablers',
-        target: 'special',
-        matcher: /beneficial/i
     },
     
     {
