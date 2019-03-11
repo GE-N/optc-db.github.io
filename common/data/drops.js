@@ -861,6 +861,7 @@ window.drops = {
             name: 'Mokomo Dukedom',
             shortName: 'Zou',
             thumb: 2231,
+            global: true,
             nakama: 1223100,
             completion: '5x Rainbow Gems',
             gamewith: 117222,
@@ -2141,14 +2142,16 @@ window.drops = {
         {
             name: 'Recover! King of Day Duke Inuarashi',
             thumb: 2219,
+            global: true,
             nakama: 2221900,
             gamewith: 116883,
             'All Difficulties': [ 2218, 2220, 2221, -2007, -2027, -2031, -1783, -1538, -1536 ]
         },
         
         {
-            name: 'Lets Play! The Seducing Woods',
+            name: 'Lets Play in The Seducing Woods',
             thumb: 2253,
+            global: true,
             nakama: 2225300,
             gamewith: 118916,
             'All Difficulties': [ 2252, 2254, 2255, -2023, -2025, -1959, -2082, -2080, -2068, -1782, -1781 ]
@@ -3006,6 +3009,14 @@ window.drops = {
             gamewith: null,
             'Primordial Sea': [ 2442, 9026 ]
         },
+
+        {
+            name: 'Smoothie & Oven',
+            thumb: 2469,
+            nakama: null,
+            gamewith: null,
+            'Sweet Sea': [ 2468 ]
+        },
         
     ],
 
@@ -3443,6 +3454,7 @@ window.drops = {
         {
             name: 'Higuma - The Bandit Who Rowed Out to Sea',
             thumb: 2259,
+            global: true,
             nakama: null,
             gamewith: 119604,
             'All Difficulties': [ 9022 ],
@@ -3488,6 +3500,15 @@ window.drops = {
             thumb: 1879,
             gamewith: 142094,
             'All Difficulties': [ 1878 ],
+            condition: "Chance of dropping the Support Medallions.",
+        },
+        
+        {
+            name: 'Clash!! Judge [Extra]',
+            thumb: 2281,
+            nakama: null,
+            gamewith: 144312,
+            'All Difficulties': [ 2280 ],
             condition: "Chance of dropping the Support Medallions.",
         },
         
