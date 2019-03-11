@@ -3104,76 +3104,7 @@ window.details = {
     366: {
         special: "Deals 20x character's ATK in [INT] damage to all enemies, reduces Bind duration by 5 turns",
         specialName: "Dark King's Aura",
-        captain: "Boosts chain multiplier by 4x",
-        sailor: {
-            "base": "None",
-            "level1": "Boosts base ATK, HP and RCV of all characters by 50",
-            "level2": "When any other character uses a special, reduces own cooldown by 2 turns",
-        },
-        limit: [
-            { "description": "Boosts base ATK by 5" },
-            { "description": "Boosts base ATK by 10" },
-            { "description": "Boosts base RCV by 5" },
-            { "description": "Acquire Potential 1: Slot Bind Self-reduction" },
-            { "description": "Boosts base ATK by 10" },
-            { "description": "Boosts base ATK by 10" },
-            { "description": "Boosts base HP by 20" },
-            { "description": "Boosts base HP by 20" },
-            { "description": "Boosts base ATK by 15" },
-            { "description": "Boosts base RCV by 15" },
-            { "description": "Boosts base HP by 40" },
-            { "description": "Boosts base HP by 50" },
-            { "description": "Boosts base RCV by 20" },
-            { "description": "Boosts base ATK by 20" },
-            { "description": "Acquire Potential 2: Critical Hit" },
-            { "description": "Boosts base ATK by 30" },
-            { "description": "Reduce base Special Cooldown by 1 turn" },
-            { "description": "Acquire Sailor Ability 1: Boosts base ATK, HP and RCV of all characters by 50" },
-            { "description": "Boosts base ATK by 30" },
-            { "description": "Boosts base RCV by 30" },
-            { "description": "Boosts base ATK by 30" },
-            { "description": "Boosts base RCV by 30" },
-            { "description": "Boosts base ATK by 30" },
-            { "description": "Boosts base HP by 70" },
-            { "description": "Boosts base HP by 80" },
-            { "description": "Reduce base Special Cooldown by 1 turn" },
-            { "description": "Acquire Sailor Ability 2: When any other character uses a special, reduces own cooldown by 2 turns" },
-            { "description": "Boosts base HP by 90" },
-            { "description": "Boosts base HP by 130" },
-            { "description": "Acquire Potential 3: Pinch Healing" },
-        ],
-        potential: [
-            {
-                "Name": "Slot Bind Self-reduction",
-                "description": [
-                    "Level 1: Reduces Slot Bind duration by 1 turn on this character",
-                    "Level 2: Reduces Slot Bind duration by ? turns on this character",
-                    "Level 3: Reduces Slot Bind duration by ? turns on this character",
-                    "Level 4: Reduces Slot Bind duration by ? turns on this character",
-                    "Level 5: Reduces Slot Bind duration by ? turns on this character"
-                ]
-            },
-            {
-                "Name": "Critical Hit",
-                "description": [
-                    "Level 1: If you hit a PERFECT with this character, there is a 10% chance to deal 3% of this character's attack in extra damage",
-                    "Level 2: If you hit a PERFECT with this character, there is a ?% chance to deal ?% of this character's attack in extra damage",
-                    "Level 3: If you hit a PERFECT with this character, there is a ?% chance to deal ?% of this character's attack in extra damage",
-                    "Level 4: If you hit a PERFECT with this character, there is a ?% chance to deal ?% of this character's attack in extra damage",
-                    "Level 5: If you hit a PERFECT with this character, there is a ?% chance to deal ?% of this character's attack in extra damage"
-                ]
-            },
-            {
-                "Name": "Pinch Healing",
-                "description": [
-                    "Level 1: If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
-                ]
-            },
-        ]
+        captain: "Boosts chain multiplier by 4x"
     },
     367: {
         special: "Deals 20x character's ATK in [INT] damage to all enemies, reduces Bind duration by 5 turns",
@@ -9757,7 +9688,7 @@ window.details = {
     879: {
         captain: "Reduces cooldown of all specials by 2 turns at the start of the fight, boosts ATK of Fighter characters by 1.75x",
         specialName: "Battle Preservation Fist: Manki Kayaku",
-        special: "Changes all orbs, including [BLOCK] orbs, into [G] orbs, deals random typeless damage to all enemies",
+        special: "Changes all orbs including [BLOCK] orbs into [G] orbs, deals random typeless damage to all enemies",
         specialNotes: "#{gOrbs}<br>#{random : 5,000 : 100,000}"
     },
     880: {
@@ -13458,7 +13389,7 @@ window.details = {
     },
     1098: {
         captain: "Boosts chain multiplier by 2x",
-        special: "Randomizes all orbs, including [BLOCK] orbs, and switches orbs between slots once.",
+        special: "Randomizes all orbs including [BLOCK] orbs and switches orbs between slots once.",
         specialName: "Mutation-Induced Thunder"
     },
     1099: {
@@ -17080,7 +17011,7 @@ window.details = {
     },
     1284: {//Wild Luffy
         captain: "Boosts ATK of Striker characters by 1.5x and their HP by 1.2x",
-        special: "Reduces Bind and Silence duration by 3 turns. Randomizes non-matching orbs, including [BLOCK] orbs",
+        special: "Reduces Bind and Silence duration by 3 turns. Randomizes non-matching orbs including [BLOCK] orbs",
         specialNotes: "#{silence}",
         sailor: "Reduces Silence duration against this character by 3 turns",
         sailorNotes: "#{silence}",
@@ -17088,7 +17019,7 @@ window.details = {
     },
     1285: {//Wild Luffy Evolved
         captain: "Boosts ATK of Striker characters by 1.5x and their HP by 1.25x. Boosts ATK of Striker characters by 3.375x after scoring 3 PERFECTs in a row.",
-        special: "Reduces Bind and Silence duration by 3 turns. Randomizes non-matching orbs, including [BLOCK] orbs",
+        special: "Reduces Bind and Silence duration by 3 turns. Randomizes non-matching orbs including [BLOCK] orbs",
         specialNotes: "#{silence}",
         sailor: "Reduces Silence duration against this character by 3 turns",
         sailorNotes: "#{silence}",
@@ -18101,7 +18032,7 @@ window.details = {
     },
     1349: {//Haredas
         captain: "Boosts ATK of Cerebral characters by 1.5x and their RCV by 1.75x",
-        special: "Empty all slots, including [BLOCK] orbs, and boosts ATK of Cerebral characters by 1.2x for 1 turn",
+        special: "Empty all slots including [BLOCK] orbs, and boosts ATK of Cerebral characters by 1.2x for 1 turn",
         specialName: "Gust 'Wind Knot'",
     },
     1350: {//Longarm Tribe Theives
@@ -19226,75 +19157,7 @@ window.details = {
             },
         ],
         specialNotes: "#{stages}<br>#{beneficial}",
-        specialName: "Gomu Gomu no Red Hawk",
-        sailor: {
-            "base": "None",
-            "level1": "Boosts base ATK, HP and RCV for this character by 75",
-        },
-        limit: [
-            { "description": "Boosts base ATK by 5" },
-            { "description": "Boosts base ATK by 10" },
-            { "description": "Boosts base RCV by 5" },
-            { "description": "Acquire Potential 1: Slot Bind Self-reduction" },
-            { "description": "Boosts base ATK by 10" },
-            { "description": "Boosts base ATK by 10" },
-            { "description": "Boosts base HP by 10" },
-            { "description": "Boosts base HP by 20" },
-            { "description": "Boosts base ATK by 15" },
-            { "description": "Boosts base RCV by 15" },
-            { "description": "Boosts base HP by 20" },
-            { "description": "Boosts base HP by 20" },
-            { "description": "Boosts base RCV by 20" },
-            { "description": "Boosts base ATK by 30" },
-            { "description": "Acquire Potential 2: Pinch Healing" },
-            { "description": "Boosts base ATK by 30" },
-            { "description": "Reduce base Special Cooldown by 1 turn" },
-            { "description": "Boosts base RCV by 25" },
-            { "description": "Boosts base ATK by 30" },
-            { "description": "Boosts base RCV by 35" },
-            { "description": "Boosts base ATK by 50" },
-            { "description": "Boosts base HP by 30" },
-            { "description": "Boosts base ATK by 60" },
-            { "description": "Boosts base HP by 40" },
-            { "description": "Boosts base HP by 60" },
-            { "description": "Reduce base Special Cooldown by 1 turn" },
-            { "description": "Acquire Sailor Ability 1: Boosts base ATK, HP and RCV for this character by 75" },
-            { "description": "Boosts base HP by 70" },
-            { "description": "Boosts base HP by 80" },
-            { "description": "Acquire Potential 3: Cooldown Reduction" },
-        ],
-        potential: [
-            {
-                "Name": "Slot Bind Self-reduction",
-                "description": [
-                    "Level 1: Reduces Slot Bind duration by 1 turn on this character",
-                    "Level 2: Reduces Slot Bind duration by ? turns on this character",
-                    "Level 3: Reduces Slot Bind duration by ? turns on this character",
-                    "Level 4: Reduces Slot Bind duration by ? turns on this character",
-                    "Level 5: Reduces Slot Bind duration by ? turns on this character"
-                ]
-            },
-            {
-                "Name": "Pinch Healing",
-                "description": [
-                    "Level 1: If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
-                ]
-            },
-            {
-                "Name": "Cooldown Reduction",
-                "description": [
-                    "Level 1: Reduce own Special Cooldown by 1 turn at the start of the fight",
-                    "Level 2: Reduce own Special Cooldown by ? turn at the start of the fight",
-                    "Level 3: Reduce own Special Cooldown by ? turn at the start of the fight",
-                    "Level 4: Reduce own Special Cooldown by ? turn at the start of the fight",
-                    "Level 5: Reduce own Special Cooldown by ? turn at the start of the fight"
-                ]
-            },
-        ]
+        specialName: "Gomu Gomu no Red Hawk"
     },
     1404: {//Timeskip Luffy
         captain: "Boosts ATK of Free Spirit characters by 2.5x and reduce damage received by 15%. If you use \"Gomu Gomu no Red Hawk\" THIS LUFFY boosts ATK of Free Spirit characters by 4x instead for 3 turns.",
@@ -40657,7 +40520,7 @@ window.details = {
     },
     2352: {//Mascarpone & Joscarpone
         captain: "Boosts ATK of Slasher characters by 1.75x and their RCV by 1.2x.",
-        special: "Deals 2 hits of of 15x character's ATK in [QCK] damage to random enemies and removes Poison duration completely",
+        special: "Deals 20 hits of of 15x character's ATK in [QCK] damage to random enemies and removes Poison duration completely",
         specialName: "Flaming Arrows Aimed Through the Mirror",
     },
     2353: {//Magellan
@@ -40758,7 +40621,7 @@ window.details = {
         special: "Deals ?x character's ATK in [STR] damage to one enemy, Reduces enemy's Increased Defense and Resilience Buffs duration by 3 turns, changes [BLOCK] orbs into Matching orbs and amplifies the effect of orbs for Slasher characters by 1.75x for 3 turns",
         specialName: "Kiribachi - Single Stroke Slice",
         sailor: {
-            "base": "Makes QCK orbs beneficial for this character",
+            "base": "Makes [QCK] orbs beneficial for this character",
             "level1": "Boosts own base ATK by 200 if this character is the last in the chain to attack",
         },
         sailorNotes: "#{beneficial}",
