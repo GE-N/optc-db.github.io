@@ -8597,10 +8597,10 @@ window.captains = {
         atk: function(p) { return p.slot == p.sourceSlot ? 2.75 : (p.unit.class.has("Driven") || p.unit.class.has("Fighter")) ? 2.5 : 1; },
     },
     2421: {
-        atk: function(p) { return (p.unit.class.has("Driven") || p.unit.class.has("Powerhouse")) ? Math.max(1.0, 2.75 - 0.1 * p.turnCounter) : 1; }//change this
+        atk: function(p) { return (p.unit.class.has("Driven") || p.unit.class.has("Powerhouse")) ? Math.max(1.0, 2.75 - 0.0583294122 * p.turnCounter) : 1; }
     },
     2422: {
-        atk: function(p) { return (p.unit.class.has("Driven") || p.unit.class.has("Powerhouse")) ? Math.max(1.0, 3.25 - 0.1 * p.turnCounter) : 1; }//change this
+        atk: function(p) { return (p.unit.class.has("Driven") || p.unit.class.has("Powerhouse")) ? Math.max(1.0, 3.25 - 0.0583294122 * p.turnCounter) : 1; }
     },
     2423: {
         atk: function(p) { return p.unit.class.has("Driven") ? Math.min(2.75, 1.0 + 0.0875 * p.turnCounter) : 1; }//change this
@@ -8672,43 +8672,35 @@ window.captains = {
         hp: function(p) { return p.unit.class.has("Driven") ? 1.2 : 1; },
     },
     2447: {
-        atk: function(p) { return (p.unit.type == "STR" || p.unit.class.has("Powerhouse")) ? 2.25 : 1; },
-        hp: function(p) { return (p.unit.type == "STR" || p.unit.class.has("Powerhouse")) ? 1.2 : 1; },
-        rcv: function(p) { return p.unit.class.has("Powerhouse") ? 1.2 : 1; },
+        atk: function(p) { var boost = 1; boost *= p.unit.type == "STR" ? 1.2 : 1; boost *= p.unit.class.has("Powerhouse") ? 2.25 : 1; return boost; },
+        hp: function(p) { return p.unit.class.has("Powerhouse") ? 1.2 : 1; },
     },
     2448: {
-        atk: function(p) { return (p.unit.type == "STR" || p.unit.class.has("Powerhouse")) ? 2.5 : 1; },
-        hp: function(p) { return (p.unit.type == "STR" || p.unit.class.has("Powerhouse")) ? 1.2 : 1; },
-        rcv: function(p) { return p.unit.class.has("Powerhouse") ? 1.2 : 1; },
+        atk: function(p) { var boost = 1; boost *= p.unit.type == "STR" ? 1.2 : 1; boost *= p.unit.class.has("Powerhouse") ? 2.5 : 1; return boost; },
+        hp: function(p) { return p.unit.class.has("Powerhouse") ? 1.2 : 1; },
     },
     2449: {
-        atk: function(p) { return (p.unit.type == "QCK" || p.unit.class.has("Powerhouse")) ? 2.25 : 1; },
-        hp: function(p) { return (p.unit.type == "QCK" || p.unit.class.has("Powerhouse")) ? 1.2 : 1; },
-        rcv: function(p) { return p.unit.class.has("Powerhouse") ? 1.2 : 1; },
+        atk: function(p) { var boost = 1; boost *= p.unit.type == "QCK" ? 1.2 : 1; boost *= p.unit.class.has("Powerhouse") ? 2.25 : 1; return boost; },
+        hp: function(p) { return p.unit.class.has("Powerhouse") ? 1.2 : 1; },
     },
     2450: {
-        atk: function(p) { return (p.unit.type == "QCK" || p.unit.class.has("Powerhouse")) ? 2.5 : 1; },
-        hp: function(p) { return (p.unit.type == "QCK" || p.unit.class.has("Powerhouse")) ? 1.2 : 1; },
-        rcv: function(p) { return p.unit.class.has("Powerhouse") ? 1.2 : 1; },
+        atk: function(p) { var boost = 1; boost *= p.unit.type == "QCK" ? 1.2 : 1; boost *= p.unit.class.has("Powerhouse") ? 2.5 : 1; return boost; },
+        hp: function(p) { return p.unit.class.has("Powerhouse") ? 1.2 : 1; },
     },
     2451: {
-        atk: function(p) { return (p.unit.type == "DEX" || p.unit.class.has("Powerhouse")) ? 2.25 : 1; },
-        hp: function(p) { return (p.unit.type == "DEX" || p.unit.class.has("Powerhouse")) ? 1.2 : 1; },
-        rcv: function(p) { return p.unit.class.has("Powerhouse") ? 1.2 : 1; },
+        atk: function(p) { var boost = 1; boost *= p.unit.type == "DEX" ? 1.2 : 1; boost *= p.unit.class.has("Powerhouse") ? 2.25 : 1; return boost; },
+        hp: function(p) { return p.unit.class.has("Powerhouse") ? 1.2 : 1; },
     },
     2452: {
-        atk: function(p) { return (p.unit.type == "DEX" || p.unit.class.has("Powerhouse")) ? 2.5 : 1; },
-        hp: function(p) { return (p.unit.type == "DEX" || p.unit.class.has("Powerhouse")) ? 1.2 : 1; },
-        rcv: function(p) { return p.unit.class.has("Powerhouse") ? 1.2 : 1; },
+        atk: function(p) { var boost = 1; boost *= p.unit.type == "DEX" ? 1.2 : 1; boost *= p.unit.class.has("Powerhouse") ? 2.5 : 1; return boost; },
+        hp: function(p) { return p.unit.class.has("Powerhouse") ? 1.2 : 1; },
     },
     2453: {
-        atk: function(p) { return (p.unit.type == "INT" || p.unit.class.has("Powerhouse")) ? 2.25 : 1; },
-        hp: function(p) { return (p.unit.type == "INT" || p.unit.class.has("Powerhouse")) ? 1.2 : 1; },
+        atk: function(p) { var boost = 1; boost *= p.unit.type == "INT" ? 1.2 : 1; boost *= p.unit.class.has("Powerhouse") ? 2.25 : 1; return boost; },
         rcv: function(p) { return p.unit.class.has("Powerhouse") ? 1.2 : 1; },
     },
     2454: {
-        atk: function(p) { return (p.unit.type == "INT" || p.unit.class.has("Powerhouse")) ? 2.5 : 1; },
-        hp: function(p) { return (p.unit.type == "INT" || p.unit.class.has("Powerhouse")) ? 1.2 : 1; },
+        atk: function(p) { var boost = 1; boost *= p.unit.type == "INT" ? 1.2 : 1; boost *= p.unit.class.has("Powerhouse") ? 2.5 : 1; return boost; },
         rcv: function(p) { return p.unit.class.has("Powerhouse") ? 1.2 : 1; },
     },
     2455: {
@@ -8770,6 +8762,12 @@ window.captains = {
     },
     2467: {
         atk: function(p) { return p.unit.type == "PSY" ? 1.5 : 1; },
+    },
+    2470: {
+        atk: function(p) { return p.unit.class.has("Powerhouse") || p.unit.class.has("Striker") ? 2 : 1; },
+    },
+    2471: {
+        atk: function(p) { return p.unit.class.has("Powerhouse") || p.unit.class.has("Striker") ? 2.75 : 1; },
     },
     2500: {
         hp: function(p) { return (p.unit.type == "STR" || p.unit.type == "DEX" || p.unit.type == "QCK") ? 1.3 : 1; },
