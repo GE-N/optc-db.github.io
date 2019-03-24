@@ -18271,7 +18271,7 @@ window.details = {
                 "Characters": "Mihawk and Perona",
                 "description": [
                     "Level 1: Once per an adventure, when the supported character uses their special, locks the chain multiplier at 2x for 1 turn.",
-                    "Level 2: Once per an adventure, when the supported character uses their special, locks the chain multiplier at 2.5x for 1 turn.",
+                    "Level 2: Once per an adventure, when the supported character uses their special, locks the chain multiplier at 2x for 1 turn.",
                     "Level 3: Once per an adventure, when the supported character uses their special, locks the chain multiplier at 2.5x for 1 turn.",
                     "Level 4: Once per an adventure, when the supported character uses their special, locks the chain multiplier at 2.5x for 1 turn.",
                     "Level 5: Once per an adventure, when the supported character uses their special, locks the chain multiplier at 2.5x for 2 turns."
@@ -30202,12 +30202,12 @@ window.details = {
     },
     1911:{//Kimono Urouge
         captain: "Boosts ATK of Striker and Powerhouse characters by 1.5x. Boosts EXP gained by 1.25x",
-        special: "Changes [RCV], [TND], [G], [BLOCK] and [BOMB] orbs into Matching orbs, recovers 7,600 HP and reduces damage received by 76% for 1 turn",
+        special: "Changes [RCV], [TND], [G], [BLOCK], [EMPTY] and [BOMB] orbs into Matching orbs, recovers 7,600 HP and reduces damage received by 76% for 1 turn",
         specialName: "Prayers of Paradise",
     },
     1912:{//Kimono Urouge
         captain: "Boosts ATK of Striker and Powerhouse characters by 1.75x and their HP by 1.5x. Boosts EXP gained by 1.5x",
-        special: "Changes [RCV], [TND], [G], [BLOCK] and [BOMB] orbs into Matching orbs, recovers 7,600 HP and reduces damage received by 76% for 1 turn",
+        special: "Changes [RCV], [TND], [G], [BLOCK], [EMPTY] and [BOMB] orbs into Matching orbs, recovers 7,600 HP and reduces damage received by 76% for 1 turn",
         specialName: "Prayers of Paradise",
     },
     1913:{//Kimono Vivi
@@ -30433,7 +30433,7 @@ window.details = {
                 "Characters": "Mihawk and Perona",
                 "description": [
                     "Level 1: Once per an adventure, when the supported character uses their special, locks the chain multiplier at 2x for 1 turn.",
-                    "Level 2: Once per an adventure, when the supported character uses their special, locks the chain multiplier at 2.5x for 1 turn.",
+                    "Level 2: Once per an adventure, when the supported character uses their special, locks the chain multiplier at 2x for 1 turn.",
                     "Level 3: Once per an adventure, when the supported character uses their special, locks the chain multiplier at 2.5x for 1 turn.",
                     "Level 4: Once per an adventure, when the supported character uses their special, locks the chain multiplier at 2.5x for 1 turn.",
                     "Level 5: Once per an adventure, when the supported character uses their special, locks the chain multiplier at 2.5x for 2 turns."
@@ -33721,7 +33721,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "Luffy, Nami and Carrot",
+                "Characters": "Smoker and Zoro",
                 "description": [
                     "Level 1: Once per adventure, when you are inflicted with ATK DOWN, changes [STR] orbs on all characters into Matching Orbs",
                     "Level 2: Once per adventure, when you are inflicted with ATK DOWN, changes [STR] and [QCK] orbs on all characters into Matching Orbs",
