@@ -430,10 +430,10 @@ window.details = {
                 "Name": "Pinch Healing",
                 "description": [
                     "Level 1: If HP is below 20% at the start of the turn, recovers .5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 2: If HP is below 25% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 3: If HP is below 30% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 4: If HP is below 40% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 5: If HP is below 40% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
                 ]
             },
         ]
@@ -1388,10 +1388,10 @@ window.details = {
                 "Name": "Enrage",
                 "description": [
                     "Level 1: Boosts base ATK by 30",
-                    "Level 2: Boosts base ATK by ?",
-                    "Level 3: Boosts base ATK by ?",
-                    "Level 4: Boosts base ATK by ?",
-                    "Level 5: Boosts base ATK by ?"
+                    "Level 2: Boosts base ATK by 60",
+                    "Level 3: Boosts base ATK by 90",
+                    "Level 4: Boosts base ATK by 100",
+                    "Level 5: Boosts base ATK by 150"
                 ]
             },
             {
@@ -3093,21 +3093,21 @@ window.details = {
             {
                 "Name": "[STR] Damage Reduction",
                 "description": [
-                    "Level 1: Reduce damage taken from [STR] characters by ?%",
-                    "Level 2: Reduce damage taken from [STR] characters by ?%",
-                    "Level 3: Reduce damage taken from [STR] characters by ?%",
-                    "Level 4: Reduce damage taken from [STR] characters by ?%",
-                    "Level 5: Reduce damage taken from [STR] characters by ?%"
+                    "Level 1: Reduce damage taken from [STR] characters by 1%",
+                    "Level 2: Reduce damage taken from [STR] characters by 2%",
+                    "Level 3: Reduce damage taken from [STR] characters by 3%",
+                    "Level 4: Reduce damage taken from [STR] characters by 4%",
+                    "Level 5: Reduce damage taken from [STR] characters by 5%"
                 ]
             },
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
-                    "Level 2: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
-                    "Level 3: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
-                    "Level 4: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
-                    "Level 5: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
+                    "Level 1: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
                     //"Level 5: This character's normal attack will ignore barriers"
                 ]
             },
@@ -4038,10 +4038,10 @@ window.details = {
                 "Name": "Critical Hit",
                 "description": [
                     "Level 1: If you hit a PERFECT with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
-                    "Level 2: If you hit a PERFECT with this character, there is a ?% chance to deal ?% of this character's attack in extra damage",
-                    "Level 3: If you hit a PERFECT with this character, there is a ?% chance to deal ?% of this character's attack in extra damage",
-                    "Level 4: If you hit a PERFECT with this character, there is a ?% chance to deal ?% of this character's attack in extra damage",
-                    "Level 5: If you hit a PERFECT with this character, there is a ?% chance to deal ?% of this character's attack in extra damage"
+                    "Level 2: If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a 70% chance to deal 8% of this character's attack in extra damage"
                 ]
             },
             {
@@ -4164,9 +4164,9 @@ window.details = {
                 "Name": "Enrage",
                 "description": [
                     "Level 1: Boosts base ATK by 30",
-                    "Level 2: Boosts base ATK by ?",
-                    "Level 3: Boosts base ATK by ?",
-                    "Level 4: Boosts base ATK by ?",
+                    "Level 2: Boosts base ATK by 60",
+                    "Level 3: Boosts base ATK by 90",
+                    "Level 4: Boosts base ATK by 100",
                     "Level 5: Boosts base ATK by 150"
                 ]
             },
@@ -4220,11 +4220,11 @@ window.details = {
             {
                 "Name": "Slot Bind Self-reduction",
                 "description": [
-                    "Level 1: Reduces Slot Bind duration by ? turns on this character",
-                    "Level 2: Reduces Slot Bind duration by ? turns on this character",
-                    "Level 3: Reduces Slot Bind duration by ? turns on this character",
-                    "Level 4: Reduces Slot Bind duration by ? turns on this character",
-                    "Level 5: Reduces Slot Bind duration by ? turns on this character"
+                    "Level 1: Reduces Slot Bind duration by 1 turns on this character",
+                    "Level 2: Reduces Slot Bind duration by 2 turns on this character",
+                    "Level 3: Reduces Slot Bind duration by 3 turns on this character",
+                    "Level 4: Reduces Slot Bind duration by 4 turns on this character",
+                    "Level 5: Reduces Slot Bind duration by 5 turns on this character"
                 ]
             },
             {
@@ -4306,7 +4306,7 @@ window.details = {
             {
                 "Name": "Slot Bind Self-reduction",
                 "description": [
-                    "Level 1: Reduces Slot Bind duration by 1 turns on this character",
+                    "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 3 turns on this character",
                     "Level 4: Reduces Slot Bind duration by 5 turns on this character",
@@ -5984,7 +5984,7 @@ window.details = {
         specialName: "Demolisher Axe"
     },
     616: {
-        special: "Changes the Captain's orb into STR",
+        special: "Changes the Captain's orb into [STR]",
         specialName: "Demolisher Spear"
     },
     617: {
@@ -6381,10 +6381,10 @@ window.details = {
                 "Name": "Slot Bind Self-reduction",
                 "description": [
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
-                    "Level 2: Reduces Slot Bind duration by ? turns on this character",
-                    "Level 3: Reduces Slot Bind duration by ? turns on this character",
-                    "Level 4: Reduces Slot Bind duration by ? turns on this character",
-                    "Level 5: Reduces Slot Bind duration by ? turns on this character"
+                    "Level 2: Reduces Slot Bind duration by 2 turns on this character",
+                    "Level 3: Reduces Slot Bind duration by 3 turns on this character",
+                    "Level 4: Reduces Slot Bind duration by 4 turns on this character",
+                    "Level 5: Reduces Slot Bind duration by 5 turns on this character"
                 ]
             },
             {
@@ -16252,8 +16252,8 @@ window.details = {
                 "description": [
                     "Level 1: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
                     "Level 2: This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
-                    "Level 3: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
-                    "Level 4: This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is above 70% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
                     "Level 5: This character's normal attack will ignore barriers"
                 ]
             },
@@ -19331,9 +19331,9 @@ window.details = {
                 "Name": "Pinch Healing",
                 "description": [
                     "Level 1: If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below 20% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below 30% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below 40% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 2: If HP is below 15% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 3: If HP is below 20% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 4: If HP is below 30% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
                     "Level 5: If HP is below 50% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
                 ]
             },
@@ -19341,10 +19341,10 @@ window.details = {
                 "Name": "Cooldown Reduction",
                 "description": [
                     "Level 1: Reduce own Special Cooldown by 1 turn at the start of the fight",
-                    "Level 2: Reduce own Special Cooldown by 3 turn at the start of the fight",
-                    "Level 3: Reduce own Special Cooldown by 5 turn at the start of the fight",
-                    "Level 4: Reduce own Special Cooldown by 7 turn at the start of the fight",
-                    "Level 5: Reduce own Special Cooldown by 9 turn at the start of the fight"
+                    "Level 2: Reduce own Special Cooldown by 3 turns at the start of the fight",
+                    "Level 3: Reduce own Special Cooldown by 5 turns at the start of the fight",
+                    "Level 4: Reduce own Special Cooldown by 7 turns at the start of the fight",
+                    "Level 5: Reduce own Special Cooldown by 9 turns at the start of the fight"
                 ]
             },
         ]
@@ -22170,7 +22170,7 @@ window.details = {
                     "Level 2: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
                     "Level 3: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
                     "Level 4: If HP is below ??% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below 50% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 5: If HP is below 50% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
                 ]
             },
         ],
@@ -22628,7 +22628,7 @@ window.details = {
     },
     1569: {//Anniversary Law
         captain: "Boosts ATK of all characters by 2.25x and boosts EXP and amount of Beli received by 1.2x",
-        special: "Randomizes all non-Matching orbs, including [BLOCK] orbs, and switches orbs between slots three times",
+        special: "Randomizes all non-Matching orbs, including [BLOCK] orbs and switches orbs between slots three times",
         specialName: "ROOM Shambles・Junction",
     },
     1570: {//Inuarashi
@@ -22721,7 +22721,7 @@ window.details = {
     },
     1573: {//Wanda
         captain: "Boosts ATK of Cerebral characters by 2.5x and their RCV by 1.2x",
-        special: "Randomizes all orbs, including [BLOCK] orbs, into [STR], [DEX], [QCK], [INT], or [PSY] orbs, boosts ATK of Cerebral characters by 1.75x for 3 turns",
+        special: "Randomizes all orbs, including [BLOCK] orbs into [STR], [DEX], [QCK], [INT], or [PSY] orbs, boosts ATK of Cerebral characters by 1.75x for 3 turns",
         specialName: "Ruler's Aide Flight",
         sailor: {
             "base": "Reduces Paralysis duration by 1 turn",
@@ -41008,11 +41008,11 @@ window.details = {
             {
                 "Name": "Slot Bind Self-reduction",
                 "description": [
-                    "Level 1: Reduces Slot Bind duration by 3 turn on this character",
-                    "Level 2: Reduces Slot Bind duration by 5 turns on this character",
-                    "Level 3: Reduces Slot Bind duration by 7 turns on this character",
-                    "Level 4: Reduces Slot Bind duration by 8 turns on this character",
-                    "Level 5: Reduces Slot Bind duration by 10 turns on this character"
+                    "Level 1: Reduces Slot Bind duration by 1 turn on this character",
+                    "Level 2: Reduces Slot Bind duration by 2 turns on this character",
+                    "Level 3: Reduces Slot Bind duration by 5 turns on this character",
+                    "Level 4: Reduces Slot Bind duration by 7 turns on this character",
+                    "Level 5: Reduces Slot Bind duration by 20 turns on this character"
                 ]
             },
         ]
