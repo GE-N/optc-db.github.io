@@ -4232,7 +4232,7 @@ window.details = {
             {
                 "Name": "Slot Bind Self-reduction",
                 "description": [
-                    "Level 1: Reduces Slot Bind duration by 1 turns on this character",
+                    "Level 1: Reduces Slot Bind duration by 1 turn on this character",
                     "Level 2: Reduces Slot Bind duration by 2 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 3 turns on this character",
                     "Level 4: Reduces Slot Bind duration by 4 turns on this character",
@@ -5740,8 +5740,8 @@ window.details = {
                 "Name": "Reduce No Healing duration",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
-                    "Level 2: Reduces No Healing duration by 2 turn",
-                    "Level 3: Reduces No Healing duration by 3 turn",
+                    "Level 2: Reduces No Healing duration by 2 turns",
+                    "Level 3: Reduces No Healing duration by 3 turns",
                     "Level 4: Reduces No Healing duration by 4 turns",
                     "Level 5: Reduces No Healing duration by 5 turns"
                 ]
@@ -6547,11 +6547,11 @@ window.details = {
             {
                 "Name": "[QCK] Damage Reduction",
                 "description": [
-                    "Level 1: Reduce damage taken from [QCK] characters by ?%",
-                    "Level 2: Reduce damage taken from [QCK] characters by ?%",
-                    "Level 3: Reduce damage taken from [QCK] characters by ?%",
-                    "Level 4: Reduce damage taken from [QCK] characters by ?%",
-                    "Level 5: Reduce damage taken from [QCK] characters by ?%"
+                    "Level 1: Reduce damage taken from [QCK] characters by 1%",
+                    "Level 2: Reduce damage taken from [QCK] characters by 2%",
+                    "Level 3: Reduce damage taken from [QCK] characters by 3%",
+                    "Level 4: Reduce damage taken from [QCK] characters by 4%",
+                    "Level 5: Reduce damage taken from [QCK] characters by 5%"
                 ]
             },
             {
@@ -14890,13 +14890,13 @@ window.details = {
     },
     1178: {
         captain: "Boosts ATK of [STR] characters by 2x if HP is above 99% at the start of the turn. Reduces damage received by 50%",
-        special: "Deals random typeless damage to all enemies. Randomizes all orbs, including [BLOCK] orbs.",
+        special: "Deals random typeless damage to all enemies. Randomizes all orbs including [BLOCK] orbs.",
         specialName: "Not Rubber Gum-Gum Jet Gatling",
         specialNotes: "#{random : 30,000 : 150,000}",
     },
     1179: {
         captain: "Boosts ATK of [STR] characters by 2.75x if HP is above 99% at the start of the turn. Reduces damage received by 50%",
-        special: "Deals random typeless damage to all enemies. Randomizes all orbs, including [BLOCK] orbs.",
+        special: "Deals random typeless damage to all enemies. Randomizes all orbs including [BLOCK] orbs.",
         specialName: "Not Rubber Gum-Gum Jet Gatling",
         specialNotes: "#{random : 30,000 : 150,000}",
     },
@@ -15368,7 +15368,7 @@ window.details = {
     },
     1197: {
         captain: "Boosts ATK of Cerebral and Powerhouse characters by 2.5x if they have a Matching orb, by 1x otherwise, reduces crew's RCV to 0",
-        special: "For Cerebral and Powerhouse characters, changes all orbs, including [BLOCK] orbs, to Badly Matching. Deals [INT] damage to all enemies",
+        special: "For Cerebral and Powerhouse characters changes all orbs, including [BLOCK] orbs, to Badly Matching. Deals [INT] damage to all enemies",
         specialName: "Investigator of Sorrow",
     },
     1198: {
