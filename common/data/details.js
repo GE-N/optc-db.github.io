@@ -799,10 +799,10 @@ window.details = {
                 "Name": "Pinch Healing",
                 "description": [
                     "Level 1: If HP is below 20% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 2: If HP is below 25% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 3: If HP is below 30% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 4: If HP is below 40% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 5: If HP is below 40% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
                 ]
             },
         ]
@@ -2392,10 +2392,10 @@ window.details = {
                 "Name": "Pinch Healing",
                 "description": [
                     "Level 1: If HP is below 5% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 2: If HP is below 5% at the start of the turn, recovers 1.25x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 3: If HP is below 5% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 4: If HP is below 10% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 5: If HP is below 20% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
                 ]
             },
             {
@@ -6888,20 +6888,20 @@ window.details = {
                 "Name": "[PSY] Damage Reduction",
                 "description": [
                     "Level 1: Reduce damage taken from [PSY] characters by 1%",
-                    "Level 2: Reduce damage taken from [PSY] characters by ?%",
-                    "Level 3: Reduce damage taken from [PSY] characters by ?%",
-                    "Level 4: Reduce damage taken from [PSY] characters by ?%",
-                    "Level 5: Reduce damage taken from [PSY] characters by ?%"
+                    "Level 2: Reduce damage taken from [PSY] characters by 2%",
+                    "Level 3: Reduce damage taken from [PSY] characters by 3%",
+                    "Level 4: Reduce damage taken from [PSY] characters by 4%",
+                    "Level 5: Reduce damage taken from [PSY] characters by 5%"
                 ]
             },
             {
                 "Name": "Pinch Healing",
                 "description": [
                     "Level 1: If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 2: If HP is below 15% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 3: If HP is below 20% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 4: If HP is below 30% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 5: If HP is below 50% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
                 ]
             },
         ],
@@ -7556,10 +7556,10 @@ window.details = {
                 "Name": "Pinch Healing",
                 "description": [
                     "Level 1: If HP is below 5% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 2: If HP is below 5% at the start of the turn, recovers 1.25x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 3: If HP is below 5% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 4: If HP is below 10% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 5: If HP is below 20% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
                 ]
             },
         ]
@@ -8707,10 +8707,10 @@ window.details = {
                 "Name": "Slot Bind Self-reduction",
                 "description": [
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
-                    "Level 2: Reduces Slot Bind duration by ? turns on this character",
-                    "Level 3: Reduces Slot Bind duration by ? turns on this character",
-                    "Level 4: Reduces Slot Bind duration by ? turns on this character",
-                    "Level 5: Reduces Slot Bind duration by ? turns on this character"
+                    "Level 2: Reduces Slot Bind duration by 2 turns on this character",
+                    "Level 3: Reduces Slot Bind duration by 3 turns on this character",
+                    "Level 4: Reduces Slot Bind duration by 4 turns on this character",
+                    "Level 5: Reduces Slot Bind duration by 5 turns on this character"
                 ]
             },
             {
@@ -9017,10 +9017,10 @@ window.details = {
                 "Name": "Pinch Healing",
                 "description": [
                     "Level 1: If HP is below 20% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 2: If HP is below 25% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 3: If HP is below 30% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 4: If HP is below 40% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 5: If HP is below 40% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
                 ]
             },
         ]
@@ -9611,10 +9611,10 @@ window.details = {
                 "Name": "Pinch Healing",
                 "description": [
                     "Level 1: If HP is below 5% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 2: If HP is below 5% at the start of the turn, recovers 1.25x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 3: If HP is below 5% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 4: If HP is below 10% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 5: If HP is below 20% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
                 ]
             },
         ],
@@ -9738,20 +9738,20 @@ window.details = {
                 "Name": "[QCK] Damage Reduction",
                 "description": [
                     "Level 1: Reduce damage taken from [QCK] characters by 1%",
-                    "Level 2: Reduce damage taken from [QCK] characters by ?%",
-                    "Level 3: Reduce damage taken from [QCK] characters by ?%",
-                    "Level 4: Reduce damage taken from [QCK] characters by ?%",
-                    "Level 5: Reduce damage taken from [QCK] characters by ?%"
+                    "Level 2: Reduce damage taken from [QCK] characters by 2%",
+                    "Level 3: Reduce damage taken from [QCK] characters by 3%",
+                    "Level 4: Reduce damage taken from [QCK] characters by 4%",
+                    "Level 5: Reduce damage taken from [QCK] characters by 5%"
                 ]
             },
             {
                 "Name": "Pinch Healing",
                 "description": [
                     "Level 1: If HP is below 10% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ?% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ?% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ?% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below ?% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 2: If HP is below 15% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 3: If HP is below 20% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 4: If HP is below 30% at the start of the turn, heals for 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 5: If HP is below 50% at the start of the turn, heals for 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
                 ]
             },
         ]
@@ -10022,9 +10022,9 @@ window.details = {
                 "Name": "Critical Hit",
                 "description": [
                     "Level 1: If you hit a PERFECT with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
-                    "Level 2: If you hit a PERFECT with this character, there is a ?% chance to deal ?% of this character's attack in extra damage",
-                    "Level 3: If you hit a PERFECT with this character, there is a ?% chance to deal ?% of this character's attack in extra damage",
-                    "Level 4: If you hit a PERFECT with this character, there is a ?% chance to deal ?% of this character's attack in extra damage",
+                    "Level 2: If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
                     "Level 5: If you hit a PERFECT with this character, there is a 70% chance to deal 8% of this character's attack in extra damage"
                 ]
             },
@@ -10032,9 +10032,9 @@ window.details = {
                 "Name": "Pinch Healing",
                 "description": [
                     "Level 1: If HP is below 5% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 2: If HP is below 5% at the start of the turn, recovers 1.25x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 3: If HP is below 5% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 4: If HP is below 10% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
                     "Level 5: If HP is below 20% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
                 ]
             },
@@ -10624,7 +10624,7 @@ window.details = {
         special: "Deals 15x ATK to 1 enemy in [QCK] damage, boosts ATK against enemies with reduced defense by 1.3x for 3 turns",
         sailor: {
             "base": "None",
-            "level1": "Boosts base ATK, HP and RCV for this character by 50",
+            "level1": "Boosts base ATK, HP and RCV for all characters by 50",
             "level2": "If your Captain is a Free Spirit or Striker character, completely resists Blindness",
         },
         limit: [
@@ -10649,20 +10649,20 @@ window.details = {
                 "Name": "Slot Bind Self-reduction",
                 "description": [
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
-                    "Level 2: Reduces Slot Bind duration by ? turn on this character",
-                    "Level 3: Reduces Slot Bind duration by ? turn on this character",
-                    "Level 4: Reduces Slot Bind duration by ? turn on this character",
-                    "Level 5: Reduces Slot Bind duration by ? turn on this character"
+                    "Level 2: Reduces Slot Bind duration by 2 turn on this character",
+                    "Level 3: Reduces Slot Bind duration by 3 turn on this character",
+                    "Level 4: Reduces Slot Bind duration by 4 turn on this character",
+                    "Level 5: Reduces Slot Bind duration by 5 turn on this character"
                 ]
             },
             {
                 "Name": "Pinch Healing",
                 "description": [
                     "Level 1: If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 2: If HP is below 15% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 3: If HP is below 20% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 4: If HP is below 30% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 5: If HP is below 50% at the start of the turn, recovers 2x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
                 ]
             },
         ]
@@ -10907,10 +10907,10 @@ window.details = {
                 "Name": "Pinch Healing",
                 "description": [
                     "Level 1: If HP is below 20% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 2: If HP is below 25% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 3: If HP is below 30% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 4: If HP is below 40% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 5: If HP is below 40% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
                 ]
             },
         ]
@@ -11075,10 +11075,10 @@ window.details = {
                 "Name": "Pinch Healing",
                 "description": [
                     "Level 1: If HP is below 20% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 2: If HP is below 25% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 3: If HP is below 30% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 4: If HP is below 40% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 5: If HP is below 40% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
                 ]
             },
         ]
@@ -21976,10 +21976,10 @@ window.details = {
                 "Name": "Pinch Healing",
                 "description": [
                     "Level 1: If HP is below 20% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 2: If HP is below 25% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 3: If HP is below 30% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 4: If HP is below 40% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 5: If HP is below 40% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
                 ]
             },
         ],
@@ -22179,10 +22179,10 @@ window.details = {
                 "Name": "Pinch Healing",
                 "description": [
                     "Level 1: If HP is below 20% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below 50% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 2: If HP is below 25% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 3: If HP is below 30% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 4: If HP is below 40% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 5: If HP is below 40% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
                 ]
             },
         ],
@@ -22993,10 +22993,10 @@ window.details = {
                 "Name": "Pinch Healing",
                 "description": [
                     "Level 1: If HP is below 20% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 2: If HP is below 25% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 3: If HP is below 30% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 4: If HP is below 40% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 5: If HP is below 40% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
                 ]
             },
         ]
@@ -45435,20 +45435,20 @@ window.details = {
                 "Name": "Slot Bind Self-reduction",
                 "description": [
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
-                    "Level 2: Reduces Slot Bind duration by ? turns on this character",
-                    "Level 3: Reduces Slot Bind duration by ? turns on this character",
-                    "Level 4: Reduces Slot Bind duration by ? turns on this character",
-                    "Level 5: Reduces Slot Bind duration by ? turns on this character"
+                    "Level 2: Reduces Slot Bind duration by 2 turns on this character",
+                    "Level 3: Reduces Slot Bind duration by 3 turns on this character",
+                    "Level 4: Reduces Slot Bind duration by 5 turns on this character",
+                    "Level 5: Reduces Slot Bind duration by 7 turns on this character"
                 ]
             },
             {
                 "Name": "Pinch Healing",
                 "description": [
                     "Level 1: If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 2: If HP is below 15% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 3: If HP is below 20% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 4: If HP is below 30% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 5: If HP is below 50% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
                 ]
             },
         ]
@@ -45536,7 +45536,7 @@ window.details = {
         potentialNotes: "#{enrage}"
     },
     3347:{//Log Vivi
-        captain: "Boosts ATK and RCV of Slasher and Striker characters by ?x. Boosts EXP gained by ?x",
+        captain: "Boosts ATK of Slasher and Striker characters by 1.5x. Boosts EXP gained by 1.25x",
         special: "Reduces crew's current HP by 90%, cuts the current HP of one enemy by 10% that will ignore damage negating abilities and barriers, changes top and bottom row [STR], [DEX], [QCK], [PSY] and [INT] orbs into Matching orbs and amplifies the effect of orbs of all characters by 1.75x for 2 turns. If your Captain is a Slasher or Striker character, removes enemies' End of Turn Damage/Percent Cut Buffs duration completely",
         specialName: "Peacock String Slasher",
         sailor: "Boosts base ATK of top row characters by 60",
@@ -45548,7 +45548,7 @@ window.details = {
         sailor: "Boosts base ATK of top row characters by 60",
     },
     3349:{//Log Ace
-        captain: "Boosts ATK of Free Spirit and Powerhouse characters by ?x and their HP by ?x. Boosts Beli gained by ?x",
+        captain: "Boosts ATK of Free Spirit and Powerhouse characters by 1.5x. Boosts Beli gained by 1.5x",
         special: "Reduces crew's HP to 1, removes Poison duration completely, reduces Paralysis, Bind and Silence duration by 4 turns, recovers 7,000 HP at the end of the turn for 1 turn and changes [EMPTY], [BLOCK] and [BOMB] orbs into Matching orbs. If your Captain is a Free Spirit or Powerhouse character, reduces enemy's Threshold Damage Reduction duration by 5 turns.",
         specialName: "Flame Fence",
         sailor: "Reduces Silence duration on this character by 3 turns",
