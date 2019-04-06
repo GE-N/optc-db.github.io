@@ -2160,6 +2160,7 @@ window.drops = {
         {
             name: 'The Genius Jester! Buggy\'s Festival!',
             thumb: 2277,
+            global: true,
             nakama: null,
             gamewith: 121547,
             'All Difficulties': [ 2276, 2278, 2279, -2074, -2363, -2076, -2078, -2072, -2050, -2115, -1784, -2053 ]
@@ -2206,11 +2207,11 @@ window.drops = {
         },
         
         {
-            name: 'Dr. Hiriluk Fortnight',
+            name: 'Miracle Cherry Blossoms Return',
             thumb: 2491,
             nakama: null,
-            gamewith: null,
-            'All Difficulties': [ 2490, 2492, 2493 ]
+            gamewith: 146866,
+            'All Difficulties': [ 2490, 2492, 2493, -2330, -2251, -1869, -2334, -2332, -2156, -2154, -2150, -2107, -1877, -1802, -1800, -1796, -1577, -1540, -2052 ]
         },
         
     ],
@@ -2839,6 +2840,17 @@ window.drops = {
         },
         
         {
+            name: 'Clash!! Capone Bege',
+            thumb: 2504,
+            nakama: null,
+            gamewith: null,
+            condition: 'You can only bring Slasher, Shooter or Driven units',
+            Master: [ 2503 ],
+            Expert: [ 2503 ],
+            Ultimate: [ 2503 ],
+        },
+        
+        {
             name: 'Clash!! Sengoku & Garp',
             thumb: 3338,
             global: true,
@@ -3119,6 +3131,7 @@ window.drops = {
         {
             name: 'Dead or Treat!! Sweetie Party',
             thumb: 2292,
+            global: true,
             gamewith: 122996,
             condition: 'Katakuri: Can not use characters who are both Driven and Powerhouse classes.',
             'All Difficulties': [ 2291, 2293 ],
@@ -3506,6 +3519,7 @@ window.drops = {
         {
             name: 'Push Forward! Straw Hat Crew!',
             thumb: 2300,
+            global: true,
             nakama: null,
             gamewith: 124622,
             showManual: true,

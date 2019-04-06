@@ -8794,8 +8794,7 @@ window.captains = {
         hp: function(p) { return p.unit.class.has("Slasher") ? 1.5 : 1; },
     },
     2478: {
-        atk: function(p) { return p.unit.class.has("Slasher") || p.unit.class.has("Cerebral") ? 1 : 1; },//change
-        hp: function(p) { return p.unit.class.has("Slasher") || p.unit.class.has("Cerebral") ? 1 : 1; },//change
+        atk: function(p) { return p.unit.class.has("Slasher") || p.unit.class.has("Cerebral") ? 2.25 : 1; },
     },
     2479: {
         atk: function(p) { return p.unit.class.has("Slasher") || p.unit.class.has("Cerebral") ? 2.5 : 1; },
@@ -8813,10 +8812,9 @@ window.captains = {
             }, {
                 type: 'DEX',
                 minModifier: 'Good'
-            }]) ? 1 : 1 : 1;//change this
+            }]) ? 2.5 : 2 : 1;
         },
         hitModifiers: ["Perfect", "Perfect", "Perfect", "Perfect", "Perfect", "Perfect"],
-        hp: function(p) { return p.unit.class.has("Slasher") ? 1.2 : 1; },
     },
     2481: {
         damageSorter: function(d) { return CrunchUtils.okamaSort(d, ['INT', 'DEX', 'DEX']); },
@@ -8836,9 +8834,8 @@ window.captains = {
         hp: function(p) { return p.unit.class.has("Slasher") ? 1.2 : 1; },
     },
     2482: {
-        atk: function(p) { return p.unit.class.has("Slasher") ? 1 : 1; },//change
-        hp: function(p) { return p.unit.class.has("Slasher") ? 1 : 1; },//change
-        rcv: function(p) { return p.unit.class.has("Slasher") ? 1 : 1; },//change
+        atk: function(p) { return p.unit.class.has("Slasher") ? 2 : 1; },
+        hp: function(p) { return p.unit.class.has("Slasher") ? 1.2 : 1; },
     },
     2483: {
         atk: function(p) { return p.unit.class.has("Slasher") ? 2.5 : 1; },
@@ -8846,25 +8843,32 @@ window.captains = {
         rcv: function(p) { return p.unit.class.has("Slasher") ? 1.2 : 1; },
     },
     2484: {
-        atk: function(p) { return p.unit.type == "STR" ? 1 : 1; },//change
-        hp: function(p) { return p.unit.class.has("Slasher") ? 1 : 1; },//change
+        atk: function(p) { return p.unit.type == "STR" ? 2 : 1; },
+        hp: function(p) { return p.unit.class.has("Slasher") ? 1.2 : 1; },
     },
     2485: {
         atk: function(p) { return p.unit.type == "STR" ? 2.5 : 1; },
         hp: function(p) { return p.unit.class.has("Slasher") ? 1.2 : 1; },
     },
+    2486: {
+        atk: function(p) { return p.unit.class.has("Slasher") ? 2.5 : 1; },
+        hp: function(p) { return p.unit.class.has("Slasher") ? 1.2 : 1; },//change this
+    },
+    2487: {
+        atk: function(p) { return p.unit.class.has("Slasher") ? 2.75 : 1; },
+        hp: function(p) { return p.unit.class.has("Slasher") ? 1.25 : 1; },
+    },
     2488: {
-        atk: function(p) { return p.unit.class.has("Slasher") || p.unit.class.has("Free Spirit") ? 1 : 1; },//change
-        hp: function(p) { return p.unit.class.has("Slasher") || p.unit.class.has("Free Spirit") ? 1 : 1; },//change
+        atk: function(p) { return p.unit.class.has("Slasher") || p.unit.class.has("Free Spirit") ? 2.25 : 1; },
+        hp: function(p) { return p.unit.class.has("Slasher") || p.unit.class.has("Free Spirit") ? 1.15 : 1; },
     },
     2489: {
         atk: function(p) { return p.unit.class.has("Slasher") || p.unit.class.has("Free Spirit") ? 2.5 : 1; },
         hp: function(p) { return p.unit.class.has("Slasher") || p.unit.class.has("Free Spirit") ? 1.25 : 1; },
     },
     2490: {
-        atk: function(p) { return (p.unit.type == "DEX" || p.unit.type == "INT") ? 1 : 1; },//change
-        hp: function(p) { return (p.unit.type == "DEX" || p.unit.type == "INT") ? 1 : 1; },//change
-        rcv: function(p) { return (p.unit.type == "DEX" || p.unit.type == "INT") ? 1 : 1; },//change
+        atk: function(p) { return (p.unit.type == "DEX" || p.unit.type == "INT") ? 2 : 1; },
+        rcv: function(p) { return (p.unit.type == "DEX" || p.unit.type == "INT") ? 1.2 : 1; },
     },
     2491: {
         atk: function(p) { return (p.unit.type == "DEX" || p.unit.type == "INT") ? 2.25 : 1; },
@@ -8881,6 +8885,20 @@ window.captains = {
     2500: {
         hp: function(p) { return (p.unit.type == "STR" || p.unit.type == "DEX" || p.unit.type == "QCK") ? 1.3 : 1; },
         atk: function(p) { return [ p.slot == p.sourceSlot ? 4.25 : (p.unit.type == "STR" || p.unit.type == "DEX" || p.unit.type == "QCK") ? 4 : 1, (p.unit.type == "STR" || p.unit.type == "DEX" || p.unit.type == "QCK") ? 3.5 : 1, (p.unit.type == "STR" || p.unit.type == "DEX" || p.unit.type == "QCK") ? 3.5 : 1, p.slot == p.sourceSlot ? 12 : (p.unit.type == "STR" || p.unit.type == "DEX" || p.unit.type == "QCK") ? 3.75 : 1 ][Math.min(3, p.semlaCounter)]; },
+    },
+    2503: {
+        atk: function(p) { return p.unit.class.has("Shooter") ? p.percHP >= 50.0 ? 1 : 1 : 1; },//change this
+    },
+    2504: {
+        atk: function(p) { return p.unit.class.has("Shooter") ? p.percHP >= 50.0 ? 3 : 2.5 : 1; },
+    },
+    2505: {
+        hitAtk: function(p) {
+            if (!(p.unit.class.has("Slasher"))) return 1;
+            return p.modifiers.slice(0, p.chainPosition).subcontains(["Good", "Great", "Perfect"]) ? 4.225 : 3.25;
+        },
+        hitModifiers: ["Good", "Great", "Perfect", "Perfect", "Perfect", "Perfect"],
+        hp: function(p) { return p.unit.class.has("Slasher") ? 1.2 : 1; }
     },
     3333: {
         hitAtk: function(p) {
@@ -8935,7 +8953,7 @@ window.captains = {
         atk: function(p) { return (p.unit.class.has("Slasher") || p.unit.class.has("Striker")) ? 1.5 : 1; },
     },
     3348: {
-        atk: function(p) { return (p.unit.class.has("Slasher") || p.unit.class.has("Striker")) ? 1.5 : 1; },
+        atk: function(p) { return (p.unit.class.has("Slasher") || p.unit.class.has("Striker")) ? 1.75 : 1; },
         rcv: function(p) { return (p.unit.class.has("Slasher") || p.unit.class.has("Striker")) ? 1.5 : 1; },
     },
     3349: {
