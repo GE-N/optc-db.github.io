@@ -8852,7 +8852,7 @@ window.captains = {
     },
     2486: {
         atk: function(p) { return p.unit.class.has("Slasher") ? 2.5 : 1; },
-        hp: function(p) { return p.unit.class.has("Slasher") ? 1.2 : 1; },//change this
+        hp: function(p) { return p.unit.class.has("Slasher") ? 1.2 : 1; },
     },
     2487: {
         atk: function(p) { return p.unit.class.has("Slasher") ? 2.75 : 1; },
@@ -8881,6 +8881,24 @@ window.captains = {
     2493: {
         atk: function(p) { return p.unit.class.has("Free Spirit") ? 1.25 : 1; },
         rcv: function(p) { return p.unit.class.has("Free Spirit") ? 1.25 : 1; },
+    },
+    2495: {
+        atk: function(p) { return p.unit.class.has("Striker") || p.unit.class.has("Cerebral") ? 1 : 1; },//change this
+    },
+    2496: {
+        atk: function(p) { return p.unit.class.has("Striker") || p.unit.class.has("Cerebral") ? 2.75 : 1; },
+    },
+    2497: {
+        atk: function(p) { return p.unit.cost <= 40 ? p.actions[p.sourceSlot] ? 3 : 2.5 : 1; },
+        hp: function(p) { return p.unit.cost <= 40 ? 1.2 : 1; },
+    },
+    2493: {
+        atk: function(p) { return p.unit.cost <= 40 ? p.actions[p.sourceSlot] ? 3.5 : 3 : 1; },
+        hp: function(p) { return p.unit.cost <= 40 ? 1.2 : 1; },
+    },
+    2499: {
+        atk: function(p) { return p.unit.class.has("Driven") || p.unit.class.has("Cerebral") ? 2.75 : 1; },
+        rcv: function(p) { return p.unit.class.has("Driven") || p.unit.class.has("Cerebral") ? 1.25 : 1; },
     },
     2500: {
         hp: function(p) { return (p.unit.type == "STR" || p.unit.type == "DEX" || p.unit.type == "QCK") ? 1.3 : 1; },

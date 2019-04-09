@@ -7295,6 +7295,14 @@ window.specials = {
     2492: {
         chainAddition: function(p) { return 0.3; }
     },
+    2497: {
+        atk: function(p) { return p.unit.class.has("Striker") || p.unit.class.has("Driven") ? 1.75 : 1; },
+        type: "class"
+    },
+    2498: {
+        atk: function(p) { return p.unit.class.has("Striker") || p.unit.class.has("Driven") ? 1.75 : 1; },
+        type: "class"
+    },
     2500: {
         atk: function(p) { return window.specials[2500].multiplier ? p.slot < 2 ? 2 : 1 : p.slot == p.sourceSlot ? 2 : 1; },
         type: "class",
@@ -7304,14 +7312,14 @@ window.specials = {
         }
     },
     2503: {
-        atk: function(p) { return window.specials[2503].turnedOn ? 2 : 1; },
+        atk: function(p) { return (p.unit.class.has("Shooter") && window.specials[2503].turnedOn) ? 2 : 1; },
         type: "class",
         onActivation: function(p) {
             window.specials[2503].turnedOn = p.classCount.Shooter == 6 ? true : false;
         },
     },
     2504: {
-        atk: function(p) { return window.specials[2504].turnedOn ? 2 : 1; },
+        atk: function(p) { return (p.unit.class.has("Shooter") && window.specials[2504].turnedOn) ? 2 : 1; },
         type: "class",
         onActivation: function(p) {
             window.specials[2504].turnedOn = p.classCount.Shooter == 6 ? true : false;
