@@ -42734,7 +42734,7 @@ window.details = {
             {
                 "Name": "Slot Bind Self-reduction",
                 "description": [
-                    "Level 1: Reduces Slot Bind duration by 2 turn on this character",
+                    "Level 1: Reduces Slot Bind duration by 2 turns on this character",
                     "Level 2: Reduces Slot Bind duration by 3 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 4 turns on this character",
                     "Level 4: Reduces Slot Bind duration by 5 turns on this character",
@@ -42870,7 +42870,7 @@ window.details = {
             {
                 "Name": "Slot Bind Self-reduction",
                 "description": [
-                    "Level 1: Reduces Slot Bind duration by 2 turn on this character",
+                    "Level 1: Reduces Slot Bind duration by 2 turns on this character",
                     "Level 2: Reduces Slot Bind duration by 3 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 4 turns on this character",
                     "Level 4: Reduces Slot Bind duration by 5 turns on this character",
