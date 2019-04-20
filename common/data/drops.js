@@ -2883,8 +2883,8 @@ window.drops = {
             global: true,
             gamewith: 17473,
             slefty: 'coliseums',
-            Chaos: [ 776, 778, 780, 803, 805, 830, 832, 834, 859, 861, 881, 883, 900, 902, 923, 925, 950, 952, 982, 984, 1017, 1015, 1040, 1042, 1086, 1088, 1090, 1101, 1103, 1105, 1140, 1142, 1144, 1195, 1219, 1221, 1250, 1252, 1291, 1293, 1311, 1337, 1339, 1340, 1375, 1377, 1400, 1421, 1423, 1457, 1488, 1525, 1526, 1528, 1552, 1554, 1583, 1585, 1601, 1603, 1627, 1629, 1666, 1693, 1732, 1791, 1827, 1860, 1944, 1977, 2036, 2110, 2122, 2162, 2192, 2248, 2322, 2353, 2374, 2415, 2470, 2488 ],
-            Neo: [ 1862, 1898, 1975, 2016 ]
+            Chaos: [ 776, 778, 780, 803, 805, 830, 832, 834, 859, 861, 883, 900, 902, 923, 925, 950, 952, 982, 984, 1017, 1015, 1040, 1042, 1086, 1088, 1090, 1101, 1103, 1105, 1140, 1142, 1144, 1195, 1219, 1221, 1250, 1252, 1291, 1293, 1311, 1337, 1339, 1340, 1375, 1400, 1421, 1423, 1457, 1488, 1525, 1526, 1528, 1552, 1554, 1583, 1585, 1601, 1603, 1627, 1629, 1666, 1693, 1732, 1791, 1827, 1860, 1944, 1977, 2036, 2122, 2162, 2192, 2248, 2322, 2353, 2374, 2415, 2470, 2488 ],
+            Neo: [ 1862, 1898, 1975, 2016 ],
         },
         
         {
@@ -2893,7 +2893,7 @@ window.drops = {
             global: true,
             gamewith: 17473,
             slefty: 'coliseums',
-            Underground: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1103, 1105, 1195, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528, 1552, 1585, 1603, 1629, 1791, 1860, 1977, 2036, 2110, 2162, 2192, 2248, 2488 ],
+            Underground: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1103, 1105, 1195, 1197, 1221, 1252, 1293, 1311, 1339, 1340, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528, 1552, 1585, 1603, 1629, 1791, 1860, 1977, 2036, 2162, 2192, 2248, 2488 ],
         },
         
         {
@@ -2902,7 +2902,28 @@ window.drops = {
             global: true,
             gamewith: 17473,
             slefty: 'coliseums',
-            Exhibition: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1103, 1105, 1195, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528, 1552, 1585, 1603, 1629, 1860 ],
+            Exhibition: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1103, 1105, 1195, 1197, 1221, 1252, 1293, 1311, 1339, 1340, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528, 1552, 1585, 1603, 1629, 1860 ],
+        },
+
+        {
+            name: 'Roar of the Sea\s Cha-Cha',
+            thumb: 882,
+            global: true,
+            nakama: 5088101,
+            gamewith: 22035,
+            slefty: 'coliseums',
+            Chaos: [ 881, -882 ],
+        },
+
+        {
+            name: 'Flying Spearman',
+            thumb: 1253,
+            global: true,
+            nakama: 5125301,
+            gamewith: 38054,
+            slefty: 'coliseums',
+            Underground: [ 1253, -1253 ],
+            Exebition: [ 1253, -1253 ],
         },
 
         {
@@ -2913,6 +2934,18 @@ window.drops = {
             gamewith: 43749,
             slefty: 'coliseums',
             Chaos: [ 1309, -1310 ],
+        },
+
+        {
+            name: 'Pure-Hearted Guardian Warrior',
+            thumb: 1378,
+            global: true,
+            nakama: 5137701,
+            gamewith: 46329,
+            slefty: 'coliseums',
+            Chaos: [ 1377, -1378 ],
+            Underground: [ 1377, -1378 ],
+            Exebition: [ 1377, -1378 ],
         },
 
         {
@@ -2947,6 +2980,17 @@ window.drops = {
         },
 
         {
+            name: 'Steel Magnetic Arm',
+            thumb: 2111,
+            global: true,
+            nakama: 5211001,
+            gamewith: 103562,
+            slefty: 'coliseums',
+            Chaos: [ 2110, -2111 ],
+            Underground: [ 2110, -2111 ],
+        },
+
+        {
             name: 'Evolution of a True Knight',
             thumb: 2290,
             global: true,
@@ -2955,6 +2999,16 @@ window.drops = {
             slefty: 'coliseums',
             Chaos: [ 2288, -2290 ],
             Underground: [ 2288, -2290 ],
+        },
+
+        {
+            name: 'Coliseum EX Vs. Gecko Moria',
+            thumb: 2512,
+            nakama: null,
+            gamewith: 147896,
+            slefty: 'coliseums',
+            Chaos: [ 2511, 2513 ],
+            Underground: [ 2511, 2513 ],
         },
         
     ],
@@ -3082,9 +3136,10 @@ window.drops = {
         {
             name: 'Boa Hancock',
             thumb: 2299,
+            global: true,
             nakama: 8229900,
             gamewith: 123536,
-            'Raging Sea': [ 2298 ]
+            'Roaring Sea': [ 2298 ]
         },
 
         {
@@ -3107,14 +3162,14 @@ window.drops = {
             name: 'Kaido',
             thumb: 2387,
             nakama: 8238700,
-            gamewith: null,
+            gamewith: 137053,
             'Raging Sea': [ 2386 ]
         },
 
         {
             name: 'Doflamingo',
             thumb: 2443,
-            nakama: null,
+            nakama: 143066,
             gamewith: 8244300,
             'Primordial Sea': [ 2442, 9026 ]
         },
@@ -3123,8 +3178,16 @@ window.drops = {
             name: 'Smoothie & Oven',
             thumb: 2469,
             nakama: 8246900,
-            gamewith: null,
+            gamewith: 144785,
             'Sweet Sea': [ 2468 ]
+        },
+
+        {
+            name: 'Edward Weevil',
+            thumb: 2510,
+            nakama: null,
+            gamewith: null,
+            'Sweet Sea': [ 2509 ]
         },
         
     ],
@@ -3604,7 +3667,7 @@ window.drops = {
             name: 'Ordeal of the Blade',
             thumb: 2475,
             nakama: null,
-            gamewith: null,
+            gamewith: 147515,
             condition: 'Certain units stats boosted by 1.25x and 8 turns special cooldown reduction. Challenge Difficulty: Total Crew Cost must be 180 Cost or less.\nChance to drop the 「Old Sword, Swordsman\'s Loot」, 「Baboon Sword, Swordsman\'s Loot」, and 「Muggy Kingdom Sword, Swordsman\'s Loot」.',
             'Chopperman Missions': [ 2499 ],
         },

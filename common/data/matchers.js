@@ -466,6 +466,12 @@ window.matchers = [
         target: 'special',
         matcher: /beneficial/i
     },
+    
+    {
+        name: 'Negative Orb Negators',
+        target: 'special',
+        matcher: /Makes Badly Matching and \[BLOCK\] orbs not reduce damage/i
+    },
 
     /*{
         name: 'Slot fillers',
@@ -822,7 +828,7 @@ window.matchers = [
     },
     
     {
-        name: 'Chain Multiplier Limit reducer',
+        name: 'Chain Multiplier Limit and Chain Lock reducer',
         target: 'special',
         matcher: /(removes|reduces).+Chain Multiplier Limit/i,
         icon: 'chain reducer'
