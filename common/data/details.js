@@ -6581,11 +6581,11 @@ window.details = {
             {
                 "Name": "Barrier Penetration",
                 "description": [
-                    "Level 1: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
-                    "Level 2: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
-                    "Level 3: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
-                    "Level 4: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
-                    "Level 5: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
+                    "Level 1: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
                     //"Level 5: This character's normal attack will ignore barriers"
                 ]
             },
@@ -9446,8 +9446,7 @@ window.details = {
                     "Level 2: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
                     "Level 3: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
                     "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
-                    "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn",
-                    //"Level 5: This character's normal attack will ignore barriers"
+                    "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
             },
         ],
