@@ -710,7 +710,8 @@ window.matchers = [
     {
         name: 'Burn reducers',
         target: 'special',
-        matcher: /(reduces|removes).+Burn.+duration/i 
+        matcher: /(reduces|removes).+Burn.+duration/i,
+        icon: 'https://i.imgur.com/zGacI9N.png'
     },
 
     {
