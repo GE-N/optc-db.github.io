@@ -319,6 +319,24 @@ window.matchers = [
     },
 
     {
+        name: 'Delay Conditional ATK boosters',
+        target: 'special',
+        matcher: /Boosts ATK.+against.+delayed.+enemies/i
+    },
+
+    {
+        name: 'Defense Reduction Conditional ATK boosters',
+        target: 'special',
+        matcher: /Boosts ATK.+against.+enemies.+reduced defense/i
+    },
+
+    {
+        name: 'Poison Conditional ATK boosters',
+        target: 'special',
+        matcher: /(Boosts ATK.+against.+(poisoned|strongly poisoned).+enemies|Boosts ATK.+against.+enemies.+inflicted with Toxic)/i
+    },
+
+    {
         name: 'Following-turn ATK boosters',
         target: 'special',
         matcher: /(Following the activation.+boosts.+ATK|If during that turn.+boosts.+ATK)/i,
@@ -386,6 +404,18 @@ window.matchers = [
         target: 'special',
         matcher: /amplifies.+orb\D*by 2.25x/i,
         icon: 'orb boost'
+    },
+    
+    {
+        name: 'Chain Boosters',
+        target: 'special',
+        matcher: /Adds.+to Chain/i 
+    },
+    
+    {
+        name: 'Chain Lockers',
+        target: 'special',
+        matcher: /Locks the chain multiplier/i 
     },
 
     {
@@ -811,20 +841,6 @@ window.matchers = [
         target: 'special',
         matcher: /reduces special cooldown/i,
         icon: 'reduce cd'
-    },
-    
-    {
-        name: 'Chain Boosters',
-        target: 'special',
-        matcher: /Adds.+to Chain/i,
-        icon: 'chainlimit'
-    },
-    
-    {
-        name: 'Chain Lockers',
-        target: 'special',
-        matcher: /Locks the chain multiplier/i,
-        icon: 'chain reducer'
     },
     
     {
