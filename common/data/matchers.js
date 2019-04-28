@@ -321,19 +321,22 @@ window.matchers = [
     {
         name: 'Delay Conditional ATK boosters',
         target: 'special',
-        matcher: /Boosts ATK.+against.+delayed.+enemies/i
+        matcher: /Boosts ATK.+against.+delayed.+enemies/i,
+        icon: 'https://i.imgur.com/LdEqGLj.png'
     },
 
     {
         name: 'Defense Reduction Conditional ATK boosters',
         target: 'special',
-        matcher: /Boosts ATK.+against.+enemies.+reduced defense/i
+        matcher: /Boosts ATK.+against.+enemies.+reduced defense/i,
+        icon: 'https://i.imgur.com/JRdH7sD.png'
     },
 
     {
         name: 'Poison Conditional ATK boosters',
         target: 'special',
-        matcher: /(Boosts ATK.+against.+(poisoned|strongly poisoned).+enemies|Boosts ATK.+against.+enemies.+inflicted with Toxic)/i
+        matcher: /(Boosts ATK.+against.+(poisoned|strongly poisoned).+enemies|Boosts ATK.+against.+enemies.+inflicted with Toxic)/i,
+        icon: 'https://i.imgur.com/3Y4fOTp.png'
     },
 
     {
@@ -495,13 +498,14 @@ window.matchers = [
         name: 'Beneficial Orb Enablers',
         target: 'special',
         matcher: /beneficial/i,
-        icon: 'https://i.imgur.com/aRYs2Fx.png'
+        icon: 'https://i.imgur.com/IkoC8nT.png'
     },
     
     {
         name: 'Negative Orb Negators',
         target: 'special',
-        matcher: /Makes Badly Matching and \[BLOCK\] orbs not reduce damage/i
+        matcher: /Makes Badly Matching and \[BLOCK\] orbs not reduce damage/i,
+        icon: 'https://i.imgur.com/IkoC8nT.png'
     },
 
     /*{
@@ -514,7 +518,7 @@ window.matchers = [
         name: 'Delayers',
         target: 'special',
         matcher: /delays/i,
-        icon: 'delay'
+        icon: 'https://i.imgur.com/Xb2Hj6E.png'
     },
     
     {
@@ -664,7 +668,8 @@ window.matchers = [
     {
         name: 'Threshold Damage reducers',
         target: 'special',
-        matcher: /Reduces (any )?damage received above/i
+        matcher: /Reduces (any )?damage received above/i,
+        icon: 'https://i.imgur.com/hzpmfmt.png'
     },
 
     {
@@ -712,7 +717,7 @@ window.matchers = [
         name: 'Burn reducers',
         target: 'special',
         matcher: /(reduces|removes).+Burn.+duration/i,
-        icon: 'https://i.imgur.com/zGacI9N.png'
+        icon: 'https://i.imgur.com/6klHnhu.png'
     },
 
     {
