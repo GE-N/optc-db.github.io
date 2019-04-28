@@ -488,13 +488,14 @@ window.matchers = [
         target: 'special',
         matcher: /(empties.+with \[BLOCK\]|changes.+\[BLOCK\].+into|including.+\[BLOCK\])/i,
         include: [ 1383, 1384 ],
-        icon: 'orb match'
+        icon: 'https://i.imgur.com/zThvc5x.png'
     },
     
     {
         name: 'Beneficial Orb Enablers',
         target: 'special',
-        matcher: /beneficial/i
+        matcher: /beneficial/i,
+        icon: 'https://i.imgur.com/aRYs2Fx.png'
     },
     
     {
