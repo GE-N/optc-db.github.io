@@ -412,7 +412,8 @@ window.matchers = [
     {
         name: 'Chain Boosters',
         target: 'special',
-        matcher: /Adds.+to Chain/i 
+        matcher: /Adds.+to Chain/i,
+        icon: 'https://i.imgur.com/lcyhkqN.png'
     },
     
     {
@@ -763,7 +764,8 @@ window.matchers = [
     {
         name: 'Enemy End of Turn Heal buff reducer',
         target: 'special',
-        matcher: /(removes|reduces).+End of Turn Heal.+duration/i
+        matcher: /(removes|reduces).+End of Turn Heal.+duration/i,
+        icon: 'https://i.imgur.com/pkMFng0.png'
     },
 
     {
