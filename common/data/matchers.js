@@ -413,13 +413,14 @@ window.matchers = [
         name: 'Chain Boosters',
         target: 'special',
         matcher: /Adds.+to Chain/i,
-        icon: 'https://i.imgur.com/lcyhkqN.png'
+        icon: 'https://i.imgur.com/bpjdKkm.png'
     },
     
     {
         name: 'Chain Lockers',
         target: 'special',
-        matcher: /Locks the chain multiplier/i 
+        matcher: /Locks the chain multiplier/i,
+        icon: 'https://i.imgur.com/LkHrR7D.png'
     },
 
     {
@@ -588,7 +589,8 @@ window.matchers = [
     {
         name: 'Instant Defeat special',
         target: 'special',
-        matcher: /instantly defeat/i
+        matcher: /instantly defeat/i,
+        icon: 'https://i.imgur.com/2yhvdD4.png'
     },
     
     {
@@ -752,13 +754,15 @@ window.matchers = [
     {
         name: 'Captain Swapping special',
         target: 'special',
-        matcher: /Swaps this unit with your captain/i 
+        matcher: /Swaps this unit with your captain/i,
+        icon: 'https://i.imgur.com/TNzr1q5.png'
     },
 
     {
         name: 'Orb rate Increase and Decrease reducer',
         target: 'special',
-        matcher: /(reduces|removes).+Orb Rate Up and Orb Rate Down.+Buffs/i
+        matcher: /(reduces|removes).+Orb Rate Up and Orb Rate Down.+Buffs/i,
+        icon: 'https://i.imgur.com/3hO3H9c.png'
     },
 
     {
@@ -869,7 +873,8 @@ window.matchers = [
     {
         name: 'Tap Timing supporters',
         target: 'special',
-        matcher: /makes PERFECTs easier to hit/i
+        matcher: /makes PERFECTs easier to hit/i,
+        icon: 'https://i.imgur.com/VjcFlBz.png'
     },
     
     /* * * * * Sailor * * * * */
