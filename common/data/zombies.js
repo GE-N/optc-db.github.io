@@ -662,13 +662,13 @@ window.zombies = {
     },
     2303: { // Chiffon
         type: 'reducer',
-        multiplier: 0.2,//change this
-        threshold: 1.0//change this
+        multiplier: 0.2,
+        threshold: 1.0
     },
     2304: { // Chiffon
         type: 'reducer',
-        multiplier: 0.2,//change this
-        threshold: 1.0//change this
+        multiplier: 0.2,
+        threshold: 1.0
     },
     2343: { // Bavarois
         type: 'healer',
@@ -749,6 +749,10 @@ window.zombies = {
         type: 'healer',
         multiplier: 3
     },
+    2529: { // Neptune
+        type: 'healer',
+        multiplier: 5
+    },
     5001: { // Smoker/Tashigi
         type: 'healer',
         amount: 300
@@ -763,17 +767,75 @@ window.zombies = {
     },
     5060: { // Smoothie&Oven
         type: 'healer',
-        multiplier: 0//Change this
+        multiplier: 1
     },
     5061: { // Smoothie&Oven
         type: 'healer',
-        multiplier: 0//Change this
+        multiplier: 1
     },
     5064: { // Smoothie&Oven
         type: 'healer',
         multiplier: 3
     },
     5065: { // Smoothie&Oven
+        type: 'healer',
+        multiplier: 3
+    },
+    5075: { // Zoro/Sanji
+        type: 'healer',
+        multiplier: 2
+    },
+    5078: { // Chopper/Carrot
+        type: 'healer',
+        amount: 500
+    },
+    5080: { // Chopper/Carrot
+        type: 'healer',
+        amount: 1000
+    },
+    5081: { // Chopper/Carrot
+        type: 'healer',
+        amount: 1000
+    },
+    5083: { // Law
+        type: 'healer',
+    },
+    5084: { // Luffy/Law
+        type: 'healer',
+    },
+    5085: { // Luffy/Law
+        type: 'healer',
+    },
+    5087: { // Law
+        type: 'healer',
+    },
+    5088: { // Luffy/Law
+        type: 'healer',
+    },
+    5089: { // Luffy/Law
+        type: 'healer',
+    },
+    5106: { // Ivan/Bon Clay
+        type: 'healer',
+        multiplier: 2//change this
+    },
+    5108: { // Ivan/Bon Clay
+        type: 'healer',
+        multiplier: 3//change this
+    },
+    5109: { // Ivan/Bon Clay
+        type: 'healer',
+        multiplier: 3//change this
+    },
+    5110: { // Ivan/Bon Clay
+        type: 'healer',
+        multiplier: 2
+    },
+    5112: { // Ivan/Bon Clay
+        type: 'healer',
+        multiplier: 3
+    },
+    5113: { // Ivan/Bon Clay
         type: 'healer',
         multiplier: 3
     },
