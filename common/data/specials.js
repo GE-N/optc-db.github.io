@@ -6874,7 +6874,6 @@ window.specials = {
             else return p.chainPosition === 0 ? 1 : (prev == 'Good'  || prev == 'Great' || prev == 'Perfect') ? Infinity : 1;
         },
         onActivation: function(p) {
-            console.log(window.specials[2420].turnedOn);
             var n = window.specials[2420].turnedOn; var m = n ? 1 : 0;
             window.specials[2420].multiplier = !n ? (p.captain.type == "DEX" || p.captain.type == "INT") ? 2.75 : (p.captain.type == "QCK" || p.captain.type == "PSY") ? 3 : 1 : 1;
             p.scope.notify({
@@ -7394,12 +7393,10 @@ window.specials = {
         },
     },
     2514: {
-        atk: function(p) { return p.unit.class.has("Fighter") ? 2.25 : 1; },
-        type: "class"
+        orb: function(p) { return p.unit.class.has("Fighter") ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 2.25, [p.friendCaptain, p.captain], p.effectName) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1, [p.friendCaptain, p.captain], p.effectName); }
     },
     2515: {
-        atk: function(p) { return p.unit.class.has("Fighter") ? 2.25 : 1; },
-        type: "class"
+        orb: function(p) { return p.unit.class.has("Fighter") ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 2.25, [p.friendCaptain, p.captain], p.effectName) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1, [p.friendCaptain, p.captain], p.effectName); }
     },
     2519: {
         atk: function(p) { return (p.unit.type == "STR" || p.unit.type == "DEX" || p.unit.type == "QCK") ? 1.5 : 1; },
@@ -7420,6 +7417,26 @@ window.specials = {
         delay: function(p) { return 1; },
         orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.5, [p.friendCaptain, p.captain], p.effectName); }
     },
+    2525: {
+        atk: function(p) { return (p.unit.type == "QCK" || p.unit.type == "PSY" || p.unit.type == "INT") ? 1.5 : 1; },
+        type: "class",
+        chainAddition: function(p) { return 0.3; }
+    },
+    2526: {
+        def: function(p) { return 0.5; },
+        rcv: function(p) { return 1.5; },
+    },
+    2527: {
+        atk: function(p) { return p.defenseDown ? 1.5 : 1; },
+        type: "condition",
+        turnedOn: false,
+        onActivation: function(p) {
+            window.specials[2527].turnedOn = true;
+        },
+        onDeactivation: function(p) {
+            window.specials[2527].turnedOn = false;
+        }
+    },
     2528: {
         def: function(p) { return 0.2; },
         orb: function(p) { return (p.unit.class.has("Powerhouse") || p.unit.class.has("Striker")) ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.75, [p.friendCaptain, p.captain], p.effectName) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1, [p.friendCaptain, p.captain], p.effectName); }
@@ -7427,6 +7444,40 @@ window.specials = {
     2529: {
         def: function(p) { return 0.2; },
         orb: function(p) { return (p.unit.class.has("Powerhouse") || p.unit.class.has("Striker")) ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.75, [p.friendCaptain, p.captain], p.effectName) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1, [p.friendCaptain, p.captain], p.effectName); }
+    },
+    2553: {
+        delay: function(p) { return 1; },
+        turnedOn: false,
+        onActivation: function(p) {
+            window.specials[2553].turnedOn = true;
+        },
+        onDeactivation: function(p) {
+            window.specials[2553].turnedOn = false;
+        }
+    },
+    2554:{
+        atk: function(p) { return p.delayed > 0 ? window.specials[2554].multiplier : 1; },
+        type: "condition",
+        onActivation: function(p) {
+            var n = (window.specials[2554].multiplier == 1.5 ? 1 : window.specials[2554].multiplier == 1.75 ? 2 : 0);
+            window.specials[2554].multiplier = [1.5, 1.75, 2][n];
+            p.scope.notify({
+                text: 'Using the ' + [1.5, 1.75, 2][n] + 'x Conditional boost. To switch to the ' + [1.75, 2, 1.5][n] + 'x Conditional boost, disable and re-enable this special',
+                name: '2554warning'
+            });
+        },
+    },
+    2555:{
+        atk: function(p) { return (p.unit.class.has("Free Spirit") || p.unit.class.has("Shooter") || p.unit.class.has("Slasher")) ? window.specials[2555].multiplier : 1; },
+        type: "class",
+        onActivation: function(p) {
+            var n = (window.specials[2555].multiplier == 1.75 ? 1 : window.specials[2555].multiplier == 2 ? 2 : 0);
+            window.specials[2555].multiplier = [1.75, 2, 2.25][n];
+            p.scope.notify({
+                text: 'Using the ' + [1.75, 2, 2.25][n] + 'x ATK boost. To switch to the ' + [2, 2.25, 1.75][n] + 'x ATK boost, disable and re-enable this special',
+                name: '2555warning'
+            });
+        },
     },
     3333: {
         atk: function(p) { return 1.75; },
@@ -8080,38 +8131,18 @@ window.specials = {
         },
     },
     5096: {
-        atkStatic: function(p) { return Math.min(1000,window.specials[5096].momBoost); },
-        type: "base",
-        chain: function(p) { return window.specials[5096].multiplier; },
-        chainLimiter: function(p) {
-            var prev = p.hitcombo[p.hitcombo.length - 1][p.chainPosition - 1]
-            if (window.specials[5096].multiplier == 3.5) return p.chainPosition === 0 ? 1 : (prev == 'Good'  || prev == 'Great' || prev == 'Perfect') ? window.specials[5096].multiplier : 1;
-            else return p.chainPosition === 0 ? 1 : (prev == 'Good'  || prev == 'Great' || prev == 'Perfect') ? Infinity : 1;
-        },
+        atk: function(p) { return !(p.unit.class.has("Fighter") || p.unit.class.has("Slasher") || p.unit.class.has("Powerhouse")) ? 1 : window.specials[5096].multiplier; },
+        type: "type",
         onActivation: function(p) {
-            window.specials[5096].multiplier = 1;
-            if (p.percHP >= 50) {
-                window.specials[5096].multiplier = 3.5;
-            }
-            window.specials[5096].momBoost = p.percHP*p.maxHP/100000;
-        },
+            window.specials[5096].multiplier = (p.captain.class.has("Fighter") || p.captain.class.has("Slasher") || p.captain.class.has("Powerhouse")) ? 2 : 1;
+        }
     },
     5097: {
-        atkStatic: function(p) { return Math.min(1000,window.specials[5097].momBoost); },
-        type: "base",
-        chain: function(p) { return window.specials[5097].multiplier; },
-        chainLimiter: function(p) {
-            var prev = p.hitcombo[p.hitcombo.length - 1][p.chainPosition - 1]
-            if (window.specials[5097].multiplier == 3.5) return p.chainPosition === 0 ? 1 : (prev == 'Good'  || prev == 'Great' || prev == 'Perfect') ? window.specials[5097].multiplier : 1;
-            else return p.chainPosition === 0 ? 1 : (prev == 'Good'  || prev == 'Great' || prev == 'Perfect') ? Infinity : 1;
-        },
+        atk: function(p) { return !(p.unit.class.has("Fighter") || p.unit.class.has("Slasher") || p.unit.class.has("Powerhouse")) ? 1 : window.specials[5097].multiplier; },
+        type: "type",
         onActivation: function(p) {
-            window.specials[5097].multiplier = 1;
-            if (p.percHP >= 50) {
-                window.specials[5097].multiplier = 3.5;
-            }
-            window.specials[5097].momBoost = p.percHP*p.maxHP/100000;
-        },
+            window.specials[5097].multiplier = (p.captain.class.has("Fighter") || p.captain.class.has("Slasher") || p.captain.class.has("Powerhouse")) ? 2 : 1;
+        }
     },
     5098: {
         atk: function(p) { return !(p.unit.class.has("Fighter") || p.unit.class.has("Slasher") || p.unit.class.has("Powerhouse")) ? 1 : window.specials[5098].multiplier; },
@@ -8155,42 +8186,212 @@ window.specials = {
             window.specials[5103].multiplier = (p.captain.class.has("Fighter") || p.captain.class.has("Slasher") || p.captain.class.has("Powerhouse")) ? 2 : 1;
         }
     },
-    5104: {
-        atk: function(p) { return !(p.unit.class.has("Fighter") || p.unit.class.has("Slasher") || p.unit.class.has("Powerhouse")) ? 1 : window.specials[5104].multiplier; },
-        type: "type",
-        onActivation: function(p) {
-            window.specials[5104].multiplier = (p.captain.class.has("Fighter") || p.captain.class.has("Slasher") || p.captain.class.has("Powerhouse")) ? 2 : 1;
-        }
-    },
-    5105: {
-        atk: function(p) { return !(p.unit.class.has("Fighter") || p.unit.class.has("Slasher") || p.unit.class.has("Powerhouse")) ? 1 : window.specials[5105].multiplier; },
-        type: "type",
-        onActivation: function(p) {
-            window.specials[5105].multiplier = (p.captain.class.has("Fighter") || p.captain.class.has("Slasher") || p.captain.class.has("Powerhouse")) ? 2 : 1;
-        }
-    },
-    5114: {
-        affinity: function(p) { return 1.75; }
-    },
-    5115: {
-        affinity: function(p) { return 1.75; }
-    },
-    5116: {
-        affinity: function(p) { return 1.75; }
-    },
-    5117: {
-        affinity: function(p) { return 1.75; }
-    },
-    5118: {
-        affinity: function(p) { return 1.75; }
-    },
-    5119: {
-        affinity: function(p) { return 1.75; }
-    },
     5120: {
         affinity: function(p) { return 1.75; }
     },
     5121: {
         affinity: function(p) { return 1.75; }
+    },
+    5122: {
+        affinity: function(p) { return 1.75; }
+    },
+    5123: {
+        affinity: function(p) { return 1.75; }
+    },
+    5124: {
+        affinity: function(p) { return 1.75; }
+    },
+    5125: {
+        affinity: function(p) { return 1.75; }
+    },
+    5126: {
+        affinity: function(p) { return 1.75; }
+    },
+    5127: {
+        affinity: function(p) { return 1.75; }
+    },
+    5128: {
+        chain: function(p) { return window.specials[5128].multiplier; },
+        chainLimiter: function(p) {
+            var prev = p.hitcombo[p.hitcombo.length - 1][p.chainPosition - 1]
+            return p.chainPosition === 0 ? 1 : (prev == 'Good'  || prev == 'Great' || prev == 'Perfect') ? window.specials[5128].multiplier : 1;
+        },
+        onActivation: function(p) {
+            var n = (window.specials[5128].multiplier == 2.75 ? 1 : 0);
+            window.specials[5128].multiplier = [2.75,3.25][n];
+            p.scope.notify({
+                text: 'Using the ' + [2.75, 3.25][n] + 'x Chain Lock. To switch to the ' + [3.25, 2.75][n] + 'x multiplier, disable and re-enable this special',
+                name: '5128warning'
+            });
+        },
+    },
+    5129: {
+        chain: function(p) { return window.specials[5129].multiplier; },
+        chainLimiter: function(p) {
+            var prev = p.hitcombo[p.hitcombo.length - 1][p.chainPosition - 1]
+            return p.chainPosition === 0 ? 1 : (prev == 'Good'  || prev == 'Great' || prev == 'Perfect') ? window.specials[5129].multiplier : 1;
+        },
+        onActivation: function(p) {
+            var n = (window.specials[5129].multiplier == 2.75 ? 1 : 0);
+            window.specials[5129].multiplier = [2.75,3.25][n];
+            p.scope.notify({
+                text: 'Using the ' + [2.75, 3.25][n] + 'x Chain Lock. To switch to the ' + [3.25, 2.75][n] + 'x multiplier, disable and re-enable this special',
+                name: '5129warning'
+            });
+        },
+    },
+    5130: {
+        chain: function(p) { return window.specials[5130].multiplier; },
+        chainLimiter: function(p) {
+            var prev = p.hitcombo[p.hitcombo.length - 1][p.chainPosition - 1]
+            return p.chainPosition === 0 ? 1 : (prev == 'Good'  || prev == 'Great' || prev == 'Perfect') ? window.specials[5130].multiplier : 1;
+        },
+        onActivation: function(p) {
+            var n = (window.specials[5130].multiplier == 2.75 ? 1 : 0);
+            window.specials[5130].multiplier = [2.75,3.25][n];
+            p.scope.notify({
+                text: 'Using the ' + [2.75, 3.25][n] + 'x Chain Lock. To switch to the ' + [3.25, 2.75][n] + 'x multiplier, disable and re-enable this special',
+                name: '5130warning'
+            });
+        },
+    },
+    5131: {
+        chain: function(p) { return window.specials[5131].multiplier; },
+        chainLimiter: function(p) {
+            var prev = p.hitcombo[p.hitcombo.length - 1][p.chainPosition - 1]
+            return p.chainPosition === 0 ? 1 : (prev == 'Good'  || prev == 'Great' || prev == 'Perfect') ? window.specials[5131].multiplier : 1;
+        },
+        onActivation: function(p) {
+            var n = (window.specials[5131].multiplier == 2.75 ? 1 : 0);
+            window.specials[5131].multiplier = [2.75,3.25][n];
+            p.scope.notify({
+                text: 'Using the ' + [2.75, 3.25][n] + 'x Chain Lock. To switch to the ' + [3.25, 2.75][n] + 'x multiplier, disable and re-enable this special',
+                name: '5131warning'
+            });
+        },
+    },
+    5132: {
+        chain: function(p) { return window.specials[5132].multiplier; },
+        chainLimiter: function(p) {
+            var prev = p.hitcombo[p.hitcombo.length - 1][p.chainPosition - 1]
+            return p.chainPosition === 0 ? 1 : (prev == 'Good'  || prev == 'Great' || prev == 'Perfect') ? window.specials[5132].multiplier : 1;
+        },
+        onActivation: function(p) {
+            var n = (window.specials[5132].multiplier == 2.75 ? 1 : 0);
+            window.specials[5132].multiplier = [2.75,3.25][n];
+            p.scope.notify({
+                text: 'Using the ' + [2.75, 3.25][n] + 'x Chain Lock. To switch to the ' + [3.25, 2.75][n] + 'x multiplier, disable and re-enable this special',
+                name: '5132warning'
+            });
+        },
+    },
+    5133: {
+        chain: function(p) { return window.specials[5133].multiplier; },
+        chainLimiter: function(p) {
+            var prev = p.hitcombo[p.hitcombo.length - 1][p.chainPosition - 1]
+            return p.chainPosition === 0 ? 1 : (prev == 'Good'  || prev == 'Great' || prev == 'Perfect') ? window.specials[5133].multiplier : 1;
+        },
+        onActivation: function(p) {
+            var n = (window.specials[5133].multiplier == 2.75 ? 1 : 0);
+            window.specials[5133].multiplier = [2.75,3.25][n];
+            p.scope.notify({
+                text: 'Using the ' + [2.75, 3.25][n] + 'x Chain Lock. To switch to the ' + [3.25, 2.75][n] + 'x multiplier, disable and re-enable this special',
+                name: '5133warning'
+            });
+        },
+    },
+    5134: {
+        chain: function(p) { return window.specials[5134].multiplier; },
+        chainLimiter: function(p) {
+            var prev = p.hitcombo[p.hitcombo.length - 1][p.chainPosition - 1]
+            return p.chainPosition === 0 ? 1 : (prev == 'Good'  || prev == 'Great' || prev == 'Perfect') ? window.specials[5134].multiplier : 1;
+        },
+        onActivation: function(p) {
+            var n = (window.specials[5134].multiplier == 2.75 ? 1 : 0);
+            window.specials[5134].multiplier = [2.75,3.25][n];
+            p.scope.notify({
+                text: 'Using the ' + [2.75, 3.25][n] + 'x Chain Lock. To switch to the ' + [3.25, 2.75][n] + 'x multiplier, disable and re-enable this special',
+                name: '5134warning'
+            });
+        },
+    },
+    5135: {
+        chain: function(p) { return window.specials[5135].multiplier; },
+        chainLimiter: function(p) {
+            var prev = p.hitcombo[p.hitcombo.length - 1][p.chainPosition - 1]
+            return p.chainPosition === 0 ? 1 : (prev == 'Good'  || prev == 'Great' || prev == 'Perfect') ? window.specials[5135].multiplier : 1;
+        },
+        onActivation: function(p) {
+            var n = (window.specials[5135].multiplier == 2.75 ? 1 : 0);
+            window.specials[5135].multiplier = [2.75,3.25][n];
+            p.scope.notify({
+                text: 'Using the ' + [2.75, 3.25][n] + 'x Chain Lock. To switch to the ' + [3.25, 2.75][n] + 'x multiplier, disable and re-enable this special',
+                name: '5135warning'
+            });
+        },
+    },
+    5136: {
+        affinity: function(p) { return 3; },
+        chain: function(p) { return 3; },
+        chainLimiter: function(p) {
+            var prev = p.hitcombo[p.hitcombo.length - 1][p.chainPosition - 1]
+            return p.chainPosition === 0 ? 1 : (prev == 'Good'  || prev == 'Great' || prev == 'Perfect') ? 3 : 1;
+        }
+    },
+    5137: {
+        affinity: function(p) { return 3; },
+        chain: function(p) { return 3; },
+        chainLimiter: function(p) {
+            var prev = p.hitcombo[p.hitcombo.length - 1][p.chainPosition - 1]
+            return p.chainPosition === 0 ? 1 : (prev == 'Good'  || prev == 'Great' || prev == 'Perfect') ? 3 : 1;
+        }
+    },
+    5138: {
+        affinity: function(p) { return 3; },
+        chain: function(p) { return 3; },
+        chainLimiter: function(p) {
+            var prev = p.hitcombo[p.hitcombo.length - 1][p.chainPosition - 1]
+            return p.chainPosition === 0 ? 1 : (prev == 'Good'  || prev == 'Great' || prev == 'Perfect') ? 3 : 1;
+        }
+    },
+    5139: {
+        affinity: function(p) { return 3; },
+        chain: function(p) { return 3; },
+        chainLimiter: function(p) {
+            var prev = p.hitcombo[p.hitcombo.length - 1][p.chainPosition - 1]
+            return p.chainPosition === 0 ? 1 : (prev == 'Good'  || prev == 'Great' || prev == 'Perfect') ? 3 : 1;
+        }
+    },
+    5140: {
+        affinity: function(p) { return 3; },
+        chain: function(p) { return 3; },
+        chainLimiter: function(p) {
+            var prev = p.hitcombo[p.hitcombo.length - 1][p.chainPosition - 1]
+            return p.chainPosition === 0 ? 1 : (prev == 'Good'  || prev == 'Great' || prev == 'Perfect') ? 3 : 1;
+        }
+    },
+    5141: {
+        affinity: function(p) { return 3; },
+        chain: function(p) { return 3; },
+        chainLimiter: function(p) {
+            var prev = p.hitcombo[p.hitcombo.length - 1][p.chainPosition - 1]
+            return p.chainPosition === 0 ? 1 : (prev == 'Good'  || prev == 'Great' || prev == 'Perfect') ? 3 : 1;
+        }
+    },
+    5142: {
+        affinity: function(p) { return 3; },
+        chain: function(p) { return 3; },
+        chainLimiter: function(p) {
+            var prev = p.hitcombo[p.hitcombo.length - 1][p.chainPosition - 1]
+            return p.chainPosition === 0 ? 1 : (prev == 'Good'  || prev == 'Great' || prev == 'Perfect') ? 3 : 1;
+        }
+    },
+    5143: {
+        affinity: function(p) { return 3; },
+        chain: function(p) { return 3; },
+        chainLimiter: function(p) {
+            var prev = p.hitcombo[p.hitcombo.length - 1][p.chainPosition - 1]
+            return p.chainPosition === 0 ? 1 : (prev == 'Good'  || prev == 'Great' || prev == 'Perfect') ? 3 : 1;
+        }
     },
 };

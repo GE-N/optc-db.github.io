@@ -107,23 +107,44 @@ angular.module('optc') .run(function($rootScope, $timeout, $storage, MATCHER_IDS
         var filters = tableData.parameters.filters;
         // filter by type
         //if (filters.type && unit.type !== filters.type) return false;
-        if (filters.type){
-            if (!Array.isArray(unit.type)) if (unit.type !== filters.type) return false;
-            if (Array.isArray(unit.type)) if ((unit.type[0] !== filters.type) && (unit.type[1] !== filters.type)) return false;
+        if (filters.types && filters.types.length){
+            if (!Array.isArray(unit.type)) if (!filters.types.includes(unit.type)) return false;
+            if (Array.isArray(unit.type)) if ((!filters.types.includes(unit.type[0])) && (!filters.types.includes(unit.type[1]))) return false;
         }
         // filter by class
+        if(!Array.isArray(unit.class) && filters.noSingleClass) return false;
         if (filters.classes && filters.classes.length) {
-            var singleQuery = filters.classes.length == 1, singleClass = !Array.isArray(unit.class), doubleClass = Array.isArray(unit.class) && unit.class.length == 2, dualCharacter = Array.isArray(unit.class)  && unit.class.length == 3;
-            if (!singleQuery && singleClass) return false;
-            else if (singleQuery && singleClass && filters.classes[0] != unit.class) return false;
-            else if (singleQuery && dualCharacter && (filters.classes[0] !== unit.class[2][0] &&
-                        filters.classes[0] !== unit.class[2][1])) return false;
-            else if (singleQuery && doubleClass && filters.classes.indexOf(unit.class[0]) == -1 &&
-                    filters.classes.indexOf(unit.class[1]) == -1) return false;
-            else if (!singleQuery && doubleClass && (filters.classes.indexOf(unit.class[0]) == -1 ||
-                        filters.classes.indexOf(unit.class[1]) == -1)) return false;
-            else if (!singleQuery && dualCharacter && (filters.classes.indexOf(unit.class[2][0]) == -1 ||
-                        filters.classes.indexOf(unit.class[2][1]) == -1)) return false;
+            var inclusive = !filters.classInclusive;
+            var singleQuery = filters.classes.length == 1, singleClass = !Array.isArray(unit.class), doubleClass = Array.isArray(unit.class) && unit.class.length == 2, dualCharacter = Array.isArray(unit.class) && unit.class.length == 3;
+            if(!inclusive){
+                if (singleClass){
+                    if(singleQuery) if(filters.classes[0] != unit.class) return false;
+                    if(!singleQuery) if(!filters.classes.includes(unit.class)) return false;
+                }
+                else if(doubleClass){
+                    if(singleQuery) return false;
+                    if(!singleQuery) if(!filters.classes.includes(unit.class[0]) || !filters.classes.includes(unit.class[1])) return false;
+                }
+                else{
+                    if(singleQuery) return false;
+                    if(!singleQuery){
+                        if((!filters.classes.includes(unit.class[0][0]) || !filters.classes.includes(unit.class[0][1]))
+                          && (!filters.classes.includes(unit.class[1][0]) || !filters.classes.includes(unit.class[1][1]))
+                          && (!filters.classes.includes(unit.class[2][0]) || !filters.classes.includes(unit.class[2][1]))) return false;
+                    }
+                }
+            }
+            else{
+                if (singleClass) if(!filters.classes.includes(unit.class)) return false;
+                if (doubleClass) if(!filters.classes.includes(unit.class[0]) && !filters.classes.includes(unit.class[1])) return false;
+                if (dualCharacter) {
+                    var uclasses = [];
+                    for(i = 0; i < unit.class.length; i++) { uclasses.push(unit.class[i][0]); uclasses.push(unit.class[i][1]); }
+                    var temp = false;
+                    for(i = 0; i < uclasses.length; i++) if(temp || filters.classes.includes(uclasses[i])) temp = true;
+                    if(!temp) return false;
+                }
+            }
         }
         // filter by stars
         if (filters.stars && filters.stars.length && filters.stars.indexOf(unit.stars) == -1) return false;
@@ -167,10 +188,14 @@ angular.module('optc') .run(function($rootScope, $timeout, $storage, MATCHER_IDS
         if (filters.noEvos && Utils.isEvolverBooster(unit)) return false;
         //console.log(window.details[id] ? "limit" in window.details[id] ? id : "no" : "no details");
         if (filters.noLB && window.details[id]) if("limit" in window.details[id]) return false;
+        if (filters.noSupport && window.details[id]) if("support" in window.details[id]) return false;
         if (filters.globalTM && [ 2330, 1514, 1467, 2296, 2332, 1387, 1388, 1389, 1446, 1447, 1448, 1549, 1550, 1551, 2302, 2329, 2287, 2304, 2306, 2308, 2310, 2334, 2295, 2297, 2299, 2336, 2099, 2113, 2201, 2236, 2245, 2251, 2265, 2300, 2500, 1466, 1513, 2325, 2331, 2333, 2169, 2207, 2256, 2257, 2259, 516, 518, 865, 1432, 1696, 1830, 2015, 2097, 2158, 2281, 3340, 3352, 777, 901, 924, 1143, 1220, 1222, 1376, 1401, 1489, 1491, 1555, 1861, 1897, 2111, 2193, 2290, 2323, 722, 724, 761, 762, 763, 764, 765, 766, 767, 768, 769, 852, 1003, 1037, 1039, 1302, 1304, 1607, 1624, 1649, 1650, 1690, 1735, 1737, 1891, 1893, 1947, 1980, 1995, 2044, 2045, 2046, 2294, 2327, 1808, 1853, 1889, 1916, 1941, 1972, 2000, 5012, 5013, 5014, 5015, 2064, 2109, 2137, 2175, 2211, 2261, 2283, 3354, 2321 ].indexOf(id) == -1) return false;
         if (filters.japanTM && [ 2506, 2507, 2508, 2475, 2477, 2469, 2446, 5055, 5056, 5057, 2465, 2500, 2505, 2479, 2481, 2483, 2485, 2487, 2499, 1941, 1972, 2000, 5012, 5013, 5014, 5015, 2109, 2175, 2362, 2443, 2471, 2489, 2512, 2491, 2473, 2504, 2236, 2418, 5040, 5041, 5042, 5043, 2441, 645, 1184, 1186, 1190, 2466, 2467, 2510, 353, 836, 1163, 1374, 1595, 1623, 1669, 1680, 1727, 1739, 1826, 1879, 1943, 2070, 2097, 2158, 2197, 2281, 2398, 1304, 1774, 1810, 1842, 1965, 1966, 1982, 1997, 2044, 2045, 2144, 2428, 2429, 2457, 2458, 862, 1310, 1487, 1525, 1528, 1602, 1694, 2193, 2290, 2323, 2375, 2416, 1772, 1930, 1897 ].indexOf(id) == -1) return false;
         if (filters.worldClash && [ 253, 1041, 255, 257, 259, 979, 980, 983, 453, 455, 457, 946, 947, 948, 1182, 1528, 1186, 1188, 1190, 1270, 1509, 1510, 1511, 1606, 451, 981, 1184, 1272, 1512, 1607, 1222, 1276, 1278, 1602, 1608, 1700, 1798, 1989, 2037, 1047, 1492, 1972, 447, 1268, 575, 2025, 978, 2034, 1298, 2023, 1380, 2007, 1846, 1416, 1847, 2066, 408, 1927, 1345, 1593, 649, 1251, 1991, 1387, 2401, 2403, 2405 ].indexOf(id) == -1) return false;
         if (filters.swordOrdeal && [ 77, 255, 308, 449, 455, 530, 639, 645, 677, 750, 914, 1033, 1081, 1125, 1129, 1173, 1182, 1186, 1188, 1175, 1230, 1234, 1236, 1238, 1276, 1278, 1322, 1324, 1410, 1436, 1481, 1534, 1536, 1573, 1575, 1577, 1654, 1614, 1796, 1753, 1800, 1759, 1881, 2505, 1873, 1875, 1877, 1921, 1989, 2001, 2242, 2306, 2031, 2034, 2080, 2082, 2332, 2185, 2189, 2117, 2119, 2107, 2336, 2338, 2346, 2372, 2338, 2371, 2418, 2465, 2475, 2477, 2479, 2481, 2483, 2485, 2496, 2498 ].indexOf(id) == -1) return false;
+        if (filters.dualUnits){
+            if (unit.type.length == 3) return false;
+        }
         if (filters.doffyBlitz){
             var character = window.families[unit.number];
             var matching = [ "Monkey D. Luffy", "Roronoa Zoro", "Franky", "Nico Robin", "Usopp", "Trafalgar Law", "Bartolomeo", "Cavendish", "Rob Lucci", "Sabo", "Boa Sandersonia", "Boa Marigold", "Boa Hancock", "Marguerite", "Leo", "Don Sai", "Don Chinjao", "Ideo", "Blue Gilly", "Suleiman", "Mansherry", "Ricky", "Kyros", "Funk Brothers", "Hajrudin", "Abdullah and Jeet", "Orlumbus", "Elizabello", "Bepo", "Sabo", "Dagama", "Jesus Burgess", "Diamante" ].indexOf(character) != -1;

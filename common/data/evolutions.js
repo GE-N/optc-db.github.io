@@ -4049,35 +4049,43 @@ window.evolutions = {
     },
     2533: {
         evolution: 2534,
-        evolvers: [  ]
+        evolvers: [ 118, 118, 102, 101, 267 ]
     },
     2535: {
         evolution: 2536,
-        evolvers: [  ]
+        evolvers: [ 118, 104, 93, 304, 267 ]
     },
     2537: {
         evolution: 2538,
-        evolvers: [  ]
+        evolvers: [ 84, 86, 266, 300, 302 ]
     },
     2539: {
         evolution: 2540,
-        evolvers: [  ]
+        evolvers: [ 98, 95, 1180, 303, 300 ]
     },
     2541: {
         evolution: 2542,
-        evolvers: [  ]
+        evolvers: [ 79, 81, 83, 101, 103 ]
     },
     2543: {
         evolution: 2544,
-        evolvers: [  ]
+        evolvers: [ 91, 93, 94, 102, 104 ]
     },
     2545: {
         evolution: 2546,
-        evolvers: [  ]
+        evolvers: [ 83, 85, 1180, 301, 101 ]
     },
     2547: {
         evolution: 2548,
+        evolvers: [ 83, 86, 1180, 302, 102 ]
+    },
+    2556: {
+        evolution: 2557,
         evolvers: [  ]
+    },
+    2549: {
+        evolution: 2550,
+        evolvers: [ 116, 117, 118, 100, 102 ]
     },
     2234: {
         evolution: 2500,
