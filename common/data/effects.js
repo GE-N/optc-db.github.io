@@ -432,33 +432,33 @@ window.effects = {
 
     'Treasure Map [Japan]': {
         description: 'Boost stats of characters, check in-game news for lists.',
-        thumb: 2510,
+        thumb: 2557,
         id: 44, // don't change this
         atk: function(p) {
             var boost = 1;
             var id = p.number + 1;
-            if([ 2506, 2507, 2508, 2475, 2477, 2469 ].indexOf(id) != -1) boost = 2.5;
+            if([ 2555, 2554, 2553, 2510, 2534, 2536, 2546, 2548 ].indexOf(id) != -1) boost = 2.5;
             //if([ 0 ].indexOf(id) != -1) boost = 1.3;
-            if([ 2446, 5055, 5056, 5057, 2465, 2500, 2505, 2479, 2481, 2483, 2485, 2487, 2499, 1941, 1972, 2000, 5012, 5013, 5014, 5015, 2109, 2175, 2362, 2443, 2471, 2489, 2512, 2491, 2473, 2504 ].indexOf(id) != -1) boost = 1.25;
-            if([ 2236, 2418, 5040, 5041, 5042, 5043, 2441, 645, 1184, 1186, 1190, 2466, 2467, 2510, 353, 836, 1163, 1374, 1595, 1623, 1669, 1680, 1727, 1739, 1826, 1879, 1943, 2070, 2097, 2158, 2197, 2281, 2398, 1304, 1774, 1810, 1842, 1965, 1966, 1982, 1997, 2044, 2045, 2144, 2428, 2429, 2457, 2458, 862, 1310, 1487, 1525, 1528, 1602, 1694, 2193, 2290, 2323, 2375, 2416, 1772, 1930, 1897 ].indexOf(id) != -1) boost = 1.2;
+            if([ 2475, 2477, 2538, 2540, 2542, 2544, 1924, 2263, 2517, 5070, 5071, 5072, 5073, 2552, 5032, 5033, 5034, 5035, 2529, 2550, 2519, 2520, 2521, 2522, 2523, 2524, 2525, 2526, 2527, 2532, 5078, 5079, 5080, 5081, 1808, 1889, 1972, 2064, 2137, 2299, 2387, 2443, 2469, 5062, 5063, 5064, 5065 ].indexOf(id) != -1) boost = 1.25;
+            if([ 1747, 1985, 5006, 5007, 5010, 5011, 2023, 2025, 2035, 2181, 5018, 5019, 5022, 5023, 2195, 2236, 2251, 2265, 2365, 2418, 5040, 5041, 5042, 5043, 2441, 2446, 5055, 5056, 5057, 2465, 2506, 2507, 2508, 227, 353, 418, 575, 933, 978, 1298, 1518, 2097, 2158, 2197, 2281, 2356, 2398, 2504, 1338, 1553, 1602, 1792, 1828, 1897, 1945, 1978, 2111, 2193, 2290, 2323, 2375, 2416, 2471, 2489, 1581, 1865, 1867, 2019, 2021, 2045, 2046, 2165, 2167, 2177, 2428, 2457, 2557 ].indexOf(id) != -1) boost = 1.2;
             return boost;
         },
         hp: function(p) {
             var boost = 1;
             var id = p.number + 1;
-            if([ 2506, 2507, 2508, 2475, 2477, 2469 ].indexOf(id) != -1) boost = 2.5;
+            if([ 2555, 2554, 2553, 2510, 2534, 2536, 2546, 2548 ].indexOf(id) != -1) boost = 2.5;
             //if([ 0 ].indexOf(id) != -1) boost = 1.3;
-            if([ 2446, 5055, 5056, 5057, 2465, 2500, 2505, 2479, 2481, 2483, 2485, 2487, 2499, 1941, 1972, 2000, 5012, 5013, 5014, 5015, 2109, 2175, 2362, 2443, 2471, 2489, 2512, 2491, 2473, 2504 ].indexOf(id) != -1) boost = 1.25;
-            if([ 2236, 2418, 5040, 5041, 5042, 5043, 2441, 645, 1184, 1186, 1190, 2466, 2467, 2510, 353, 836, 1163, 1374, 1595, 1623, 1669, 1680, 1727, 1739, 1826, 1879, 1943, 2070, 2097, 2158, 2197, 2281, 2398, 1304, 1774, 1810, 1842, 1965, 1966, 1982, 1997, 2044, 2045, 2144, 2428, 2429, 2457, 2458, 862, 1310, 1487, 1525, 1528, 1602, 1694, 2193, 2290, 2323, 2375, 2416, 1772, 1930, 1897 ].indexOf(id) != -1) boost = 1.2;
+            if([ 2475, 2477, 2538, 2540, 2542, 2544, 1924, 2263, 2517, 5070, 5071, 5072, 5073, 2552, 5032, 5033, 5034, 5035, 2529, 2550, 2519, 2520, 2521, 2522, 2523, 2524, 2525, 2526, 2527, 2532, 5078, 5079, 5080, 5081, 1808, 1889, 1972, 2064, 2137, 2299, 2387, 2443, 2469, 5062, 5063, 5064, 5065 ].indexOf(id) != -1) boost = 1.25;
+            if([ 1747, 1985, 5006, 5007, 5010, 5011, 2023, 2025, 2035, 2181, 5018, 5019, 5022, 5023, 2195, 2236, 2251, 2265, 2365, 2418, 5040, 5041, 5042, 5043, 2441, 2446, 5055, 5056, 5057, 2465, 2506, 2507, 2508, 227, 353, 418, 575, 933, 978, 1298, 1518, 2097, 2158, 2197, 2281, 2356, 2398, 2504, 1338, 1553, 1602, 1792, 1828, 1897, 1945, 1978, 2111, 2193, 2290, 2323, 2375, 2416, 2471, 2489, 1581, 1865, 1867, 2019, 2021, 2045, 2046, 2165, 2167, 2177, 2428, 2457, 2557 ].indexOf(id) != -1) boost = 1.2;
             return boost;
         },
         rcv: function(p) {
             var boost = 1;
             var id = p.number + 1;
-            if([ 2506, 2507, 2508, 2475, 2477, 2469 ].indexOf(id) != -1) boost = 2.5;
+            if([ 2555, 2554, 2553, 2510, 2534, 2536, 2546, 2548 ].indexOf(id) != -1) boost = 2.5;
             //if([ 0 ].indexOf(id) != -1) boost = 1.3;
-            if([ 2446, 5055, 5056, 5057, 2465, 2500, 2505, 2479, 2481, 2483, 2485, 2487, 2499, 1941, 1972, 2000, 5012, 5013, 5014, 5015, 2109, 2175, 2362, 2443, 2471, 2489, 2512, 2491, 2473, 2504 ].indexOf(id) != -1) boost = 1.25;
-            if([ 2236, 2418, 5040, 5041, 5042, 5043, 2441, 645, 1184, 1186, 1190, 2466, 2467, 2510, 353, 836, 1163, 1374, 1595, 1623, 1669, 1680, 1727, 1739, 1826, 1879, 1943, 2070, 2097, 2158, 2197, 2281, 2398, 1304, 1774, 1810, 1842, 1965, 1966, 1982, 1997, 2044, 2045, 2144, 2428, 2429, 2457, 2458, 862, 1310, 1487, 1525, 1528, 1602, 1694, 2193, 2290, 2323, 2375, 2416, 1772, 1930, 1897 ].indexOf(id) != -1) boost = 1.2;
+            if([ 2475, 2477, 2538, 2540, 2542, 2544, 1924, 2263, 2517, 5070, 5071, 5072, 5073, 2552, 5032, 5033, 5034, 5035, 2529, 2550, 2519, 2520, 2521, 2522, 2523, 2524, 2525, 2526, 2527, 2532, 5078, 5079, 5080, 5081, 1808, 1889, 1972, 2064, 2137, 2299, 2387, 2443, 2469, 5062, 5063, 5064, 5065 ].indexOf(id) != -1) boost = 1.25;
+            if([ 1747, 1985, 5006, 5007, 5010, 5011, 2023, 2025, 2035, 2181, 5018, 5019, 5022, 5023, 2195, 2236, 2251, 2265, 2365, 2418, 5040, 5041, 5042, 5043, 2441, 2446, 5055, 5056, 5057, 2465, 2506, 2507, 2508, 227, 353, 418, 575, 933, 978, 1298, 1518, 2097, 2158, 2197, 2281, 2356, 2398, 2504, 1338, 1553, 1602, 1792, 1828, 1897, 1945, 1978, 2111, 2193, 2290, 2323, 2375, 2416, 2471, 2489, 1581, 1865, 1867, 2019, 2021, 2045, 2046, 2165, 2167, 2177, 2428, 2457, 2557 ].indexOf(id) != -1) boost = 1.2;
             return boost;
         },
     },
@@ -892,5 +892,53 @@ window.effects = {
         thumb: 2538,
         id: 69, // don't change this
         chainAddition: function(p) { return 0.3 }
+    },
+    
+    'Face Off! Luffy vs. Katakuri: Part 1': {
+        description: 'Stats of certain units boosted.',
+        thumb: 2363,
+        id: 70, // don't change this
+        atk: function(p) {
+            var id = p.number + 1;
+            var evolved = !(id in window.evolutions);
+            var character = window.families[p.number];
+            if(character) if(character.length == 2) var matching = [ "Capone Bege", "Charlotte Linlin", "Carrot", "Jinbe", "Vinsmoke Judge", "Vito", "Gotti", "Charlotte Smoothie", "Charlotte Daifuku", "Tamago", "Charlotte Amande", "Caesar Clown", "Aladdin", "Charlotte Praline", "Charlotte Perospero", "Charlotte Pudding", "Bobbin", "Charlotte Opera", "Charlotte Chiffon", "Wadatsumi", "Charlotte Cracker", "Pekoms", "Charlotte Brûlée", "Charlotte Oven", "Pedro" ].indexOf(character[0]) != -1 || [ "Capone Bege", "Charlotte Linlin", "Carrot", "Jinbe", "Vinsmoke Judge", "Vito", "Gotti", "Charlotte Smoothie", "Charlotte Daifuku", "Tamago", "Charlotte Amande", "Caesar Clown", "Aladdin", "Charlotte Praline", "Charlotte Perospero", "Charlotte Pudding", "Bobbin", "Charlotte Opera", "Charlotte Chiffon", "Wadatsumi", "Charlotte Cracker", "Pekoms", "Charlotte Brûlée", "Charlotte Oven", "Pedro" ].indexOf(character[1]) != -1;
+            else var matching = [ "Capone Bege", "Charlotte Linlin", "Carrot", "Jinbe", "Vinsmoke Judge", "Vito", "Gotti", "Charlotte Smoothie", "Charlotte Daifuku", "Tamago", "Charlotte Amande", "Caesar Clown", "Aladdin", "Charlotte Praline", "Charlotte Perospero", "Charlotte Pudding", "Bobbin", "Charlotte Opera", "Charlotte Chiffon", "Wadatsumi", "Charlotte Cracker", "Pekoms", "Charlotte Brûlée", "Charlotte Oven", "Pedro" ].indexOf(character) != -1;
+            if(character) if(character.length == 2) var matching2 = [ "Charlotte Katakuri", "Charlotte Flampe", "Charlotte Mont-d'Or", "Streusen" ].indexOf(character[0]) != -1 || [ "Charlotte Katakuri", "Charlotte Flampe", "Charlotte Mont-d'Or", "Streusen" ].indexOf(character[1]) != -1;
+            else var matching2 = [ "Charlotte Katakuri", "Charlotte Flampe", "Charlotte Mont-d'Or", "Streusen" ].indexOf(character) != -1;
+            var criteria = p.stars >= 4 && p.maxLevel == 99;
+            var specific1 = [ 2245, 2148, 1815, 2236, 2080, 2076, 2089, 2072, 2093, 2382 ].indexOf(id) != -1;
+            var specific2 = [ 2074, 2363 ].indexOf(id) != -1;
+            if ((matching2 && evolved) || specific2) return 1.5;
+            if ((matching && criteria) || specific1) return 1.25;
+        },
+        hp: function(p) {
+            var id = p.number + 1;
+            var evolved = !(id in window.evolutions);
+            var character = window.families[p.number];
+            if(character) if(character.length == 2) var matching = [ "Capone Bege", "Charlotte Linlin", "Carrot", "Jinbe", "Vinsmoke Judge", "Vito", "Gotti", "Charlotte Smoothie", "Charlotte Daifuku", "Tamago", "Charlotte Amande", "Caesar Clown", "Aladdin", "Charlotte Praline", "Charlotte Perospero", "Charlotte Pudding", "Bobbin", "Charlotte Opera", "Charlotte Chiffon", "Wadatsumi", "Charlotte Cracker", "Pekoms", "Charlotte Brûlée", "Charlotte Oven", "Pedro" ].indexOf(character[0]) != -1 || [ "Capone Bege", "Charlotte Linlin", "Carrot", "Jinbe", "Vinsmoke Judge", "Vito", "Gotti", "Charlotte Smoothie", "Charlotte Daifuku", "Tamago", "Charlotte Amande", "Caesar Clown", "Aladdin", "Charlotte Praline", "Charlotte Perospero", "Charlotte Pudding", "Bobbin", "Charlotte Opera", "Charlotte Chiffon", "Wadatsumi", "Charlotte Cracker", "Pekoms", "Charlotte Brûlée", "Charlotte Oven", "Pedro" ].indexOf(character[1]) != -1;
+            else var matching = [ "Capone Bege", "Charlotte Linlin", "Carrot", "Jinbe", "Vinsmoke Judge", "Vito", "Gotti", "Charlotte Smoothie", "Charlotte Daifuku", "Tamago", "Charlotte Amande", "Caesar Clown", "Aladdin", "Charlotte Praline", "Charlotte Perospero", "Charlotte Pudding", "Bobbin", "Charlotte Opera", "Charlotte Chiffon", "Wadatsumi", "Charlotte Cracker", "Pekoms", "Charlotte Brûlée", "Charlotte Oven", "Pedro" ].indexOf(character) != -1;
+            if(character) if(character.length == 2) var matching2 = [ "Charlotte Katakuri", "Charlotte Flampe", "Charlotte Mont-d'Or", "Streusen" ].indexOf(character[0]) != -1 || [ "Charlotte Katakuri", "Charlotte Flampe", "Charlotte Mont-d'Or", "Streusen" ].indexOf(character[1]) != -1;
+            else var matching2 = [ "Charlotte Katakuri", "Charlotte Flampe", "Charlotte Mont-d'Or", "Streusen" ].indexOf(character) != -1;
+            var criteria = p.stars >= 4 && p.maxLevel == 99;
+            var specific1 = [ 2245, 2148, 1815, 2236, 2080, 2076, 2089, 2072, 2093, 2382 ].indexOf(id) != -1;
+            var specific2 = [ 2074, 2363 ].indexOf(id) != -1;
+            if ((matching2 && evolved) || specific2) return 1.5;
+            if ((matching && criteria) || specific1) return 1.25;
+        },
+        rcv: function(p) {
+            var id = p.number + 1;
+            var evolved = !(id in window.evolutions);
+            var character = window.families[p.number];
+            if(character) if(character.length == 2) var matching = [ "Capone Bege", "Charlotte Linlin", "Carrot", "Jinbe", "Vinsmoke Judge", "Vito", "Gotti", "Charlotte Smoothie", "Charlotte Daifuku", "Tamago", "Charlotte Amande", "Caesar Clown", "Aladdin", "Charlotte Praline", "Charlotte Perospero", "Charlotte Pudding", "Bobbin", "Charlotte Opera", "Charlotte Chiffon", "Wadatsumi", "Charlotte Cracker", "Pekoms", "Charlotte Brûlée", "Charlotte Oven", "Pedro" ].indexOf(character[0]) != -1 || [ "Capone Bege", "Charlotte Linlin", "Carrot", "Jinbe", "Vinsmoke Judge", "Vito", "Gotti", "Charlotte Smoothie", "Charlotte Daifuku", "Tamago", "Charlotte Amande", "Caesar Clown", "Aladdin", "Charlotte Praline", "Charlotte Perospero", "Charlotte Pudding", "Bobbin", "Charlotte Opera", "Charlotte Chiffon", "Wadatsumi", "Charlotte Cracker", "Pekoms", "Charlotte Brûlée", "Charlotte Oven", "Pedro" ].indexOf(character[1]) != -1;
+            else var matching = [ "Capone Bege", "Charlotte Linlin", "Carrot", "Jinbe", "Vinsmoke Judge", "Vito", "Gotti", "Charlotte Smoothie", "Charlotte Daifuku", "Tamago", "Charlotte Amande", "Caesar Clown", "Aladdin", "Charlotte Praline", "Charlotte Perospero", "Charlotte Pudding", "Bobbin", "Charlotte Opera", "Charlotte Chiffon", "Wadatsumi", "Charlotte Cracker", "Pekoms", "Charlotte Brûlée", "Charlotte Oven", "Pedro" ].indexOf(character) != -1;
+            if(character) if(character.length == 2) var matching2 = [ "Charlotte Katakuri", "Charlotte Flampe", "Charlotte Mont-d'Or", "Streusen" ].indexOf(character[0]) != -1 || [ "Charlotte Katakuri", "Charlotte Flampe", "Charlotte Mont-d'Or", "Streusen" ].indexOf(character[1]) != -1;
+            else var matching2 = [ "Charlotte Katakuri", "Charlotte Flampe", "Charlotte Mont-d'Or", "Streusen" ].indexOf(character) != -1;
+            var criteria = p.stars >= 4 && p.maxLevel == 99;
+            var specific1 = [ 2245, 2148, 1815, 2236, 2080, 2076, 2089, 2072, 2093, 2382 ].indexOf(id) != -1;
+            var specific2 = [ 2074, 2363 ].indexOf(id) != -1;
+            if ((matching2 && evolved) || specific2) return 1.5;
+            if ((matching && criteria) || specific1) return 1.25;
+        },
     },
 };
