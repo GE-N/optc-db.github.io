@@ -65,7 +65,7 @@ window.details = {
         potentialNotes: "#{enrage}",
         support: [
             {
-                "Characters": "All Characters",
+                "Characters": "All characters",
                 "description": [
                     "Level 1: Adds 1% of this character's base ATK to the supported character's base ATK",
                     "Level 2: Adds 2% of this character's base ATK to the supported character's base ATK",
@@ -142,7 +142,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "[DEX] Characters",
+                "Characters": "[DEX] characters",
                 "description": [
                     "Level 1: Adds 1% of this character's base ATK and HP to the supported character's base ATK and HP",
                     "Level 2: Adds 1% of this character's base ATK and HP to the supported character's base ATK and HP",
@@ -219,7 +219,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "[INT] Characters",
+                "Characters": "[INT] characters",
                 "description": [
                     "Level 1: Adds 1% of this character's base ATK and RCV to the supported character's base ATK and RCV",
                     "Level 2: Adds 1% of this character's base ATK and RCV to the supported character's base ATK and RCV",
@@ -294,7 +294,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "Shooter Characters",
+                "Characters": "Shooter characters",
                 "description": [
                     "Level 1: Reduces damage received from [INT] characters by 1%. Adds 1% of this character's base ATK to the supported character's base ATK",
                     "Level 2: Reduces damage received from [INT] characters by 1%. Adds 1% of this character's base ATK to the supported character's base ATK",
@@ -372,7 +372,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "Powerhouse Characters",
+                "Characters": "Powerhouse characters",
                 "description": [
                     "Level 1: Adds 1% of this character's base HP and ATK to the supported character's base HP and ATK",
                     "Level 2: Adds 1% of this character's base HP and ATK to the supported character's base HP and ATK",
@@ -439,7 +439,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "Fighter Characters",
+                "Characters": "Fighter characters",
                 "description": [
                     "Level 1: Adds 1% of this character's base ATK and HP to the supported character's base ATK and HP",
                     "Level 2: Adds 1% of this character's base ATK and HP to the supported character's base ATK and HP",
@@ -738,7 +738,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "All Characters",
+                "Characters": "All characters",
                 "description": [
                     "Level 1: Once per adventure, when you reach the final stage, changes supported character's orb into a Matching orb and recovers 500 HP",
                     "Level 2: Once per adventure, when you reach the final stage, changes supported character's orb into a Matching orb and recovers 800 HP",
@@ -1488,7 +1488,7 @@ window.details = {
         captain: "Boosts ATK of [PSY] characters by 1.5x",
         support: [
             {
-                "Characters": "[PSY] Characters",
+                "Characters": "[PSY] characters",
                 "description": [
                     "Level 1: Reduces damage received from [INT] characters by 1%. Adds 1% of this character's base ATK to the supported character's base ATK",
                     "Level 2: Reduces damage received from [INT] characters by 2%. Adds 1% of this character's base ATK to the supported character's base ATK",
@@ -1579,7 +1579,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "Slasher Characters",
+                "Characters": "Slasher characters",
                 "description": [
                     "Level 1: Adds 1% of this character's base ATK to the supported character's base ATK",
                     "Level 2: Adds 2% of this character's base ATK to the supported character's base ATK",
@@ -2411,7 +2411,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "[DEX] Characters",
+                "Characters": "[DEX] characters",
                 "description": [
                     "Level 1: Adds 1% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV",
                     "Level 2: Adds 2% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV",
@@ -3511,7 +3511,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "Fighter Characters",
+                "Characters": "Fighter characters",
                 "description": [
                     "Level 1: Adds 3% of this character's base HP to the supported character's base HP",
                     "Level 2: Adds 4% of this character's base HP to the supported character's base HP",
@@ -4069,7 +4069,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "Fighter Characters",
+                "Characters": "Fighter characters",
                 "description": [
                     "Level 1: Adds 6% of this character's base HP to the supported character's base HP.",
                     "Level 2: Adds 8% of this character's base HP to the supported character's base HP.",
@@ -4208,7 +4208,7 @@ window.details = {
         potentialNotes: "#{enrage}",
         support: [
             {
-                "Characters": "[STR] Characters",
+                "Characters": "[STR] characters",
                 "description": [
                     "Level 1: Adds 1% of this character's base ATK and RCV to the supported character's base ATK and RCV.",
                     "Level 2: Adds 2% of this character's base ATK and RCV to the supported character's base ATK and RCV.",
@@ -4654,7 +4654,7 @@ window.details = {
         captain: "Boosts ATK and HP of [STR] characters by 1.5x",
         support: [
             {
-                "Characters": "[STR] Characters",
+                "Characters": "[STR] characters",
                 "description": [
                     "Level 1: Reduces damage received from [DEX] characters by 1%. Adds 1% of this character's base ATK to the supported character's base ATK",
                     "Level 2: Reduces damage received from [DEX] characters by 1%. Adds 2% of this character's base ATK to the supported character's base ATK",
@@ -5953,7 +5953,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "[QCK] Characters",
+                "Characters": "[QCK] characters",
                 "description": [
                     "Level 1: Adds 1% of this character's base HP and RCV to the supported character's base HP and RCV",
                     "Level 2: Adds 1% of this character's base HP and RCV to the supported character's base HP and RCV",
@@ -9380,7 +9380,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "[QCK] Characters",
+                "Characters": "[QCK] characters",
                 "description": [
                     "Level 1: Reduces damage received from [STR] characters by 1%",
                     "Level 2: Reduces damage received from [STR] characters by 2%",
@@ -10616,13 +10616,13 @@ window.details = {
         special: "Recovers 5,000 HP and amplifies the effect of orbs by 1.5x for 2 turns"
     },
     923: {
-        captain: "Boosts ATK of Driven Characters by 2.5x if HP is below 30% at the start of the turn, 2x otherwise",
+        captain: "Boosts ATK of Driven characters by 2.5x if HP is below 30% at the start of the turn, 2x otherwise",
         specialName: "Repel: Weapons Reflect",
         special: "Empties all slots, deals [STR] damage based on number of [STR] slots emptied to all enemies",
         specialNotes: "The exact multiplier used is chosen based on the number of [STR] orbs consumed: 0 orbs - 3.5x ATK; 1 orb - 7x ATK; 2 orbs - 14x ATK; 3 orbs - 21x ATK; 4 orbs - 35x ATK; 5 orbs - 91x ATK; 6 orbs - 140x ATK."
     },
     924: {
-        captain: "Boosts ATK of Driven Characters by 2.75x if HP is below 30% at the start of the turn, 2x otherwise",
+        captain: "Boosts ATK of Driven characters by 2.75x if HP is below 30% at the start of the turn, 2x otherwise",
         specialName: "Repel: Weapons Reflect",
         special: "Empties all slots, deals [STR] damage based on number of [STR] slots emptied to all enemies",
         specialNotes: "The exact multiplier used is chosen based on the number of [STR] orbs consumed: 0 orbs - 3.5x ATK; 1 orb - 7x ATK; 2 orbs - 14x ATK; 3 orbs - 21x ATK; 4 orbs - 35x ATK; 5 orbs - 91x ATK; 6 orbs - 140x ATK.",
@@ -10673,7 +10673,7 @@ window.details = {
         potentialNotes: "#{enrage}",
         support: [
             {
-                "Characters": "Driven Characters",
+                "Characters": "Driven characters",
                 "description": [
                     "Level 1: Adds 1% of this character's base ATK to the supported character's base ATK",
                     "Level 2: Adds 2% of this character's base ATK to the supported character's base ATK",
@@ -12670,7 +12670,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "Striker Characters",
+                "Characters": "Striker characters",
                 "description": [
                     "Level 1: Adds 1% of this character's base ATK to the supported character's base ATK",
                     "Level 2: Adds 2% of this character's base ATK to the supported character's base ATK",
@@ -15178,7 +15178,7 @@ window.details = {
         potentialNotes: "#{enrage}",
         support: [
             {
-                "Characters": "Cerebral Characters",
+                "Characters": "Cerebral characters",
                 "description": [
                     "Level 1: Adds 2% of this character's base ATK to the supported character's base ATK",
                     "Level 2: Adds 2% of this character's base ATK to the supported character's base ATK",
@@ -17393,7 +17393,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "[STR] Characters",
+                "Characters": "[STR] characters",
                 "description": [
                     "Level 1: Adds 1% of this character's base ATK to the supported character's base ATK",
                     "Level 2: Adds 2% of this character's base ATK to the supported character's base ATK",
@@ -19016,7 +19016,7 @@ window.details = {
         potentialNotes: "#{enrage}",
         support: [
             {
-                "Characters": "All Characters",
+                "Characters": "All characters",
                 "description": [
                     "Level 1: Adds 1% of this character's base ATK to the supported character's base ATK",
                     "Level 2: Adds 2% of this character's base ATK to the supported character's base ATK",
@@ -19078,7 +19078,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "[DEX] Characters",
+                "Characters": "[DEX] characters",
                 "description": [
                     "Level 1: Adds 1% of this character's base ATK and HP to the supported character's base ATK and HP",
                     "Level 2: Adds 1% of this character's base ATK and HP to the supported character's base ATK and HP",
@@ -19141,7 +19141,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "[INT] Characters",
+                "Characters": "[INT] characters",
                 "description": [
                     "Level 1: Adds 1% of this character's base ATK and RCV to the supported character's base ATK and RCV",
                     "Level 2: Adds 1% of this character's base ATK and RCV to the supported character's base ATK and RCV",
@@ -19256,13 +19256,13 @@ window.details = {
         specialName: "Nation's Ambition",
     },
     1396: {//Tashigi Shambles
-        captain: "Boosts ATK of Driven characters by 1.75x and the HP of Striker Characters by 1.25x",
+        captain: "Boosts ATK of Driven characters by 1.75x and the HP of Striker characters by 1.25x",
         special: "Deals 7 hits of random [DEX] damage to random enemies. Reduces the defense of all enemies by 80% and delays all enemies for 1 turn",
         specialName: "Surprise Jitte Onslaught",
         specialNotes: "#{randomHits : 7}",
     },
     1397: {//Tashigi Shambles
-        captain: "Boosts ATK of Driven characters by 2x and the HP of Striker Characters by 1.5x",
+        captain: "Boosts ATK of Driven characters by 2x and the HP of Striker characters by 1.5x",
         special: "Deals 7 hits of random [DEX] damage to random enemies. Reduces the defense of all enemies by 80% and delays all enemies for 1 turn",
         specialName: "Surprise Jitte Onslaught",
         specialNotes: "#{randomHits : 7}",
@@ -20540,7 +20540,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "Shooter Characters",
+                "Characters": "Shooter characters",
                 "description": [
                     "Level 1: Reduces damage received from [INT] characters by 1%. Adds 1% of this character's base ATK to the supported character's base ATK",
                     "Level 2: Reduces damage received from [INT] characters by 1%. Adds 1% of this character's base ATK to the supported character's base ATK",
@@ -20612,7 +20612,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "Powerhouse Characters",
+                "Characters": "Powerhouse characters",
                 "description": [
                     "Level 1: Adds 1% of this character's base HP and ATK to the supported character's base HP and ATK",
                     "Level 2: Adds 1% of this character's base HP and ATK to the supported character's base HP and ATK",
@@ -20675,7 +20675,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "Fighter Characters",
+                "Characters": "Fighter characters",
                 "description": [
                     "Level 1: Adds 1% of this character's base ATK and HP to the supported character's base ATK and HP",
                     "Level 2: Adds 1% of this character's base ATK and HP to the supported character's base ATK and HP",
@@ -22092,7 +22092,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "All Characters",
+                "Characters": "All characters",
                 "description": [
                     "Level 1: Reduces damage received from [INT] characters by 1%",
                     "Level 2: Reduces damage received from [INT] characters by 2%",
@@ -24178,7 +24178,7 @@ window.details = {
         potentialNotes: "#{enrage}",
         support: [
             {
-                "Characters": "Powerhouse Characters",
+                "Characters": "Powerhouse characters",
                 "description": [
                     "Level 1: Reduces damage received from [INT] characters by ?%. Adds ?% of this character's base ATK to the supported character's base ATK.",
                     "Level 2: Reduces damage received from [INT] characters by ?%. Adds ?% of this character's base ATK to the supported character's base ATK.",
@@ -24941,7 +24941,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "Slasher Characters",
+                "Characters": "Slasher characters",
                 "description": [
                     "Level 1: Adds 3% of this character's base ATK and HP to the supported character's base ATK and HP",
                     "Level 2: Adds 4% of this character's base ATK and HP to the supported character's base ATK and HP",
@@ -25465,7 +25465,7 @@ window.details = {
         potentialNotes: "#{enrage}",
         support: [
             {
-                "Characters": "Fighter and Powerhouse Characters",
+                "Characters": "Fighter and Powerhouse characters",
                 "description": [
                     "Level 1: Once per an adventure, when the supported character uses their special, adds 0.1x to Chain multiplier for 1 turn.",
                     "Level 2: Once per an adventure, when the supported character uses their special, adds 0.1x to Chain multiplier for 1 turn.",
@@ -26293,7 +26293,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "Shooter Characters",
+                "Characters": "Shooter characters",
                 "description": [
                     "Level 1: Adds 1% of this character's base ATK to the supported character's base ATK",
                     "Level 2: Adds 2% of this character's base ATK to the supported character's base ATK",
@@ -27770,7 +27770,7 @@ window.details = {
         specialName: "Rabbit Mink's Air Step",
         support: [
             {
-                "Characters": "Fighter Characters",
+                "Characters": "Fighter characters",
                 "description": [
                     "Level 1: Adds 1% of this character's base ATK and HP to the supported character's base ATK and HP",
                     "Level 2: Adds 1% of this character's base ATK and HP to the supported character's base ATK and HP",
@@ -27787,7 +27787,7 @@ window.details = {
         specialName: "Revolutionary Soldier's Anger",
         support: [
             {
-                "Characters": "Fighter Characters",
+                "Characters": "Fighter characters",
                 "description": [
                     "Level 1: Once per an adventure, when the supported character uses their special, boosts ATK of your captain characters by 1.025x for 1 turn.",
                     "Level 2: Once per an adventure, when the supported character uses their special, boosts ATK of your captain characters by 1.05x for 1 turn.",
@@ -27854,7 +27854,7 @@ window.details = {
         potentialNotes: "#{enrage}",
         support: [
             {
-                "Characters": "Powerhouse Characters",
+                "Characters": "Powerhouse characters",
                 "description": [
                     "Level 1: Adds 1% of this character's base ATK to the supported character's base ATK",
                     "Level 2: Adds 2% of this character's base ATK to the supported character's base ATK",
@@ -29130,7 +29130,7 @@ window.details = {
         potentialNotes: "#{enrage}",
         support: [
             {
-                "Characters": "Slasher Characters",
+                "Characters": "Slasher characters",
                 "description": [
                     "Level 1: Once per an adventure, when the supported character uses a Damage Dealing or Health Cutting special, randomizes suppoted character's orb.",
                     "Level 2: Once per an adventure, when the supported character uses a Damage Dealing or Health Cutting special, randomizes suppoted character's orb.",
@@ -29461,7 +29461,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "Striker Characters",
+                "Characters": "Striker characters",
                 "description": [
                     "Level 1: Reduces damage received from [INT] characters by 1%",
                     "Level 2: Reduces damage received from [INT] characters by 1%",
@@ -30499,7 +30499,7 @@ window.details = {
         specialName: "Iron Mask of Dreams",
         support: [
             {
-                "Characters": "Cerebral Characters",
+                "Characters": "Cerebral characters",
                 "description": [
                     "Level 1: Boosts the supported character's ATK by 1.05x against Judge",
                     "Level 2: Boosts the supported character's ATK by 1.05x against Judge",
@@ -31275,7 +31275,7 @@ window.details = {
         potentialNotes: "#{enrage}",
         support: [
             {
-                "Characters": "Cerebral Characters",
+                "Characters": "Cerebral characters",
                 "description": [
                     "Level 1: Adds 3% of this character's base HP and RCV to the supported character's base HP and RCV",
                     "Level 2: Adds 4% of this character's base HP and RCV to the supported character's base HP and RCV",
@@ -31458,13 +31458,13 @@ window.details = {
         ]
     },
     1954: {//Nami
-        captain: "Boosts ATK of Cerebral Characters by 2x",
+        captain: "Boosts ATK of Cerebral characters by 2x",
         special: "Cuts the current HP of all enemies by 10% and changes own orb into [RCV]. Boosts ATK of Cerebral characters by 1.75x for 1 turn. If during that turn you score 5 PERFECT hits, boosts ATK of Cerebral characters by 2.25x in the following turn.",
         specialName: "Thunder Trap",
         sailor: "If this character has a [RCV] orb and you hit a PERFECT with her, keep her [RCV] orb for the next turn",
     },
     1955: {//Nami
-        captain: "Boosts ATK of Cerebral Characters by 3x if they have a Matching orb, by 2x otherwise",
+        captain: "Boosts ATK of Cerebral characters by 3x if they have a Matching orb, by 2x otherwise",
         special: "Cuts the current HP of all enemies by 10% and changes own orb into [RCV]. Boosts ATK of Cerebral characters by 1.75x for 1 turn. If during that turn you score 5 PERFECT hits, boosts ATK of Cerebral characters by 2.25x in the following turn.",
         specialName: "Thunder Trap",
         sailor: {
@@ -32217,7 +32217,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "Slasher Characters",
+                "Characters": "Slasher characters",
                 "description": [
                     "Level 1: Adds 3% of this character's base HP to the supported character's base HP",
                     "Level 2: Adds 4% of this character's base HP to the supported character's base HP",
@@ -32655,7 +32655,7 @@ window.details = {
         potentialNotes: "#{enrage}",
         support: [
             {
-                "Characters": "[INT] Characters",
+                "Characters": "[INT] characters",
                 "description": [
                     "Level 1: Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV",
                     "Level 2: Adds 6% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV",
@@ -34072,7 +34072,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "All Characters",
+                "Characters": "All characters",
                 "description": [
                     "Level 1: Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV",
                     "Level 2: Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV",
@@ -34401,7 +34401,7 @@ window.details = {
         specialName: "Intoxicating Magic",
         support: [
             {
-                "Characters": "Shooter Characters",
+                "Characters": "Shooter characters",
                 "description": [
                     "Level 1: Adds 1% of this character's base ATK and RCV to the supported character's base ATK and RCV",
                     "Level 2: Adds 2% of this character's base ATK and RCV to the supported character's base ATK and RCV",
@@ -34433,7 +34433,7 @@ window.details = {
         specialName: "Overflowing Happiness",
         support: [
             {
-                "Characters": "Free Spirit Characters",
+                "Characters": "Free Spirit characters",
                 "description": [
                     "Level 1: Adds 1% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV",
                     "Level 2: Adds 1% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV",
@@ -34512,7 +34512,7 @@ window.details = {
         potentialNotes: "#{enrage}",
         support: [
             {
-                "Characters": "Slasher Characters",
+                "Characters": "Slasher characters",
                 "description": [
                     "Level 1: Once per adventure, when you reach the final stage, boosts the Color Affinity of Slasher characters by 1.1x for 1 turn.",
                     "Level 2: Once per adventure, when you reach the final stage, boosts the Color Affinity of Slasher characters by 1.1x for 1 turn.",
@@ -35286,7 +35286,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "[QCK] Characters",
+                "Characters": "[QCK] characters",
                 "description": [
                     "Level 1: Once per adventure, when you are inflicted with ATK DOWN, changes supported character's adjacent orbs into Matching Orbs",
                     "Level 2: Once per adventure, when you are inflicted with ATK DOWN, changes supported character's adjacent orbs into Matching Orbs",
@@ -35444,7 +35444,7 @@ window.details = {
         specialName: "The Witch's Meal",
         support: [
             {
-                "Characters": "Cerebral Characters",
+                "Characters": "Cerebral characters",
                 "description": [
                     "Level 1: Adds 2% of this character's base RCV to the supported character's base RCV",
                     "Level 2: Adds 3% of this character's base RCV to the supported character's base RCV",
@@ -36163,15 +36163,15 @@ window.details = {
         ]
     },
     2153: {//Tamago
-        captain: "Boosts ATK of Fighter Characters by 2.5x if they have a matching orb, by 2.25x otherwise",
-        special: "Deals 75x character's ATK in [DEX] damage to one enemy that will ignore damage negating abilities and barriers. If your captain is a Fighter character, changes all orbs, including [BLOCK] orbs, on Fighter characters into Matching orbs",
+        captain: "Boosts ATK of Fighter characters by 2.5x if they have a Matching orb, by 2.25x otherwise",
+        special: "Deals 75x character's ATK in [DEX] damage to one enemy that will ignore damage negating abilities and barriers. If your Captain is a Fighter character, changes all orbs, including [BLOCK] orbs, on Fighter characters into Matching orbs",
         specialName: "Legs Benedict",
         specialNotes: "#{ignoreBarrier}",
         sailor: "When HP is above 50% at the start of the turn, boosts ATK of Fighter characters by 120",
     },
     2154: {//Tamago
-        captain: "Boosts ATK of Fighter Characters by 2.75x if they have a matching orb, by 2.5x otherwise",
-        special: "Deals 75x character's ATK in [DEX] damage to one enemy that will ignore damage negating abilities and barriers. If your captain is a Fighter character, changes all orbs, including [BLOCK] orbs, on Fighter characters into Matching orbs",
+        captain: "Boosts ATK of Fighter characters by 2.75x if they have a Matching orb, by 2.5x otherwise",
+        special: "Deals 75x character's ATK in [DEX] damage to one enemy that will ignore damage negating abilities and barriers. If your Captain is a Fighter character, changes all orbs, including [BLOCK] orbs, on Fighter characters into Matching orbs",
         specialName: "Legs Benedict",
         specialNotes: "#{ignoreBarrier}",
         sailor: {
@@ -36349,7 +36349,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "[DEX] Characters",
+                "Characters": "[DEX] characters",
                 "description": [
                     "Level 1: Adds 1% of this character's base ATK to the supported character's base ATK",
                     "Level 2: Adds 2% of this character's base ATK to the supported character's base ATK",
@@ -36546,7 +36546,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "Fighter Characters",
+                "Characters": "Fighter characters",
                 "description": [
                     "Level 1: Once per an adventure, when the supported character uses a Damage Dealing or Health Cutting special, reduces Despair duration by 1 turn.",
                     "Level 2: Once per an adventure, when the supported character uses a Damage Dealing or Health Cutting special, reduces Despair duration by 1 turn.",
@@ -37042,7 +37042,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "Cerebral Characters",
+                "Characters": "Cerebral characters",
                 "description": [
                     "Level 1: Adds 1% of this character's base HP and RCV to the supported character's base HP and RCV",
                     "Level 2: Adds 2% of this character's base HP and RCV to the supported character's base HP and RCV",
@@ -37924,7 +37924,7 @@ window.details = {
         potentialNotes: "#{enrage}",
         support: [
             {
-                "Characters": "[STR], [DEX], [QCK] Characters",
+                "Characters": "[STR], [DEX], [QCK] characters",
                 "description": [
                     "Level 1: Adds 4% of this character's base ATK to the supported character's base ATK",
                     "Level 2: Adds 6% of this character's base ATK to the supported character's base ATK",
@@ -38497,7 +38497,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "Slasher Characters",
+                "Characters": "Slasher characters",
                 "description": [
                     "Level 1: Adds 2% of this character's base HP to the supported character's base HP",
                     "Level 2: Adds 3% of this character's base HP to the supported character's base HP",
@@ -38651,20 +38651,20 @@ window.details = {
         specialName: "Baptism of Evil",
     },
     2260: {//Shanks
-        captain: "Boosts ATK of Free Spirit and Cerebral characters by 2x if HP is above 99%, by 1.5x otherwise, recovers 1.2x character's RCV in HP at the end of each turn and boosts chances of getting Matching orbs for Free Spirit and Cerebral Characters",
-        special: "Reduces enemy Barrier duration by 1 turn, reduces Burn duration by 1 turn, boosts chances of getting Matching orbs for 1 turn, changes [BLOCK] orbs into Matching orbs, randomizes all non-Matching orbs, and adds 60x character's ATK as Additional typeless damage for 1 turn.",
+        captain: "Boosts ATK of Free Spirit and Cerebral characters by 2x if HP is above 99%, by 1.5x otherwise, recovers 1.2x character's RCV in HP at the end of each turn and boosts chances of getting Matching orbs for Free Spirit and Cerebral characters",
+        special: "Reduces enemy Barrier duration by 1 turn, reduces Burn duration by 1 turn, boosts chances of getting Matching orbs for 1 turn, changes [BLOCK] orbs into Matching orbs, randomizes all non-Matching orbs, and adds 60x character's ATK as Additional Typeless Damage for 1 turn.",
         specialName: "Great Pirate's Majesty",
         specialNotes: "#{additionalDamage : 60x}",
     },
     2261: {//Shanks
         captain: {
-            "base": "Boosts ATK of Free Spirit and Cerebral characters by 2x if HP is above 99%, by 1.5x otherwise, recovers 1.5x character's RCV in HP at the end of each turn and slightly boosts chances of getting Matching orbs for Free Spirit and Cerebral Characters",
-            "level1": "Boosts ATK of Free Spirit and Cerebral characters by 2.25x if HP is above 99%, by 1.5x otherwise, recovers 1.5x character's RCV in HP at the end of each turn and slightly boosts chances of getting Matching orbs for Free Spirit and Cerebral Characters",
-            "level2": "Boosts ATK of Free Spirit and Cerebral characters by 2.5x if HP is above 99%, by 1.5x otherwise, recovers 1.5x character's RCV in HP at the end of each turn and slightly boosts chances of getting Matching orbs for Free Spirit and Cerebral Characters",
-            "level3": "Boosts ATK of Free Spirit and Cerebral characters by 2.5x if HP is above 99%, by 2x otherwise, recovers 1.5x character's RCV in HP at the end of each turn and slightly boosts chances of getting Matching orbs for Free Spirit and Cerebral Characters",
-            "level4": "Boosts ATK of Free Spirit and Cerebral characters by 2.5x if HP is above 99%, by 2x otherwise, recovers 1.75x character's RCV in HP at the end of each turn and slightly boosts chances of getting Matching orbs for Free Spirit and Cerebral Characters",
-            "level5": "Boosts ATK of Free Spirit and Cerebral characters by 3x if HP is above 99%, by 2x otherwise, recovers 1.75x character's RCV in HP at the end of each turn and slightly boosts chances of getting Matching orbs for Free Spirit and Cerebral Characters",
-            "level6": "Boosts ATK of Free Spirit and Cerebral characters by 3x if HP is above 99%, by 2.5x otherwise, recovers 1.75x character's RCV in HP at the end of each turn and boosts chances of getting Matching orbs for Free Spirit and Cerebral Characters",
+            "base": "Boosts ATK of Free Spirit and Cerebral characters by 2x if HP is above 99%, by 1.5x otherwise, recovers 1.5x character's RCV in HP at the end of each turn and slightly boosts chances of getting Matching orbs for Free Spirit and Cerebral characters",
+            "level1": "Boosts ATK of Free Spirit and Cerebral characters by 2.25x if HP is above 99%, by 1.5x otherwise, recovers 1.5x character's RCV in HP at the end of each turn and slightly boosts chances of getting Matching orbs for Free Spirit and Cerebral characters",
+            "level2": "Boosts ATK of Free Spirit and Cerebral characters by 2.5x if HP is above 99%, by 1.5x otherwise, recovers 1.5x character's RCV in HP at the end of each turn and slightly boosts chances of getting Matching orbs for Free Spirit and Cerebral characters",
+            "level3": "Boosts ATK of Free Spirit and Cerebral characters by 2.5x if HP is above 99%, by 2x otherwise, recovers 1.5x character's RCV in HP at the end of each turn and slightly boosts chances of getting Matching orbs for Free Spirit and Cerebral characters",
+            "level4": "Boosts ATK of Free Spirit and Cerebral characters by 2.5x if HP is above 99%, by 2x otherwise, recovers 1.75x character's RCV in HP at the end of each turn and slightly boosts chances of getting Matching orbs for Free Spirit and Cerebral characters",
+            "level5": "Boosts ATK of Free Spirit and Cerebral characters by 3x if HP is above 99%, by 2x otherwise, recovers 1.75x character's RCV in HP at the end of each turn and slightly boosts chances of getting Matching orbs for Free Spirit and Cerebral characters",
+            "level6": "Boosts ATK of Free Spirit and Cerebral characters by 3x if HP is above 99%, by 2.5x otherwise, recovers 1.75x character's RCV in HP at the end of each turn and boosts chances of getting Matching orbs for Free Spirit and Cerebral characters",
         },
         special: "Reduces enemy Barrier duration by 1 turn, reduces Burn duration by 1 turn, boosts chances of getting Matching orbs for 1 turn, changes [BLOCK] orbs into Matching orbs, randomizes all non-Matching orbs, and adds 60x character's ATK as Additional typeless damage for 1 turn.",
         specialName: "Great Pirate's Majesty",
@@ -38714,7 +38714,7 @@ window.details = {
             { "description": "Acquire new Captain Ability: " },
             { "description": "Boosts base ATK by 40" },
             { "description": "Boosts base ATK by 50" },
-            { "description": "Acquire new Captain Ability: Boosts ATK of Free Spirit and Cerebral characters by 3x if HP is above 99%, by 2.5x otherwise, recovers 1.75x character's RCV in HP at the end of each turn and boosts chances of getting Matching orbs for Free Spirit and Cerebral Characters" },
+            { "description": "Acquire new Captain Ability: Boosts ATK of Free Spirit and Cerebral characters by 3x if HP is above 99%, by 2.5x otherwise, recovers 1.75x character's RCV in HP at the end of each turn and boosts chances of getting Matching orbs for Free Spirit and Cerebral characters" },
             { "description": "Acquire Potential 2: Double Special Activation" },
         ],
         potential: [
@@ -40110,7 +40110,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "[STR] Characters",
+                "Characters": "[STR] characters",
                 "description": [
                     "Level 1: Adds 1% of this character's base ATK to the supported character's base ATK",
                     "Level 2: Adds 2% of this character's base ATK to the supported character's base ATK",
@@ -40629,7 +40629,7 @@ window.details = {
         potentialNotes: "#{enrage}",
         support: [
             {
-                "Characters": "Shooter Characters",
+                "Characters": "Shooter characters",
                 "description": [
                     "Level 1: Once per an adventure, when the supported character uses a Damage Dealing or Health Cutting special, randomizes all orbs and boosts ATK of supported character by 1.2x for 1 turn.",
                     "Level 2: Once per an adventure, when the supported character uses a Damage Dealing or Health Cutting special, randomizes all orbs and boosts ATK of supported character by 1.2x for 1 turn.",
@@ -40913,7 +40913,7 @@ window.details = {
         specialName: "Candy Man",
         support: [
             {
-                "Characters": "Striker Characters",
+                "Characters": "Striker characters",
                 "description": [
                     "Level 1: Adds 1% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV",
                     "Level 2: Adds 1% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV",
@@ -41424,7 +41424,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "All Characters",
+                "Characters": "All characters",
                 "description": [
                     "Level 1: Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV",
                     "Level 2: Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV",
@@ -42414,7 +42414,7 @@ window.details = {
         potentialNotes: "#{enrage}",
         support: [
             {
-                "Characters": "Shooter Characters",
+                "Characters": "Shooter characters",
                 "description": [
                     "Level 1: Adds 1% of this character's base HP to the supported character's base HP.",
                     "Level 2: Adds 2% of this character's base HP to the supported character's base HP.",
@@ -43410,7 +43410,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "[DEX] Characters",
+                "Characters": "[DEX] characters",
                 "description": [
                     "Level 1: Reduces damage received from [QCK] characters by 1%. Adds 3% of this character's base HP to the supported character's base HP",
                     "Level 2: Reduces damage received from [QCK] characters by 2%. Adds 6% of this character's base HP to the supported character's base HP",
@@ -43599,7 +43599,7 @@ window.details = {
     2445: {//Sanji&Judge
         captain: {
             "character1": "If there are 6 Powerhouse characters in your crew, boosts ATK of Powerhouse characters by 3.5x, their HP by 1.25x and makes [RCV] and [TND] orbs beneficial for Powerhouse characters.",
-            "character2": "If there is a [STR], [DEX], [QCK], [PSY] and [INT] characters in your crew, boosts ATK of Powerhouse characters by 3.5x, their HP by 1.25x and makes [PSY] orbs beneficial for all characters.",
+            "character2": "If there is a [STR], [DEX], [QCK], [PSY] and [INT] characters in your crew, boosts ATK of all characters by 3.5x, their HP by 1.25x and makes [PSY] orbs beneficial for all characters.",
             "combined": "If there are 6 Powerhouse characters in your crew, boosts ATK of Powerhouse characters by 4.25x. If there is a [STR], [DEX], [QCK], [PSY] and [INT] characters in your crew, boosts HP of Powerhouse characters by 1.25x and makes [PSY], [RCV] and [TND] orbs beneficial for all characters."
         },
         special: "Boosts ATK of Powerhouse characters by 2x for 1 turn, amplifies the effect of orbs for Powerhouse characters by 2x for 1 turn, reduces Paralysis duration by 5 turns and becomes Sanji & Judge for 3 turns",
@@ -43614,7 +43614,7 @@ window.details = {
     2446: {//Sanji&Judge
         captain: {
             "character1": "If there are 6 Powerhouse characters in your crew, boosts ATK of Powerhouse characters by 3.5x, their HP by 1.25x and makes [RCV] and [TND] orbs beneficial for Powerhouse characters.",
-            "character2": "If there is a [STR], [DEX], [QCK], [PSY] and [INT] characters in your crew, boosts ATK of Powerhouse characters by 3.5x, their HP by 1.25x and makes [PSY] orbs beneficial for all characters.",
+            "character2": "If there is a [STR], [DEX], [QCK], [PSY] and [INT] characters in your crew, boosts ATK of all characters by 3.5x, their HP by 1.25x and makes [PSY] orbs beneficial for all characters.",
             "combined": "If there are 6 Powerhouse characters in your crew, boosts ATK of Powerhouse characters by 4.25x. If there is a [STR], [DEX], [QCK], [PSY] and [INT] characters in your crew, boosts HP of Powerhouse characters by 1.25x and makes [PSY], [RCV] and [TND] orbs beneficial for all characters."
         },
         special: "Boosts ATK of Powerhouse characters by 2x for 1 turn, amplifies the effect of orbs for Powerhouse characters by 2x for 1 turn, reduces Paralysis duration by 5 turns and becomes Sanji & Judge for 3 turns",
@@ -44073,7 +44073,7 @@ window.details = {
             { "description": "Boosts base RCV by 10" },
             { "description": "Boosts base RCV by 20" },
             { "description": "Boosts base HP by 50" },
-            { "description": "Acquire Potential 1: Reduce No Healing duration" },
+            { "description": "Acquire Potential 1: Pinch Healing" },
             { "description": "Boosts base ATK by 20" },
             { "description": "Boosts base HP by 50" },
             { "description": "Boosts base ATK by 30" },
@@ -44135,7 +44135,7 @@ window.details = {
             { "description": "Boosts base RCV by 10" },
             { "description": "Boosts base RCV by 20" },
             { "description": "Boosts base HP by 50" },
-            { "description": "Acquire Potential 1: Reduce No Healing duration" },
+            { "description": "Acquire Potential 1: Pinch Healing" },
             { "description": "Boosts base ATK by 20" },
             { "description": "Boosts base HP by 50" },
             { "description": "Boosts base ATK by 30" },
@@ -44345,7 +44345,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "Powerhouse Characters",
+                "Characters": "Powerhouse characters",
                 "description": [
                     "Level 1: Adds 5% of this character's base HP to the supported character's base HP",
                     "Level 2: Adds 6% of this character's base HP to the supported character's base HP",
@@ -45518,7 +45518,7 @@ window.details = {
         potentialNotes: "#{enrage}",
         support: [
             {
-                "Characters": "[STR], [DEX], [QCK] Characters",
+                "Characters": "[STR], [DEX], [QCK] characters",
                 "description": [
                     "Level 1: Adds 4% of this character's base ATK to the supported character's base ATK",
                     "Level 2: Adds 6% of this character's base ATK to the supported character's base ATK",
@@ -45706,7 +45706,7 @@ window.details = {
         potentialNotes: "#{enrage}",
         support: [
             {
-                "Characters": "Slasher Characters",
+                "Characters": "Slasher characters",
                 "description": [
                     "Level 1: Once per an adventure, when the supported character uses a Damage Dealing or Health Cutting special, randomizes suppoted character's orb.",
                     "Level 2: Once per an adventure, when the supported character uses a Damage Dealing or Health Cutting special, randomizes suppoted character's orb.",
@@ -45896,7 +45896,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "Slasher Characters",
+                "Characters": "Slasher characters",
                 "description": [
                     "Level 1: Once per adventure, when you reach the final stage, adds 20x supported character's ATK as Additional Damage to the supported character's attacks for 1 turn",
                     "Level 2: Once per adventure, when you reach the final stage, adds 40x supported character's ATK as Additional Damage to the supported character's attacks for 1 turn",
@@ -46048,7 +46048,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "Fighter Characters",
+                "Characters": "Fighter characters",
                 "description": [
                     "Level 1: Adds 6% of this character's base HP to the supported character's base HP.",
                     "Level 2: Adds 8% of this character's base HP to the supported character's base HP.",
@@ -46061,9 +46061,9 @@ window.details = {
     },
     2516: {//Magellan&Hannyabal
         captain: {
-            "character1": "Boosts ATK of [INT] Characters by 2x",
-            "character2": "Boosts ATK of [QCK] Characters by 2x",
-            "combined": "Boosts ATK of [QCK] and [INT] Characters by 2x and makes [QCK] and [INT] orbs beneficial for all characters"
+            "character1": "Boosts ATK of [INT] characters by 2x",
+            "character2": "Boosts ATK of [QCK] characters by 2x",
+            "combined": "Boosts ATK of [QCK] and [INT] characters by 2x and makes [QCK] and [INT] orbs beneficial for all characters"
         },
         captainNotes: "#{beneficial}",
         special: "Poisons all enemies, randomizes all orbs into either [QCK] or [INT] orbs and becomes Magellan & Hannyabal for 2 turns. If your captain is a [QCK] or [INT] character, boosts the Color Affinity of [QCK] and [INT] characters by 2x for 1 turn.",
@@ -46077,9 +46077,9 @@ window.details = {
     },
     2517: {//Magellan&Hannyabal
         captain: {
-            "character1": "Boosts ATK of [INT] Characters by 2.5x, boosts ATK of [QCK] Characters by 2x and makes [QCK] orbs beneficial for all characters",
-            "character2": "Boosts ATK of [QCK] Characters by 2.5x, boosts ATK of [INT] Characters by 2x and makes [INT] orbs beneficial for all characters",
-            "combined": "Boosts ATK of [QCK] and [INT] Characters by 3x and makes [QCK] and [INT] orbs beneficial for all characters"
+            "character1": "Boosts ATK of [INT] characters by 2.5x, boosts ATK of [QCK] characters by 2x and makes [QCK] orbs beneficial for all characters",
+            "character2": "Boosts ATK of [QCK] characters by 2.5x, boosts ATK of [INT] characters by 2x and makes [INT] orbs beneficial for all characters",
+            "combined": "Boosts ATK of [QCK] and [INT] characters by 3x and makes [QCK] and [INT] orbs beneficial for all characters"
         },
         captainNotes: "#{beneficial}",
         special: "Poisons all enemies, randomizes all orbs into either [QCK] or [INT] orbs and becomes Magellan & Hannyabal for 2 turns. If your captain is a [QCK] or [INT] character, boosts the Color Affinity of [QCK] and [INT] characters by 2x for 1 turn.",
@@ -47136,9 +47136,9 @@ window.details = {
     },
     2551: {//Sengoku&Garp
         captain: {
-            "character1": "Boosts ATK of Fighter Characters by 2.25x and their HP by 1.2x and makes [INT] orbs beneficial for Fighter characters",
-            "character2": "Boosts ATK of Fighter Characters by 2x and their HP by 1.2x, but boosts his OWN attack by 2.5x and makes [DEX] orbs beneficial for Fighter characters",
-            "combined": "Boosts ATK of Fighter Characters by 3x and their HP by 1.2x, but boosts his OWN attack by 4x and makes [DEX], [INT], [RCV] and [TND] orbs beneficial for Fighter characters"
+            "character1": "Boosts ATK of Fighter characters by 2.25x and their HP by 1.2x and makes [INT] orbs beneficial for Fighter characters",
+            "character2": "Boosts ATK of Fighter characters by 2x and their HP by 1.2x, but boosts his OWN attack by 2.5x and makes [DEX] orbs beneficial for Fighter characters",
+            "combined": "Boosts ATK of Fighter characters by 3x and their HP by 1.2x, but boosts his OWN attack by 4x and makes [DEX], [INT], [RCV] and [TND] orbs beneficial for Fighter characters"
         },
         captainNotes: "#{beneficial}",
         special: "Removes all positive buffs on your team and reduces Despair duration by 2 turns. Boosts ATK of Fighter characters by 1.75x for 1 turn and amplifies the effect of orbs by 1.75x for Fighter characters for 1 turn and becomes Sengoku & Garp for 3 turns",
@@ -47152,9 +47152,9 @@ window.details = {
     },
     2552: {//Sengoku&Garp
         captain: {
-            "character1": "Boosts ATK of Fighter Characters by 2.5x and their HP by 1.2x and makes [INT] orbs beneficial for Fighter characters",
-            "character2": "Boosts ATK of Fighter Characters by 2.25x and their HP by 1.2x, but boosts his OWN attack by 3x and makes [DEX] orbs beneficial for Fighter characters",
-            "combined": "Boosts ATK of Fighter Characters by 3x and their HP by 1.2x, but boosts his OWN attack by 4x and makes [DEX], [INT], [RCV] and [TND] orbs beneficial for Fighter characters"
+            "character1": "Boosts ATK of Fighter characters by 2.5x and their HP by 1.2x and makes [INT] orbs beneficial for Fighter characters",
+            "character2": "Boosts ATK of Fighter characters by 2.25x and their HP by 1.2x, but boosts his OWN attack by 3x and makes [DEX] orbs beneficial for Fighter characters",
+            "combined": "Boosts ATK of Fighter characters by 3x and their HP by 1.2x, but boosts his OWN attack by 4x and makes [DEX], [INT], [RCV] and [TND] orbs beneficial for Fighter characters"
         },
         captainNotes: "#{beneficial}",
         special: "Removes all positive buffs on your team and reduces Despair duration by 2 turns. Boosts ATK of Fighter characters by 1.75x for 1 turn and amplifies the effect of orbs by 1.75x for Fighter characters for 1 turn and becomes Sengoku & Garp for 3 turns",
@@ -47322,9 +47322,9 @@ window.details = {
     },
     2556: {//Shanks&Ben Beckman
         captain: {
-            "character1": "Boosts ATK of [INT] Characters by 2.5x and boosts ATK of all other characters by 1.5x.",
-            "character2": "Boosts ATK of [DEX] Characters by 2.5x and boosts ATK of all other characters by 1.5x.",
-            "combined": "Boosts ATK of [DEX] and [INT] Characters by 3x and boosts ATK of all other characters by 2x."
+            "character1": "Boosts ATK of [INT] characters by 2.5x and boosts ATK of all other characters by 1.5x.",
+            "character2": "Boosts ATK of [DEX] characters by 2.5x and boosts ATK of all other characters by 1.5x.",
+            "combined": "Boosts ATK of [DEX] and [INT] characters by 3x and boosts ATK of all other characters by 2x."
         },
         special: "Changes all orbs, including [BLOCK] orbs, into [EMPTY] orbs, boosts the Color Affinity of all characters by 3x for 1 turn, locks the chain multiplier at 3x for 1 turn and becomes Shanks & Ben Beckman for 2 turns.",
         specialNotes: "This special can only be activated if no other special has been activated this turn and removes the ability to activate any other specials this turn.",
@@ -47334,9 +47334,9 @@ window.details = {
     },
     2557: {//Shanks&Ben Beckman
         captain: {
-            "character1": "Boosts ATK of [INT] Characters by 3x and boosts ATK of all other characters by 2x.",
-            "character2": "Boosts ATK of [DEX] Characters by 3x and boosts ATK of all other characters by 2x.",
-            "combined": "Boosts ATK of [DEX] and [INT] Characters by 3.75x and boosts ATK of all other characters by 2.5x."
+            "character1": "Boosts ATK of [INT] characters by 3x and boosts ATK of all other characters by 2x.",
+            "character2": "Boosts ATK of [DEX] characters by 3x and boosts ATK of all other characters by 2x.",
+            "combined": "Boosts ATK of [DEX] and [INT] characters by 3.75x and boosts ATK of all other characters by 2.5x."
         },
         special: "Changes all orbs, including [BLOCK] orbs, into [EMPTY] orbs, boosts the Color Affinity of all characters by 3x for 1 turn, locks the chain multiplier at 3x for 1 turn and becomes Shanks & Ben Beckman for 2 turns.",
         specialNotes: "This special can only be activated if no other special has been activated this turn and removes the ability to activate any other specials this turn.",
@@ -47409,6 +47409,104 @@ window.details = {
                     "Level 5: Reduces Slot Bind duration by 10 turns on this character"
                 ]
             },
+        ],
+    },
+    2558: {//Leo
+        captain: "Boosts ATK of Striker and Free Spirit characters by ?x and their RCV by ?x.",
+        special: "Reduces Bind and Increase Damage Taken duration by 4 turns and reduces enemies' Increased Defense duration by 4 turns.",
+        specialName: "Tontatta Technique: <needs translation>",
+    },
+    2559: {//Leo
+        captain: "Boosts ATK of Striker and Free Spirit characters by 2x and their RCV by 1.75x.",
+        special: "Reduces Bind and Increase Damage Taken duration by 4 turns and reduces enemies' Increased Defense duration by 4 turns.",
+        specialName: "Tontatta Technique: <needs translation>",
+        sailor: {
+            "base": "None",
+            "level1": "Adds 2x character's ATK as Additional Damage",
+        },
+        potential: [
+            {
+                "Name": "Slot Bind Self-reduction",
+                "description": [
+                    "Level 1: Reduces Slot Bind duration by ? turn on this character",
+                    "Level 2: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 3: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 4: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 5: Reduces Slot Bind duration by 5 turns on this character"
+                ]
+            },
+            {
+                "Name": "Reduce No Healing duration",
+                "description": [
+                    "Level 1: Reduces No Healing duration by ? turn",
+                    "Level 2: Reduces No Healing duration by ? turn",
+                    "Level 3: Reduces No Healing duration by ? turn",
+                    "Level 4: Reduces No Healing duration by ? turns",
+                    "Level 5: Reduces No Healing duration by 5 turns"
+                ]
+            },
+        ],
+        support: [
+            {
+                "Characters": "Mansherry and Rebecca",
+                "description": [
+                    "Level 1: Adds ?% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Level 2: Adds ?% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Level 3: Adds ?% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Level 4: Adds ?% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+                    "Level 5: Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
+                ]
+            }
+        ],
+    },
+    2568: {//Morley
+        captain: "Boosts ATK of Free Spirit characters by ?x and their HP by ?x",
+        special: "Reduces enemies' Threshold Damage Reduction and Resilience Buffs duration by 5 turns and reduces the defense of all enemies by 50% for 1 turn. If your Captain is a Free Spirit character, boosts ATK against enemies with reduced defense by 1.75x for 3 turns and if during that turn, you hit 2 PERFECTS, reduces the defense of all enemies by 100% for 2 turns.",
+        specialName: "Morley Special",
+        sailor: "Boosts base ATK, HP and RCV of Free Spirit characters by 50",
+    },
+    2569: {//Morley
+        captain: "Boosts ATK of Free Spirit characters by 2.75x and their HP by 1.2x",
+        special: "Reduces enemies' Threshold Damage Reduction and Resilience Buffs duration by 5 turns and reduces the defense of all enemies by 50% for 1 turn. If your Captain is a Free Spirit character, boosts ATK against enemies with reduced defense by 1.75x for 3 turns and if during that turn, you hit 2 PERFECTS, reduces the defense of all enemies by 100% for 2 turns.",
+        specialName: "Morley Special",
+        sailor: {
+            "base": "Boosts base ATK, HP and RCV of Free Spirit characters by 50",
+            "level1": "Cannot be Blown Away",
+        },
+        potential: [
+            {
+                "Name": "Pinch Healing",
+                "description": [
+                    "Level 1: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 2: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 3: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 4: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 5: If HP is below 40% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                ]
+            },
+            {
+                "Name": "Enrage",
+                "description": [
+                    "Level 1: Boosts base ATK by ?",
+                    "Level 2: Boosts base ATK by ?",
+                    "Level 3: Boosts base ATK by ?",
+                    "Level 4: Boosts base ATK by ?",
+                    "Level 5: Boosts base ATK by 200"
+                ]
+            },
+        ],
+        potentialNotes: "#{enrage}",
+        support: [
+            {
+                "Characters": "Free Spirit characters",
+                "description": [
+                    "Level 1: Adds ?% of this character's base ATK and HP to the supported character's base ATK and HP.",
+                    "Level 2: Adds ?% of this character's base ATK and HP to the supported character's base ATK and HP.",
+                    "Level 3: Adds ?% of this character's base ATK and HP to the supported character's base ATK and HP.",
+                    "Level 4: Adds ?% of this character's base ATK and HP to the supported character's base ATK and HP.",
+                    "Level 5: Adds 5% of this character's base ATK and HP to the supported character's base ATK and HP."
+                ]
+            }
         ],
     },
     3333: {//Kung Fu Luffy
@@ -47579,8 +47677,8 @@ window.details = {
     3341: {//Shanks&Mihawk
         captain: {
             "character1": "Boosts ATK of Slasher characters by 2x and reduces damage received by 10%",
-            "character2": "Boosts ATK of Slasher Characters by 2.25x and makes [TND] and [RCV] orbs beneficial for Slasher characters",
-            "combined": "Boosts ATK of Slasher Characters by 3x, reduces damage received by 20% and makes [TND] and [RCV] orbs beneficial for Slasher characters"
+            "character2": "Boosts ATK of Slasher characters by 2.25x and makes [TND] and [RCV] orbs beneficial for Slasher characters",
+            "combined": "Boosts ATK of Slasher characters by 3x, reduces damage received by 20% and makes [TND] and [RCV] orbs beneficial for Slasher characters"
         },
         captainNotes: "#{beneficial}",
         special: "Reduces Bind, Silence and ATK DOWN duration by 2 turns. If HP is below 50% at the time the special is activated, delays all enemies for 2 turns and boosts ATK against delayed enemies by 1.75x for 2 turns and becomes Shanks & Mihawk for 2 turns",
@@ -47595,8 +47693,8 @@ window.details = {
     3342: {//Shanks&Mihawk
         captain: {
             "character1": "Boosts ATK of Slasher characters by 2.25x and reduces damage received by 10%",
-            "character2": "Boosts ATK of Slasher Characters by 2.5x and makes [TND] and [RCV] orbs beneficial for Slasher characters",
-            "combined": "Boosts ATK of Slasher Characters by 3x, reduces damage received by 20% and makes [TND] and [RCV] orbs beneficial for Slasher characters"
+            "character2": "Boosts ATK of Slasher characters by 2.5x and makes [TND] and [RCV] orbs beneficial for Slasher characters",
+            "combined": "Boosts ATK of Slasher characters by 3x, reduces damage received by 20% and makes [TND] and [RCV] orbs beneficial for Slasher characters"
         },
         captainNotes: "#{beneficial}",
         special: "Reduces Bind, Silence and ATK DOWN duration by 2 turns. If HP is below 50% at the time the special is activated, delays all enemies for 2 turns and boosts ATK against delayed enemies by 1.75x for 2 turns and becomes Shanks & Mihawk for 2 turns",
@@ -48979,7 +49077,7 @@ window.details = {
         sailor: "Boosts base ATK, HP and RCV of [STR] and [DEX] characters by 50",
     },
     5028: {//Sengoku&Garp
-        captain: "Boosts ATK of Fighter Characters by 2.25x and their HP by 1.2x and makes [INT] orbs beneficial for Fighter characters",
+        captain: "Boosts ATK of Fighter characters by 2.25x and their HP by 1.2x and makes [INT] orbs beneficial for Fighter characters",
         captainNotes: "#{beneficial}",
         special: "Removes all positive buffs on your team and reduces Despair duration by 2 turns. Boosts ATK of Fighter characters by 1.75x for 1 turn and amplifies the effect of orbs by 1.75x for Fighter characters for 1 turn and becomes Sengoku & Garp for 3 turns",
         swap: "When Change is activated, boosts ATK of Fighter characters by 1.2x for 1 turn and changes their own orb into a Matching orb",
@@ -48987,7 +49085,7 @@ window.details = {
         sailor: "Boosts base ATK of all characters by 40 if your Captain is a Fighter character",
     },
     5029: {//Sengoku&Garp
-        captain: "Boosts ATK of Fighter Characters by 2x and their HP by 1.2x, but boosts his OWN attack by 2.5x and makes [DEX] orbs beneficial for Fighter characters",
+        captain: "Boosts ATK of Fighter characters by 2x and their HP by 1.2x, but boosts his OWN attack by 2.5x and makes [DEX] orbs beneficial for Fighter characters",
         captainNotes: "#{beneficial}",
         special: "Removes all positive buffs on your team and reduces Despair duration by 2 turns. Boosts ATK of Fighter characters by 1.75x for 1 turn and amplifies the effect of orbs by 1.75x for Fighter characters for 1 turn and becomes Sengoku & Garp for 3 turns",
         swap: "When Change is activated, boosts ATK of Fighter characters by 1.2x for 1 turn and changes their own orb into a Matching orb",
@@ -48995,7 +49093,7 @@ window.details = {
         sailor: "Boosts base ATK of all characters by 40 if your Captain is a Fighter character",
     },
     5030: {//Sengoku&Garp
-        captain: "Boosts ATK of Fighter Characters by 3x and their HP by 1.2x, but boosts his OWN attack by 4x and makes [DEX], [INT], [RCV] and [TND] orbs beneficial for Fighter characters",
+        captain: "Boosts ATK of Fighter characters by 3x and their HP by 1.2x, but boosts his OWN attack by 4x and makes [DEX], [INT], [RCV] and [TND] orbs beneficial for Fighter characters",
         captainNotes: "#{beneficial}",
         special: "Removes all positive buffs on your team and reduces Despair duration by 2 turns. Boosts ATK of Fighter characters by 1.75x for 1 turn and amplifies the effect of orbs by 1.75x for Fighter characters for 1 turn and becomes Sengoku & Garp for 3 turns",
         swap: "When Change is activated, boosts ATK of Fighter characters by 1.2x for 1 turn and changes their own orb into a Matching orb",
@@ -49003,7 +49101,7 @@ window.details = {
         sailor: "Boosts base ATK of all characters by 40 if your Captain is a Fighter character",
     },
     5031: {//Sengoku&Garp
-        captain: "Boosts ATK of Fighter Characters by 3x and their HP by 1.2x, but boosts his OWN attack by 4x and makes [DEX], [INT], [RCV] and [TND] orbs beneficial for Fighter characters",
+        captain: "Boosts ATK of Fighter characters by 3x and their HP by 1.2x, but boosts his OWN attack by 4x and makes [DEX], [INT], [RCV] and [TND] orbs beneficial for Fighter characters",
         captainNotes: "#{beneficial}",
         special: "Removes all positive buffs on your team and reduces Despair duration by 2 turns. Boosts ATK of Fighter characters by 1.75x for 1 turn and amplifies the effect of orbs by 1.75x for Fighter characters for 1 turn and becomes Sengoku & Garp for 3 turns",
         swap: "When Change is activated, boosts ATK of Fighter characters by 1.2x for 1 turn and changes their own orb into a Matching orb",
@@ -49011,7 +49109,7 @@ window.details = {
         sailor: "Boosts base ATK of all characters by 40 if your Captain is a Fighter character",
     },
     5032: {//Sengoku&Garp
-        captain: "Boosts ATK of Fighter Characters by 2.5x and their HP by 1.2x and makes [INT] orbs beneficial for Fighter characters",
+        captain: "Boosts ATK of Fighter characters by 2.5x and their HP by 1.2x and makes [INT] orbs beneficial for Fighter characters",
         captainNotes: "#{beneficial}",
         special: "Removes all positive buffs on your team and reduces Despair duration by 2 turns. Boosts ATK of Fighter characters by 1.75x for 1 turn and amplifies the effect of orbs by 1.75x for Fighter characters for 1 turn and becomes Sengoku & Garp for 3 turns",
         swap: "When Change is activated, boosts ATK of Fighter characters by 1.2x for 1 turn and changes their own orb into a Matching orb",
@@ -49061,7 +49159,7 @@ window.details = {
         ]
     },
     5033: {//Sengoku&Garp
-        captain: "Boosts ATK of Fighter Characters by 2.25x and their HP by 1.2x, but boosts his OWN attack by 3x and makes [DEX] orbs beneficial for Fighter characters",
+        captain: "Boosts ATK of Fighter characters by 2.25x and their HP by 1.2x, but boosts his OWN attack by 3x and makes [DEX] orbs beneficial for Fighter characters",
         captainNotes: "#{beneficial}",
         special: "Removes all positive buffs on your team and reduces Despair duration by 2 turns. Boosts ATK of Fighter characters by 1.75x for 1 turn and amplifies the effect of orbs by 1.75x for Fighter characters for 1 turn and becomes Sengoku & Garp for 3 turns",
         swap: "When Change is activated, boosts ATK of Fighter characters by 1.2x for 1 turn and changes their own orb into a Matching orb",
@@ -49111,7 +49209,7 @@ window.details = {
         ]
     },
     5034: {//Sengoku&Garp
-        captain: "Boosts ATK of Fighter Characters by 3x and their HP by 1.2x, but boosts his OWN attack by 4x and makes [DEX], [INT], [RCV] and [TND] orbs beneficial for Fighter characters",
+        captain: "Boosts ATK of Fighter characters by 3x and their HP by 1.2x, but boosts his OWN attack by 4x and makes [DEX], [INT], [RCV] and [TND] orbs beneficial for Fighter characters",
         captainNotes: "#{beneficial}",
         special: "Removes all positive buffs on your team and reduces Despair duration by 2 turns. Boosts ATK of Fighter characters by 1.75x for 1 turn and amplifies the effect of orbs by 1.75x for Fighter characters for 1 turn and becomes Sengoku & Garp for 3 turns",
         swap: "When Change is activated, boosts ATK of Fighter characters by 1.2x for 1 turn and changes their own orb into a Matching orb",
@@ -49161,7 +49259,7 @@ window.details = {
         ]
     },
     5035: {//Sengoku&Garp
-        captain: "Boosts ATK of Fighter Characters by 3x and their HP by 1.2x, but boosts his OWN attack by 4x and makes [DEX], [INT], [RCV] and [TND] orbs beneficial for Fighter characters",
+        captain: "Boosts ATK of Fighter characters by 3x and their HP by 1.2x, but boosts his OWN attack by 4x and makes [DEX], [INT], [RCV] and [TND] orbs beneficial for Fighter characters",
         captainNotes: "#{beneficial}",
         special: "Removes all positive buffs on your team and reduces Despair duration by 2 turns. Boosts ATK of Fighter characters by 1.75x for 1 turn and amplifies the effect of orbs by 1.75x for Fighter characters for 1 turn and becomes Sengoku & Garp for 3 turns",
         swap: "When Change is activated, boosts ATK of Fighter characters by 1.2x for 1 turn and changes their own orb into a Matching orb",
@@ -49543,7 +49641,7 @@ window.details = {
         sailor: "Boosts base ATK of [QCK] characters by 50",
     },
     5045: {//Shanks&Mihawk
-        captain: "Boosts ATK of Slasher Characters by 2.25x and makes [TND] and [RCV] orbs beneficial for Slasher characters",
+        captain: "Boosts ATK of Slasher characters by 2.25x and makes [TND] and [RCV] orbs beneficial for Slasher characters",
         captainNotes: "#{beneficial}",
         special: "Reduces Bind, Silence and ATK DOWN duration by 2 turns. If HP is below 50% at the time the special is activated, delays all enemies for 2 turns and boosts ATK against delayed enemies by 1.75x for 2 turns and becomes Shanks & Mihawk for 2 turns",
         swap: "When Change is activated, boosts chances of getting [QCK], [INT] and [RCV] orbs for 1 turn and randomizes all non-Matching orbs",
@@ -49551,7 +49649,7 @@ window.details = {
         sailor: "Boosts base ATK of [INT] characters by 50",
     },
     5046: {//Shanks&Mihawk
-        captain: "Boosts ATK of Slasher Characters by 3x, reduces damage received by 20% and makes [TND] and [RCV] orbs beneficial for Slasher characters",
+        captain: "Boosts ATK of Slasher characters by 3x, reduces damage received by 20% and makes [TND] and [RCV] orbs beneficial for Slasher characters",
         captainNotes: "#{beneficial}",
         special: "Reduces Bind, Silence and ATK DOWN duration by 2 turns. If HP is below 50% at the time the special is activated, delays all enemies for 2 turns and boosts ATK against delayed enemies by 1.75x for 2 turns and becomes Shanks & Mihawk for 2 turns",
         swap: "When Change is activated, boosts chances of getting [QCK], [INT] and [RCV] orbs for 1 turn and randomizes all non-Matching orbs",
@@ -49559,7 +49657,7 @@ window.details = {
         sailor: "Boosts base ATK of [QCK] and [INT] characters by 50",
     },
     5047: {//Shanks&Mihawk
-        captain: "Boosts ATK of Slasher Characters by 3x, reduces damage received by 20% and makes [TND] and [RCV] orbs beneficial for Slasher characters",
+        captain: "Boosts ATK of Slasher characters by 3x, reduces damage received by 20% and makes [TND] and [RCV] orbs beneficial for Slasher characters",
         captainNotes: "#{beneficial}",
         special: "Reduces Bind, Silence and ATK DOWN duration by 2 turns. If HP is below 50% at the time the special is activated, delays all enemies for 2 turns and boosts ATK against delayed enemies by 1.75x for 2 turns and becomes Shanks & Mihawk for 2 turns",
         swap: "When Change is activated, boosts chances of getting [QCK], [INT] and [RCV] orbs for 1 turn and randomizes all non-Matching orbs",
@@ -49617,7 +49715,7 @@ window.details = {
         ]
     },
     5049: {//Shanks&Mihawk
-        captain: "Boosts ATK of Slasher Characters by 2.5x and makes [TND] and [RCV] orbs beneficial for Slasher characters",
+        captain: "Boosts ATK of Slasher characters by 2.5x and makes [TND] and [RCV] orbs beneficial for Slasher characters",
         captainNotes: "#{beneficial}",
         special: "Reduces Bind, Silence and ATK DOWN duration by 2 turns. If HP is below 50% at the time the special is activated, delays all enemies for 2 turns and boosts ATK against delayed enemies by 1.75x for 2 turns and becomes Shanks & Mihawk for 2 turns",
         swap: "When Change is activated, boosts chances of getting [QCK], [INT] and [RCV] orbs for 1 turn and randomizes all non-Matching orbs",
@@ -49667,7 +49765,7 @@ window.details = {
         ]
     },
     5050: {//Shanks&Mihawk
-        captain: "Boosts ATK of Slasher Characters by 3x, reduces damage received by 20% and makes [TND] and [RCV] orbs beneficial for Slasher characters",
+        captain: "Boosts ATK of Slasher characters by 3x, reduces damage received by 20% and makes [TND] and [RCV] orbs beneficial for Slasher characters",
         captainNotes: "#{beneficial}",
         special: "Reduces Bind, Silence and ATK DOWN duration by 2 turns. If HP is below 50% at the time the special is activated, delays all enemies for 2 turns and boosts ATK against delayed enemies by 1.75x for 2 turns and becomes Shanks & Mihawk for 2 turns",
         swap: "When Change is activated, boosts chances of getting [QCK], [INT] and [RCV] orbs for 1 turn and randomizes all non-Matching orbs",
@@ -49717,7 +49815,7 @@ window.details = {
         ]
     },
     5051: {//Shanks&Mihawk
-        captain: "Boosts ATK of Slasher Characters by 3x, reduces damage received by 20% and makes [TND] and [RCV] orbs beneficial for Slasher characters",
+        captain: "Boosts ATK of Slasher characters by 3x, reduces damage received by 20% and makes [TND] and [RCV] orbs beneficial for Slasher characters",
         captainNotes: "#{beneficial}",
         special: "Reduces Bind, Silence and ATK DOWN duration by 2 turns. If HP is below 50% at the time the special is activated, delays all enemies for 2 turns and boosts ATK against delayed enemies by 1.75x for 2 turns and becomes Shanks & Mihawk for 2 turns",
         swap: "When Change is activated, boosts chances of getting [QCK], [INT] and [RCV] orbs for 1 turn and randomizes all non-Matching orbs",
@@ -49774,7 +49872,7 @@ window.details = {
         sailor: "Makes [TND] and [RCV] orbs beneficial for this character",
     },
     5053: {//Sanji&Judge
-        captain: "If there is a [STR], [DEX], [QCK], [PSY] and [INT] characters in your crew, boosts ATK of Powerhouse characters by 3.5x, their HP by 1.25x and makes [PSY] orbs beneficial for all characters.",
+        captain: "If there is a [STR], [DEX], [QCK], [PSY] and [INT] characters in your crew, boosts ATK of all characters by 3.5x, their HP by 1.25x and makes [PSY] orbs beneficial for all characters.",
         special: "Boosts ATK of Powerhouse characters by 2x for 1 turn, amplifies the effect of orbs for Powerhouse characters by 2x for 1 turn, reduces Paralysis duration by 5 turns and becomes Sanji & Judge for 3 turns",
         swap: "When Change is activated, this character removes all Silence on themselves, changes their own orb, including [BLOCK] orbs, into a [TND] orb and boosts Chain multiplier by 1.25x for 1 turn.",
         specialName: "Crack & Strike",
@@ -49862,7 +49960,7 @@ window.details = {
         ]
     },
     5056: {//Sanji&Judge
-        captain: "If there is a [STR], [DEX], [QCK], [PSY] and [INT] characters in your crew, boosts ATK of Powerhouse characters by 3.5x, their HP by 1.25x and makes [PSY] orbs beneficial for all characters.",
+        captain: "If there is a [STR], [DEX], [QCK], [PSY] and [INT] characters in your crew, boosts ATK of all characters by 3.5x, their HP by 1.25x and makes [PSY] orbs beneficial for all characters.",
         special: "Boosts ATK of Powerhouse characters by 2x for 1 turn, amplifies the effect of orbs for Powerhouse characters by 2x for 1 turn, reduces Paralysis duration by 5 turns and becomes Sanji & Judge for 3 turns",
         swap: "When Change is activated, this character removes all Silence on themselves, changes their own orb, including [BLOCK] orbs, into a [TND] orb and boosts Chain multiplier by 1.25x for 1 turn.",
         specialName: "Crack & Strike",
@@ -50334,7 +50432,7 @@ window.details = {
         ]
     },
     5066: {//Magellan&Hannyabal
-        captain: "Boosts ATK of [INT] Characters by ?x, boosts ATK of [QCK] Characters by 2x and makes [QCK] orbs beneficial for all characters",
+        captain: "Boosts ATK of [INT] characters by ?x, boosts ATK of [QCK] characters by 2x and makes [QCK] orbs beneficial for all characters",
         captainNotes: "#{beneficial}",
         special: "Poisons all enemies, randomizes all orbs into either [QCK] or [INT] orbs and becomes Magellan & Hannyabal for 2 turns. If your captain is a [QCK] or [INT] character, boosts the Color Affinity of [QCK] and [INT] characters by 2x for 1 turn.",
         swap: "When Change is activated, reduces Poison duration by 5 turns and changes their own orb into a Matching orb",
@@ -50342,7 +50440,7 @@ window.details = {
         sailor: "Boosts base ATK, HP and RCV of [QCK] characters by 25",
     },
     5067: {//Magellan&Hannyabal
-        captain: "Boosts ATK of [QCK] Characters by ?x, boosts ATK of [INT] Characters by 2x and makes [INT] orbs beneficial for all characters",
+        captain: "Boosts ATK of [QCK] characters by ?x, boosts ATK of [INT] characters by 2x and makes [INT] orbs beneficial for all characters",
         captainNotes: "#{beneficial}",
         special: "Poisons all enemies, randomizes all orbs into either [QCK] or [INT] orbs and becomes Magellan & Hannyabal for 2 turns. If your captain is a [QCK] or [INT] character, boosts the Color Affinity of [QCK] and [INT] characters by 2x for 1 turn.",
         swap: "When Change is activated, reduces Poison duration by 5 turns and changes their own orb into a Matching orb",
@@ -50350,7 +50448,7 @@ window.details = {
         sailor: "Boosts base ATK, HP and RCV of [INT] characters by 25",
     },
     5068: {//Magellan&Hannyabal
-        captain: "Boosts ATK of [QCK] and [INT] Characters by ?x and makes [QCK] and [INT] orbs beneficial for all characters",
+        captain: "Boosts ATK of [QCK] and [INT] characters by ?x and makes [QCK] and [INT] orbs beneficial for all characters",
         captainNotes: "#{beneficial}",
         special: "Poisons all enemies, randomizes all orbs into either [QCK] or [INT] orbs and becomes Magellan & Hannyabal for 2 turns. If your captain is a [QCK] or [INT] character, boosts the Color Affinity of [QCK] and [INT] characters by 2x for 1 turn.",
         swap: "When Change is activated, reduces Poison duration by 5 turns and changes their own orb into a Matching orb",
@@ -50358,7 +50456,7 @@ window.details = {
         sailor: "Boosts base ATK, HP and RCV of [QCK] and [INT] characters by 50",
     },
     5069: {//Magellan&Hannyabal
-        captain: "Boosts ATK of [QCK] and [INT] Characters by ?x and makes [QCK] and [INT] orbs beneficial for all characters",
+        captain: "Boosts ATK of [QCK] and [INT] characters by ?x and makes [QCK] and [INT] orbs beneficial for all characters",
         captainNotes: "#{beneficial}",
         special: "Poisons all enemies, randomizes all orbs into either [QCK] or [INT] orbs and becomes Magellan & Hannyabal for 2 turns. If your captain is a [QCK] or [INT] character, boosts the Color Affinity of [QCK] and [INT] characters by 2x for 1 turn.",
         swap: "When Change is activated, reduces Poison duration by 5 turns and changes their own orb into a Matching orb",
@@ -50366,7 +50464,7 @@ window.details = {
         sailor: "Boosts base ATK, HP and RCV of [QCK] and [INT] characters by 50",
     },
     5070: {//Magellan&Hannyabal
-        captain: "Boosts ATK of [INT] Characters by 2.5x, boosts ATK ofQCKINT] Characters by 2x and makes [QCK] orbs beneficial for all characters",
+        captain: "Boosts ATK of [INT] characters by 2.5x, boosts ATK ofQCKINT] characters by 2x and makes [QCK] orbs beneficial for all characters",
         captainNotes: "#{beneficial}",
         special: "Poisons all enemies, randomizes all orbs into either [QCK] or [INT] orbs and becomes Magellan & Hannyabal for 2 turns. If your captain is a [QCK] or [INT] character, boosts the Color Affinity of [QCK] and [INT] characters by 2x for 1 turn.",
         swap: "When Change is activated, reduces Poison duration by 5 turns and changes their own orb into a Matching orb",
@@ -50399,7 +50497,7 @@ window.details = {
         ]
     },
     5071: {//Magellan&Hannyabal
-        captain: "Boosts ATK of [QCK] Characters by 2.5x, boosts ATK of [INT] Characters by 2x and makes [INT] orbs beneficial for all characters",
+        captain: "Boosts ATK of [QCK] characters by 2.5x, boosts ATK of [INT] characters by 2x and makes [INT] orbs beneficial for all characters",
         captainNotes: "#{beneficial}",
         special: "Poisons all enemies, randomizes all orbs into either [QCK] or [INT] orbs and becomes Magellan & Hannyabal for 2 turns. If your captain is a [QCK] or [INT] character, boosts the Color Affinity of [QCK] and [INT] characters by 2x for 1 turn.",
         swap: "When Change is activated, reduces Poison duration by 5 turns and changes their own orb into a Matching orb",
@@ -50432,7 +50530,7 @@ window.details = {
         ]
     },
     5072: {//Magellan&Hannyabal
-        captain: "Boosts ATK of [QCK] and [INT] Characters by 3x and makes [QCK] and [INT] orbs beneficial for all characters",
+        captain: "Boosts ATK of [QCK] and [INT] characters by 3x and makes [QCK] and [INT] orbs beneficial for all characters",
         captainNotes: "#{beneficial}",
         special: "Poisons all enemies, randomizes all orbs into either [QCK] or [INT] orbs and becomes Magellan & Hannyabal for 2 turns. If your captain is a [QCK] or [INT] character, boosts the Color Affinity of [QCK] and [INT] characters by 2x for 1 turn.",
         swap: "When Change is activated, reduces Poison duration by 5 turns and changes their own orb into a Matching orb",
@@ -50465,7 +50563,7 @@ window.details = {
         ]
     },
     5073: {//Magellan&Hannyabal
-        captain: "Boosts ATK of [QCK] and [INT] Characters by 3x and makes [QCK] and [INT] orbs beneficial for all characters",
+        captain: "Boosts ATK of [QCK] and [INT] characters by 3x and makes [QCK] and [INT] orbs beneficial for all characters",
         captainNotes: "#{beneficial}",
         special: "Poisons all enemies, randomizes all orbs into either [QCK] or [INT] orbs and becomes Magellan & Hannyabal for 2 turns. If your captain is a [QCK] or [INT] character, boosts the Color Affinity of [QCK] and [INT] characters by 2x for 1 turn.",
         swap: "When Change is activated, reduces Poison duration by 5 turns and changes their own orb into a Matching orb",
@@ -52524,7 +52622,7 @@ window.details = {
         ]
     },
     5136: {//Shanks&Ben Beckman
-        captain: "Boosts ATK of [INT] Characters by 2.5x and boosts ATK of all other characters by 1.5x.",
+        captain: "Boosts ATK of [INT] characters by 2.5x and boosts ATK of all other characters by 1.5x.",
         special: "Changes all orbs, including [BLOCK] orbs, into [EMPTY] orbs, boosts the Color Affinity of all characters by 3x for 1 turn, locks the chain multiplier at 3x for 1 turn and becomes Shanks & Ben Beckman for 2 turns.",
         specialNotes: "This special can only be activated if no other special has been activated this turn and removes the ability to activate any other specials this turn.",
         swap: "When Change is activated, reduces Bind, Despair and Paralysis duration by 1 turn",
@@ -52532,7 +52630,7 @@ window.details = {
         sailor: "Reduces Blindness duration by 5 turns",
     },
     5137: {//Shanks&Ben Beckman
-        captain: "Boosts ATK of [DEX] Characters by 2.5x and boosts ATK of all other characters by 1.5x.",
+        captain: "Boosts ATK of [DEX] characters by 2.5x and boosts ATK of all other characters by 1.5x.",
         special: "Changes all orbs, including [BLOCK] orbs, into [EMPTY] orbs, boosts the Color Affinity of all characters by 3x for 1 turn, locks the chain multiplier at 3x for 1 turn and becomes Shanks & Ben Beckman for 2 turns.",
         specialNotes: "This special can only be activated if no other special has been activated this turn and removes the ability to activate any other specials this turn.",
         swap: "When Change is activated, reduces Bind, Despair and Paralysis duration by 1 turn",
@@ -52540,7 +52638,7 @@ window.details = {
         sailor: "Reduces Blindness duration by 5 turns",
     },
     5138: {//Shanks&Ben Beckman
-        captain: "Boosts ATK of [DEX] and [INT] Characters by 3x and boosts ATK of all other characters by 2x.",
+        captain: "Boosts ATK of [DEX] and [INT] characters by 3x and boosts ATK of all other characters by 2x.",
         special: "Changes all orbs, including [BLOCK] orbs, into [EMPTY] orbs, boosts the Color Affinity of all characters by 3x for 1 turn, locks the chain multiplier at 3x for 1 turn and becomes Shanks & Ben Beckman for 2 turns.",
         specialNotes: "This special can only be activated if no other special has been activated this turn and removes the ability to activate any other specials this turn.",
         swap: "When Change is activated, reduces Bind, Despair and Paralysis duration by 1 turn",
@@ -52548,7 +52646,7 @@ window.details = {
         sailor: "Reduces Blindness duration by 5 turns",
     },
     5139: {//Shanks&Ben Beckman
-        captain: "Boosts ATK of [DEX] and [INT] Characters by 3x and boosts ATK of all other characters by 2x.",
+        captain: "Boosts ATK of [DEX] and [INT] characters by 3x and boosts ATK of all other characters by 2x.",
         special: "Changes all orbs, including [BLOCK] orbs, into [EMPTY] orbs, boosts the Color Affinity of all characters by 3x for 1 turn, locks the chain multiplier at 3x for 1 turn and becomes Shanks & Ben Beckman for 2 turns.",
         specialNotes: "This special can only be activated if no other special has been activated this turn and removes the ability to activate any other specials this turn.",
         swap: "When Change is activated, reduces Bind, Despair and Paralysis duration by 1 turn",
@@ -52556,7 +52654,7 @@ window.details = {
         sailor: "Reduces Blindness duration by 5 turns",
     },
     5140: {//Shanks&Ben Beckman
-        captain: "Boosts ATK of [INT] Characters by 3x and boosts ATK of all other characters by 2x.",
+        captain: "Boosts ATK of [INT] characters by 3x and boosts ATK of all other characters by 2x.",
         special: "Changes all orbs, including [BLOCK] orbs, into [EMPTY] orbs, boosts the Color Affinity of all characters by 3x for 1 turn, locks the chain multiplier at 3x for 1 turn and becomes Shanks & Ben Beckman for 2 turns.",
         specialNotes: "This special can only be activated if no other special has been activated this turn and removes the ability to activate any other specials this turn.",
         swap: "When Change is activated, reduces Bind, Despair and Paralysis duration by 1 turn",
@@ -52631,7 +52729,7 @@ window.details = {
         ],
     },
     5141: {//Shanks&Ben Beckman
-        captain: "Boosts ATK of [DEX] Characters by 3x and boosts ATK of all other characters by 2x.",
+        captain: "Boosts ATK of [DEX] characters by 3x and boosts ATK of all other characters by 2x.",
         special: "Changes all orbs, including [BLOCK] orbs, into [EMPTY] orbs, boosts the Color Affinity of all characters by 3x for 1 turn, locks the chain multiplier at 3x for 1 turn and becomes Shanks & Ben Beckman for 2 turns.",
         specialNotes: "This special can only be activated if no other special has been activated this turn and removes the ability to activate any other specials this turn.",
         swap: "When Change is activated, reduces Bind, Despair and Paralysis duration by 1 turn",
@@ -52706,7 +52804,7 @@ window.details = {
         ],
     },
     5142: {//Shanks&Ben Beckman
-        captain: "Boosts ATK of [DEX] and [INT] Characters by 3.75x and boosts ATK of all other characters by 2.5x.",
+        captain: "Boosts ATK of [DEX] and [INT] characters by 3.75x and boosts ATK of all other characters by 2.5x.",
         special: "Changes all orbs, including [BLOCK] orbs, into [EMPTY] orbs, boosts the Color Affinity of all characters by 3x for 1 turn, locks the chain multiplier at 3x for 1 turn and becomes Shanks & Ben Beckman for 2 turns.",
         specialNotes: "This special can only be activated if no other special has been activated this turn and removes the ability to activate any other specials this turn.",
         swap: "When Change is activated, reduces Bind, Despair and Paralysis duration by 1 turn",
@@ -52781,7 +52879,7 @@ window.details = {
         ],
     },
     5143: {//Shanks&Ben Beckman
-        captain: "Boosts ATK of [DEX] and [INT] Characters by 3.75x and boosts ATK of all other characters by 2.5x.",
+        captain: "Boosts ATK of [DEX] and [INT] characters by 3.75x and boosts ATK of all other characters by 2.5x.",
         special: "Changes all orbs, including [BLOCK] orbs, into [EMPTY] orbs, boosts the Color Affinity of all characters by 3x for 1 turn, locks the chain multiplier at 3x for 1 turn and becomes Shanks & Ben Beckman for 2 turns.",
         specialNotes: "This special can only be activated if no other special has been activated this turn and removes the ability to activate any other specials this turn.",
         swap: "When Change is activated, reduces Bind, Despair and Paralysis duration by 1 turn",
