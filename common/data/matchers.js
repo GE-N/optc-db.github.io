@@ -998,49 +998,57 @@ window.matchers = [
     {
         name: 'Beneficial Orb sailors',
         target: 'sailor',
-        matcher: /beneficial/i
+        matcher: /beneficial/i,
+        icon: 'https://i.imgur.com/IkoC8nT.png'
     },
     
     {
         name: 'STR Orb Team Beneficial Orb sailors',
         target: 'sailor',
-        matcher: /Makes.+\[STR\][^\"\d]+orbs beneficial[^\"\d]+characters/i
+        matcher: /Makes.+\[STR\][^\"\d]+orbs beneficial[^\"\d]+characters/i,
+        icon: 'https://i.imgur.com/IkoC8nT.png'
     },
     
     {
         name: 'DEX Orb Team Beneficial Orb sailors',
         target: 'sailor',
-        matcher: /Makes.+\[DEX\][^\"\d]+orbs beneficial[^\"\d]+characters/i
+        matcher: /Makes.+\[DEX\][^\"\d]+orbs beneficial[^\"\d]+characters/i,
+        icon: 'https://i.imgur.com/IkoC8nT.png'
     },
     
     {
         name: 'QCK Orb Team Beneficial Orb sailors',
         target: 'sailor',
-        matcher: /Makes.+\[QCK\][^\"\d]+orbs beneficial[^\"\d]+characters/i
+        matcher: /Makes.+\[QCK\][^\"\d]+orbs beneficial[^\"\d]+characters/i,
+        icon: 'https://i.imgur.com/IkoC8nT.png'
     },
     
     {
         name: 'PSY Orb Team Beneficial Orb sailors',
         target: 'sailor',
-        matcher: /Makes.+\[PSY\][^\"\d]+orbs beneficial[^\"\d]+characters/i
+        matcher: /Makes.+\[PSY\][^\"\d]+orbs beneficial[^\"\d]+characters/i,
+        icon: 'https://i.imgur.com/IkoC8nT.png'
     },
     
     {
         name: 'INT Orb Team Beneficial Orb sailors',
         target: 'sailor',
-        matcher: /Makes.+\[INT\][^\"\d]+orbs beneficial[^\"\d]+characters/i
+        matcher: /Makes.+\[INT\][^\"\d]+orbs beneficial[^\"\d]+characters/i,
+        icon: 'https://i.imgur.com/IkoC8nT.png'
     },
     
     {
         name: 'TND Orb Team Beneficial Orb sailors',
         target: 'sailor',
-        matcher: /Makes.+\[TND\][^\"\d]+orbs beneficial[^\"\d]+characters/i
+        matcher: /Makes.+\[TND\][^\"\d]+orbs beneficial[^\"\d]+characters/i,
+        icon: 'https://i.imgur.com/IkoC8nT.png'
     },
     
     {
         name: 'RCV Orb Team Beneficial Orb sailors',
         target: 'sailor',
-        matcher: /Makes.+\[RCV\][^\"\d]+orbs beneficial[^\"\d]+characters/i
+        matcher: /Makes.+\[RCV\][^\"\d]+orbs beneficial[^\"\d]+characters/i,
+        icon: 'https://i.imgur.com/IkoC8nT.png'
     },
     
     /* * * * * Limit Break * * * * */
