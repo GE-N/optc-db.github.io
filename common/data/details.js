@@ -46559,9 +46559,9 @@ window.details = {
             {
                 "Name": "Reduce No Healing duration",
                 "description": [
-                    "Level 1: Reduces No Healing duration by 2 turn",
-                    "Level 2: Reduces No Healing duration by 3 turn",
-                    "Level 3: Reduces No Healing duration by 4 turn",
+                    "Level 1: Reduces No Healing duration by 2 turns",
+                    "Level 2: Reduces No Healing duration by 3 turns",
+                    "Level 3: Reduces No Healing duration by 4 turns",
                     "Level 4: Reduces No Healing duration by 5 turns",
                     "Level 5: Reduces No Healing duration by 7 turns"
                 ]
@@ -47721,7 +47721,7 @@ window.details = {
         ],
     },
     2568: {//Morley
-        captain: "Boosts ATK of Free Spirit characters by ?x and their HP by ?x",
+        captain: "Boosts ATK of Free Spirit characters by 2.25x and their HP by 1.1x",
         special: "Reduces enemies' Threshold Damage Reduction and Resilience Buffs duration by 5 turns and reduces the defense of all enemies by 50% for 1 turn. If your Captain is a Free Spirit character, boosts ATK against enemies with reduced defense by 1.75x for 3 turns and if during that turn, you hit 2 PERFECTS, reduces the defense of all enemies by 100% for 2 turns.",
         specialName: "Morley Special",
         sailor: "Boosts base ATK, HP and RCV of Free Spirit characters by 50",
@@ -47734,24 +47734,42 @@ window.details = {
             "base": "Boosts base ATK, HP and RCV of Free Spirit characters by 50",
             "level1": "Cannot be Blown Away",
         },
+        limit: [
+            { "description": "Boosts base HP by 30" },
+            { "description": "Boosts base ATK by 25" },
+            { "description": "Boosts base HP by 30" },
+            { "description": "Acquire Potential 1: Pinch Healing" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Boosts base RCV by 25" },
+            { "description": "Boosts base ATK by 25" },
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Boosts base RCV by 25" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Boosts base RCV by 30" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Acquire Sailor Ability 1: Cannot be Blown Away" },
+            { "description": "Boosts base ATK by 30" },
+            { "description": "Boosts base HP by 70" },
+            { "description": "Acquire Potential 2: Enrage" },
+        ],
         potential: [
             {
                 "Name": "Pinch Healing",
                 "description": [
-                    "Level 1: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 1: If HP is below 10% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 2: If HP is below 15% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 3: If HP is below 20% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 4: If HP is below 30% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
                     "Level 5: If HP is below 40% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
                 ]
             },
             {
                 "Name": "Enrage",
                 "description": [
-                    "Level 1: Boosts base ATK by ?",
-                    "Level 2: Boosts base ATK by ?",
-                    "Level 3: Boosts base ATK by ?",
-                    "Level 4: Boosts base ATK by ?",
+                    "Level 1: Boosts base ATK by 50",
+                    "Level 2: Boosts base ATK by 75",
+                    "Level 3: Boosts base ATK by 100",
+                    "Level 4: Boosts base ATK by 150",
                     "Level 5: Boosts base ATK by 200"
                 ]
             },
@@ -47761,14 +47779,14 @@ window.details = {
             {
                 "Characters": "Free Spirit characters",
                 "description": [
-                    "Level 1: Adds ?% of this character's base ATK and HP to the supported character's base ATK and HP.",
-                    "Level 2: Adds ?% of this character's base ATK and HP to the supported character's base ATK and HP.",
-                    "Level 3: Adds ?% of this character's base ATK and HP to the supported character's base ATK and HP.",
-                    "Level 4: Adds ?% of this character's base ATK and HP to the supported character's base ATK and HP.",
+                    "Level 1: Adds 1% of this character's base ATK and HP to the supported character's base ATK and HP.",
+                    "Level 2: Adds 2% of this character's base ATK and HP to the supported character's base ATK and HP.",
+                    "Level 3: Adds 3% of this character's base ATK and HP to the supported character's base ATK and HP.",
+                    "Level 4: Adds 4% of this character's base ATK and HP to the supported character's base ATK and HP.",
                     "Level 5: Adds 5% of this character's base ATK and HP to the supported character's base ATK and HP."
                 ]
             }
-        ],
+        ]
     },
     3333: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
