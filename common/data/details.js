@@ -24615,6 +24615,8 @@ window.details = {
                     "Level 3: This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
                     "Level 4: This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
                     "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
+                ]
+            }
         ]
     },
     1661: {//Corazon
@@ -26658,6 +26660,8 @@ window.details = {
                     "Level 3: If you hit a PERFECT with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
                     "Level 4: If you hit a PERFECT with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
                     "Level 5: If you hit a PERFECT with this character, there is a 70% chance to deal 8% of this character's attack in extra damage"
+                ]
+            }
         ]
     },
     1756: {//20th Anni Nami
@@ -28640,12 +28644,12 @@ window.details = {
                 "Name": "[DEX] Damage Reduction",
                 "description": [
                     "Level 1: Reduce damage taken from [DEX] characters by 1%",
-                    "Level 1: Reduce damage taken from [DEX] characters by 1%",
-                    "Level 1: Reduce damage taken from [DEX] characters by 1%",
                     "Level 2: Reduce damage taken from [DEX] characters by 2%",
                     "Level 3: Reduce damage taken from [DEX] characters by 3%",
                     "Level 4: Reduce damage taken from [DEX] characters by 4%",
                     "Level 5: Reduce damage taken from [DEX] characters by 5%"
+                ]
+            },
             {
                 "Name": "Slot Bind Self-reduction",
                 "description": [
@@ -28656,6 +28660,8 @@ window.details = {
                     "Level 3: Reduces Slot Bind duration by 3 turns on this character",
                     "Level 4: Reduces Slot Bind duration by 4 turns on this character",
                     "Level 5: Reduces Slot Bind duration by 5 turns on this character"
+                ]
+            }
         ]
     },
     1847: {//Sengoku+
@@ -30710,6 +30716,8 @@ window.details = {
                     "Level 3: If you hit a PERFECT with this character, there is a 20% chance to deal 4% of this character's attack in extra damage",
                     "Level 4: If you hit a PERFECT with this character, there is a 25% chance to deal 6% of this character's attack in extra damage",
                     "Level 5: If you hit a PERFECT with this character, there is a 40% chance to deal 8% of this character's attack in extra damage"
+                ]
+            },
             {
                 "Name": "Slot Bind Self-reduction",
                 "description": [
@@ -30720,6 +30728,8 @@ window.details = {
                     "Level 3: Reduces Slot Bind duration by 3 turns on this character",
                     "Level 4: Reduces Slot Bind duration by 7 turns on this character",
                     "Level 5: Reduces Slot Bind duration by 10 turns on this character"
+                ]
+            }
         ]
     },
     1925: {//Coby
