@@ -38268,10 +38268,10 @@ window.details = {
             {
                 "Name": "Double Special Activation",
                 "description": [
-                    "Level 1: Once per an adventure, reduce own Special Cooldown by ? turn after the first time this special is used",
-                    "Level 2: Once per an adventure, reduce own Special Cooldown by ? turns after the first time this special is used",
-                    "Level 3: Once per an adventure, reduce own Special Cooldown by ? turns after the first time this special is used",
-                    "Level 4: Once per an adventure, reduce own Special Cooldown by ? turns after the first time this special is used",
+                    "Level 1: Once per an adventure, reduce own Special Cooldown by 1 turn after the first time this special is used",
+                    "Level 2: Once per an adventure, reduce own Special Cooldown by 2 turns after the first time this special is used",
+                    "Level 3: Once per an adventure, reduce own Special Cooldown by 3 turns after the first time this special is used",
+                    "Level 4: Once per an adventure, reduce own Special Cooldown by 5 turns after the first time this special is used",
                     "Level 5: Once per an adventure, sets your Special Gauge to MAX after the first time this special is used"
                 ]
             },
@@ -38776,20 +38776,20 @@ window.details = {
                 "Name": "Reduce No Healing duration",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
-                    "Level 2: Reduces No Healing duration by ? turn",
-                    "Level 3: Reduces No Healing duration by ? turn",
-                    "Level 4: Reduces No Healing duration by ? turns",
-                    "Level 5: Reduces No Healing duration by ? turns"
+                    "Level 2: Reduces No Healing duration by 2 turns",
+                    "Level 3: Reduces No Healing duration by 3 turns",
+                    "Level 4: Reduces No Healing duration by 5 turns",
+                    "Level 5: Reduces No Healing duration by 7 turns"
                 ]
             },
             {
                 "Name": "Slot Bind Self-reduction",
                 "description": [
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
-                    "Level 2: Reduces Slot Bind duration by ? turns on this character",
-                    "Level 3: Reduces Slot Bind duration by ? turns on this character",
-                    "Level 4: Reduces Slot Bind duration by ? turns on this character",
-                    "Level 5: Reduces Slot Bind duration by ? turns on this character"
+                    "Level 2: Reduces Slot Bind duration by 3 turns on this character",
+                    "Level 3: Reduces Slot Bind duration by 5 turns on this character",
+                    "Level 4: Reduces Slot Bind duration by 7 turns on this character",
+                    "Level 5: Reduces Slot Bind duration by 10 turns on this character"
                 ]
             },
         ]
@@ -38979,8 +38979,8 @@ window.details = {
                 "Name": "Reduce No Healing duration",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
-                    "Level 2: Reduces No Healing duration by 2 turn",
-                    "Level 3: Reduces No Healing duration by 3 turn",
+                    "Level 2: Reduces No Healing duration by 2 turns",
+                    "Level 3: Reduces No Healing duration by 3 turns",
                     "Level 4: Reduces No Healing duration by 4 turns",
                     "Level 5: Reduces No Healing duration by 5 turns"
                 ]
@@ -39034,10 +39034,10 @@ window.details = {
                 "Name": "Slot Bind Self-reduction",
                 "description": [
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
-                    "Level 2: Reduces Slot Bind duration by 2 turn on this character",
-                    "Level 3: Reduces Slot Bind duration by 3 turn on this character",
-                    "Level 4: Reduces Slot Bind duration by 4 turn on this character",
-                    "Level 5: Reduces Slot Bind duration by 5 turn on this character"
+                    "Level 2: Reduces Slot Bind duration by 2 turns on this character",
+                    "Level 3: Reduces Slot Bind duration by 3 turns on this character",
+                    "Level 4: Reduces Slot Bind duration by 4 turns on this character",
+                    "Level 5: Reduces Slot Bind duration by 5 turns on this character"
                 ]
             },
         ],
@@ -39088,10 +39088,10 @@ window.details = {
                 "Name": "Slot Bind Self-reduction",
                 "description": [
                     "Level 1: Reduces Slot Bind duration by 1 turn on this character",
-                    "Level 2: Reduces Slot Bind duration by 2 turn on this character",
-                    "Level 3: Reduces Slot Bind duration by 3 turn on this character",
-                    "Level 4: Reduces Slot Bind duration by 4 turn on this character",
-                    "Level 5: Reduces Slot Bind duration by 5 turn on this character"
+                    "Level 2: Reduces Slot Bind duration by 2 turns on this character",
+                    "Level 3: Reduces Slot Bind duration by 3 turns on this character",
+                    "Level 4: Reduces Slot Bind duration by 4 turns on this character",
+                    "Level 5: Reduces Slot Bind duration by 5 turns on this character"
                 ]
             },
         ],
@@ -39867,7 +39867,7 @@ window.details = {
                 "Name": "Reduce No Healing duration",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
-                    "Level 2: Reduces No Healing duration by 2 turn",
+                    "Level 2: Reduces No Healing duration by 2 turns",
                     "Level 3: Reduces No Healing duration by 3 turns",
                     "Level 4: Reduces No Healing duration by 4 turns",
                     "Level 5: Reduces No Healing duration by 5 turns"
@@ -39876,11 +39876,11 @@ window.details = {
             {
                 "Name": "Critical Hit",
                 "description": [
-                    "Level 1: If you hit a PERFECT with this character, there is a 4% chance to deal 30% of this character's attack in extra damage",
-                    "Level 2: If you hit a PERFECT with this character, there is a 5% chance to deal 40% of this character's attack in extra damage",
-                    "Level 3: If you hit a PERFECT with this character, there is a 6% chance to deal 50% of this character's attack in extra damage",
-                    "Level 4: If you hit a PERFECT with this character, there is a 7% chance to deal 60% of this character's attack in extra damage",
-                    "Level 5: If you hit a PERFECT with this character, there is a 8% chance to deal 70% of this character's attack in extra damage"
+                    "Level 1: If you hit a PERFECT with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
+                    "Level 2: If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a 70% chance to deal 8% of this character's attack in extra damage"
                 ]
             },
         ]
@@ -47257,11 +47257,11 @@ window.details = {
             {
                 "Name": "No Healing duration",
                 "description": [
-                    "Level 1: Reduces No Healing duration by 3 turn",
-                    "Level 2: Reduces No Healing duration by 4 turn",
-                    "Level 3: Reduces No Healing duration by 5 turn",
-                    "Level 4: Reduces No Healing duration by 7 turn",
-                    "Level 5: Reduces No Healing duration by 10 turn"
+                    "Level 1: Reduces No Healing duration by 3 turns",
+                    "Level 2: Reduces No Healing duration by 4 turns",
+                    "Level 3: Reduces No Healing duration by 5 turns",
+                    "Level 4: Reduces No Healing duration by 7 turns",
+                    "Level 5: Reduces No Healing duration by 10 turns"
                 ]
             },
         ],
@@ -47299,7 +47299,7 @@ window.details = {
             {
                 "Name": "Slot Bind Self-reduction",
                 "description": [
-                    "Level 1: Reduces Slot Bind duration by 2 turn on this character",
+                    "Level 1: Reduces Slot Bind duration by 2 turns on this character",
                     "Level 2: Reduces Slot Bind duration by 3 turns on this character",
                     "Level 3: Reduces Slot Bind duration by 4 turns on this character",
                     "Level 4: Reduces Slot Bind duration by 5 turns on this character",
@@ -47739,7 +47739,6 @@ window.details = {
             { "description": "Boosts base ATK by 25" },
             { "description": "Boosts base HP by 30" },
             { "description": "Acquire Potential 1: Pinch Healing" },
-            { "description": "Reduce base Special Cooldown by 1 turn" },
             { "description": "Boosts base RCV by 25" },
             { "description": "Boosts base ATK by 25" },
             { "description": "Acquire 1 additional Socket slot" },
