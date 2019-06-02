@@ -3733,6 +3733,7 @@ window.drops = {
             name: 'Kaido',
             dropID: 'treasuremap17',
             thumb: 2387,
+            global: true,
             nakama: 8238700,
             gamewith: 137053,
             'Raging Sea': [ 2386 ]
@@ -3958,9 +3959,8 @@ window.drops = {
         {
             name: 'Game! Leo',
             thumb: 2559,
-            global: true,
             nakama: null,
-            gamewith: null,
+            gamewith: 152009,
             condition: 'Drops the Leo specific Limit Break crystals.',
             'All Difficulties': [ 2558 ]
         },
