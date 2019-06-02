@@ -23337,7 +23337,7 @@ window.details = {
             { "description": "Boosts base HP by 40" },
             { "description": "Boosts base HP by 60" },
             { "description": "Reduce base Special Cooldown by 1 turn" },
-            { "description": "Acquire Sailor Ability 1: Boosts ATK, HP and RCV for all characters by 75" },
+            { "description": "Acquire Sailor Ability 1: Boosts base ATK, HP and RCV for all characters by 75" },
             { "description": "Boosts base HP by 70" },
             { "description": "Boosts base HP by 80" },
             { "description": "Acquire Potential 3: Cooldown Reduction" },
