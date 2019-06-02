@@ -23308,7 +23308,7 @@ window.details = {
         specialName: "King Kong Gun",
         sailor: {
             "base": "Completely resists Paralysis on this character",
-            "level1": "Boosts ATK, HP and RCV for all characters by 75",
+            "level1": "Boosts base ATK, HP and RCV for all characters by 75",
         },
         limit: [
             { "description": "Boosts base ATK by 5" },
