@@ -2300,7 +2300,7 @@ window.drops = {
         },
         
         {
-            name: 'Recover! King of Day Duke Inuarashi',
+            name: 'Comeback! "King of the Day" Duke Dogstorm',
             dropID: 'event110',
             thumb: 2219,
             global: true,
@@ -2342,6 +2342,7 @@ window.drops = {
         {
             name: 'Banquet! The Best Tea Party Ever!',
             dropID: 'event114',
+            global: true,
             thumb: 2351,
             nakama: 2235100,
             gamewith: 133025,
@@ -2349,7 +2350,7 @@ window.drops = {
         },
         
         {
-            name: 'Our Lady\'s Motherly Love',
+            name: 'Holy Mother\'s Love - Mother Carmel',
             dropID: 'event115',
             thumb: 2377,
             nakama: 2237700,
@@ -2400,6 +2401,15 @@ window.drops = {
             nakama: null,
             gamewith: 150791,
             'All Difficulties': [ 2523, 2524, 2525, 2526, 2527, -2074, -2363, -2365, -2072, -2078, -2115, -2304, -2189, -2285, -2367, -2371, -2538, -2540, -2542, -2544, -2231 ]
+        },
+        
+        {
+            name: 'Hell\'s Past! Young Doflamingo',
+            dropID: 'event121',
+            thumb: null,
+            nakama: null,
+            gamewith: null,
+            'All Difficulties': [ 2570, 2572, 2573, -2418, -2465, -1045, -2001, -2369, -2185, -2183, -2287, -2119, -2082, -1993, -2031, -2103, -2105, -1987, -2229, -2317, -2318 ]
         },
         
     ],
@@ -3989,6 +3999,15 @@ window.drops = {
             condition: '40 Stamina drops all Final Forbidden Tomes',
             '30 Stamina': [ 1600, 189, 190, 191, 192, 193, 118, 110, 111, 112, 113, 114, 117, 116, 115 ],
             '40 Stamina': [ 189, 190, 191, 192, 193, 118, 110, 111, 112, 113, 114, 117, 116, 115 ],
+        },
+        
+        {
+            name: 'Memories of Marineford',
+            thumb: 1985,
+            global: true,
+            nakama: null,
+            gamewith: 100030,
+            condition: 'Available for 30 minutes after starting, drops +10 Cotton Candy.',
         },
         
         {
