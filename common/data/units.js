@@ -2574,7 +2574,7 @@ window.units = [
     [ "Donquixote Homing, Former Celestial Dragon", "PSY", [ "Striker", "Cerebral" ], 3, 1, 6, 2, 70, 355666, 429, 316, 79, 1072, 790, 198, 1 ],
     [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
     [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
-    [ "Inuarashi & Nekomamushi", [ "STR", "PSY" ], [[ "Slasher", "Cerebral" ],[ "Striker", "Powerhouse" ],[ "Striker", "Cerebral" ]], 5, 30, 6, 3, 70, 1066998, 798, 365, 89, null, null, null, null ],
+    [ "Inuarashi & Nekomamushi, Clashing Kings", [ "STR", "PSY" ], [[ "Slasher", "Cerebral" ],[ "Striker", "Powerhouse" ],[ "Striker", "Cerebral" ]], 5, 30, 6, 3, 70, 1066998, 798, 365, 89, null, null, null, null ],
     [ "Inuarashi & Nekomamushi, Antagonistic Kings of Day and Night", [ "STR", "PSY" ], [[ "Slasher", "Cerebral" ],[ "Striker", "Powerhouse" ],[ "Striker", "Cerebral" ]], 6, 55, null, 5, 99, 5000000, null, null, null, 4683, 1611, 392, null ],
     [ "Sakazuki, Enforcer of Absolute Justice", "STR", [ "Driven", "Powerhouse" ], "6+", 65, 4, 4, 99, 5000000, 1682, 945, 50, 3642, 1620, 119, null ],
     [ "Saint Mjosgard", "PSY", [ "Striker", "Cerebral" ], 5, 20, 5, 4, 99, 2000000, 875, 543, 98, 2188, 1034, 245, null ],
