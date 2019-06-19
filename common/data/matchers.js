@@ -414,7 +414,14 @@ window.matchers = [
         matcher: /amplifies.+orb\D*by 2.25x/i,
         icon: 'orb boost'
     },
-    
+
+    {
+        name: 'Multi-turns Orb booster',
+        target: 'special',
+        matcher: /amplifies.+orbs\D*by [0-9.x]+ for [2-9]+ turns/i,
+        icon: 'orb boost'
+    },
+
     {
         name: 'Chain Boosters',
         target: 'special',
