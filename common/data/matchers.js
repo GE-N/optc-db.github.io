@@ -343,14 +343,14 @@ window.matchers = [
         name: 'Following-turn ATK boosters',
         target: 'special',
         matcher: /(Following the activation.+boosts.+ATK|If during that turn.+boosts.+ATK)/i,
-        icon: 'https://i.imgur.com/OeId7Ko.png'
+        icon: 'https://i.imgur.com/i56HFLv.png'
     },
 
     {
         name: 'Following-turn Buff Enabler',
         target: 'special',
         matcher: /(Following the activation|If during that turn)/i,
-        icon: 'https://i.imgur.com/OeId7Ko.png'
+        icon: 'https://i.imgur.com/i56HFLv.png'
     },
     
     {
