@@ -23308,7 +23308,7 @@ window.details = {
         specialName: "King Kong Gun",
         sailor: {
             "base": "Completely resists Paralysis on this character",
-            "level1": "Boosts base ATK, HP and RCV for all characters by 75",
+            "level1": "Boosts ATK, HP and RCV for all characters by 75",
         },
         limit: [
             { "description": "Boosts base ATK by 5" },
@@ -43224,30 +43224,30 @@ window.details = {
             {
                 "Name": "[DEX] Damage Reduction",
                 "description": [
-                    "Level 1: Reduce damage taken from [DEX] characters by ?%",
-                    "Level 2: Reduce damage taken from [DEX] characters by ?%",
-                    "Level 3: Reduce damage taken from [DEX] characters by ?%",
-                    "Level 4: Reduce damage taken from [DEX] characters by ?%",
+                    "Level 1: Reduce damage taken from [DEX] characters by 2%",
+                    "Level 2: Reduce damage taken from [DEX] characters by 3%",
+                    "Level 3: Reduce damage taken from [DEX] characters by 4%",
+                    "Level 4: Reduce damage taken from [DEX] characters by 5%",
                     "Level 5: Reduce damage taken from [DEX] characters by 7%"
                 ]
             },
             {
                 "Name": "Slot Bind Self-reduction",
                 "description": [
-                    "Level 1: Reduces Slot Bind duration by ? turn on this character",
-                    "Level 2: Reduces Slot Bind duration by ? turns on this character",
-                    "Level 3: Reduces Slot Bind duration by ? turns on this character",
-                    "Level 4: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 1: Reduces Slot Bind duration by 2 turn on this character",
+                    "Level 2: Reduces Slot Bind duration by 3 turns on this character",
+                    "Level 3: Reduces Slot Bind duration by 4 turns on this character",
+                    "Level 4: Reduces Slot Bind duration by 5 turns on this character",
                     "Level 5: Reduces Slot Bind duration by 7 turns on this character"
                 ]
             },
             {
                 "Name": "Pinch Healing",
                 "description": [
-                    "Level 1: If HP is below ?% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ?% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ?% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ?% at the start of the turn, heals for ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 1: If HP is below 10% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 2: If HP is below 15% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 3: If HP is below 20% at the start of the turn, heals for 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 4: If HP is below 30% at the start of the turn, heals for 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
                     "Level 5: If HP is below 50% at the start of the turn, heals for 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
                 ]
             },
@@ -46061,7 +46061,7 @@ window.details = {
             { "description": "Boosts base ATK by 10" },
             { "description": "Boosts base HP by 15" },
             { "description": "Acquire Sailor Ability 1: If your Captain is a Slasher character, boosts own base ATK by 100" },
-            { "description": "Acquire Potential 1: No Healing duration" },
+            { "description": "Acquire Potential 1: Reduce No Healing duration" },
             { "description": "Boosts base HP by 15" },
             { "description": "Boosts base RCV by 20" },
             { "description": "Boosts base ATK by 20" },
@@ -46076,7 +46076,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "No Healing duration",
+                "Name": "Replace No Healing duration",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turn",
@@ -47386,11 +47386,11 @@ window.details = {
             { "description": "Boosts base HP by 100" },
             { "description": "Boosts base RCV by 50" },
             { "description": "Boosts base ATK by 60" },
-            { "description": "Acquire Potential 1: No Healing duration" },
+            { "description": "Acquire Potential 1: Reduce No Healing duration" },
         ],
         potential: [
             {
-                "Name": "No Healing duration",
+                "Name": "Replace No Healing duration",
                 "description": [
                     "Level 1: Reduces No Healing duration by 3 turns",
                     "Level 2: Reduces No Healing duration by 4 turns",
@@ -47643,7 +47643,7 @@ window.details = {
             { "description": "Boosts base HP by 20" },
             { "description": "Boosts base HP by 20" },
             { "description": "Boosts base HP by 30" },
-            { "description": "Acquire Potential 1: No Healing duration" },
+            { "description": "Acquire Potential 1: Reduce No Healing duration" },
             { "description": "Boosts base RCV by 5" },
             { "description": "Boosts base RCV by 10" },
             { "description": "Boosts base RCV by 10" },
@@ -47673,7 +47673,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "No Healing duration",
+                "Name": "Reduce No Healing duration",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turn",
@@ -47890,7 +47890,7 @@ window.details = {
             { "description": "Boosts base RCV by 10" },
             { "description": "Boosts base RCV by 15" },
             { "description": "Boosts base RCV by 30" },
-            { "description": "Acquire Potential 1: No Healing duration" },
+            { "description": "Acquire Potential 1: Reduce No Healing duration" },
             { "description": "Boosts base HP by 10" },
             { "description": "Boosts base HP by 15" },
             { "description": "Acquire 1 additional Socket slot" },
@@ -47905,7 +47905,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "No Healing duration",
+                "Name": "Reduce No Healing duration",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turn",
@@ -48353,11 +48353,11 @@ window.details = {
             { "description": "Boosts base ATK by 20" },
             { "description": "Boosts base HP by 80" },
             { "description": "Boosts base ATK by 35" },
-            { "description": "Acquire Potential 1: No Healing duration" },
+            { "description": "Acquire Potential 1: Reduce No Healing duration" },
         ],
         potential: [
             {
-                "Name": "No Healing duration",
+                "Name": "Replace No Healing duration",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turn",
@@ -48539,7 +48539,7 @@ window.details = {
             { "description": "Boosts base ATK by 25" },
             { "description": "Acquire Sailor Ability 1: Restores his own special cooldown by 2 turns when it is rewinded" },
             { "description": "Boosts base ATK by 40" },
-            { "description": "Acquire Potential 2: No Healing duration" },
+            { "description": "Acquire Potential 2: Reduce No Healing duration" },
         ],
         potential: [
             {
@@ -48553,7 +48553,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "No Healing duration",
+                "Name": "Replace No Healing duration",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
@@ -48577,7 +48577,7 @@ window.details = {
         specialName: "Poisonous Sword Stance",
         sailor: {
             "base": "Boosts base ATK and RCV of Fighter, Slasher and Powerhouse characters by 50",
-            "level1": "Restores his own special cooldown by 2 turns when it is rewinded",
+            "level1": "Restores her own special cooldown by 2 turns when it is rewinded",
         },
         limit: [
             { "description": "Boosts base RCV by 10" },
@@ -48592,7 +48592,7 @@ window.details = {
             { "description": "Acquire 1 additional Socket slot" },
             { "description": "Boosts base ATK by 20" },
             { "description": "Boosts base ATK by 25" },
-            { "description": "Acquire Sailor Ability 1: Restores his own special cooldown by 2 turns when it is rewinded" },
+            { "description": "Acquire Sailor Ability 1: Restores her own special cooldown by 2 turns when it is rewinded" },
             { "description": "Boosts base ATK by 40" },
             { "description": "Acquire Potential 2: Pinch Healing" },
         ],
@@ -48985,7 +48985,7 @@ window.details = {
             { "description": "Boosts base ATK by 40" },
             { "description": "Acquire Sailor Ability 1: Boosts base ATK, HP and RCV of all characters by 50" },
             { "description": "Acquire 1 additional Socket slot" },
-            { "description": "Acquire Potential 2: No Healing duration" },
+            { "description": "Acquire Potential 2: Reduce No Healing duration" },
         ],
         potential: [
             {
@@ -48999,7 +48999,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "No Healing duration",
+                "Name": "Replace No Healing duration",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turn",
@@ -49218,23 +49218,23 @@ window.details = {
             "level1": "When HP is below 50% at the start of the turn, boosts own base ATK by 150",
             "level2": "If your Captain is a Powerhouse character, makes [DEX] orbs beneficial for Powerhouse characters",
         },
-        /*limit: [
+        limit: [
             { "description": "Boosts base ATK by 20" },
             { "description": "Boosts base ATK by 30" },
             { "description": "Acquire 1 additional Socket slot" },
-            { "description": "Acquire Potential 1: Critical Hit" },
+            { "description": "Acquire Potential 1: Enrage" },
             { "description": "Boosts base HP by 60" },
             { "description": "Boosts base HP by 60" },
-            { "description": "Acquire Sailor Ability 1: Cannot be Blown Away" },
+            { "description": "Acquire Sailor Ability 1: When HP is below 50% at the start of the turn, boosts own base ATK by 150" },
             { "description": "Boosts base ATK by 40" },
             { "description": "Boosts base HP by 80" },
             { "description": "Boosts base ATK by 50" },
             { "description": "Boosts base ATK by 50" },
-            { "description": "Acquire Sailor Ability 2: When HP is below ?% at the start of the turn, boosts own base ATK by 100" },
+            { "description": "Acquire Sailor Ability 2: If your Captain is a Powerhouse character, makes [DEX] orbs beneficial for Powerhouse characters" },
             { "description": "Acquire 1 additional Socket slot" },
             { "description": "Boosts base ATK by 60" },
             { "description": "Acquire Potential 2: Enrage" },
-        ],*/
+        ],
         potential: [
             {
                 "Name": "Enrage",
@@ -49247,7 +49247,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "No Healing duration",
+                "Name": "Replace No Healing duration",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turn",
@@ -54208,7 +54208,7 @@ window.details = {
             { "description": "Boosts base HP by 20" },
             { "description": "Boosts base HP by 20" },
             { "description": "Boosts base HP by 30" },
-            { "description": "Acquire Potential 1: No Healing duration" },
+            { "description": "Acquire Potential 1: Reduce No Healing duration" },
             { "description": "Boosts base RCV by 5" },
             { "description": "Boosts base RCV by 10" },
             { "description": "Boosts base RCV by 10" },
@@ -54238,7 +54238,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "No Healing duration",
+                "Name": "Replace No Healing duration",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turn",
@@ -54282,7 +54282,7 @@ window.details = {
             { "description": "Boosts base HP by 20" },
             { "description": "Boosts base HP by 20" },
             { "description": "Boosts base HP by 30" },
-            { "description": "Acquire Potential 1: No Healing duration" },
+            { "description": "Acquire Potential 1: Reduce No Healing duration" },
             { "description": "Boosts base RCV by 5" },
             { "description": "Boosts base RCV by 10" },
             { "description": "Boosts base RCV by 10" },
@@ -54312,7 +54312,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "No Healing duration",
+                "Name": "Replace No Healing duration",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turn",
@@ -54356,7 +54356,7 @@ window.details = {
             { "description": "Boosts base HP by 20" },
             { "description": "Boosts base HP by 20" },
             { "description": "Boosts base HP by 30" },
-            { "description": "Acquire Potential 1: No Healing duration" },
+            { "description": "Acquire Potential 1: Reduce No Healing duration" },
             { "description": "Boosts base RCV by 5" },
             { "description": "Boosts base RCV by 10" },
             { "description": "Boosts base RCV by 10" },
@@ -54386,7 +54386,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "No Healing duration",
+                "Name": "Replace No Healing duration",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turn",
@@ -54430,7 +54430,7 @@ window.details = {
             { "description": "Boosts base HP by 20" },
             { "description": "Boosts base HP by 20" },
             { "description": "Boosts base HP by 30" },
-            { "description": "Acquire Potential 1: No Healing duration" },
+            { "description": "Acquire Potential 1: Reduce No Healing duration" },
             { "description": "Boosts base RCV by 5" },
             { "description": "Boosts base RCV by 10" },
             { "description": "Boosts base RCV by 10" },
@@ -54460,7 +54460,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "No Healing duration",
+                "Name": "Replace No Healing duration",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turn",
