@@ -46076,7 +46076,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Replace No Healing duration",
+                "Name": "Reduce No Healing duration",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turn",
@@ -47390,7 +47390,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Replace No Healing duration",
+                "Name": "Reduce No Healing duration",
                 "description": [
                     "Level 1: Reduces No Healing duration by 3 turns",
                     "Level 2: Reduces No Healing duration by 4 turns",
@@ -48357,7 +48357,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Replace No Healing duration",
+                "Name": "Reduce No Healing duration",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turn",
@@ -48553,7 +48553,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Replace No Healing duration",
+                "Name": "Reduce No Healing duration",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turns",
@@ -48999,7 +48999,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Replace No Healing duration",
+                "Name": "Reduce No Healing duration",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turn",
@@ -49247,7 +49247,7 @@ window.details = {
                 ]
             },
             {
-                "Name": "Replace No Healing duration",
+                "Name": "Reduce No Healing duration",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by ? turn",
@@ -54238,7 +54238,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Replace No Healing duration",
+                "Name": "Reduce No Healing duration",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turn",
@@ -54312,7 +54312,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Replace No Healing duration",
+                "Name": "Reduce No Healing duration",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turn",
@@ -54386,7 +54386,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Replace No Healing duration",
+                "Name": "Reduce No Healing duration",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turn",
@@ -54460,7 +54460,7 @@ window.details = {
         ],
         potential: [
             {
-                "Name": "Replace No Healing duration",
+                "Name": "Reduce No Healing duration",
                 "description": [
                     "Level 1: Reduces No Healing duration by 1 turn",
                     "Level 2: Reduces No Healing duration by 2 turn",
