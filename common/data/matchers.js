@@ -943,6 +943,13 @@ window.matchers = [
     },
 
     {
+        name: 'Paralysis resister',
+        target: 'sailor',
+        matcher: /completely resists Paralysis on this character/i,
+        icon: 'paralyze'
+    },
+
+    {
         name: 'Blindness reducers',
         target: 'sailor',
         matcher: /(reduces|removes|resists).+blindness/i,
