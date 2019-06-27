@@ -732,7 +732,7 @@ window.zombies = {
     },
     2434: { // Boa Hancock
         type: 'healer',
-        amount: 1000
+        amount: 1200
     },
     2443: { // Doflamingo
         type: 'healer',
@@ -756,6 +756,14 @@ window.zombies = {
     2529: { // Neptune
         type: 'healer',
         multiplier: 5
+    },
+    2596: { // Big Mom
+        type: 'healer',
+        amount: 500
+    },
+    2598: { // Gastino
+        type: 'zombie',
+        threshold: 0.5//CHANGE THIS
     },
     5001: { // Smoker/Tashigi
         type: 'healer',

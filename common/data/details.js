@@ -31983,8 +31983,8 @@ window.details = {
             "character2": "Boosts ATK of Free Spirit characters by 3.5x if they have a Matching orb, by 2.25x otherwise and boosts HP of Free Spirit characters by 1.2x",
             "combined": "Boosts ATK of Free Spirit characters by 4.25x if they have a Matching orb, by 3x otherwise, boosts HP of Free Spirit characters by 1.2x and reduce damage received by 20%"
         },
-        special: "Deals 75x character's ATK in typeless damage to all enemies, changes [STR], [DEX], [QCK], [INT] and [PSY] orbs on Free Spirit characters into Matching orbs, amplifies the effect of orbs by 2x for 1 turn and becomes Luffy & Ace for 3 turns",
-        swap: "When Change is activated, this character removes all Despair, Paralysis and Slot Bind on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb",
+        special: "Deals 75x character's ATK in Typeless damage to all enemies, changes [STR], [DEX], [QCK], [INT] and [PSY] orbs on Free Spirit characters into Matching orbs, amplifies the effect of orbs by 2x for 1 turn and becomes Luffy & Ace for 3 turns",
+        swap: "When Change is activated, this character removes all Despair, Paralysis and Slot Bind duration on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb",
         specialName: "Brotherly Bond",
         sailor: {
             "character1": "Makes [QCK] orbs beneficial for Free Spirit characters",
@@ -31999,8 +31999,8 @@ window.details = {
             "character2": "Boosts ATK of Free Spirit characters by 3.5x if they have a Matching orb, by 2.25x otherwise and boosts HP of Free Spirit characters by 1.2x",
             "combined": "Boosts ATK of Free Spirit characters by 4.25x if they have a Matching orb, by 3x otherwise, boosts HP of Free Spirit characters by 1.2x and reduce damage received by 20%"
         },
-        special: "Deals 75x character's ATK in typeless damage to all enemies, changes [STR], [DEX], [QCK], [INT] and [PSY] orbs on Free Spirit characters into Matching orbs, amplifies the effect of orbs by 2x for 1 turn and becomes Luffy & Ace for 3 turns",
-        swap: "When Change is activated, this character removes all Despair, Paralysis and Slot Bind on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb",
+        special: "Deals 75x character's ATK in Typeless damage to all enemies, changes [STR], [DEX], [QCK], [INT] and [PSY] orbs on Free Spirit characters into Matching orbs, amplifies the effect of orbs by 2x for 1 turn and becomes Luffy & Ace for 3 turns",
+        swap: "When Change is activated, this character removes all Despair, Paralysis and Slot Bind duration on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb",
         specialName: "Brotherly Bond",
         sailor: {
             "character1": "Makes [QCK] orbs beneficial for Free Spirit characters",
@@ -41163,6 +41163,7 @@ window.details = {
         special: "Reduces Silence duration by 2 turns and changes adjacent orbs into Matching Orbs. If you are on a Treasure Map, boosts ATK of Fighter, Slasher and Striker characters depending on your Treasure Map Level for 1 turn",
         specialNotes: "Level 1-10: 1.75x ATK boost<br\>Level 11-20: 2x ATK boost<br\>Level 21+: 2.25x ATK boost",
         specialName: "The Ship's Doctor that Delivers a Merry Christmas",
+        sailor: "Completely resists Silence on this character",
         limit: [
             { "description": "Boosts base HP by 40" },
             { "description": "Boosts base HP by 50" },
@@ -43738,7 +43739,7 @@ window.details = {
             "combined": "If there are 6 Powerhouse characters in your crew, boosts ATK of Powerhouse characters by 4.25x. If there is a [STR], [DEX], [QCK], [PSY] and [INT] characters in your crew, boosts HP of Powerhouse characters by 1.25x and makes [PSY], [RCV] and [TND] orbs beneficial for all characters."
         },
         special: "Boosts ATK of Powerhouse characters by 2x for 1 turn, amplifies the effect of orbs for Powerhouse characters by 2x for 1 turn, reduces Paralysis duration by 5 turns and becomes Sanji & Judge for 3 turns",
-        swap: "When Change is activated, this character removes all Silence on themselves, changes their own orb, including [BLOCK] orbs, into a [TND] orb and boosts Chain multiplier by 1.25x for 1 turn.",
+        swap: "When Change is activated, this character removes all Silence duration on themselves, changes their own orb, including [BLOCK] orbs, into a [TND] orb and boosts Chain multiplier by 1.25x for 1 turn.",
         specialName: "Crack & Strike",
         sailor: {
             "character1": "Makes [TND] and [RCV] orbs beneficial for this character",
@@ -43753,7 +43754,7 @@ window.details = {
             "combined": "If there are 6 Powerhouse characters in your crew, boosts ATK of Powerhouse characters by 4.25x. If there is a [STR], [DEX], [QCK], [PSY] and [INT] characters in your crew, boosts HP of Powerhouse characters by 1.25x and makes [PSY], [RCV] and [TND] orbs beneficial for all characters."
         },
         special: "Boosts ATK of Powerhouse characters by 2x for 1 turn, amplifies the effect of orbs for Powerhouse characters by 2x for 1 turn, reduces Paralysis duration by 5 turns and becomes Sanji & Judge for 3 turns",
-        swap: "When Change is activated, this character removes all Silence on themselves, changes their own orb, including [BLOCK] orbs, into a [TND] orb and boosts Chain multiplier by 1.25x for 1 turn.",
+        swap: "When Change is activated, this character removes all Silence duration on themselves, changes their own orb, including [BLOCK] orbs, into a [TND] orb and boosts Chain multiplier by 1.25x for 1 turn.",
         specialName: "Crack & Strike",
         sailor: {
             "character1": "Makes [TND] and [RCV] orbs beneficial for this character",
@@ -44245,7 +44246,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "Judge, Ichiji, Niji and Yonji",
+                "Characters": "Judge, Ichiji, Niji, Sanji and Yonji",
                 "description": [
                     "Level 1: Adds 6% of this character's base RCV to the supported character's base RCV",
                     "Level 2: Adds 7% of this character's base RCV to the supported character's base RCV",
@@ -44307,7 +44308,7 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "Judge, Ichiji, Niji and Yonji",
+                "Characters": "Judge, Ichiji, Niji, Sanji and Yonji",
                 "description": [
                     "Level 1: Adds 6% of this character's base RCV to the supported character's base RCV",
                     "Level 2: Adds 7% of this character's base RCV to the supported character's base RCV",
@@ -44426,14 +44427,14 @@ window.details = {
         ]
     },
     2462: {//Franky
-        captain: "Boosts ATK of Powerhouse characters by ?x, their HP by ?x and makes [RCV] orbs beneficial for all characters.",
-        special: "Deals 10 hits of random typeless damage to random enemies. If enemies have ATK UP, Enrage, End of Turn Damage/Percent Cut or End of Turn Heal at the time the special was activated, boosts ATK of Powerhouse characters by 2.25x for 1 turn, boosts ATK of Powerhouse characters by 1.75x for 1 turn otherwise.",
+        captain: "Boosts ATK of Powerhouse characters by 2.5x, their HP by 1.2x and makes [RCV] orbs beneficial for Powerhouse characters.",
+        special: "Deals 10 hits of random Typeless damage to random enemies. If enemies have ATK UP, Enrage, End of Turn Damage/Percent Cut or End of Turn Heal at the time the special was activated, boosts ATK of Powerhouse characters by 2.25x for 1 turn, boosts ATK of Powerhouse characters by 1.75x for 1 turn otherwise.",
         specialName: "Weapons Left",
         sailor: "Boosts base HP of Powerhouse characters by 100",
     },
     2463: {//Franky
-        captain: "Boosts ATK of Powerhouse characters by 3x, their HP by 1.2x and makes [RCV] orbs beneficial for all characters.",
-        special: "Deals 10 hits of random typeless damage to random enemies. If enemies have ATK UP, Enrage, End of Turn Damage/Percent Cut or End of Turn Heal at the time the special was activated, boosts ATK of Powerhouse characters by 2.25x for 1 turn, boosts ATK of Powerhouse characters by 1.75x for 1 turn otherwise.",
+        captain: "Boosts ATK of Powerhouse characters by 3x, their HP by 1.2x and makes [RCV] orbs beneficial for Powerhouse characters.",
+        special: "Deals 10 hits of random Typeless damage to random enemies. If enemies have ATK UP, Enrage, End of Turn Damage/Percent Cut or End of Turn Heal at the time the special was activated, boosts ATK of Powerhouse characters by 2.25x for 1 turn, boosts ATK of Powerhouse characters by 1.75x for 1 turn otherwise.",
         specialName: "Weapons Left",
         sailor: {
             "base": "Boosts base HP of Powerhouse characters by 100",
@@ -46533,8 +46534,8 @@ window.details = {
             "level2": "Makes [RCV] and [TND] orbs beneficial for Slasher and Fighter characters",
         },
         special: "Deals 100x character's ATK in Typeless damage to all enemies, and becomes Zoro & Sanji for 3 turns. If HP is above 99% at the time the special is activated, boosts ATK of Slasher and Fighter characters by 2.75x for 1 turn, by 2x for 2 turns otherwise.",
-        swap: "When Change is activated, this character removes all Slot Bind on themselves and changes their own orb into a Matching orb",
-        specialName: "Zoro & Sanji Special",
+        swap: "When Change is activated, this character removes all Slot Bind duration on themselves and changes their own orb into a Matching orb",
+        specialName: "Three Sword Two Leg Style: Pound Shot",
         limit: [
             { "description": "Acquire 1 additional Socket slot" },
             { "description": "Boosts base ATK by 100" },
@@ -46626,7 +46627,7 @@ window.details = {
             "character2": "Deals 75x character's ATK in Typeless damage to all enemies that will ignore damage negating abilities and barriers, makes [DEX] and [QCK] orbs beneficial for all characters for 1 turn, amplifies the effect of orbs by 2.5x for 1 turn and becomes Luffy & Law for 3 turns.",
             "combined": "Base effect: makes [DEX] and [QCK] orbs beneficial for all characters for 1 turn, amplifies the effect of orbs by 2.5x for 1 turn and becomes Luffy & Law for 3 turns.<br/><br/>Active by Luffy: Deals 400x character's ATK in Typeless damage to one enemy.<br/><br/>Active by Law: Deals 75x character's ATK in Typeless damage to all enemies that will ignore damage negating abilities and barriers.",
         },
-        swap: "When Change is activated, this character removes all Slot Bind on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb, boosts own ATK by 2x for 1 turn and makes own normal attacks ignore defensive barriers and buffs.",
+        swap: "When Change is activated, this character removes all Slot Bind duration on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb, boosts own ATK by 2x for 1 turn and makes own normal attacks ignore defensive barriers and buffs.",
         specialName: "The Ultimate Stratagem to Defeat God",
     },
     2534: {//Luffy&Law
@@ -46646,7 +46647,7 @@ window.details = {
             "character2": "Deals 75x character's ATK in Typeless damage to all enemies that will ignore damage negating abilities and barriers, makes [DEX] and [QCK] orbs beneficial for all characters for 1 turn, amplifies the effect of orbs by 2.5x for 1 turn and becomes Luffy & Law for 3 turns.",
             "combined": "Base effect: makes [DEX] and [QCK] orbs beneficial for all characters for 1 turn, amplifies the effect of orbs by 2.5x for 1 turn and becomes Luffy & Law for 3 turns.<br/><br/>Active by Luffy: Deals 400x character's ATK in Typeless damage to one enemy.<br/><br/>Active by Law: Deals 75x character's ATK in Typeless damage to all enemies that will ignore damage negating abilities and barriers.",
         },
-        swap: "When Change is activated, this character removes all Slot Bind on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb, boosts own ATK by 2x for 1 turn and makes own normal attacks ignore defensive barriers and buffs.",
+        swap: "When Change is activated, this character removes all Slot Bind duration on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb, boosts own ATK by 2x for 1 turn and makes own normal attacks ignore defensive barriers and buffs.",
         specialName: "The Ultimate Stratagem to Defeat God",
         limit: [
             { "description": "Boosts base RCV by 5" },
@@ -46727,7 +46728,7 @@ window.details = {
         },
         special: "Boosts base ATK of all characters based on your current HP for 1 turn and becomes Zeus & Prometheus & Big Mom for 3 turns. If HP is above 50% at the time the special is activated, locks the chain multiplier at 3.5x for 1 turn.",
         specialNotes: "Base ATK boost is equal to current HP/100, the maximum effect at 100,000 HP will give a 1,000 base ATK boost.",
-        swap: "When Change is activated, this character removes all Paralysis on themselves and changes their own orb into a Matching orb, boosts own ATK by 1.5x for 1 turn and amplifies the effect of own orb by 1.5x for 1 turn.",
+        swap: "When Change is activated, this character removes all Paralysis duration on themselves and changes their own orb into a Matching orb, boosts own ATK by 1.5x for 1 turn and amplifies the effect of own orb by 1.5x for 1 turn.",
         specialName: "Heavenly Fire and Lightning Ring & Mama Mash",
     },
     2536: {//Homies&Big Mom
@@ -46745,7 +46746,7 @@ window.details = {
         },
         special: "Boosts base ATK of all characters based on your current HP for 1 turn and becomes Zeus & Prometheus & Big Mom for 3 turns. If HP is above 50% at the time the special is activated, locks the chain multiplier at 3.5x for 1 turn.",
         specialNotes: "Base ATK boost is equal to current HP/100, the maximum effect at 100,000 HP will give a 1,000 base ATK boost.",
-        swap: "When Change is activated, this character removes all Paralysis on themselves and changes their own orb into a Matching orb, boosts own ATK by 1.5x for 1 turn and amplifies the effect of own orb by 1.5x for 1 turn.",
+        swap: "When Change is activated, this character removes all Paralysis duration on themselves and changes their own orb into a Matching orb, boosts own ATK by 1.5x for 1 turn and amplifies the effect of own orb by 1.5x for 1 turn.",
         specialName: "Heavenly Fire and Lightning Ring & Mama Mash",
         limit: [
             { "description": "Boosts base HP by 30" },
@@ -47621,7 +47622,7 @@ window.details = {
             "combined": "Makes [STR], [DEX], [QCK], [PSY], and [INT] orbs beneficial for this character"
         },
         special: "Changes [BLOCK] and Badly Matching orbs into Matching orbs, boosts ATK of Free Spirit and Cerebral characters by 2.25x for 1 turn, removes Beneficial and non-Beneficial orb Buff and Debuff duration completely and becomes Sabo & Koala for 3 turns.",
-        swap: "When Change is activated, this character removes all Despair and Paralysis on themselves and changes their own orb into a Matching orb, boosts the Color Affinity of Free Spirit and Cerebral characters by 1.5x for 1 turn.",
+        swap: "When Change is activated, this character removes all Despair and Paralysis duration on themselves and changes their own orb into a Matching orb, boosts the Color Affinity of Free Spirit and Cerebral characters by 1.5x for 1 turn.",
         specialName: "Dragon Claw Fist and Fishman Karate: Revolutionary Strike",
     },
     2561: {//Sabo&Koala
@@ -47637,7 +47638,7 @@ window.details = {
             "level1": "Boosts base ATK, HP and RCV of Free Spirit and Cerebral characters by 100"
         },
         special: "Changes [BLOCK] and Badly Matching orbs into Matching orbs, boosts ATK of Free Spirit and Cerebral characters by 2.25x for 1 turn, removes Beneficial and non-Beneficial orb Buff and Debuff duration completely and becomes Sabo & Koala for 3 turns.",
-        swap: "When Change is activated, this character removes all Despair and Paralysis on themselves and changes their own orb into a Matching orb, boosts the Color Affinity of Free Spirit and Cerebral characters by 1.5x for 1 turn.",
+        swap: "When Change is activated, this character removes all Despair and Paralysis duration on themselves and changes their own orb into a Matching orb, boosts the Color Affinity of Free Spirit and Cerebral characters by 1.5x for 1 turn.",
         specialName: "Dragon Claw Fist and Fishman Karate: Revolutionary Strike",
         limit: [
             { "description": "Boosts base HP by 20" },
@@ -48119,7 +48120,7 @@ window.details = {
             "combined": "Boosts own base ATK by 250 if this character is the last in the chain to attack"
         },
         special: "Boosts ATK of Cerebral and Striker characters by 1.75x for 1 turn and boosts the Color Affinity of Cerebral and Striker characters by 1.75x for 1 turn, and becomes Inuarashi & Nekomamushi for 3 turns. If during that turn, you hit 2 PERFECTS, amplifies the effect of orbs for Cerebral and Striker characters by 2.25x for 1 turn.",
-        swap: "When Change is activated, this character removes all Despair and Slot Bind on themselves and reduces Paralysis duration by 1 turn.",
+        swap: "When Change is activated, this character removes all Despair and Slot Bind duration on themselves and reduces Paralysis duration by 1 turn.",
         specialName: "Two-King Onslaught",
     },
     2577: {//Inuarashi&Nekomamushi
@@ -48135,7 +48136,7 @@ window.details = {
             "level1": "Boosts base ATK of Cerebral and Striker characters by 75"
         },
         special: "Boosts ATK of Cerebral and Striker characters by 1.75x for 1 turn and boosts the Color Affinity of Cerebral and Striker characters by 1.75x for 1 turn, and becomes Inuarashi & Nekomamushi for 3 turns. If during that turn, you hit 2 PERFECTS, amplifies the effect of orbs for Cerebral and Striker characters by 2.25x for 1 turn.",
-        swap: "When Change is activated, this character removes all Despair and Slot Bind on themselves and reduces Paralysis duration by 1 turn.",
+        swap: "When Change is activated, this character removes all Despair and Slot Bind duration on themselves and reduces Paralysis duration by 1 turn.",
         specialName: "Two-King Onslaught",
         limit: [
             { "description": "Boosts base RCV by 10" },
@@ -48706,18 +48707,74 @@ window.details = {
             }
         ]
     },
+    2589: {//Pawn STR
+        captain: "Boosts ATK of [STR] characters by 1.75x.",
+        special: "Deals 20x character's ATK in [STR] damage to one enemy and reduces the defense of all enemies by 50% for 1 turn.",
+        specialName: "Pawn: Random Attack",
+    },
+    2590: {//Pawn DEX
+        captain: "Boosts ATK of [DEX] characters by 1.75x.",
+        special: "Deals 20x character's ATK in [DEX] damage to one enemy and boosts ATK against enemies with reduced defense by 1.5x for 1 turn.",
+        specialName: "Pawn: Random Thrust",
+    },
+    2591: {//Rook STR
+        captain: "Boosts ATK of [STR] characters by 2x and their HP by 1.1x.",
+        special: "Randomizes [PSY] and [INT] orbs, into either [STR] or [DEX] orbs and amplifies the effect of orbs by 1.5x for 1 turn.",
+        specialName: "Rook: Slot Power",
+    },
+    2592: {//Rook QCK
+        captain: "Boosts ATK of [QCK] characters by 2x and their RCV by 1.1x.",
+        special: "Randomizes [RCV] and [TND] orbs, into either [DEX] or [QCK] orbs and locks all orbs for 1 turn.",
+        specialName: "Rook: Slot Hold",
+    },
+    2593: {//King PSY
+        captain: "Boosts ATK of [PSY] characters by 2.25x and their RCV by 1.25x.",
+        special: "Adds 0.3x to Chain multiplier for 1 turn. If your crew has Orb Amplification, changes [TND] and [BOMB] orbs into Matching orbs.",
+        specialName: "King: Chain Up",
+    },
+    2594: {//King INT
+        captain: "Boosts ATK of [INT] characters by 2.25x and their HP by 1.25x.",
+        special: "Boosts the Color Affinity of all characters by 1.3x for 1 turn. If your crew has Orb Amplification, changes [RCV] and [BLOCK] orbs into Matching orbs.",
+        specialName: "King: Weak Boost",
+    },
+    2595: {//Mont-d'Or
+        captain: "Boosts ATK of Driven characters by 2.5x.",
+        special: "Cuts the current HP of one enemy by 20% and changes [EMPTY], [BLOCK] and [BOMB] orbs into Matching orbs.",
+        specialName: "Destroying Shoji",
+    },
+    2596: {//Big Mom
+        captain: "Boosts ATK of Driven and Fighter characters by 2.25x and recovers 500 HP at end of each turn.",
+        special: "Reduces Paralysis, Silence, Burn and Blindness duration by 2 turns, reduces Special Cooldown of Fighter and Driven specials by 1 turn.",
+        sailor: "Reduces Silence duration on this character by 2 turns",
+        specialName: "Dreaming Sweet Queen",
+    },
+    2597: {//Capone
+        captain: "Reduces cooldown of Driven specials by 2 turns at the start of the fight and boosts ATK of Driven characters by 2.5x and their HP by 1.35x.",
+        special: "Deals 16 hits of random Typeless damage to random enemies, boosts ATK against enemies with reduced defense by 1.5x for 1 turn and boosts the Color Affinity of Driven characters by 1.75x for 1 turn.",
+        specialName: "Father's Deal",
+    },
+    2598: {//Gastino
+        captain: "Boosts ATK of Driven and Cerebral characters by 1.75x and protects from defeat as long as HP is above ?% at the start of the turn.",
+        special: "Instantly defeats all enemies with HP equal to or below 90x character's ATK.",
+        specialName: "Extreme Mad Science",
+    },
+    2599: {//Gotti
+        captain: "Boosts ATK of Driven characters by 1.75x and their HP by 1.5x.",
+        special: "Reduces enemies' Percent Damage Reduction duration by 2 turns, delays all enemies for 1 turn and reduces the defense of all enemies by ?% for 1 turn.",
+        specialName: "Killer Threat",
+    },
     2615: {//Perospero
         captain: "Reduces cooldown of all specials by 1 turn at the start of the fight and boosts ATK of Cerebral characters by 2.25x.",
         special: "Locks all orbs for 1 turn and changes Badly Matching orbs into Matching orbs.",
-        specialName: "Perospero Special",
+        specialName: "Candy Seaslug",
         support: [
             {
-                "Characters": "Not Translated",
+                "Characters": "Cerebral characters",
                 "description": [
-                    "Level 1: Once per an adventure, when the supported character uses their special, locks ? character's orbs for 1 turn.",
-                    "Level 2: Once per an adventure, when the supported character uses their special, locks ? character's orbs for 1 turn.",
-                    "Level 3: Once per an adventure, when the supported character uses their special, locks ? character's orbs for 1 turn.",
-                    "Level 4: Once per an adventure, when the supported character uses their special, locks ? character's orbs for 1 turn.",
+                    "Level 1: Once per an adventure, when the supported character uses their special, locks the supported character's orbs for 1 turn.",
+                    "Level 2: Once per an adventure, when the supported character uses their special, locks the supported character's orbs for 1 turn.",
+                    "Level 3: Once per an adventure, when the supported character uses their special, locks the supported character's orbs for 1 turn.",
+                    "Level 4: Once per an adventure, when the supported character uses their special, locks the supported character's orbs for 1 turn.",
                     "Level 5: Once per an adventure, when the supported character uses their special, locks Cerebral character's orbs for 1 turn."
                 ]
             }
@@ -49293,40 +49350,40 @@ window.details = {
     },
     5004: {//Luffy&Ace
         captain: "Boosts ATK of Free Spirit characters by 3x and their HP by 1.2x and reduce damage received by 15%",
-        special: "Deals 75x character's ATK in typeless damage to all enemies, changes [STR], [DEX], [QCK], [INT] and [PSY] orbs on Free Spirit characters into Matching orbs, amplifies the effect of orbs by 2x for 1 turn and becomes Luffy & Ace for 3 turns",
-        swap: "When Change is activated, this character removes all Despair, Paralysis and Slot Bind on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb",
+        special: "Deals 75x character's ATK in Typeless damage to all enemies, changes [STR], [DEX], [QCK], [INT] and [PSY] orbs on Free Spirit characters into Matching orbs, amplifies the effect of orbs by 2x for 1 turn and becomes Luffy & Ace for 3 turns",
+        swap: "When Change is activated, this character removes all Despair, Paralysis and Slot Bind duration on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb",
         specialName: "Brotherly Bond",
         sailor: "Makes [QCK] orbs beneficial for Free Spirit characters",
         sailorNotes: "#{beneficial}",
     },
     5005: {//Luffy&Ace
         captain: "Boosts ATK of Free Spirit characters by 3.5x if they have a Matching orb, by 2.25x otherwise and boosts their HP by 1.2x",
-        special: "Deals 75x character's ATK in typeless damage to all enemies, changes [STR], [DEX], [QCK], [INT] and [PSY] orbs on Free Spirit characters into Matching orbs, amplifies the effect of orbs by 2x for 1 turn and becomes Luffy & Ace for 3 turns",
-        swap: "When Change is activated, this character removes all Despair, Paralysis and Slot Bind on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb",
+        special: "Deals 75x character's ATK in Typeless damage to all enemies, changes [STR], [DEX], [QCK], [INT] and [PSY] orbs on Free Spirit characters into Matching orbs, amplifies the effect of orbs by 2x for 1 turn and becomes Luffy & Ace for 3 turns",
+        swap: "When Change is activated, this character removes all Despair, Paralysis and Slot Bind duration on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb",
         specialName: "Brotherly Bond",
         sailor: "Makes [STR] orbs beneficial for Free Spirit characters",
         sailorNotes: "#{beneficial}",
     },
     5006: {//Luffy&Ace
         captain: "Boosts ATK of Free Spirit characters by 4.25x if they have a Matching orb, by 3x otherwise, boosts HP of Free Spirit characters by 1.2x and reduce damage received by 20%",
-        special: "Deals 75x character's ATK in typeless damage to all enemies, changes [STR], [DEX], [QCK], [INT] and [PSY] orbs on Free Spirit characters into Matching orbs, amplifies the effect of orbs by 2x for 1 turn and becomes Luffy & Ace for 3 turns",
-        swap: "When Change is activated, this character removes all Despair, Paralysis and Slot Bind on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb",
+        special: "Deals 75x character's ATK in Typeless damage to all enemies, changes [STR], [DEX], [QCK], [INT] and [PSY] orbs on Free Spirit characters into Matching orbs, amplifies the effect of orbs by 2x for 1 turn and becomes Luffy & Ace for 3 turns",
+        swap: "When Change is activated, this character removes all Despair, Paralysis and Slot Bind duration on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb",
         specialName: "Brotherly Bond",
         sailor: "Boosts base ATK, HP and RCV of Free Spirit characters by 150",
         sailorNotes: "#{beneficial}",
     },
     5007: {//Luffy&Ace
         captain: "Boosts ATK of Free Spirit characters by 4.25x if they have a Matching orb, by 3x otherwise, boosts HP of Free Spirit characters by 1.2x and reduce damage received by 20%",
-        special: "Deals 75x character's ATK in typeless damage to all enemies, changes [STR], [DEX], [QCK], [INT] and [PSY] orbs on Free Spirit characters into Matching orbs, amplifies the effect of orbs by 2x for 1 turn and becomes Luffy & Ace for 3 turns",
-        swap: "When Change is activated, this character removes all Despair, Paralysis and Slot Bind on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb",
+        special: "Deals 75x character's ATK in Typeless damage to all enemies, changes [STR], [DEX], [QCK], [INT] and [PSY] orbs on Free Spirit characters into Matching orbs, amplifies the effect of orbs by 2x for 1 turn and becomes Luffy & Ace for 3 turns",
+        swap: "When Change is activated, this character removes all Despair, Paralysis and Slot Bind duration on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb",
         specialName: "Brotherly Bond",
         sailor: "Boosts base ATK, HP and RCV of Free Spirit characters by 150",
         sailorNotes: "#{beneficial}",
     },
     5008: {//Luffy&Ace
         captain: "Boosts ATK of Free Spirit characters by 3x and their HP by 1.2x and reduce damage received by 15%",
-        special: "Deals 75x character's ATK in typeless damage to all enemies, changes [STR], [DEX], [QCK], [INT] and [PSY] orbs on Free Spirit characters into Matching orbs, amplifies the effect of orbs by 2x for 1 turn and becomes Luffy & Ace for 3 turns",
-        swap: "When Change is activated, this character removes all Despair, Paralysis and Slot Bind on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb",
+        special: "Deals 75x character's ATK in Typeless damage to all enemies, changes [STR], [DEX], [QCK], [INT] and [PSY] orbs on Free Spirit characters into Matching orbs, amplifies the effect of orbs by 2x for 1 turn and becomes Luffy & Ace for 3 turns",
+        swap: "When Change is activated, this character removes all Despair, Paralysis and Slot Bind duration on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb",
         specialName: "Brotherly Bond",
         sailor: {
             "base": "Makes [QCK] orbs beneficial for Free Spirit characters",
@@ -49400,8 +49457,8 @@ window.details = {
     },
     5009: {//Luffy&Ace
         captain: "Boosts ATK of Free Spirit characters by 3.5x if they have a Matching orb, by 2.25x otherwise and boosts their HP by 1.2x",
-        special: "Deals 75x character's ATK in typeless damage to all enemies, changes [STR], [DEX], [QCK], [INT] and [PSY] orbs on Free Spirit characters into Matching orbs, amplifies the effect of orbs by 2x for 1 turn and becomes Luffy & Ace for 3 turns",
-        swap: "When Change is activated, this character removes all Despair, Paralysis and Slot Bind on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb",
+        special: "Deals 75x character's ATK in Typeless damage to all enemies, changes [STR], [DEX], [QCK], [INT] and [PSY] orbs on Free Spirit characters into Matching orbs, amplifies the effect of orbs by 2x for 1 turn and becomes Luffy & Ace for 3 turns",
+        swap: "When Change is activated, this character removes all Despair, Paralysis and Slot Bind duration on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb",
         specialName: "Brotherly Bond",
         sailor: {
             "base": "Makes [STR] orbs beneficial for Free Spirit characters",
@@ -49475,8 +49532,8 @@ window.details = {
     },
     5010: {//Luffy&Ace
         captain: "Boosts ATK of Free Spirit characters by 4.25x if they have a Matching orb, by 3x otherwise, boosts HP of Free Spirit characters by 1.2x and reduce damage received by 20%",
-        special: "Deals 75x character's ATK in typeless damage to all enemies, changes [STR], [DEX], [QCK], [INT] and [PSY] orbs on Free Spirit characters into Matching orbs, amplifies the effect of orbs by 2x for 1 turn and becomes Luffy & Ace for 3 turns",
-        swap: "When Change is activated, this character removes all Despair, Paralysis and Slot Bind on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb",
+        special: "Deals 75x character's ATK in Typeless damage to all enemies, changes [STR], [DEX], [QCK], [INT] and [PSY] orbs on Free Spirit characters into Matching orbs, amplifies the effect of orbs by 2x for 1 turn and becomes Luffy & Ace for 3 turns",
+        swap: "When Change is activated, this character removes all Despair, Paralysis and Slot Bind duration on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb",
         specialName: "Brotherly Bond",
         sailor: {
             "base": "Boosts base ATK, HP and RCV of Free Spirit characters by 150",
@@ -49550,8 +49607,8 @@ window.details = {
     },
     5011: {//Luffy&Ace
         captain: "Boosts ATK of Free Spirit characters by 4.25x if they have a Matching orb, by 3x otherwise, boosts HP of Free Spirit characters by 1.2x and reduce damage received by 20%",
-        special: "Deals 75x character's ATK in typeless damage to all enemies, changes [STR], [DEX], [QCK], [INT] and [PSY] orbs on Free Spirit characters into Matching orbs, amplifies the effect of orbs by 2x for 1 turn and becomes Luffy & Ace for 3 turns",
-        swap: "When Change is activated, this character removes all Despair, Paralysis and Slot Bind on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb",
+        special: "Deals 75x character's ATK in Typeless damage to all enemies, changes [STR], [DEX], [QCK], [INT] and [PSY] orbs on Free Spirit characters into Matching orbs, amplifies the effect of orbs by 2x for 1 turn and becomes Luffy & Ace for 3 turns",
+        swap: "When Change is activated, this character removes all Despair, Paralysis and Slot Bind duration on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb",
         specialName: "Brotherly Bond",
         sailor: {
             "base": "Boosts base ATK, HP and RCV of Free Spirit characters by 150",
@@ -51081,28 +51138,28 @@ window.details = {
     5052: {//Sanji&Judge
         captain: "If there are 6 Powerhouse characters in your crew, boosts ATK of Powerhouse characters by 3.5x, their HP by 1.25x and makes [RCV] and [TND] orbs beneficial for Powerhouse characters.",
         special: "Boosts ATK of Powerhouse characters by 2x for 1 turn, amplifies the effect of orbs for Powerhouse characters by 2x for 1 turn, reduces Paralysis duration by 5 turns and becomes Sanji & Judge for 3 turns",
-        swap: "When Change is activated, this character removes all Silence on themselves, changes their own orb, including [BLOCK] orbs, into a [TND] orb and boosts Chain multiplier by 1.25x for 1 turn.",
+        swap: "When Change is activated, this character removes all Silence duration on themselves, changes their own orb, including [BLOCK] orbs, into a [TND] orb and boosts Chain multiplier by 1.25x for 1 turn.",
         specialName: "Crack & Strike",
         sailor: "Makes [TND] and [RCV] orbs beneficial for this character",
     },
     5053: {//Sanji&Judge
         captain: "If there is a [STR], [DEX], [QCK], [PSY] and [INT] characters in your crew, boosts ATK of all characters by 3.5x, their HP by 1.25x and makes [PSY] orbs beneficial for all characters.",
         special: "Boosts ATK of Powerhouse characters by 2x for 1 turn, amplifies the effect of orbs for Powerhouse characters by 2x for 1 turn, reduces Paralysis duration by 5 turns and becomes Sanji & Judge for 3 turns",
-        swap: "When Change is activated, this character removes all Silence on themselves, changes their own orb, including [BLOCK] orbs, into a [TND] orb and boosts Chain multiplier by 1.25x for 1 turn.",
+        swap: "When Change is activated, this character removes all Silence duration on themselves, changes their own orb, including [BLOCK] orbs, into a [TND] orb and boosts Chain multiplier by 1.25x for 1 turn.",
         specialName: "Crack & Strike",
         sailor: "Boosts base ATK, HP and RCV of Powerhouse characters by 50",
     },
     5054: {//Sanji&Judge
         captain: "If there are 6 Powerhouse characters in your crew, boosts ATK of Powerhouse characters by 4.25x. If there is a [STR], [DEX], [QCK], [PSY] and [INT] characters in your crew, boosts HP of Powerhouse characters by 1.25x and makes [PSY], [RCV] and [TND] orbs beneficial for all characters.",
         special: "Boosts ATK of Powerhouse characters by 2x for 1 turn, amplifies the effect of orbs for Powerhouse characters by 2x for 1 turn, reduces Paralysis duration by 5 turns and becomes Sanji & Judge for 3 turns",
-        swap: "When Change is activated, this character removes all Silence on themselves, changes their own orb, including [BLOCK] orbs, into a [TND] orb and boosts Chain multiplier by 1.25x for 1 turn.",
+        swap: "When Change is activated, this character removes all Silence duration on themselves, changes their own orb, including [BLOCK] orbs, into a [TND] orb and boosts Chain multiplier by 1.25x for 1 turn.",
         specialName: "Crack & Strike",
         sailor: "Boosts base ATK, HP and RCV of Powerhouse characters by 75",
     },
     5055: {//Sanji&Judge
         captain: "If there are 6 Powerhouse characters in your crew, boosts ATK of Powerhouse characters by 3.5x, their HP by 1.25x and makes [RCV] and [TND] orbs beneficial for Powerhouse characters.",
         special: "Boosts ATK of Powerhouse characters by 2x for 1 turn, amplifies the effect of orbs for Powerhouse characters by 2x for 1 turn, reduces Paralysis duration by 5 turns and becomes Sanji & Judge for 3 turns",
-        swap: "When Change is activated, this character removes all Silence on themselves, changes their own orb, including [BLOCK] orbs, into a [TND] orb and boosts Chain multiplier by 1.25x for 1 turn.",
+        swap: "When Change is activated, this character removes all Silence duration on themselves, changes their own orb, including [BLOCK] orbs, into a [TND] orb and boosts Chain multiplier by 1.25x for 1 turn.",
         specialName: "Crack & Strike",
         sailor: {
             "base": "Makes [TND] and [RCV] orbs beneficial for this character",
@@ -51176,7 +51233,7 @@ window.details = {
     5056: {//Sanji&Judge
         captain: "If there is a [STR], [DEX], [QCK], [PSY] and [INT] characters in your crew, boosts ATK of all characters by 3.5x, their HP by 1.25x and makes [PSY] orbs beneficial for all characters.",
         special: "Boosts ATK of Powerhouse characters by 2x for 1 turn, amplifies the effect of orbs for Powerhouse characters by 2x for 1 turn, reduces Paralysis duration by 5 turns and becomes Sanji & Judge for 3 turns",
-        swap: "When Change is activated, this character removes all Silence on themselves, changes their own orb, including [BLOCK] orbs, into a [TND] orb and boosts Chain multiplier by 1.25x for 1 turn.",
+        swap: "When Change is activated, this character removes all Silence duration on themselves, changes their own orb, including [BLOCK] orbs, into a [TND] orb and boosts Chain multiplier by 1.25x for 1 turn.",
         specialName: "Crack & Strike",
         sailor: {
             "base": "Boosts base ATK, HP and RCV of Powerhouse characters by 50",
@@ -51250,7 +51307,7 @@ window.details = {
     5057: {//Sanji&Judge
         captain: "If there are 6 Powerhouse characters in your crew, boosts ATK of Powerhouse characters by 4.25x. If there is a [STR], [DEX], [QCK], [PSY] and [INT] characters in your crew, boosts HP of Powerhouse characters by 1.25x and makes [PSY], [RCV] and [TND] orbs beneficial for all characters.",
         special: "Boosts ATK of Powerhouse characters by 2x for 1 turn, amplifies the effect of orbs for Powerhouse characters by 2x for 1 turn, reduces Paralysis duration by 5 turns and becomes Sanji & Judge for 3 turns",
-        swap: "When Change is activated, this character removes all Silence on themselves, changes their own orb, including [BLOCK] orbs, into a [TND] orb and boosts Chain multiplier by 1.25x for 1 turn.",
+        swap: "When Change is activated, this character removes all Silence duration on themselves, changes their own orb, including [BLOCK] orbs, into a [TND] orb and boosts Chain multiplier by 1.25x for 1 turn.",
         specialName: "Crack & Strike",
         sailor: {
             "base": "Boosts base ATK, HP and RCV of Powerhouse characters by 75",
@@ -51817,7 +51874,7 @@ window.details = {
             "level2": "Makes [RCV] and [TND] orbs beneficial for Slasher and Fighter characters",
         },
         special: "Deals 100x character's ATK in Typeless damage to all enemies, and becomes Zoro & Sanji for 3 turns. If HP is above 99% at the time the special is activated, boosts ATK of Slasher and Fighter characters by 2.75x for 1 turn, by 2x for 2 turns otherwise.",
-        swap: "When Change is activated, this character removes all Slot Bind on themselves and changes their own orb into a Matching orb",
+        swap: "When Change is activated, this character removes all Slot Bind duration on themselves and changes their own orb into a Matching orb",
         specialName: "Three Sword and Twin Black Leg Style - Pound Shoot",
         limit: [
             { "description": "Acquire 1 additional Socket slot" },
@@ -51892,7 +51949,7 @@ window.details = {
             "level2": "Makes [RCV] and [TND] orbs beneficial for Slasher and Fighter characters",
         },
         special: "Deals 100x character's ATK in Typeless damage to all enemies, and becomes Zoro & Sanji for 3 turns. If HP is above 99% at the time the special is activated, boosts ATK of Slasher and Fighter characters by 2.75x for 1 turn, by 2x for 2 turns otherwise.",
-        swap: "When Change is activated, this character removes all Slot Bind on themselves and changes their own orb into a Matching orb",
+        swap: "When Change is activated, this character removes all Slot Bind duration on themselves and changes their own orb into a Matching orb",
         specialName: "Three Sword and Twin Black Leg Style - Pound Shoot",
         limit: [
             { "description": "Acquire 1 additional Socket slot" },
@@ -51967,7 +52024,7 @@ window.details = {
             "level2": "Makes [RCV] and [TND] orbs beneficial for Slasher and Fighter characters",
         },
         special: "Deals 100x character's ATK in Typeless damage to all enemies, and becomes Zoro & Sanji for 3 turns. If HP is above 99% at the time the special is activated, boosts ATK of Slasher and Fighter characters by 2.75x for 1 turn, by 2x for 2 turns otherwise.",
-        swap: "When Change is activated, this character removes all Slot Bind on themselves and changes their own orb into a Matching orb",
+        swap: "When Change is activated, this character removes all Slot Bind duration on themselves and changes their own orb into a Matching orb",
         specialName: "Three Sword and Twin Black Leg Style - Pound Shoot",
         limit: [
             { "description": "Acquire 1 additional Socket slot" },
@@ -52042,7 +52099,7 @@ window.details = {
             "level2": "Makes [RCV] and [TND] orbs beneficial for Slasher and Fighter characters",
         },
         special: "Deals 100x character's ATK in Typeless damage to all enemies, and becomes Zoro & Sanji for 3 turns. If HP is above 99% at the time the special is activated, boosts ATK of Slasher and Fighter characters by 2.75x for 1 turn, by 2x for 2 turns otherwise.",
-        swap: "When Change is activated, this character removes all Slot Bind on themselves and changes their own orb into a Matching orb",
+        swap: "When Change is activated, this character removes all Slot Bind duration on themselves and changes their own orb into a Matching orb",
         specialName: "Three Sword and Twin Black Leg Style - Pound Shoot",
         limit: [
             { "description": "Acquire 1 additional Socket slot" },
@@ -52137,28 +52194,28 @@ window.details = {
         captain: "Boosts ATK of all characters by 3.5x and their HP by 1.25x.",
         sailor: "Boosts base ATK of all characters by 50",
         special: "Deals 400x character's ATK in Typeless damage to one enemy, makes [DEX] and [QCK] orbs beneficial for all characters for 1 turn, amplifies the effect of orbs by 2.5x for 1 turn and becomes Luffy & Law for 3 turns.",
-        swap: "When Change is activated, this character removes all Slot Bind on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb, boosts own ATK by 2x for 1 turn and makes own normal attacks ignore defensive barriers and buffs.",
+        swap: "When Change is activated, this character removes all Slot Bind duration on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb, boosts own ATK by 2x for 1 turn and makes own normal attacks ignore defensive barriers and buffs.",
         specialName: "The Ultimate Stratagem to Defeat God",
     },
     5083: {//Luffy&Law
         captain: "Boosts ATK of all characters by 3x, their HP by 1.25x and recovers 0.5x his RCV at the end of the turn each time you hit a PERFECT.",
         sailor: "Boosts base HP of all characters by 50",
         special: "Deals 75x character's ATK in Typeless damage to all enemies that will ignore damage negating abilities and barriers, makes [DEX] and [QCK] orbs beneficial for all characters for 1 turn, amplifies the effect of orbs by 2.5x for 1 turn and becomes Luffy & Law for 3 turns.",
-        swap: "When Change is activated, this character removes all Slot Bind on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb, boosts own ATK by 2x for 1 turn and makes own normal attacks ignore defensive barriers and buffs.",
+        swap: "When Change is activated, this character removes all Slot Bind duration on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb, boosts own ATK by 2x for 1 turn and makes own normal attacks ignore defensive barriers and buffs.",
         specialName: "The Ultimate Stratagem to Defeat God",
     },
     5084: {//Luffy&Law
         captain: "Boosts ATK of all characters by 4.5x, their HP by 1.25x and recovers 1x their RCV at the end of the turn each time you hit a PERFECT.",
         sailor: "Boosts base ATK, HP and RCV of all characters by 100",
         special: "Deals 400x character's ATK in Typeless damage to one enemy, makes [DEX] and [QCK] orbs beneficial for all characters for 1 turn, amplifies the effect of orbs by 2.5x for 1 turn and becomes Luffy & Law for 3 turns.",
-        swap: "When Change is activated, this character removes all Slot Bind on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb, boosts own ATK by 2x for 1 turn and makes own normal attacks ignore defensive barriers and buffs.",
+        swap: "When Change is activated, this character removes all Slot Bind duration on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb, boosts own ATK by 2x for 1 turn and makes own normal attacks ignore defensive barriers and buffs.",
         specialName: "The Ultimate Stratagem to Defeat God",
     },
     5085: {//Luffy&Law
         captain: "Boosts ATK of all characters by 4.5x, their HP by 1.25x and recovers 1x their RCV at the end of the turn each time you hit a PERFECT.",
         sailor: "Boosts base ATK, HP and RCV of all characters by 100",
         special: "Deals 75x character's ATK in Typeless damage to all enemies that will ignore damage negating abilities and barriers, makes [DEX] and [QCK] orbs beneficial for all characters for 1 turn, amplifies the effect of orbs by 2.5x for 1 turn and becomes Luffy & Law for 3 turns.",
-        swap: "When Change is activated, this character removes all Slot Bind on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb, boosts own ATK by 2x for 1 turn and makes own normal attacks ignore defensive barriers and buffs.",
+        swap: "When Change is activated, this character removes all Slot Bind duration on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb, boosts own ATK by 2x for 1 turn and makes own normal attacks ignore defensive barriers and buffs.",
         specialName: "The Ultimate Stratagem to Defeat God",
     },
     5086: {//Luffy&Law
@@ -52168,7 +52225,7 @@ window.details = {
             "level1": "Completely resists Paralysis and Silence on this character"
         },
         special: "Deals 400x character's ATK in Typeless damage to one enemy, makes [DEX] and [QCK] orbs beneficial for all characters for 1 turn, amplifies the effect of orbs by 2.5x for 1 turn and becomes Luffy & Law for 3 turns.",
-        swap: "When Change is activated, this character removes all Slot Bind on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb, boosts own ATK by 2x for 1 turn and makes own normal attacks ignore defensive barriers and buffs.",
+        swap: "When Change is activated, this character removes all Slot Bind duration on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb, boosts own ATK by 2x for 1 turn and makes own normal attacks ignore defensive barriers and buffs.",
         specialName: "The Ultimate Stratagem to Defeat God",
         limit: [
             { "description": "Boosts base RCV by 5" },
@@ -52242,7 +52299,7 @@ window.details = {
             "level1": "Completely resists Paralysis and Silence on this character"
         },
         special: "Deals 75x character's ATK in Typeless damage to all enemies that will ignore damage negating abilities and barriers, makes [DEX] and [QCK] orbs beneficial for all characters for 1 turn, amplifies the effect of orbs by 2.5x for 1 turn and becomes Luffy & Law for 3 turns.",
-        swap: "When Change is activated, this character removes all Slot Bind on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb, boosts own ATK by 2x for 1 turn and makes own normal attacks ignore defensive barriers and buffs.",
+        swap: "When Change is activated, this character removes all Slot Bind duration on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb, boosts own ATK by 2x for 1 turn and makes own normal attacks ignore defensive barriers and buffs.",
         specialName: "The Ultimate Stratagem to Defeat God",
         limit: [
             { "description": "Boosts base RCV by 5" },
@@ -52316,7 +52373,7 @@ window.details = {
             "level1": "Completely resists Paralysis and Silence on this character"
         },
         special: "Deals 400x character's ATK in Typeless damage to one enemy, makes [DEX] and [QCK] orbs beneficial for all characters for 1 turn, amplifies the effect of orbs by 2.5x for 1 turn and becomes Luffy & Law for 3 turns.",
-        swap: "When Change is activated, this character removes all Slot Bind on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb, boosts own ATK by 2x for 1 turn and makes own normal attacks ignore defensive barriers and buffs.",
+        swap: "When Change is activated, this character removes all Slot Bind duration on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb, boosts own ATK by 2x for 1 turn and makes own normal attacks ignore defensive barriers and buffs.",
         specialName: "The Ultimate Stratagem to Defeat God",
         limit: [
             { "description": "Boosts base RCV by 5" },
@@ -52390,7 +52447,7 @@ window.details = {
             "level1": "Completely resists Paralysis and Silence on this character"
         },
         special: "Deals 75x character's ATK in Typeless damage to all enemies that will ignore damage negating abilities and barriers, makes [DEX] and [QCK] orbs beneficial for all characters for 1 turn, amplifies the effect of orbs by 2.5x for 1 turn and becomes Luffy & Law for 3 turns.",
-        swap: "When Change is activated, this character removes all Slot Bind on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb, boosts own ATK by 2x for 1 turn and makes own normal attacks ignore defensive barriers and buffs.",
+        swap: "When Change is activated, this character removes all Slot Bind duration on themselves and changes their own orb, including [BLOCK] orbs, into a Matching orb, boosts own ATK by 2x for 1 turn and makes own normal attacks ignore defensive barriers and buffs.",
         specialName: "The Ultimate Stratagem to Defeat God",
         limit: [
             { "description": "Boosts base RCV by 5" },
@@ -52463,7 +52520,7 @@ window.details = {
         sailor: "Makes [STR], [PSY] and [RCV] orbs beneficial for this character",
         special: "Boosts base ATK of all characters based on your current HP for 1 turn and becomes Zeus & Prometheus & Big Mom for 3 turns. If HP is above 50% at the time the special is activated, locks the chain multiplier at 3.5x for 1 turn.",
         specialNotes: "Base ATK boost is equal to current HP/100, the maximum effect at 100,000 HP will give a 1,000 base ATK boost.",
-        swap: "When Change is activated, this character removes all Paralysis on themselves and changes their own orb into a Matching orb, boosts own ATK by 1.5x for 1 turn and amplifies the effect of own orb by 1.5x for 1 turn.",
+        swap: "When Change is activated, this character removes all Paralysis duration on themselves and changes their own orb into a Matching orb, boosts own ATK by 1.5x for 1 turn and amplifies the effect of own orb by 1.5x for 1 turn.",
         specialName: "Heavenly Fire and Lightning Ring & Mama Mash",
     },
     5091: {//Homies&Big Mom
@@ -52472,7 +52529,7 @@ window.details = {
         sailor: "Makes [DEX], [QCK] and [TND] orbs beneficial for this character",
         special: "Boosts base ATK of all characters based on your current HP for 1 turn and becomes Zeus & Prometheus & Big Mom for 3 turns. If HP is above 50% at the time the special is activated, locks the chain multiplier at 3.5x for 1 turn.",
         specialNotes: "Base ATK boost is equal to current HP/100, the maximum effect at 100,000 HP will give a 1,000 base ATK boost.",
-        swap: "When Change is activated, this character removes all Paralysis on themselves and changes their own orb into a Matching orb, boosts own ATK by 1.5x for 1 turn and amplifies the effect of own orb by 1.5x for 1 turn.",
+        swap: "When Change is activated, this character removes all Paralysis duration on themselves and changes their own orb into a Matching orb, boosts own ATK by 1.5x for 1 turn and amplifies the effect of own orb by 1.5x for 1 turn.",
         specialName: "Heavenly Fire and Lightning Ring & Mama Mash",
     },
     5092: {//Homies&Big Mom
@@ -52481,7 +52538,7 @@ window.details = {
         sailor: "Makes [STR], [DEX], [QCK], [PSY], [INT], [TND] and [RCV] orbs beneficial for this character",
         special: "Boosts base ATK of all characters based on your current HP for 1 turn and becomes Zeus & Prometheus & Big Mom for 3 turns. If HP is above 50% at the time the special is activated, locks the chain multiplier at 3.5x for 1 turn.",
         specialNotes: "Base ATK boost is equal to current HP/100, the maximum effect at 100,000 HP will give a 1,000 base ATK boost.",
-        swap: "When Change is activated, this character removes all Paralysis on themselves and changes their own orb into a Matching orb, boosts own ATK by 1.5x for 1 turn and amplifies the effect of own orb by 1.5x for 1 turn.",
+        swap: "When Change is activated, this character removes all Paralysis duration on themselves and changes their own orb into a Matching orb, boosts own ATK by 1.5x for 1 turn and amplifies the effect of own orb by 1.5x for 1 turn.",
         specialName: "Heavenly Fire and Lightning Ring & Mama Mash",
     },
     5093: {//Homies&Big Mom
@@ -52493,7 +52550,7 @@ window.details = {
         },
         special: "Boosts base ATK of all characters based on your current HP for 1 turn and becomes Zeus & Prometheus & Big Mom for 3 turns. If HP is above 50% at the time the special is activated, locks the chain multiplier at 3.5x for 1 turn.",
         specialNotes: "Base ATK boost is equal to current HP/100, the maximum effect at 100,000 HP will give a 1,000 base ATK boost.",
-        swap: "When Change is activated, this character removes all Paralysis on themselves and changes their own orb into a Matching orb, boosts own ATK by 1.5x for 1 turn and amplifies the effect of own orb by 1.5x for 1 turn.",
+        swap: "When Change is activated, this character removes all Paralysis duration on themselves and changes their own orb into a Matching orb, boosts own ATK by 1.5x for 1 turn and amplifies the effect of own orb by 1.5x for 1 turn.",
         specialName: "Heavenly Fire and Lightning Ring & Mama Mash",
         limit: [
             { "description": "Boosts base HP by 30" },
@@ -52570,7 +52627,7 @@ window.details = {
         },
         special: "Boosts base ATK of all characters based on your current HP for 1 turn and becomes Zeus & Prometheus & Big Mom for 3 turns. If HP is above 50% at the time the special is activated, locks the chain multiplier at 3.5x for 1 turn.",
         specialNotes: "Base ATK boost is equal to current HP/100, the maximum effect at 100,000 HP will give a 1,000 base ATK boost.",
-        swap: "When Change is activated, this character removes all Paralysis on themselves and changes their own orb into a Matching orb, boosts own ATK by 1.5x for 1 turn and amplifies the effect of own orb by 1.5x for 1 turn.",
+        swap: "When Change is activated, this character removes all Paralysis duration on themselves and changes their own orb into a Matching orb, boosts own ATK by 1.5x for 1 turn and amplifies the effect of own orb by 1.5x for 1 turn.",
         specialName: "Heavenly Fire and Lightning Ring & Mama Mash",
         limit: [
             { "description": "Boosts base HP by 30" },
@@ -52647,7 +52704,7 @@ window.details = {
         },
         special: "Boosts base ATK of all characters based on your current HP for 1 turn and becomes Zeus & Prometheus & Big Mom for 3 turns. If HP is above 50% at the time the special is activated, locks the chain multiplier at 3.5x for 1 turn.",
         specialNotes: "Base ATK boost is equal to current HP/100, the maximum effect at 100,000 HP will give a 1,000 base ATK boost.",
-        swap: "When Change is activated, this character removes all Paralysis on themselves and changes their own orb into a Matching orb, boosts own ATK by 1.5x for 1 turn and amplifies the effect of own orb by 1.5x for 1 turn.",
+        swap: "When Change is activated, this character removes all Paralysis duration on themselves and changes their own orb into a Matching orb, boosts own ATK by 1.5x for 1 turn and amplifies the effect of own orb by 1.5x for 1 turn.",
         specialName: "Heavenly Fire and Lightning Ring & Mama Mash",
         limit: [
             { "description": "Boosts base HP by 30" },
@@ -54171,28 +54228,28 @@ window.details = {
         captain: "Boosts ATK of Free Spirit and Cerebral characters by 3.25x and their HP and RCV by 1.2x.",
         sailor: "Makes [QCK] and [INT] orbs beneficial for this character",
         special: "Changes [BLOCK] and Badly Matching orbs into Matching orbs, boosts ATK of Free Spirit and Cerebral characters by 2.25x for 1 turn, removes Beneficial and non-Beneficial orb Buff and Debuff duration completely and becomes Sabo & Koala for 3 turns.",
-        swap: "When Change is activated, this character removes all Despair and Paralysis on themselves and changes their own orb into a Matching orb, boosts the Color Affinity of Free Spirit and Cerebral characters by 1.5x for 1 turn.",
+        swap: "When Change is activated, this character removes all Despair and Paralysis duration on themselves and changes their own orb into a Matching orb, boosts the Color Affinity of Free Spirit and Cerebral characters by 1.5x for 1 turn.",
         specialName: "Dragon Claw Fist and Fishman Karate: Revolutionary Strike",
     },
     5145: {//Sabo&Koala
         captain: "Boosts ATK of Free Spirit and Cerebral characters by 3x, their HP by 1.2x. Boosts ATK of Free Spirit and Cerebral characters by an additive 0.1x after each PERFECT in a row.",
         sailor: "Makes [STR] and [PSY] orbs beneficial for this character",
         special: "Changes [BLOCK] and Badly Matching orbs into Matching orbs, boosts ATK of Free Spirit and Cerebral characters by 2.25x for 1 turn, removes Beneficial and non-Beneficial orb Buff and Debuff duration completely and becomes Sabo & Koala for 3 turns.",
-        swap: "When Change is activated, this character removes all Despair and Paralysis on themselves and changes their own orb into a Matching orb, boosts the Color Affinity of Free Spirit and Cerebral characters by 1.5x for 1 turn.",
+        swap: "When Change is activated, this character removes all Despair and Paralysis duration on themselves and changes their own orb into a Matching orb, boosts the Color Affinity of Free Spirit and Cerebral characters by 1.5x for 1 turn.",
         specialName: "Dragon Claw Fist and Fishman Karate: Revolutionary Strike",
     },
     5146: {//Sabo&Koala
         captain: "Boosts ATK of Free Spirit and Cerebral characters by 4x and their HP and RCV by 1.2x. Boosts ATK of Free Spirit and Cerebral characters by an additive 0.1x after each PERFECT in a row.",
         sailor: "Makes [STR], [DEX], [QCK], [PSY], and [INT] orbs beneficial for this character",
         special: "Changes [BLOCK] and Badly Matching orbs into Matching orbs, boosts ATK of Free Spirit and Cerebral characters by 2.25x for 1 turn, removes Beneficial and non-Beneficial orb Buff and Debuff duration completely and becomes Sabo & Koala for 3 turns.",
-        swap: "When Change is activated, this character removes all Despair and Paralysis on themselves and changes their own orb into a Matching orb, boosts the Color Affinity of Free Spirit and Cerebral characters by 1.5x for 1 turn.",
+        swap: "When Change is activated, this character removes all Despair and Paralysis duration on themselves and changes their own orb into a Matching orb, boosts the Color Affinity of Free Spirit and Cerebral characters by 1.5x for 1 turn.",
         specialName: "Dragon Claw Fist and Fishman Karate: Revolutionary Strike",
     },
     5147: {//Sabo&Koala
         captain: "Boosts ATK of Free Spirit and Cerebral characters by 4x and their HP and RCV by 1.2x. Boosts ATK of Free Spirit and Cerebral characters by an additive 0.1x after each PERFECT in a row.",
         sailor: "Makes [STR], [DEX], [QCK], [PSY], and [INT] orbs beneficial for this character",
         special: "Changes [BLOCK] and Badly Matching orbs into Matching orbs, boosts ATK of Free Spirit and Cerebral characters by 2.25x for 1 turn, removes Beneficial and non-Beneficial orb Buff and Debuff duration completely and becomes Sabo & Koala for 3 turns.",
-        swap: "When Change is activated, this character removes all Despair and Paralysis on themselves and changes their own orb into a Matching orb, boosts the Color Affinity of Free Spirit and Cerebral characters by 1.5x for 1 turn.",
+        swap: "When Change is activated, this character removes all Despair and Paralysis duration on themselves and changes their own orb into a Matching orb, boosts the Color Affinity of Free Spirit and Cerebral characters by 1.5x for 1 turn.",
         specialName: "Dragon Claw Fist and Fishman Karate: Revolutionary Strike",
     },
     5148: {//Sabo&Koala
@@ -54202,7 +54259,7 @@ window.details = {
             "level1": "Boosts base ATK, HP and RCV of Free Spirit and Cerebral characters by 100"
         },
         special: "Changes [BLOCK] and Badly Matching orbs into Matching orbs, boosts ATK of Free Spirit and Cerebral characters by 2.25x for 1 turn, removes Beneficial and non-Beneficial orb Buff and Debuff duration completely and becomes Sabo & Koala for 3 turns.",
-        swap: "When Change is activated, this character removes all Despair and Paralysis on themselves and changes their own orb into a Matching orb, boosts the Color Affinity of Free Spirit and Cerebral characters by 1.5x for 1 turn.",
+        swap: "When Change is activated, this character removes all Despair and Paralysis duration on themselves and changes their own orb into a Matching orb, boosts the Color Affinity of Free Spirit and Cerebral characters by 1.5x for 1 turn.",
         specialName: "Dragon Claw Fist and Fishman Karate: Revolutionary Strike",
         limit: [
             { "description": "Boosts base HP by 20" },
@@ -54276,7 +54333,7 @@ window.details = {
             "level1": "Boosts base ATK, HP and RCV of Free Spirit and Cerebral characters by 100"
         },
         special: "Changes [BLOCK] and Badly Matching orbs into Matching orbs, boosts ATK of Free Spirit and Cerebral characters by 2.25x for 1 turn, removes Beneficial and non-Beneficial orb Buff and Debuff duration completely and becomes Sabo & Koala for 3 turns.",
-        swap: "When Change is activated, this character removes all Despair and Paralysis on themselves and changes their own orb into a Matching orb, boosts the Color Affinity of Free Spirit and Cerebral characters by 1.5x for 1 turn.",
+        swap: "When Change is activated, this character removes all Despair and Paralysis duration on themselves and changes their own orb into a Matching orb, boosts the Color Affinity of Free Spirit and Cerebral characters by 1.5x for 1 turn.",
         specialName: "Dragon Claw Fist and Fishman Karate: Revolutionary Strike",
         limit: [
             { "description": "Boosts base HP by 20" },
@@ -54350,7 +54407,7 @@ window.details = {
             "level1": "Boosts base ATK, HP and RCV of Free Spirit and Cerebral characters by 100"
         },
         special: "Changes [BLOCK] and Badly Matching orbs into Matching orbs, boosts ATK of Free Spirit and Cerebral characters by 2.25x for 1 turn, removes Beneficial and non-Beneficial orb Buff and Debuff duration completely and becomes Sabo & Koala for 3 turns.",
-        swap: "When Change is activated, this character removes all Despair and Paralysis on themselves and changes their own orb into a Matching orb, boosts the Color Affinity of Free Spirit and Cerebral characters by 1.5x for 1 turn.",
+        swap: "When Change is activated, this character removes all Despair and Paralysis duration on themselves and changes their own orb into a Matching orb, boosts the Color Affinity of Free Spirit and Cerebral characters by 1.5x for 1 turn.",
         specialName: "Dragon Claw Fist and Fishman Karate: Revolutionary Strike",
         limit: [
             { "description": "Boosts base HP by 20" },
@@ -54424,7 +54481,7 @@ window.details = {
             "level1": "Boosts base ATK, HP and RCV of Free Spirit and Cerebral characters by 100"
         },
         special: "Changes [BLOCK] and Badly Matching orbs into Matching orbs, boosts ATK of Free Spirit and Cerebral characters by 2.25x for 1 turn, removes Beneficial and non-Beneficial orb Buff and Debuff duration completely and becomes Sabo & Koala for 3 turns.",
-        swap: "When Change is activated, this character removes all Despair and Paralysis on themselves and changes their own orb into a Matching orb, boosts the Color Affinity of Free Spirit and Cerebral characters by 1.5x for 1 turn.",
+        swap: "When Change is activated, this character removes all Despair and Paralysis duration on themselves and changes their own orb into a Matching orb, boosts the Color Affinity of Free Spirit and Cerebral characters by 1.5x for 1 turn.",
         specialName: "Dragon Claw Fist and Fishman Karate: Revolutionary Strike",
         limit: [
             { "description": "Boosts base HP by 20" },

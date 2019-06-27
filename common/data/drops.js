@@ -938,15 +938,25 @@ window.drops = {
             '11': [ 2320 ],
         },
         
-        /*{
-            name: 'Outside of Town to Bege\'s Hideout',
+        {
+            name: 'Outside of Town - Bege\'s Hideout',
             dropID: 'story40',
             shortName: 'Whole Cake 2',
-            thumb: null,
+            thumb: 2597,
             nakama: null,
             completion: '5x Rainbow Gems',
-            gamewith: null,
-        },*/
+            gamewith: 155967,
+            '01': [ 2595, 2162 ],
+            '02': [  ],
+            '03': [ 2127, 2128, 2129, 2130 ],
+            '04': [ 2288 ],
+            '05': [ 2162 ],
+            '06': [  ],
+            '07': [  ],
+            '08': [ 2596 ],
+            '09': [  ],
+            '10': [ 2597, 2598, 2599 ],
+        },
     ], 
 
     'Booster and Evolver Island': [
@@ -2340,7 +2350,7 @@ window.drops = {
         },
         
         {
-            name: 'Banquet! The Best Tea Party Ever!',
+            name: 'The Finest of Tea Parties!',
             dropID: 'event114',
             global: true,
             thumb: 2351,
@@ -2352,6 +2362,7 @@ window.drops = {
         {
             name: 'Holy Mother\'s Love - Mother Carmel',
             dropID: 'event115',
+            global: true,
             thumb: 2377,
             nakama: 2237700,
             gamewith: 136822,
@@ -4018,7 +4029,7 @@ window.drops = {
             dropID: 'bond1',
             thumb: 2531,
             nakama: null,
-            gamewith: 149563,
+            gamewith: [ 150056, 155125 ],
             'All Difficulties': [ 2531 ],
             'Round 1': [ 2518 ],
             'Round 2': [ 2615 ],
@@ -4478,6 +4489,24 @@ window.drops = {
             gamewith: 143826,
             showManual: true,
             'All Difficulties': [ 9027, 9028, 9029, 9030, -2446, -2447, -2448, -2449, -2450, -2451, -2452, -2453, -2454 ],
+        },
+        
+        {
+            name: 'Beautiful Women\'s Relief - Nami',
+            thumb: 2588,
+            nakama: null,
+            gamewith: 155238,
+            showManual: true,
+            'All Difficulties': [ 9031, -2588, -1955, -1366, -2076 ],
+        },
+        
+        {
+            name: 'Beautiful Women\'s Relief - Hancock',
+            thumb: 2434,
+            nakama: null,
+            gamewith: 155240,
+            showManual: true,
+            'All Difficulties': [ 9032, -2434, -2183, -1747, -1445, -415 ],
         },
         
         {
