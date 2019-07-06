@@ -7727,12 +7727,6 @@ window.specials = {
         def: function(p) { return 0.2; },
         delay: function(p) { return 1; }
     },
-    2600: {
-        affinity: function(p) { return p.unit.class.has("Striker") || p.unit.class.has("Cerebral") ? 2 : 1; },
-    },
-    2601: {
-        affinity: function(p) { return p.unit.class.has("Striker") || p.unit.class.has("Cerebral") ? 2 : 1; },
-    },
     2606: {
         atk: function(p) { return p.unit.class.has("Cerebral") ? window.specials[2606].multiplier : 1; },
         type: "class",
@@ -7768,6 +7762,46 @@ window.specials = {
     },
     2611: {
         chainAddition: function(p) { return 0.5; }
+    },
+    2612:{
+        atk: function(p) { return (p.unit.class.has("Striker") || p.unit.class.has("Shooter") || p.unit.class.has("Cerebral")) ? window.specials[2612].multiplier : 1; },
+        type: "class",
+        onActivation: function(p) {
+            var n = (window.specials[2612].multiplier == 1.5 ? 1 : window.specials[2612].multiplier == 1.75 ? 2 : 0);
+            window.specials[2612].multiplier = [1.5, 1.75, 2][n];
+            p.scope.notify({
+                text: 'Using the ' + [1.5, 1.75, 2][n] + 'x ATK boost. To switch to the ' + [1.75, 2, 1.5][n] + 'x ATK boost, disable and re-enable this special',
+                name: '2612warning'
+            });
+        },
+    },
+    2613:{
+        orb: function(p) { return (p.unit.class.has("Striker") || p.unit.class.has("Driven")) ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, window.specials[2613].multiplier, [p.friendCaptain, p.captain], p.effectName) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1, [p.friendCaptain, p.captain], p.effectName); },
+        onActivation: function(p) {
+            var n = (window.specials[2613].multiplier == 1.75 ? 1 : window.specials[2613].multiplier == 2 ? 2 : 0);
+            window.specials[2613].multiplier = [1.75, 2, 2.25][n];
+            p.scope.notify({
+                text: 'Using the ' + [1.75, 2, 2.25][n] + 'x ATK boost. To switch to the ' + [2, 2.25, 1.75][n] + 'x ATK boost, disable and re-enable this special',
+                name: '2613warning'
+            });
+        },
+    },
+    2614: {
+        atk: function(p) { return (p.unit.type == "STR" || p.unit.type == "INT") ? 1.75 : 1; },
+        type: "type"
+    },
+    2632: {
+        turnedOn: false,
+        onActivation: function(p) {
+            window.specials[2632].turnedOn = true;
+            p.scope.notify({
+                text: 'Only affects captain damage if Garp is your captain, use Friend Captain if you don\'t want the additional ATK boost due to Captain Swap',
+                name: '2632warning'
+            });
+        },
+        onDeactivation: function(p) {
+            window.specials[2632].turnedOn = false;
+        }
     },
     3333: {
         atk: function(p) { return 1.75; },
@@ -8827,5 +8861,29 @@ window.specials = {
                 name: '5159warning'
             });
         },
+    },
+    5160: {
+        affinity: function(p) { return p.unit.class.has("Striker") || p.unit.class.has("Cerebral") ? 2 : 1; },
+    },
+    5161: {
+        affinity: function(p) { return p.unit.class.has("Striker") || p.unit.class.has("Cerebral") ? 2 : 1; },
+    },
+    5162: {
+        affinity: function(p) { return p.unit.class.has("Striker") || p.unit.class.has("Cerebral") ? 2 : 1; },
+    },
+    5163: {
+        affinity: function(p) { return p.unit.class.has("Striker") || p.unit.class.has("Cerebral") ? 2 : 1; },
+    },
+    5164: {
+        affinity: function(p) { return p.unit.class.has("Striker") || p.unit.class.has("Cerebral") ? 2 : 1; },
+    },
+    5165: {
+        affinity: function(p) { return p.unit.class.has("Striker") || p.unit.class.has("Cerebral") ? 2 : 1; },
+    },
+    5166: {
+        affinity: function(p) { return p.unit.class.has("Striker") || p.unit.class.has("Cerebral") ? 2 : 1; },
+    },
+    5167: {
+        affinity: function(p) { return p.unit.class.has("Striker") || p.unit.class.has("Cerebral") ? 2 : 1; },
     },
 };

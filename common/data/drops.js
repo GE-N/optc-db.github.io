@@ -3959,6 +3959,15 @@ window.drops = {
             gamewith: 154065,
             'Primordial Sea': [ 2582 ]
         },
+
+        {
+            name: 'Sakazuki & Issho',
+            dropID: 'treasuremap23',
+            thumb: 2618,
+            nakama: null,
+            gamewith: null,
+            'Primordial Sea': [ 2616, 2617 ]
+        },
         
     ],
 
@@ -4055,6 +4064,15 @@ window.drops = {
             'All Difficulties': [ 2531 ],
             'Round 1': [ 2518 ],
             'Round 2': [ 2615 ],
+        },
+        
+        {
+            name: 'Garp',
+            dropID: 'bond2',
+            thumb: 2632,
+            nakama: null,
+            gamewith: [ null ],
+            'All Difficulties': [ 2632 ],
         },
         
     ],
@@ -4519,7 +4537,7 @@ window.drops = {
             nakama: null,
             gamewith: 155238,
             showManual: true,
-            'All Difficulties': [ 9031, -2588, -1955, -1366, -2076 ],
+            'All Difficulties': [ 9032, -2588, -1955, -1366, -2076 ],
         },
         
         {
@@ -4528,7 +4546,7 @@ window.drops = {
             nakama: null,
             gamewith: 155240,
             showManual: true,
-            'All Difficulties': [ 9032, -2434, -2183, -1747, -1445, -415 ],
+            'All Difficulties': [ 9031, -2434, -2183, -1747, -1445, -415 ],
         },
         
         {
