@@ -375,13 +375,6 @@ window.matchers = [
     },
 
     {
-        name: 'Orb lockers',
-        target: 'special',
-        matcher: /locks (orbs|all orbs|orb|own orb)/i,
-        icon: 'orb lock'
-    },
-
-    {
         name: 'Orb boosters',
         target: 'special',
         matcher: /amplifies.+orb/i,
@@ -485,6 +478,13 @@ window.matchers = [
         target: 'special',
         matcher: /switches orbs/i,
         icon: 'orb switch'
+    },
+
+    {
+        name: 'Orb lockers',
+        target: 'special',
+        matcher: /locks (orbs|all orbs|orb|own orb)/i,
+        icon: 'orb lock'
     },
     
     {
@@ -749,6 +749,18 @@ window.matchers = [
         target: 'special',
         matcher: /(removes|reduces).+ATK DOWN.+duration/i,
         icon: 'atk down'
+    },
+
+    {
+        name: 'Crew RCV DOWN reducer',
+        target: 'special',
+        matcher: /(removes|reduces).+RCV DOWN.+duration/i 
+    },
+
+    {
+        name: 'Crew No Healing reducer',
+        target: 'special',
+        matcher: /(removes|reduces).+No Healing.+duration/i 
     },
 
     {
@@ -1333,6 +1345,18 @@ window.matchers = [
         name: 'Orb Controllers',
         target: 'support',
         matcher: /(Changes.+(orb|orbs))/i
+    },
+
+    {
+        name: 'Orb switchers',
+        target: 'support',
+        matcher: /switches orbs/i
+    },
+
+    {
+        name: 'Orb lockers',
+        target: 'support',
+        matcher: /locks (the supported character's orb|orbs|all orbs|orb|own orb)/i
     },
     
     {
