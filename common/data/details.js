@@ -6933,10 +6933,10 @@ window.details = {
             {
                 "Characters": "Luffy, Inazuma and Bon Clay",
                 "description": [
-                    "Level 1: Once per adventure, when you are inflicted with Poison or Toxic, removes Poison duration by 3 turns",
-                    "Level 2: Once per adventure, when you are inflicted with Poison or Toxic, removes Poison duration by 4 turns",
-                    "Level 3: Once per adventure, when you are inflicted with Poison or Toxic, removes Poison duration by 5 turns",
-                    "Level 4: Once per adventure, when you are inflicted with Poison or Toxic, removes Poison duration by 7 turns",
+                    "Level 1: Once per adventure, when you are inflicted with Poison or Toxic, reduces Poison duration by 3 turns",
+                    "Level 2: Once per adventure, when you are inflicted with Poison or Toxic, reduces Poison duration by 4 turns",
+                    "Level 3: Once per adventure, when you are inflicted with Poison or Toxic, reduces Poison duration by 5 turns",
+                    "Level 4: Once per adventure, when you are inflicted with Poison or Toxic, reduces Poison duration by 7 turns",
                     "Level 5: Once per adventure, when you are inflicted with Poison or Toxic, removes Poison duration completely"
                 ]
             }
@@ -21836,10 +21836,10 @@ window.details = {
                 "Name": "Pinch Healing",
                 "description": [
                     "Level 1: If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 2: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 3: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 4: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
-                    "Level 5: If HP is below ?% at the start of the turn, recovers ?x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                    "Level 2: If HP is below 15% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 3: If HP is below 20% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 4: If HP is below 30% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 5: If HP is below 50% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
                 ]
             },
         ]
@@ -25060,6 +25060,18 @@ window.details = {
                     "Level 5: Reduces Slot Bind duration by ? turns on this character"
                 ]
             },
+        ],
+        support: [
+            {
+                "Characters": "Robin, Franky and Usopp",
+                "description": [
+                    "Level 1: Reduces damage received from [DEX] characters by 1%. Adds 5% of this character's base ATK to the supported character's base ATK",
+                    "Level 2: Reduces damage received from [DEX] characters by 2%. Adds 6% of this character's base ATK to the supported character's base ATK",
+                    "Level 3: Reduces damage received from [DEX] characters by 3%. Adds 7% of this character's base ATK to the supported character's base ATK",
+                    "Level 4: Reduces damage received from [DEX] characters by 4%. Adds 8% of this character's base ATK to the supported character's base ATK",
+                    "Level 5: Reduces damage received from [DEX] characters by 5%. Adds 10% of this character's base ATK to the supported character's base ATK"
+                ]
+            }
         ]
     },
     1683: {//20th Anni Robin
@@ -25118,6 +25130,18 @@ window.details = {
                     "Level 5: Reduces No Healing duration by 5 turns"
                 ]
             },
+        ],
+        support: [
+            {
+                "Characters": "Luffy, Franky and Usopp",
+                "description": [
+                    "Level 1: Once per an adventure, when the supported character uses their special and the enemy is inflicted with Defense Reduction, boosts ATK against enemies with reduced defense by 1.1x for 1 turn.",
+                    "Level 2: Once per an adventure, when the supported character uses their special and the enemy is inflicted with Defense Reduction, boosts ATK against enemies with reduced defense by 1.1x for 1 turn.",
+                    "Level 3: Once per an adventure, when the supported character uses their special and the enemy is inflicted with Defense Reduction, boosts ATK against enemies with reduced defense by 1.2x for 1 turn.",
+                    "Level 4: Once per an adventure, when the supported character uses their special and the enemy is inflicted with Defense Reduction, boosts ATK against enemies with reduced defense by 1.2x for 1 turn.",
+                    "Level 5: Once per an adventure, when the supported character uses their special and the enemy is inflicted with Defense Reduction, boosts ATK against enemies with reduced defense by 1.3x for 1 turn."
+                ]
+            }
         ]
     },
     1685: {//20th Anni Usopp
@@ -25174,7 +25198,19 @@ window.details = {
                     "Level 5: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn"
                 ]
             },
-        ]
+        ],
+        support: [
+            {
+                "Characters": "Luffy, Robin and Franky",
+                "description": [
+                    "Level 1: Once per an adventure, when you are inflicted with an Orb Randomization, randomizes all [EMPTY] orbs.",
+                    "Level 2: Once per an adventure, when you are inflicted with an Orb Randomization, randomizes all [EMPTY] orbs.",
+                    "Level 3: Once per an adventure, when you are inflicted with an Orb Randomization, changes [EMPTY] orbs into Matching orbs.",
+                    "Level 4: Once per an adventure, when you are inflicted with an Orb Randomization, changes [EMPTY] orbs into Matching orbs.",
+                    "Level 5: Once per an adventure, when you are inflicted with an Orb Randomization, changes [EMPTY] orbs into Matching orbs and changes Badly Matching orbs into [RCV] orbs."
+                ]
+            }
+        ],
     },
     1687: {//20th Anni Franky
         captain: "Boosts ATK of Fighter characters by 2x and reduce damage received by 10%",
@@ -25232,6 +25268,18 @@ window.details = {
                     "Level 5: This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
                 ]
             },
+        ],
+        support: [
+            {
+                "Characters": "Luffy, Robin and Usopp",
+                "description": [
+                    "Level 1: Once per an adventure, when the supported character uses their special, reduces the defense of all enemies by 50% for 1 turn.",
+                    "Level 2: Once per an adventure, when the supported character uses their special, reduces the defense of all enemies by 50% for 1 turn.",
+                    "Level 3: Once per an adventure, when the supported character uses their special, reduces the defense of all enemies by ?% for 1 turn.",
+                    "Level 4: Once per an adventure, when the supported character uses their special, reduces the defense of all enemies by ?% for 1 turn.",
+                    "Level 5: Once per an adventure, when the supported character uses their special, reduces the defense of all enemies by ?% for 1 turn and changes supported character's own  orb into a Matching orb."
+                ]
+            }
         ]
     },
     1689: {//Fortnight Kid
@@ -26653,7 +26701,19 @@ window.details = {
                 ]
             },
         ],
-        potentialNotes: "#{enrage}"
+        potentialNotes: "#{enrage}",
+        support: [
+            {
+                "Characters": "Sanji, Nami, Chopper and Brook",
+                "description": [
+                    "Level 1: Reduces damage received from [INT] characters by 1%. Adds 5% of this character's base ATK to the supported character's base ATK",
+                    "Level 2: Reduces damage received from [INT] characters by 2%. Adds 6% of this character's base ATK to the supported character's base ATK",
+                    "Level 3: Reduces damage received from [INT] characters by 3%. Adds 7% of this character's base ATK to the supported character's base ATK",
+                    "Level 4: Reduces damage received from [INT] characters by 4%. Adds 8% of this character's base ATK to the supported character's base ATK",
+                    "Level 5: Reduces damage received from [INT] characters by 5%. Adds 10% of this character's base ATK to the supported character's base ATK"
+                ]
+            }
+        ]
     },
     1754: {//20th Anni Sanji
         captain: "Boosts ATK of Fighter and Powerhouse characters by 2x",
@@ -26705,6 +26765,18 @@ window.details = {
                     "Level 3: If you hit a PERFECT with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
                     "Level 4: If you hit a PERFECT with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
                     "Level 5: If you hit a PERFECT with this character, there is a 70% chance to deal 8% of this character's attack in extra damage"
+                ]
+            },
+        ],
+        support: [
+            {
+                "Characters": "Zoro, Nami, Chopper and Brook",
+                "description": [
+                    "Level 1: Once per adventure, when you are inflicted with Poison or Toxic, reduces Poison duration by 3 turns",
+                    "Level 2: Once per adventure, when you are inflicted with Poison or Toxic, reduces Poison duration by 4 turns",
+                    "Level 3: Once per adventure, when you are inflicted with Poison or Toxic, reduces Poison duration by 5 turns",
+                    "Level 4: Once per adventure, when you are inflicted with Poison or Toxic, reduces Poison duration by 7 turns",
+                    "Level 5: Once per adventure, when you are inflicted with Poison or Toxic, removes Poison duration completely"
                 ]
             }
         ]
@@ -26763,7 +26835,19 @@ window.details = {
                     "Level 5: Reduces No Healing duration by ? turns"
                 ]
             },
-        ]
+        ],
+        support: [
+            {
+                "Characters": "Zoro, Sanji, Chopper and Brook",
+                "description": [
+                    "Level 1: Once per an adventure, when the supported character uses their special, reduces damage received by 20% for 1 turn.",
+                    "Level 2: Once per an adventure, when the supported character uses their special, reduces damage received by 30% for 1 turn.",
+                    "Level 3: Once per an adventure, when the supported character uses their special, reduces damage received by 40% for 1 turn.",
+                    "Level 4: Once per an adventure, when the supported character uses their special, reduces damage received by 50% for 1 turn.",
+                    "Level 5: Once per an adventure, when the supported character uses their special, reduces damage received by 50% for 1 turn and reduces enemies' Threshold Damage Reduction and ATK UP duration by 1 turns."
+                ]
+            }
+        ],
     },
     1758: {//20th Anni Brook
         captain: "Boosts ATK of Free Spirit characters by 2x and their RCV by 1.1x",
@@ -26819,6 +26903,18 @@ window.details = {
                     "Level 5: If you hit a PERFECT with this character, there is a ?% chance to deal ?% of this character's attack in extra damage"
                 ]
             },
+        ],
+        support: [
+            {
+                "Characters": "Zoro, Sanji, Nami and Chopper",
+                "description": [
+                    "Level 1: Once per an adventure, when the supported character uses a Paralysis or Despair reducing special, reduces Despair duration by 1 turn.",
+                    "Level 2: Once per an adventure, when the supported character uses a Paralysis or Despair reducing special, reduces Despair duration by 1 turn.",
+                    "Level 3: Once per an adventure, when the supported character uses a Paralysis or Despair reducing special, reduces Despair duration by 2 turns.",
+                    "Level 4: Once per an adventure, when the supported character uses a Paralysis or Despair reducing special, reduces Despair duration by 2 turns.",
+                    "Level 5: Once per an adventure, when the supported character uses a Paralysis or Despair reducing special, reduces Paralysis and Despair duration by 2 turns."
+                ]
+            }
         ]
     },
     1760: {//20th Anni Chopper
@@ -26875,6 +26971,18 @@ window.details = {
                     "Level 5: Reduces No Healing duration by ? turns"
                 ]
             },
+        ],
+        support: [
+            {
+                "Characters": "Zoro, Sanji, Nami and Brook",
+                "description": [
+                    "Level 1: Reduces damage received from [QCK] characters by 1%. Adds 2% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV",
+                    "Level 2: Reduces damage received from [QCK] characters by 2%. Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV",
+                    "Level 3: Reduces damage received from [QCK] characters by 3%. Adds 4% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV",
+                    "Level 4: Reduces damage received from [QCK] characters by 4%. Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV",
+                    "Level 5: Reduces damage received from [QCK] characters by 5%. Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV"
+                ]
+            }
         ]
     },
     1762: {//Rob Lucci
@@ -30824,6 +30932,18 @@ window.details = {
                     "Level 5: Reduces Slot Bind duration by 7 turns on this character"
                 ]
             },
+        ],
+        support: [
+            {
+                "Characters": "Driven characters",
+                "description": [
+                    "Level 1: Reduces damage received from [PSY] characters by 1%. Adds 3% of this character's base ATK to the supported character's base ATK",
+                    "Level 2: Reduces damage received from [PSY] characters by 2%. Adds 4% of this character's base ATK to the supported character's base ATK",
+                    "Level 3: Reduces damage received from [PSY] characters by 3%. Adds 6% of this character's base ATK to the supported character's base ATK",
+                    "Level 4: Reduces damage received from [PSY] characters by 4%. Adds 8% of this character's base ATK to the supported character's base ATK",
+                    "Level 5: Reduces damage received from [PSY] characters by 5%. Adds 11% of this character's base ATK to the supported character's base ATK"
+                ]
+            }
         ]
     },
     1927: {//Crocodile
@@ -33652,12 +33772,12 @@ window.details = {
     },
     2051: {//Pica
         captain: "If you have 5 or more Fighter characters in your crew, boosts ATK of Fighter characters by 2x and reduces damage received by 5%",
-        special: "Deals 35x character's ATK in [QCK] damage to one enemy and boosts ATK of Fighter characters by 1.75x for 2 turns. If Pica is your Captain or Friend/Guest Captain, Reduces damage received by 20% for 1 turn. If he is a Sailor, Increases damage received by 2x for 1 turn instead.",
+        special: "Deals 35x character's ATK in [QCK] damage to one enemy and boosts ATK of Fighter characters by 1.75x for 2 turns. If Pica is your Captain or Friend/Guest Captain, reduces damage received by 20% for 1 turn. If he is a Sailor, Increases damage received by 2x for 1 turn instead.",
         specialName: "Bitestone",
     },
     2052: {//Pica
         captain: "If you have 5 or more Fighter characters in your crew, boosts ATK of Fighter characters by 2.5x and their HP by 1.2 and reduces damage received by 10%",
-        special: "Deals 35x character's ATK in [QCK] damage to one enemy and boosts ATK of Fighter characters by 1.75x for 2 turns. If Pica is your Captain or Friend/Guest Captain, Reduces damage received by 20% for 1 turn. If he is a Sailor, Increases damage received by 2x for 1 turn instead.",
+        special: "Deals 35x character's ATK in [QCK] damage to one enemy and boosts ATK of Fighter characters by 1.75x for 2 turns. If Pica is your Captain or Friend/Guest Captain, reduces damage received by 20% for 1 turn. If he is a Sailor, Increases damage received by 2x for 1 turn instead.",
         specialName: "Bitestone",
     },
     2053: {//Bastille
@@ -37673,13 +37793,13 @@ window.details = {
     },
     2212: {//Pudding
         captain: "Boosts ATK of Cerebral characters by 1.75x",
-        special: "Recovers 7,000 HP, Reduces crew's ATK DOWN and enemies' Resilience Buffs duration by 5 turns and changes adjacent orbs into Matching Orbs",
+        special: "Recovers 7,000 HP, reduces crew's ATK DOWN and enemies' Resilience Buffs duration by 5 turns and changes adjacent orbs into Matching Orbs",
         specialName: "Eyes Hiding Shyness",
         sailor: "Reduces Paralysis duration by 1 turn",
     },
     2213: {//Pudding
         captain: "Boosts ATK of Cerebral characters by 2.25x and their RCV by 1.2x",
-        special: "Recovers 7,000 HP, Reduces crew's ATK DOWN and enemies' Resilience Buffs duration by 5 turns and changes adjacent orbs into Matching Orbs",
+        special: "Recovers 7,000 HP, reduces crew's ATK DOWN and enemies' Resilience Buffs duration by 5 turns and changes adjacent orbs into Matching Orbs",
         specialName: "Eyes Hiding Shyness",
         sailor: "Reduces Paralysis duration by 1 turn",
     },
@@ -41063,12 +41183,12 @@ window.details = {
     },
     2355: {//Arlong
         captain: "Boosts ATK of Slasher characters by 2.25x, but boosts his OWN attack by 2.5x",
-        special: "Deals ?x character's ATK in [STR] damage to one enemy, Reduces enemies' Increased Defense and Resilience Buffs duration by 3 turns, changes [BLOCK] orbs into Matching orbs and amplifies the effect of orbs for Slasher characters by 1.75x for 3 turns",
+        special: "Deals ?x character's ATK in [STR] damage to one enemy, reduces enemies' Increased Defense and Resilience Buffs duration by 3 turns, changes [BLOCK] orbs into Matching orbs and amplifies the effect of orbs for Slasher characters by 1.75x for 3 turns",
         specialName: "Kiribachi - Single Stroke Slice",
     },
     2356: {//Arlong
         captain: "Boosts ATK of Slasher characters by 2.75x, but boosts his OWN attack by 3x",
-        special: "Deals ?x character's ATK in [STR] damage to one enemy, Reduces enemies' Increased Defense and Resilience Buffs duration by 3 turns, changes [BLOCK] orbs into Matching orbs and amplifies the effect of orbs for Slasher characters by 1.75x for 3 turns",
+        special: "Deals ?x character's ATK in [STR] damage to one enemy, reduces enemies' Increased Defense and Resilience Buffs duration by 3 turns, changes [BLOCK] orbs into Matching orbs and amplifies the effect of orbs for Slasher characters by 1.75x for 3 turns",
         specialName: "Kiribachi - Single Stroke Slice",
         sailor: {
             "base": "Makes [QCK] orbs beneficial for this character",
@@ -43315,7 +43435,7 @@ window.details = {
     },
     2434: {//Boa Hancock+
         captain: "Boosts ATK of Free Spirit characters by a variable factor between 3x and 3.75x based on the timing of the attack of the previous unit in the chain and recovers 1,200 HP at end of each turn.",
-        captainNotes: "A hit below Good or a Miss will boost the ATK of the next unit by 3x, a Good hit by 3.25x, a Great hit by 3.5x and a PERFECT hit by 3.75x. This bonus is applied only to Shooter characters.",
+        captainNotes: "A hit below Good or a Miss will boost the ATK of the next unit by 3x, a Good hit by 3.25x, a Great hit by 3.5x and a PERFECT hit by 3.75x. This bonus is applied only to Free Spirit characters.",
         special: "Deals 12 hits of 25,000 Fixed damage to random enemies, delays all enemies for 1 turn and boosts the Color Affinity of Free Spirit characters by 2x for 1 turn.",
         specialNotes: "#{beneficial}",
         specialName: "Melo-Melo Combination",
@@ -46322,11 +46442,11 @@ window.details = {
             {
                 "Characters": "Luffy",
                 "description": [
-                    "Level 1: Once per an adventure, when the supported character uses their special, Reduces damage received by 10% for 1 turn.",
-                    "Level 2: Once per an adventure, when the supported character uses their special, Reduces damage received by 20% for 1 turn.",
-                    "Level 3: Once per an adventure, when the supported character uses their special, Reduces damage received by 30% for 1 turn.",
-                    "Level 4: Once per an adventure, when the supported character uses their special, Reduces damage received by 40% for 1 turn.",
-                    "Level 5: Once per an adventure, when the supported character uses their special, Reduces damage received by 50% for 1 turn."
+                    "Level 1: Once per an adventure, when the supported character uses their special, reduces damage received by 10% for 1 turn.",
+                    "Level 2: Once per an adventure, when the supported character uses their special, reduces damage received by 20% for 1 turn.",
+                    "Level 3: Once per an adventure, when the supported character uses their special, reduces damage received by 30% for 1 turn.",
+                    "Level 4: Once per an adventure, when the supported character uses their special, reduces damage received by 40% for 1 turn.",
+                    "Level 5: Once per an adventure, when the supported character uses their special, reduces damage received by 50% for 1 turn."
                 ]
             }
         ],
@@ -49446,6 +49566,30 @@ window.details = {
         special: "Makes [DEX], [PSY] and [INT] orbs beneficial for [DEX], [PSY] and [INT] characters for 2 turns and adds 0.4x to Chain multiplier for 2 turns.",
         sailor: "Boosts base ATK, HP and RCV of [DEX], [PSY] and [INT] characters by 30",
         specialName: "Juicy Smile",
+    },
+    2629: {//Marguerite
+        captain: "Boosts ATK of [STR], [QCK] and [INT] characters by 2x",
+        special: "Boosts ATK of [STR], [QCK] and [INT] characters by 1.75x for 1 turn, reduces Paralysis duration by 2 turns and changes adjacent orbs into Matching Orbs.",
+        sailor: "Boosts base ATK, HP and RCV of [STR], [QCK] and [INT] characters by 30",
+        specialName: "Marguerite Special",
+    },
+    2630: {//Marguerite
+        captain: "Boosts ATK of [STR], [QCK] and [INT] characters by 2.25x and their HP by 1.25x. Recovers 3x character's RCV in HP at the end of each turn",
+        special: "Boosts ATK of [STR], [QCK] and [INT] characters by 1.75x for 1 turn, reduces Paralysis duration by 2 turns and changes adjacent orbs into Matching Orbs.",
+        sailor: "Boosts base ATK, HP and RCV of [STR], [QCK] and [INT] characters by 30",
+        specialName: "Marguerite Special",
+        support: [
+            {
+                "Characters": "[QCK] characters",
+                "description": [
+                    "Level 1: Once per adventure, when you reach the final stage, changes supported character's orb into ?.",
+                    "Level 2: Once per adventure, when you reach the final stage, changes supported character's orb into ?.",
+                    "Level 3: Once per adventure, when you reach the final stage, changes supported character's orb into ?.",
+                    "Level 4: Once per adventure, when you reach the final stage, changes supported character's orb into ?.",
+                    "Level 5: Once per adventure, when you reach the final stage, changes supported character's orb into a [QCK] orb."
+                ]
+            }
+        ]
     },
     2631: {//Shirahoshi
         captain: "Boosts ATK of all characters by 2.5x, but boosts her OWN attack by 1.25x, recovers 5x character's RCV in HP at the end of each turn and if you don't attack with her, reduces damage received by 15% for that turn.",
