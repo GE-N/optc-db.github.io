@@ -1366,6 +1366,12 @@ window.matchers = [
     },
     
     {
+        name: 'Chain Lockers',
+        target: 'support',
+        matcher: /Locks the chain multiplier/i 
+    },
+    
+    {
         name: 'Damage Reduction supports',
         target: 'support',
         matcher: /Reduces damage received/i
