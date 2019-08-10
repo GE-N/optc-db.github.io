@@ -4101,7 +4101,7 @@ window.drops = {
             thumb: 2362,
             nakama: 8236200,
             gamewith: 134017,
-            'Winter Sea': [ 2361, 9025 ]
+            'Raging Sea': [ 2361, 9025 ]
         },
 
         {
@@ -4120,7 +4120,7 @@ window.drops = {
             thumb: 2443,
             nakama: 143066,
             gamewith: 8244300,
-            'Primordial Sea': [ 2442, 9026 ]
+            'Primordial Sea': [ 2442, 2439, 9026 ]
         },
 
         {
@@ -4164,8 +4164,17 @@ window.drops = {
             dropID: 'treasuremap23',
             thumb: 2618,
             nakama: null,
-            gamewith: null,
+            gamewith: 157969,
             'Primordial Sea': [ 2616, 2617 ]
+        },
+
+        {
+            name: 'Smoker',
+            dropID: 'treasuremap24',
+            thumb: 2659,
+            nakama: null,
+            gamewith: null,
+            'Expo Sea': [ 2658, 2660 ]
         },
         
     ],
