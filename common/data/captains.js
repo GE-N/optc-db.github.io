@@ -8012,7 +8012,7 @@ window.captains = {
     2306: {
         damageSorter: function(d) { return CrunchUtils.classSort(d, 2.75, [ "Cerebral", "Slasher" ]); },
         hitAtk: function(p) {
-            if (!p.unit.class.has("Slasher") || !p.unit.class.has("Cerebral")) return 1;
+            if (!(p.unit.class.has("Slasher") || p.unit.class.has("Cerebral"))) return 1;
             return p.modifiers.slice(0, p.chainPosition).count("Perfect") == p.chainPosition ? 2.75 : 1;
         },
         hitModifiers: ["Perfect", "Perfect", "Perfect", "Perfect", "Perfect", "Perfect"]
@@ -9476,6 +9476,17 @@ window.captains = {
     2668: {
         atk: function(p) { return (p.unit.class.has("Driven") || p.unit.class.has("Slasher")) ? 2.5 : 1; },
         hp: function(p) { return (p.unit.class.has("Driven") || p.unit.class.has("Slasher")) ? 1.25 : 1; },
+    },
+    2669: {
+        atk: function(p) {
+            return Math.min(2.5, 2 + 0.05 * p.turnCounter);
+        }
+    },
+    2670: {
+        atk: function(p) {
+            return Math.min(3.25, 2.5 + 0.075 * p.turnCounter);
+        },
+        hp: function(p) { return 1.2; }
     },
     3333: {
         hitAtk: function(p) {

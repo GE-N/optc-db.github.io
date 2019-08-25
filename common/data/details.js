@@ -50823,11 +50823,11 @@ window.details = {
     2659: {//Smoker Stampede
         captain: {
             "base": "Boosts ATK of Fighter and Driven characters by 2x.",
-            "level1": "Not Translated.",
-            "level2": "Not Translated.",
-            "level3": "Not Translated.",
-            "level4": "Not Translated.",
-            "level5": "Not Translated.",
+            "level1": "Boosts ATK of Fighter and Driven characters by 2x and reduces damage received up to 10% depending on the crew's current HP.",
+            "level2": "Boosts ATK of Fighter and Driven characters by 2.5x and reduces damage received up to 15% depending on the crew's current HP.",
+            "level3": "Boosts ATK of Fighter and Driven characters by 2.75x and reduces damage received up to 15% depending on the crew's current HP.",
+            "level4": "Boosts ATK of Fighter and Driven characters by 3x and reduces damage received up to 20% depending on the crew's current HP.",
+            "level5": "Boosts ATK of Fighter and Driven characters by 3x and reduces damage received up to 25% depending on the crew's current HP.",
             "level6": "Boosts ATK of Fighter and Driven characters by 3.25x and reduces damage received up to 40% depending on the crew's current HP.",
         },
         captainNotes: "Damage reduction is higher the lower the crew's HP is.",
@@ -50845,18 +50845,18 @@ window.details = {
             { "description": "Boosts base ATK by 10" },
             { "description": "Boosts base ATK by 10" },
             { "description": "Acquire Potential 1: [STR] Damage Reduction" },
-            { "description": "Acquire new Captain Ability: " },
+            { "description": "Acquire new Captain Ability: Boosts ATK of Fighter and Driven characters by 2x and reduces damage received up to 10% depending on the crew's current HP." },
             { "description": "Acquire Sailor Ability 1: Boosts base ATK, HP and RCV of Fighter and Driven characters by 30" },
             { "description": "Boosts base HP by 20" },
             { "description": "Boosts base HP by 20" },
             { "description": "Boosts base HP by 20" },
-            { "description": "Acquire new Captain Ability: " },
+            { "description": "Acquire new Captain Ability: Boosts ATK of Fighter and Driven characters by 2.5x and reduces damage received up to 15% depending on the crew's current HP." },
             { "description": "Acquire 1 additional Socket slot" },
             { "description": "Reduce base Special Cooldown by 1 turn" },
             { "description": "Boosts base RCV by 30" },
             { "description": "Boosts base RCV by 35" },
             { "description": "Boosts base RCV by 35" },
-            { "description": "Acquire new Captain Ability: " },
+            { "description": "Acquire new Captain Ability: Boosts ATK of Fighter and Driven characters by 2.75x and reduces damage received up to 15% depending on the crew's current HP." },
             { "description": "Reduce base Special Cooldown by 2 turns" },
             { "description": "Boosts base HP by 30" },
             { "description": "Boosts base HP by 40" },
@@ -50866,7 +50866,7 @@ window.details = {
             { "description": "Boosts base ATK by 30" },
             { "description": "Boosts base ATK by 30" },
             { "description": "Reduce base Special Cooldown by 4 turns" },
-            { "description": "Acquire new Captain Ability: " },
+            { "description": "Acquire new Captain Ability: Boosts ATK of Fighter and Driven characters by 3x and reduces damage received up to 20% depending on the crew's current HP." },
             { "description": "Boosts base HP by 60" },
             { "description": "Boosts base HP by 70" },
             { "description": "Acquire Sailor Ability 2: Makes [DEX] orbs beneficial for Fighter characters" },
@@ -50875,7 +50875,7 @@ window.details = {
             { "description": "Boosts base ATK by 50" },
             { "description": "Reduce base Special Cooldown by 5 turns" },
             { "description": "Acquire 1 additional Socket slot" },
-            { "description": "Acquire new Captain Ability: " },
+            { "description": "Acquire new Captain Ability: Boosts ATK of Fighter and Driven characters by 3x and reduces damage received up to 25% depending on the crew's current HP." },
             { "description": "Boosts base HP by 70" },
             { "description": "Boosts base HP by 100" },
             { "description": "Acquire new Captain Ability: Boosts ATK of Fighter and Driven characters by 3.25x and reduces damage received up to 40% depending on the crew's current HP." },
@@ -51121,27 +51121,112 @@ window.details = {
             "base": "Boosts base ATK, HP and RCV of Driven characters by 25",
             "level1": "Reduces Blindness duration by 5 turns",
         },
+        limit: [
+            { "description": "Boosts base RCV by 25" },
+            { "description": "Boosts base HP by 300" },
+            { "description": "Boosts base ATK by 150" },
+            { "description": "Acquire Potential 1: [STR] Damage Reduction" },
+            { "description": "Boosts base RCV by 75" },
+            { "description": "Boosts base HP by 400" },
+            { "description": "Boosts base ATK by 200" },
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "Acquire Sailor Ability 1: Reduces Blindness duration by 5 turns" },
+            { "description": "Boosts base HP by 600" },
+            { "description": "Boosts base ATK by 300" },
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Reduce base Special Cooldown by 4 turns" },
+            { "description": "Acquire Potential 2: Critical Hit" },
+        ],
         potential: [
             {
                 "Name": "[STR] Damage Reduction",
                 "description": [
-                    "Level 1: Reduce damage taken from [STR] characters by ?%",
-                    "Level 2: Reduce damage taken from [STR] characters by ?%",
-                    "Level 3: Reduce damage taken from [STR] characters by ?%",
-                    "Level 4: Reduce damage taken from [STR] characters by ?%",
+                    "Level 1: Reduce damage taken from [STR] characters by 1%",
+                    "Level 2: Reduce damage taken from [STR] characters by 2%",
+                    "Level 3: Reduce damage taken from [STR] characters by 3%",
+                    "Level 4: Reduce damage taken from [STR] characters by 4%",
                     "Level 5: Reduce damage taken from [STR] characters by 5%"
                 ]
             },
             {
                 "Name": "Critical Hit",
                 "description": [
-                    "Level 1: If you hit a PERFECT with this character, there is a ?% chance to deal ?% of this character's attack in extra damage",
-                    "Level 2: If you hit a PERFECT with this character, there is a ?% chance to deal ?% of this character's attack in extra damage",
-                    "Level 3: If you hit a PERFECT with this character, there is a ?% chance to deal ?% of this character's attack in extra damage",
-                    "Level 4: If you hit a PERFECT with this character, there is a ?% chance to deal ?% of this character's attack in extra damage",
+                    "Level 1: If you hit a PERFECT with this character, there is a 30% chance to deal ?% of this character's attack in extra damage",
+                    "Level 2: If you hit a PERFECT with this character, there is a 40% chance to deal ?% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 50% chance to deal ?% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 60% chance to deal ?% of this character's attack in extra damage",
                     "Level 5: If you hit a PERFECT with this character, there is a 70% chance to deal 7% of this character's attack in extra damage"
                 ]
             },
+        ],
+    },
+    2669: {//Stampede Lucci
+        captain: "Boosts ATK of all characters by 2x and their HP by 1.2x. If you defeat an enemy, increases ATK boost slightly. Stacks up to 8 times to a maximum of 3.5x.",
+        captainNotes: "If a character dies and revives, it counts as killing a character. If you did not defeat an enemy, lose all ATK boost stacks.",
+        special: "Deals 100,000 Fixed damage to all enemies and randomizes all orbs, including [BLOCK] orbs, into either [STR], [QCK] or [INT] orbs. If your crew has 4 or more [STR] characters, boosts the Color Affinity of all characters by 2x for 1 turn. If your crew has 3 or more [QCK] or [INT] characters, reduces Bind duration by 5 turns and enemies' Percent Damage Reduction by 5 turns.",
+        specialName: "Zero Tempest Kick",
+    },
+    2670: {//Stampede Lucci
+        captain: "Boosts ATK of all characters by 2.5x and their HP by 1.2x. If you defeat an enemy, increases ATK boost slightly. Stacks up to 10 times to a maximum of 3.25x.",
+        captainNotes: "If a character dies and revives, it counts as killing a character. If you did not defeat an enemy, lose all ATK boost stacks.",
+        special: "Deals 100,000 Fixed damage to all enemies and randomizes all orbs, including [BLOCK] orbs, into either [STR], [QCK] or [INT] orbs. If your crew has 4 or more [STR] characters, boosts the Color Affinity of all characters by 2x for 1 turn. If your crew has 3 or more [QCK] or [INT] characters, reduces Bind duration by 5 turns and enemies' Percent Damage Reduction by 5 turns.",
+        specialName: "Zero Tempest Kick",
+        sailor: {
+            "base": "None",
+            "level1": "Boosts base ATK of [STR] characters by 50",
+            "level2": "Makes [STR] orbs beneficial for Fighter and Slasher characters",
+        },
+        limit: [
+            { "description": "" },
+            { "description": "" },
+            { "description": "" },
+            { "description": "Acquire Potential 1: [DEX] Damage Reduction" },
+            { "description": "" },
+            { "description": "" },
+            { "description": "" },
+            { "description": "" },
+            { "description": "" },
+            { "description": "" },
+            { "description": "" },
+            { "description": "" },
+            { "description": "" },
+            { "description": "" },
+            { "description": "Acquire Potential 2: Slot Bind Self-reduction" },
+        ],
+        potential: [
+            {
+                "Name": "[DEX] Damage Reduction",
+                "description": [
+                    "Level 1: Reduce damage taken from [DEX] characters by 1%",
+                    "Level 2: Reduce damage taken from [DEX] characters by 2%",
+                    "Level 3: Reduce damage taken from [DEX] characters by 3%",
+                    "Level 4: Reduce damage taken from [DEX] characters by 4%",
+                    "Level 5: Reduce damage taken from [DEX] characters by 5%"
+                ]
+            },
+            {
+                "Name": "Slot Bind Self-reduction",
+                "description": [
+                    "Level 1: Reduces Slot Bind duration by ? turn on this character",
+                    "Level 2: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 3: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 4: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 5: Reduces Slot Bind duration by 10 turns on this character"
+                ]
+            },
+        ],
+        support: [
+            {
+                "Characters": "[STR] characters",
+                "description": [
+                    "Level 1: Adds 1% of this character's base ATK to the supported character's base ATK.",
+                    "Level 2: Adds 2% of this character's base ATK to the supported character's base ATK.",
+                    "Level 3: Adds 3% of this character's base ATK to the supported character's base ATK.",
+                    "Level 4: Adds 5% of this character's base ATK to the supported character's base ATK.",
+                    "Level 5: Adds 7% of this character's base ATK to the supported character's base ATK."
+                ]
+            }
         ],
     },
     3333: {//Kung Fu Luffy
