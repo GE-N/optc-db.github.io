@@ -2585,6 +2585,18 @@ window.specials = {
             });
         }
     },
+    1492: {
+        atk: function(p) { return !p.unit.class.has('Free Spirit') ? 1 : window.specials[1492].multiplier; },
+        type: "class",
+        onActivation: function(p) {
+            var n = (window.specials[1492].multiplier == 1.5 ? 1 : window.specials[1492].multiplier == 1.75 ? 2 : 0);
+            window.specials[1492].multiplier = [1.5, 1.75, 2][n];
+            p.scope.notify({
+                text: 'Using the ' + [1.5, 1.75, 2][n] + 'x ATK multiplier. To switch to the ' + [1.75, 2, 1.5][n] + 'x multiplier, disable and re-enable this special',
+                name: '1492warning'
+            });
+        }
+    },
     1497: {
         atk: function(p) { return p.slot == p.sourceSlot ? 1.5 : 1; },
         type: "type"
@@ -6733,6 +6745,20 @@ window.specials = {
     2391: {
         orb: function(p) { return (p.unit.class.has("Fighter") || p.unit.class.has("Free Spirit")) ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.75, [p.friendCaptain, p.captain], p.effectName) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1, [p.friendCaptain, p.captain], p.effectName); }
     },
+    2393: {
+        orb: function(p) { return (p.unit.class.has("Fighter") || p.unit.class.has("Free Spirit") || p.unit.class.has("Powerhouse")) ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, window.specials[2393].multiplier, [p.friendCaptain, p.captain], p.effectName) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1, [p.friendCaptain, p.captain], p.effectName); },
+        onActivation: function(p) {
+            var n = (p.percHP <= 30 ? 2.25 : 2);
+            window.specials[2393].multiplier = n;
+        }
+    },
+    2394: {
+        orb: function(p) { return (p.unit.class.has("Fighter") || p.unit.class.has("Free Spirit") || p.unit.class.has("Powerhouse")) ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, window.specials[2394].multiplier, [p.friendCaptain, p.captain], p.effectName) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1, [p.friendCaptain, p.captain], p.effectName); },
+        onActivation: function(p) {
+            var n = (p.percHP <= 30 ? 2.25 : 2);
+            window.specials[2394].multiplier = n;
+        }
+    },
     2398: {
         orb: function(p) { return (p.unit.class.has("Shooter")) ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.75, [p.friendCaptain, p.captain], p.effectName) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1, [p.friendCaptain, p.captain], p.effectName); },
         turnedOn: [ false, false, false, false, false, false ],
@@ -8126,17 +8152,21 @@ window.specials = {
         },
     },
     2671: {
-        atkStatic: function(p) { return p.slot == p.sourceSlot ? Math.min(1000,window.specials[2671].momBoost) : 0; },
-        type: "base",
+        atk: function(p) { return p.slot == p.sourceSlot ? 2.5 : 1; },
+        type: "type",
+        orb: function(p) { return p.slot == p.sourceSlot ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 2.5, [p.friendCaptain, p.captain], p.effectName) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1, [p.friendCaptain, p.captain], p.effectName)},
+        atkbase: function(p) { return p.slot == p.sourceSlot ? Math.min(1000,window.specials[2671].momBoost) : 0; },
         onActivation: function(p) {
-            window.specials[2671].momBoost = p.percHP*p.maxHP/20;
+            window.specials[2671].momBoost = Math.floor(p.percHP*p.maxHP/2000);
         },
     },
     2672: {
-        atkStatic: function(p) { return p.slot == p.sourceSlot ? Math.min(1000,window.specials[2671].momBoost) : 0; },
-        type: "base",
+        atk: function(p) { return p.slot == p.sourceSlot ? 2.5 : 1; },
+        type: "type",
+        orb: function(p) { return p.slot == p.sourceSlot ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 2.5, [p.friendCaptain, p.captain], p.effectName) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1, [p.friendCaptain, p.captain], p.effectName)},
+        atkbase: function(p) { console.log(p); return p.slot == p.sourceSlot ? Math.min(1000,window.specials[2672].momBoost) : 0; },
         onActivation: function(p) {
-            window.specials[2671].momBoost = p.percHP*p.maxHP/20;
+            window.specials[2672].momBoost = Math.floor(p.percHP*p.maxHP/2000);
         },
     },
     2673: {
@@ -8172,6 +8202,43 @@ window.specials = {
             return p.chainPosition === 0 ? 1 : (prev == 'Good'  || prev == 'Great' || prev == 'Perfect') ? 3 : 1;
         }
     },
+    2683: {
+        affinity: function(p) { return (p.unit.type == "STR" || p.unit.type == "DEX" || p.unit.type == "PSY") ? 1.75 : 1; },
+    },
+    2684: {
+        affinity: function(p) { return (p.unit.type == "STR" || p.unit.type == "DEX" || p.unit.type == "PSY") ? 1.75 : 1; },
+    },
+    2685: {
+        atk: function(p) { return p.unit.class.has("Striker") || p.unit.class.has("Powerhouse") ? 2 : 1; },
+        type: "class",
+        chainAddition: function(p) { return 0.7; }
+    },
+    2686: {
+        atk: function(p) { return p.unit.class.has("Striker") || p.unit.class.has("Powerhouse") ? 2 : 1; },
+        type: "class",
+        chainAddition: function(p) { return 0.7; }
+    },
+    2687: {
+        affinity: function(p) { return !(p.unit.type == "DEX" || p.unit.type == "QCK" || p.unit.type == "PSY") ? 1 : window.specials[2687].multiplier; },
+        onActivation: function(p) {
+            var n = (window.specials[1492].multiplier == 1.5 ? 1 : window.specials[2687].multiplier == 1.75 ? 2 : 0);
+            window.specials[1492].multiplier = [1.5, 1.75, 2][n];
+            p.scope.notify({
+                text: 'Using the ' + [1.5, 1.75, 2][n] + 'x Affinity multiplier. To switch to the ' + [1.75, 2, 1.5][n] + 'x multiplier, disable and re-enable this special',
+                name: '2687warning'
+            });
+        }
+    },
+    2689: {
+        atk: function(p) { return p.unit.type == "INT" ? 2 : 1; },
+        orb: function(p) { return p.unit.type == "INT" ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 2, [p.friendCaptain, p.captain], p.effectName) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1, [p.friendCaptain, p.captain], p.effectName); },
+        type: "type",
+    },
+    2690: {
+        atk: function(p) { return p.unit.type == "INT" ? 2 : 1; },
+        orb: function(p) { return p.unit.type == "INT" ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 2, [p.friendCaptain, p.captain], p.effectName) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1, [p.friendCaptain, p.captain], p.effectName); },
+        type: "type",
+    },
     3333: {
         atk: function(p) { return 1.75; },
         type: "type",
@@ -8191,16 +8258,6 @@ window.specials = {
     3340: {
         atk: function(p) { return p.unit.class.has("Fighter") ? 1.75 : 1; },
         type: "class"
-    },
-    3345: {
-        atk: function(p) { return p.unit.class.has("Striker") || p.unit.class.has("Powerhouse") ? 2 : 1; },
-        type: "class",
-        chainAddition: function(p) { return 0.7; }
-    },
-    3346: {
-        atk: function(p) { return p.unit.class.has("Striker") || p.unit.class.has("Powerhouse") ? 2 : 1; },
-        type: "class",
-        chainAddition: function(p) { return 0.7; }
     },
     3347: {
         orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.75, [p.friendCaptain, p.captain], p.effectName); },
@@ -8753,8 +8810,7 @@ window.specials = {
         orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 2.5, [p.friendCaptain, p.captain], p.effectName); }
     },
     5090: {
-        atkStatic: function(p) { return Math.min(1000,window.specials[5090].momBoost); },
-        type: "base",
+        atkbase: function(p) { return Math.min(1000,window.specials[5090].momBoost); },
         chain: function(p) { return window.specials[5090].multiplier; },
         chainLimiter: function(p) {
             var prev = p.hitcombo[p.hitcombo.length - 1][p.chainPosition - 1]
@@ -8766,12 +8822,11 @@ window.specials = {
             if (p.percHP >= 50) {
                 window.specials[5090].multiplier = 3.5;
             }
-            window.specials[5090].momBoost = p.percHP*p.maxHP/100;
+            window.specials[5090].momBoost = Math.floor(p.percHP*p.maxHP/10000);
         },
     },
     5091: {
-        atkStatic: function(p) { return Math.min(1000,window.specials[5091].momBoost); },
-        type: "base",
+        atkbase: function(p) { return Math.min(1000,window.specials[5091].momBoost); },
         chain: function(p) { return window.specials[5091].multiplier; },
         chainLimiter: function(p) {
             var prev = p.hitcombo[p.hitcombo.length - 1][p.chainPosition - 1]
@@ -8783,12 +8838,11 @@ window.specials = {
             if (p.percHP >= 50) {
                 window.specials[5091].multiplier = 3.5;
             }
-            window.specials[5091].momBoost = p.percHP*p.maxHP/100;
+            window.specials[5091].momBoost = Math.floor(p.percHP*p.maxHP/10000);
         },
     },
     5092: {
-        atkStatic: function(p) { return Math.min(1000,window.specials[5092].momBoost); },
-        type: "base",
+        atkbase: function(p) { return Math.min(1000,window.specials[5092].momBoost); },
         chain: function(p) { return window.specials[5092].multiplier; },
         chainLimiter: function(p) {
             var prev = p.hitcombo[p.hitcombo.length - 1][p.chainPosition - 1]
@@ -8800,12 +8854,11 @@ window.specials = {
             if (p.percHP >= 50) {
                 window.specials[5092].multiplier = 3.5;
             }
-            window.specials[5092].momBoost = p.percHP*p.maxHP/100;
+            window.specials[5092].momBoost = Math.floor(p.percHP*p.maxHP/10000);
         },
     },
     5093: {
-        atkStatic: function(p) { return Math.min(1000,window.specials[5093].momBoost); },
-        type: "base",
+        atkbase: function(p) { return Math.min(1000,window.specials[5093].momBoost); },
         chain: function(p) { return window.specials[5093].multiplier; },
         chainLimiter: function(p) {
             var prev = p.hitcombo[p.hitcombo.length - 1][p.chainPosition - 1]
@@ -8817,12 +8870,11 @@ window.specials = {
             if (p.percHP >= 50) {
                 window.specials[5093].multiplier = 3.5;
             }
-            window.specials[5093].momBoost = p.percHP*p.maxHP/100;
+            window.specials[5093].momBoost = Math.floor(p.percHP*p.maxHP/10000);
         },
     },
     5094: {
-        atkStatic: function(p) { return Math.min(1000,window.specials[5094].momBoost); },
-        type: "base",
+        atkbase: function(p) { return Math.min(1000,window.specials[5094].momBoost); },
         chain: function(p) { return window.specials[5094].multiplier; },
         chainLimiter: function(p) {
             var prev = p.hitcombo[p.hitcombo.length - 1][p.chainPosition - 1]
@@ -8834,12 +8886,11 @@ window.specials = {
             if (p.percHP >= 50) {
                 window.specials[5094].multiplier = 3.5;
             }
-            window.specials[5094].momBoost = p.percHP*p.maxHP/100;
+            window.specials[5094].momBoost = Math.floor(p.percHP*p.maxHP/10000);
         },
     },
     5095: {
-        atkStatic: function(p) { return Math.min(1000,window.specials[5095].momBoost); },
-        type: "base",
+        atkbase: function(p) { return Math.min(1000,window.specials[5095].momBoost); },
         chain: function(p) { return window.specials[5095].multiplier; },
         chainLimiter: function(p) {
             var prev = p.hitcombo[p.hitcombo.length - 1][p.chainPosition - 1]
@@ -8851,7 +8902,7 @@ window.specials = {
             if (p.percHP >= 50) {
                 window.specials[5095].multiplier = 3.5;
             }
-            window.specials[5095].momBoost = p.percHP*p.maxHP/100;
+            window.specials[5095].momBoost = Math.floor(p.percHP*p.maxHP/10000);
         },
     },
     5096: {

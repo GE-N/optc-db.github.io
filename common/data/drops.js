@@ -2687,11 +2687,11 @@ window.drops = {
             name: 'Clash Neo!! Duval',
             dropID: 'clashneo12',
             condition: '4 Master versions with different conditions. Slasher/Striker/Free Spirit Only, Slasher Only, Striker Only and Free Spirit Only',
-            thumb: 654,
+            thumb: 3368,
             global: true,
             nakama: null,
             gamewith: null,
-            Master: [ 3365 ],
+            Master: [ 3366 ],
         },
 
         {
@@ -3233,8 +3233,27 @@ window.drops = {
             thumb: 2670,
             nakama: null,
             gamewith: 163423,
-            Master: [ 2669 ],
             Expert: [ 2669 ],
+            Ultimate: [ 2669 ],
+        },
+        
+        {
+            name: 'Clash!! Sabo',
+            thumb: 2684,
+            nakama: null,
+            gamewith: null,
+            Expert: [ 2683 ],
+            Ultimate: [ 2683 ],
+        },
+        
+        {
+            name: 'Clash!! Ace',
+            thumb: 2394,
+            nakama: null,
+            gamewith: null,
+            Master: [ 2393 ],
+            Expert: [ 2393 ],
+            Ultimate: [ 2393 ],
         },
         
         {
@@ -4281,6 +4300,15 @@ window.drops = {
             nakama: null,
             gamewith: 162014,
             'Expo Sea': [ 2658, 2660 ]
+        },
+
+        {
+            name: 'Blackbeard',
+            dropID: 'treasuremap25',
+            thumb: 2690,
+            nakama: null,
+            gamewith: null,
+            'Raging Sea': [ 2689 ]
         },
         
     ],

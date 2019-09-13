@@ -640,6 +640,12 @@ window.sailors = {
         hpStatic: function(p) { return p.unit.class.has("Slasher") || p.unit.class.has("Powerhouse") ? 50 : 0; },
         rcvStatic: function(p) { return p.unit.class.has("Slasher") || p.unit.class.has("Powerhouse") ? 50 : 0; },
     },
+    2393: {
+        atkStatic: function(p) { return p.slot <= 1 ? 80 : 0; },
+    },
+    2394: {
+        atkStatic: function(p) { return p.slot <= 1 ? 80 : 0; },
+    },
     2400: {
         atkStatic: function(p) { return p.unit.type == "STR" || p.unit.type == "DEX" || p.unit.type == "QCK" ? 30 : 0; },
         rcvStatic: function(p) { return p.unit.type == "STR" || p.unit.type == "DEX" || p.unit.type == "QCK" ? 30 : 0; },
@@ -923,6 +929,12 @@ window.sailors = {
         atkStatic: function(p) { return p.unit.type == "PSY" || p.unit.type == "DEX" ? 50 : 0; },
         hpStatic: function(p) { return p.unit.type == "PSY" || p.unit.type == "DEX" ? 50 : 0; },
         rcvStatic: function(p) { return p.unit.type == "PSY" || p.unit.type == "DEX" ? 50 : 0; },
+    },
+    2683: {
+        hpStatic: function(p) { return p.unit.type == "PSY" ? 30 : 0; },
+    },
+    2684: {
+        hpStatic: function(p) { return p.unit.type == "PSY" ? 30 : 0; },
     },
     3333: {
         staticMult: function(p) { return 3; }
