@@ -10554,7 +10554,7 @@ window.details = {
         special: "Seals himself for 1 turn, changes [BLOCK] orbs into Matching orbs, randomizes Badly Matching orbs into either [STR], [QCK], [DEX], [PSY] or [INT] orbs",
         sailor: {
             "base": "None",
-            "level1": "Completely removes Blindness duration completely",
+            "level1": "Removes Blindness duration completely",
             "level2": "Makes [STR], [QCK], [DEX], [PSY] and [INT] orbs beneficial for this character",
         },
         sailorNotes: "#{beneficial}",
@@ -10565,7 +10565,7 @@ window.details = {
             { "description": "Acquire Potential 1: Reduce No Healing duration" },
             { "description": "Boosts base ATK by 20" },
             { "description": "Boosts base ATK by 30" },
-            { "description": "Acquire Sailor Ability 1: Completely removes Blindness duration completely" },
+            { "description": "Acquire Sailor Ability 1: Removes Blindness duration completely" },
             { "description": "Boosts base ATK by 50" },
             { "description": "Boosts base HP by 50" },
             { "description": "Acquire 1 additional Socket slot" },
@@ -10719,7 +10719,7 @@ window.details = {
         sailor: {
             "base": "None",
             "level1": "Boosts base ATK, HP and RCV for all characters by 50",
-            "level2": "If your Captain is a Free Spirit or Striker character, completely removes Blindness duration completely",
+            "level2": "If your Captain is a Free Spirit or Striker character, removes Blindness duration completely",
         },
         limit: [
             { "description": "Boosts base HP by 30" },
@@ -10733,7 +10733,7 @@ window.details = {
             { "description": "Boosts base RCV by 50" },
             { "description": "Reduce base Special Cooldown by 4 turns" },
             { "description": "Boosts base HP by 110" },
-            { "description": "Acquire Sailor Ability 2: If your Captain is a Free Spirit or Striker character, completely removes Blindness duration completely" },
+            { "description": "Acquire Sailor Ability 2: If your Captain is a Free Spirit or Striker character, removes Blindness duration completely" },
             { "description": "Acquire 1 additional Socket slot" },
             { "description": "Boosts base ATK by 50" },
             { "description": "Acquire Potential 2: Pinch Healing" },
@@ -16161,7 +16161,7 @@ window.details = {
         specialName: "Sword of Silence",
         sailor: {
             "base": "Reduces Blindness duration for 3 turns",
-            "level1": "Completely removes Blindness duration completely",
+            "level1": "Removes Blindness duration completely",
         },
         limit: [
             { "description": "Boosts base RCV by 20" },
@@ -16175,7 +16175,7 @@ window.details = {
             { "description": "Boosts base HP by 30" },
             { "description": "Acquire 1 additional Socket slot" },
             { "description": "Boosts base HP by 40" },
-            { "description": "Acquire Sailor Ability 1: Completely removes Blindness duration completely" },
+            { "description": "Acquire Sailor Ability 1: Removes Blindness duration completely" },
             { "description": "Reduce base Special Cooldown by 5 turns" },
             { "description": "Boosts base HP by 50" },
             { "description": "Acquire Potential 2: Reduce No Healing duration" },
@@ -20306,7 +20306,7 @@ window.details = {
         special: "Makes PERFECTs easier to hit, locks all orbs and locks the chain multiplier at 2.5x for 1 turn",
         specialNotes: "Increases timing window to hit a PERFECT. (Animation remains the same)",
         specialName: "Flail Hidden From God",
-        sailor: "If your captain is a Powerhouse character, completely removes Blindness duration completely",
+        sailor: "If your Captain is a Powerhouse character, removes Blindness duration completely",
     },
     1442: {//Zeo
         captain: "Boosts ATK of [INT] characters by 2.25x and reduces damage received by 20%",
@@ -20314,7 +20314,7 @@ window.details = {
         specialNotes: "Increases timing window to hit a PERFECT. (Animation remains the same)",
         specialName: "Flail Hidden From God",
         sailor: {
-            "base": "If your captain is a Powerhouse character, completely removes Blindness duration completely",
+            "base": "If your Captain is a Powerhouse character, removes Blindness duration completely",
             "level1": "Makes [TND] orbs beneficial for Powerhouse characters",
         },
         sailorNotes: "#{beneficial}",
@@ -21886,7 +21886,7 @@ window.details = {
             },
         ],
         specialNotes: "#{stages}",
-        sailor: "Completely removes Blindness duration completely",
+        sailor: "Removes Blindness duration completely",
         specialName: "Long-Range Attack: Bagworm",
     },
     1532: {//Legend Usopp
@@ -21908,7 +21908,7 @@ window.details = {
         ],
         specialNotes: "#{stages}",
         sailor: {
-            "base": "Completely removes Blindness duration completely",
+            "base": "Removes Blindness duration completely",
             "level1": "Boosts base HP of Shooter characters by 100",
         },
         specialName: "Long-Range Attack: Bagworm",
@@ -22334,7 +22334,7 @@ window.details = {
         captainNotes: "The Attack Timer increase is NOT a delay, so the enemies can still be delayed. Attack Timer increase ignores Debuff Prevention barriers<br>#{beneficial}",
         special: "Cuts the current HP of each enemy by 10%. If enemies have Delay Debuff Protection, ignores it and Delays all enemies for 1 turn. Otherwise, Delays all enemies for 3 turns",
         sailor: {
-            "base": "Completely removes Blindness duration completely",
+            "base": "Removes Blindness duration completely",
             "level1": "Boosts base HP of Shooter characters by 100",
         },
         specialName: "Green Star, Impact Wolf",
@@ -33752,7 +33752,7 @@ window.details = {
         sailorNotes: "#{beneficial}",
         sailor: {
             "base": "Makes [INT] orbs beneficial for Powerhouse characters",
-            "level1": "If your captain is a Powerhouse character, completely removes Blindness duration completely",
+            "level1": "If your Captain is a Powerhouse character, removes Blindness duration completely",
         },
         limit: [
             { "description": "Boosts base RCV by 10" },
@@ -33767,7 +33767,7 @@ window.details = {
             { "description": "Reduce base Special Cooldown by 1 turn" },
             { "description": "Boosts base HP by 40" },
             { "description": "Boosts base HP by 50" },
-            { "description": "Acquire Sailor Ability 1: If your Captain is a Powerhouse character, completely removes Blindness duration completely" },
+            { "description": "Acquire Sailor Ability 1: If your Captain is a Powerhouse character, removes Blindness duration completely" },
             { "description": "Boosts base ATK by 50" },
             { "description": "Acquire Potential 2: Cooldown Reduction" },
         ],
@@ -40186,14 +40186,14 @@ window.details = {
         captain: "Boosts ATK of Shooter characters by 2.25x and makes [DEX] orbs beneficial for Shooter characters",
         special: "Cuts the current HP of one enemy by 20%, changes orbs in the top row into Matching orbs, reduces enemies' Increased Defense and Percent Damage Reduction duration by 3 turns. If there are 6 Shooter characters in your crew when the special is activated, reduces damage received by 90% for 1 turn.",
         specialName: "Phantom Gun Shot",
-        sailor: "If your Captain is a Shooter character, completely removes Blindness duration completely",
+        sailor: "If your Captain is a Shooter character, removes Blindness duration completely",
     },
     2308: {//Vito
         captain: "Boosts ATK of Shooter characters by 2.5x and makes [DEX] orbs beneficial for Shooter characters",
         special: "Cuts the current HP of one enemy by 20%, changes orbs in the top row into Matching orbs, reduces enemies' Increased Defense and Percent Damage Reduction duration by 3 turns. If there are 6 Shooter characters in your crew when the special is activated, reduces damage received by 90% for 1 turn.",
         specialName: "Phantom Gun Shot",
         sailor: {
-            "base": "If your Captain is a Shooter character, completely removes Blindness duration completely",
+            "base": "If your Captain is a Shooter character, removes Blindness duration completely",
             "level1": "Makes [DEX] orbs beneficial for Shooter characters",
         },
         sailorNotes: "#{beneficial}",
@@ -42709,7 +42709,7 @@ window.details = {
         specialName: "Ace Special",
         sailor: {
             "base": "Boosts base ATK of characters in the top row by 80",
-            "level1": "If your Captain is a Fighter, Free Spirit or Powerhouse character, completely removes Blindness duration completely",
+            "level1": "If your Captain is a Fighter, Free Spirit or Powerhouse character, removes Blindness duration completely",
         },
         potential: [
             {
@@ -52622,17 +52622,17 @@ window.details = {
             }
         ]
     },
-    3366: {
+    3366: {//Neo Duval
         special: "Deals 5,000 Fixed damage to all enemies, reduces damage received by 50% for 1 turn, reduces Increase Damage Taken duration by 4 turns and boosts ATK of Shooter characters by 1.75x for 1 turn",
         specialName: "Heart-Smashing Horn [Neo]",
         captain: "Boosts ATK of Shooter characters by 2x"
     },
-    3367: {
+    3367: {//Neo Duval
         special: "Deals 5,000 Fixed damage to all enemies, reduces damage received by 50% for 1 turn, reduces Increase Damage Taken duration by 4 turns and boosts ATK of Shooter characters by 1.75x for 1 turn",
         specialName: "Heart-Smashing Horn [Neo]",
         captain: "Reduces cooldown of all specials by 1 turn at the start of the fight and boosts ATK of Shooter characters by 2.25x and their RCV by 1.5x"
     },
-    3368: {
+    3368: {//Neo Duval
         special: "Deals 5,000 Fixed damage to all enemies, reduces damage received by 50% for 1 turn, reduces Increase Damage Taken duration by 4 turns and boosts ATK of Shooter characters by 1.75x for 1 turn",
         specialName: "Heart-Smashing Horn [Neo]",
         captain: "Reduces cooldown of all specials by 2 turns at the start of the fight and boosts ATK of Shooter characters by 2.25x and their RCV by 1.5x"
@@ -52682,6 +52682,43 @@ window.details = {
                 ]
             },
         ]*/
+    },
+    3369: {//Sanji&Pudding
+        captain: {
+            "character1": "Boosts ATK of [STR], [DEX] and [QCK] characters by 2.5x, their RCV by 1.2x and boosts chances of getting [RCV] orbs",
+            "character2": "Boosts ATK of [STR], [DEX] and [QCK] characters by 2.5x, their RCV by 1.2x and makes [RCV] orbs beneficial for all characters",
+            "combined": "Boosts ATK of [STR], [DEX] and [QCK] characters by 2.5x, their RCV by 1.5x, boosts chances of getting [RCV] orbs and makes [RCV] orbs beneficial for all characters"
+        },
+        sailor: {
+            "base": "Boosts base ATK of characters in the top row by 60",
+            "level1": "Makes [RCV] orbs beneficial for Powerhouse characters",
+        },
+        sailorNotes: "#{beneficial}",
+        special: "Changes adjacent orbs into [RCV] orbs, reduces any damage received above 3,000 HP by ?% for 1 turn, boosts the Color Affinity of [STR], [DEX] and [QCK] characters by 1.75x for 1 turn and becomes Sanji & Pudding for 2 turns",
+        swap: "When Change is activated, randomizes [PSY] and [INT] orbs on [STR], [DEX] and [QCK] characters into either [RCV], [TND], [STR], [DEX] or [QCK] orbs",
+        specialName: "Wedding Vows",
+        potential: [
+            {
+                "Name": "Slot Bind Self-reduction",
+                "description": [
+                    "Level 1: Reduces Slot Bind duration by ? turn on this character",
+                    "Level 2: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 3: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 4: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 5: Reduces Slot Bind duration by ? turns on this character"
+                ]
+            },
+            {
+                "Name": "Reduce No Healing duration",
+                "description": [
+                    "Level 1: Reduces No Healing duration by ? turn",
+                    "Level 2: Reduces No Healing duration by ? turn",
+                    "Level 3: Reduces No Healing duration by ? turn",
+                    "Level 4: Reduces No Healing duration by ? turn",
+                    "Level 5: Reduces No Healing duration by ? turn"
+                ]
+            },
+        ],
     },
     5000: {//Smoker&Tashigi
         captain: "Boosts ATK of [INT] and [PSY] characters by 2.5x, reduce damage received by 7% and makes [INT] and [PSY] orbs beneficial for [INT] and [PSY] characters",
@@ -59286,5 +59323,137 @@ window.details = {
             },
         ],
         potentialNotes: "#{enrage}"
+    },
+    5180: {//Sanji&Pudding
+        captain: "Boosts ATK of [STR], [DEX] and [QCK] characters by 2.5x, their RCV by 1.2x and boosts chances of getting [RCV] orbs",
+        sailor: {
+            "base": "Boosts base ATK of characters in the top row by 60",
+            "level1": "Makes [RCV] orbs beneficial for Powerhouse characters",
+        },
+        sailorNotes: "#{beneficial}",
+        special: "Changes adjacent orbs into [RCV] orbs, reduces any damage received above 3,000 HP by ?% for 1 turn, boosts the Color Affinity of [STR], [DEX] and [QCK] characters by 1.75x for 1 turn and becomes Sanji & Pudding for 2 turns",
+        swap: "When Change is activated, randomizes [PSY] and [INT] orbs on [STR], [DEX] and [QCK] characters into either [RCV], [TND], [STR], [DEX] or [QCK] orbs",
+        specialName: "Wedding Vows",
+        potential: [
+            {
+                "Name": "Slot Bind Self-reduction",
+                "description": [
+                    "Level 1: Reduces Slot Bind duration by ? turn on this character",
+                    "Level 2: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 3: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 4: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 5: Reduces Slot Bind duration by ? turns on this character"
+                ]
+            },
+            {
+                "Name": "Reduce No Healing duration",
+                "description": [
+                    "Level 1: Reduces No Healing duration by ? turn",
+                    "Level 2: Reduces No Healing duration by ? turn",
+                    "Level 3: Reduces No Healing duration by ? turn",
+                    "Level 4: Reduces No Healing duration by ? turn",
+                    "Level 5: Reduces No Healing duration by ? turn"
+                ]
+            },
+        ],
+    },
+    5181: {//Sanji&Pudding
+        captain: "Boosts ATK of [STR], [DEX] and [QCK] characters by 2.5x, their RCV by 1.2x and makes [RCV] orbs beneficial for all characters",
+        sailor: {
+            "base": "Boosts base ATK of characters in the top row by 60",
+            "level1": "Makes [RCV] orbs beneficial for Powerhouse characters",
+        },
+        sailorNotes: "#{beneficial}",
+        special: "Changes adjacent orbs into [RCV] orbs, reduces any damage received above 3,000 HP by ?% for 1 turn, boosts the Color Affinity of [STR], [DEX] and [QCK] characters by 1.75x for 1 turn and becomes Sanji & Pudding for 2 turns",
+        swap: "When Change is activated, randomizes [PSY] and [INT] orbs on [STR], [DEX] and [QCK] characters into either [RCV], [TND], [STR], [DEX] or [QCK] orbs",
+        specialName: "Wedding Vows",
+        potential: [
+            {
+                "Name": "Slot Bind Self-reduction",
+                "description": [
+                    "Level 1: Reduces Slot Bind duration by ? turn on this character",
+                    "Level 2: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 3: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 4: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 5: Reduces Slot Bind duration by ? turns on this character"
+                ]
+            },
+            {
+                "Name": "Reduce No Healing duration",
+                "description": [
+                    "Level 1: Reduces No Healing duration by ? turn",
+                    "Level 2: Reduces No Healing duration by ? turn",
+                    "Level 3: Reduces No Healing duration by ? turn",
+                    "Level 4: Reduces No Healing duration by ? turn",
+                    "Level 5: Reduces No Healing duration by ? turn"
+                ]
+            },
+        ],
+    },
+    5182: {//Sanji&Pudding
+        captain: "Boosts ATK of [STR], [DEX] and [QCK] characters by 2.5x, their RCV by 1.5x, boosts chances of getting [RCV] orbs and makes [RCV] orbs beneficial for all characters",
+        sailor: {
+            "base": "Boosts base ATK of characters in the top row by 60",
+            "level1": "Makes [RCV] orbs beneficial for Powerhouse characters",
+        },
+        sailorNotes: "#{beneficial}",
+        special: "Changes adjacent orbs into [RCV] orbs, reduces any damage received above 3,000 HP by ?% for 1 turn, boosts the Color Affinity of [STR], [DEX] and [QCK] characters by 1.75x for 1 turn and becomes Sanji & Pudding for 2 turns",
+        swap: "When Change is activated, randomizes [PSY] and [INT] orbs on [STR], [DEX] and [QCK] characters into either [RCV], [TND], [STR], [DEX] or [QCK] orbs",
+        specialName: "Wedding Vows",
+        potential: [
+            {
+                "Name": "Slot Bind Self-reduction",
+                "description": [
+                    "Level 1: Reduces Slot Bind duration by ? turn on this character",
+                    "Level 2: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 3: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 4: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 5: Reduces Slot Bind duration by ? turns on this character"
+                ]
+            },
+            {
+                "Name": "Reduce No Healing duration",
+                "description": [
+                    "Level 1: Reduces No Healing duration by ? turn",
+                    "Level 2: Reduces No Healing duration by ? turn",
+                    "Level 3: Reduces No Healing duration by ? turn",
+                    "Level 4: Reduces No Healing duration by ? turn",
+                    "Level 5: Reduces No Healing duration by ? turn"
+                ]
+            },
+        ],
+    },
+    5183: {//Sanji&Pudding
+        captain: "Boosts ATK of [STR], [DEX] and [QCK] characters by 2.5x, their RCV by 1.5x, boosts chances of getting [RCV] orbs and makes [RCV] orbs beneficial for all characters",
+        sailor: {
+            "base": "Boosts base ATK of characters in the top row by 60",
+            "level1": "Makes [RCV] orbs beneficial for Powerhouse characters",
+        },
+        sailorNotes: "#{beneficial}",
+        special: "Changes adjacent orbs into [RCV] orbs, reduces any damage received above 3,000 HP by ?% for 1 turn, boosts the Color Affinity of [STR], [DEX] and [QCK] characters by 1.75x for 1 turn and becomes Sanji & Pudding for 2 turns",
+        swap: "When Change is activated, randomizes [PSY] and [INT] orbs on [STR], [DEX] and [QCK] characters into either [RCV], [TND], [STR], [DEX] or [QCK] orbs",
+        specialName: "Wedding Vows",
+        potential: [
+            {
+                "Name": "Slot Bind Self-reduction",
+                "description": [
+                    "Level 1: Reduces Slot Bind duration by ? turn on this character",
+                    "Level 2: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 3: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 4: Reduces Slot Bind duration by ? turns on this character",
+                    "Level 5: Reduces Slot Bind duration by ? turns on this character"
+                ]
+            },
+            {
+                "Name": "Reduce No Healing duration",
+                "description": [
+                    "Level 1: Reduces No Healing duration by ? turn",
+                    "Level 2: Reduces No Healing duration by ? turn",
+                    "Level 3: Reduces No Healing duration by ? turn",
+                    "Level 4: Reduces No Healing duration by ? turn",
+                    "Level 5: Reduces No Healing duration by ? turn"
+                ]
+            },
+        ],
     },
 };
