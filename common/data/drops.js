@@ -2452,6 +2452,15 @@ window.drops = {
             'All Difficulties': [ 2665, 2666, -2485, -2483, -2481, -2479, -2475, -2431, -2271, -2247, -2244, -2152, -2150, -1763, -3336, -1749, -1192, -1764, -1131 ]
         },
         
+        {
+            name: 'Impel Down Breakout',
+            dropID: 'event125',
+            thumb: 2692,
+            nakama: null,
+            gamewith: null,
+            'All Difficulties': [ 2691, 2693, 2694, -2609, -2605, -2563, -2561, -2534, -2487, -2121, -2115, -2050 ]
+        },
+        
     ],
 
             
@@ -3254,6 +3263,16 @@ window.drops = {
             Master: [ 2393 ],
             Expert: [ 2393 ],
             Ultimate: [ 2393 ],
+        },
+        
+        {
+            name: 'Clash!! Crocodile',
+            thumb: 2698,
+            nakama: null,
+            gamewith: null,
+            Master: [ 2697 ],
+            Expert: [ 2697 ],
+            Ultimate: [ 2697 ],
         },
         
         {
@@ -4887,13 +4906,14 @@ window.drops = {
         },
         
         {
-            name: 'Excape! The World\'s Strongest - Bullet',
+            name: 'The World\'s Strongest - Bullet',
             thumb: 2681,
             global: true,
             nakama: null,
             gamewith: 164245,
             showManual: true,
             'All Difficulties': [  ],
+            'Chopperman Missions': [ 2679 ],
         },
         
         {
