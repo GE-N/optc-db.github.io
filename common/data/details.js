@@ -22774,14 +22774,14 @@ window.details = {
         specialName: "ROOM Shambles・Junction",
     },
     1570: {//Inuarashi
-        captain: "Boosts ATK of Cerebral characters by 2.75x and chain by 1.5x if HP is below 30% at the start of the turn, boosts ATK of Cerebral characters by 2.5x otherwise",
-        special: "Reduces crew's current HP by 80%, deals 60x character's ATK in [STR] damage to one enemy and adds 80x character's ATK as Additional typeless damage for 1 turn",
+        captain: "Boosts ATK of Cerebral characters by 2.75x and chain multiplier by 1.5x if HP is below 30% at the start of the turn, boosts ATK of Cerebral characters by 2.5x otherwise",
+        special: "Reduces crew's current HP by 80%, deals 60x character's ATK in [STR] damage to one enemy and adds 80x character's ATK as Additional Typeless Damage for 1 turn",
         specialNotes: "#{additionalDamage : 80x}",
         specialName: "King Sword Shine",
     },
     1571: {//Inuarashi
-        captain: "Boosts ATK of Cerebral characters by 2.75x and chain by 1.5x if HP is below 30% at the start of the turn, boosts ATK of Cerebral characters by 2.5x otherwise",
-        special: "Reduces crew's current HP by 80%, deals 60x character's ATK in [STR] damage to one enemy and adds 80x character's ATK as Additional typeless damage for 1 turn",
+        captain: "Boosts ATK of Cerebral characters by 2.75x and chain multiplier by 1.5x if HP is below 30% at the start of the turn, boosts ATK of Cerebral characters by 2.5x otherwise",
+        special: "Reduces crew's current HP by 80%, deals 60x character's ATK in [STR] damage to one enemy and adds 80x character's ATK as Additional Typeless Damage for 1 turn",
         specialNotes: "#{additionalDamage : 80x}",
         specialName: "King Sword Shine",
         sailor: {
@@ -38222,14 +38222,14 @@ window.details = {
     2235: {//Brook
         captain: "Boosts ATK of all characters by 2.75x if HP is above 99% at the start of the turn, by 2x otherwise, cuts the current HP of each enemy by 10% at the end of each turn and revives the team after a GAME OVER once per adventure.",
         captainNotes: "The revive is not Resilience since you can still die, it's similar to using a gem to revive. This does not work when you are despaired as it nullifies all captain effects.",
-        special: "Recovers 14,343, reduces damage received by 90% for 1 turn and makes [STR], [DEX], [QCK], [PSY] and [INT] orbs beneficial for all characters for 2 turns. If the HP of the enemy with the highest Maximum HP is below 434,300, instantly defeats all enemies, otherwise, delays all enemies for 1 turn, cuts the current HP of each enemy by 20%.",
+        special: "Recovers 14,343 HP, reduces damage received by 90% for 1 turn and makes [STR], [DEX], [QCK], [PSY] and [INT] orbs beneficial for all characters for 2 turns. If the HP of the enemy with the highest Maximum HP is below 434,300, instantly defeats all enemies, otherwise, delays all enemies for 1 turn, cuts the current HP of each enemy by 20%.",
         specialNotes: "#{beneficial}",
         specialName: "Tenacious \"Shout of the Soul\"",
     },
     2236: {//Brook
         captain: "Boosts ATK of all characters by 2.75x if HP is above 99% at the start of the turn, by 2x otherwise, cuts the current HP of each enemy by 10% at the end of each turn and revives the team after a GAME OVER once per adventure.",
         captainNotes: "The revive is not Resilience since you can still die, it's similar to using a gem to revive. This does not work when you are despaired as it nullifies all captain effects.",
-        special: "Recovers 14,343, reduces damage received by 90% for 1 turn and makes [STR], [DEX], [QCK], [PSY] and [INT] orbs beneficial for all characters for 2 turns. If the HP of the enemy with the highest Maximum HP is below 434,300, instantly defeats all enemies, otherwise, delays all enemies for 1 turn, cuts the current HP of each enemy by 20%.",
+        special: "Recovers 14,343 HP, reduces damage received by 90% for 1 turn and makes [STR], [DEX], [QCK], [PSY] and [INT] orbs beneficial for all characters for 2 turns. If the HP of the enemy with the highest Maximum HP is below 434,300, instantly defeats all enemies, otherwise, delays all enemies for 1 turn, cuts the current HP of each enemy by 20%.",
         specialNotes: "#{beneficial}",
         specialName: "Tenacious \"Shout of the Soul\"",
         sailor: {
@@ -42075,8 +42075,8 @@ window.details = {
         ]
     },
     2372: {//Inuarashi
-        captain: "Boosts ATK of Cerebral characters by 3x and if HP is below 30% at the start of the turn boosts chain by 1.5x",
-        special: "Reduces crew's current HP by 80%, cuts the current HP of one enemy by 20% and adds 130x character's ATK as Additional typeless damage for 1 turn",
+        captain: "Boosts ATK of Cerebral characters by 3x and if HP is below 30% at the start of the turn boosts chain multiplier by 1.5x",
+        special: "Reduces crew's current HP by 80%, cuts the current HP of one enemy by 20% and adds 130x character's ATK as Additional Typeless Damage for 1 turn",
         specialNotes: "#{additionalDamage : 130x}",
         specialName: "Sword Attack of Reconciliation",
         sailor: {
@@ -43139,7 +43139,7 @@ window.details = {
             "character2": "Boosts ATK of Driven characters by 3.25x, but boosts his OWN attack by 3.75x",
             "combined": "Boosts ATK of Driven characters by 4.25x, reduce damage received by 25% and makes [STR], [DEX] and [QCK] orbs beneficial for Driven characters"
         },
-        special: "Deals 75x the character's ATK as typeless damage to all enemies, reduces any damage received above 5,000 HP by ?% for 1 turn, boosts ATK of Driven characters by 2.25x for 1 turn and becomes Bartolomeo & Cavendish for 3 turns",
+        special: "Deals 75x the character's ATK as Typeless damage to all enemies, reduces any damage received above 5,000 HP by 97% for 1 turn, boosts ATK of Driven characters by 2.25x for 1 turn and becomes Bartolomeo & Cavendish for 3 turns",
         swap: "When Change is activated, amplifies the effect of own orb by 1.5x for 1 turn, reduces damage received by 25% for 1 turn, recovers 5% of crew's MAX HP and changes their own orb into a Matching orb.",
         specialName: "Beautiful Sword Barrier Barrage",
         sailor: {
@@ -43154,7 +43154,7 @@ window.details = {
             "character2": "Boosts ATK of Driven characters by 3.25x, but boosts his OWN attack by 3.75x",
             "combined": "Boosts ATK of Driven characters by 4.25x, reduce damage received by 25% and makes [STR], [DEX] and [QCK] orbs beneficial for Driven characters"
         },
-        special: "Deals 75x the character's ATK as typeless damage to all enemies, reduces any damage received above 5,000 HP by ?% for 1 turn, boosts ATK of Driven characters by 2.25x for 1 turn and becomes Bartolomeo & Cavendish for 3 turns",
+        special: "Deals 75x the character's ATK as Typeless damage to all enemies, reduces any damage received above 5,000 HP by 97% for 1 turn, boosts ATK of Driven characters by 2.25x for 1 turn and becomes Bartolomeo & Cavendish for 3 turns",
         swap: "When Change is activated, amplifies the effect of own orb by 1.5x for 1 turn, reduces damage received by 25% for 1 turn, recovers 5% of crew's MAX HP and changes their own orb into a Matching orb.",
         specialName: "Beautiful Sword Barrier Barrage",
         sailor: {
@@ -45429,13 +45429,13 @@ window.details = {
         ]
     },
     2476: {//Zoro
-        captain: "Boosts ATK of Slaher characters by 3.25x, their HP by 1.5x and makes [DEX] and [INT] orbs beneficial for Slasher characters. If a character has a [DEX] or [INT] orb, boosts their ATK by 4.0625x instead.",
-        special: "Deals 120x character's ATK as typeless damage to all enemies and makes [RCV] and [TND] orbs beneficial for Slasher characters for 3 turns. Boosts ATK of Slasher characters by 2x for 1 turn. If during that turn you score 4 PERFECT hits, boosts ATK of Slasher characters by 2.25x in the following turn.",
+        captain: "Boosts ATK of Slasher characters by 3.25x, their HP by 1.5x and makes [DEX] and [INT] orbs beneficial for Slasher characters. If a character has a [DEX] or [INT] orb, boosts their ATK by 4.0625x instead.",
+        special: "Deals 120x character's ATK as Typeless damage to all enemies and makes [RCV] and [TND] orbs beneficial for Slasher characters for 3 turns. Boosts ATK of Slasher characters by 2x for 1 turn. If during that turn you score 4 PERFECT hits, boosts ATK of Slasher characters by 2.25x in the following turn.",
         specialName: "Three Sword Style - 1080 Pound Phoenix",
     },
     2477: {//Zoro
-        captain: "Boosts ATK of Slaher characters by 3.25x, their HP by 1.5x and makes [DEX] and [INT] orbs beneficial for Slasher characters. If a character has a [DEX] or [INT] orb, boosts their ATK by 4.0625x instead.",
-        special: "Deals 120x character's ATK as typeless damage to all enemies and makes [RCV] and [TND] orbs beneficial for Slasher characters for 3 turns. Boosts ATK of Slasher characters by 2x for 1 turn. If during that turn you score 4 PERFECT hits, boosts ATK of Slasher characters by 2.25x in the following turn.",
+        captain: "Boosts ATK of Slasher characters by 3.25x, their HP by 1.5x and makes [DEX] and [INT] orbs beneficial for Slasher characters. If a character has a [DEX] or [INT] orb, boosts their ATK by 4.0625x instead.",
+        special: "Deals 120x character's ATK as Typeless damage to all enemies and makes [RCV] and [TND] orbs beneficial for Slasher characters for 3 turns. Boosts ATK of Slasher characters by 2x for 1 turn. If during that turn you score 4 PERFECT hits, boosts ATK of Slasher characters by 2.25x in the following turn.",
         specialName: "Three Sword Style - 1080 Pound Phoenix",
         sailor: {
             "base": "None",
@@ -52069,12 +52069,12 @@ window.details = {
     2691: {//Ivankov
         captain: "Boosts ATK of Cerebral characters by 2x.",
         special: "Reduces enemy Threshold Damage Reduction duration by 3 turns and boosts ATK of Cerebral characters by 1.75x for 1 turn.",
-        specialName: "Ivankov Special",
+        specialName: "Don't Think I Will Hold Back Any Longer!!!",
     },
     2692: {//Ivankov
         captain: "Boosts ATK of Cerebral characters by 2.5x and their RCV by 1.2x.",
         special: "Reduces enemy Threshold Damage Reduction duration by 3 turns and boosts ATK of Cerebral characters by 1.75x for 1 turn.",
-        specialName: "Ivankov Special",
+        specialName: "Don't Think I Will Hold Back Any Longer!!!",
         support: [
             {
                 "Characters": "Cerebral Characters",
@@ -52091,23 +52091,23 @@ window.details = {
     2693: {//Jinbe
         captain: "Boosts ATK of [PSY] characters by 2x.",
         special: "Deals 30x character's ATK in Typeless damage to one enemy, changes [STR] and [QCK] orbs on Fighter characters into Matching orbs and reduces enemies' ATK Up and Increased Defense duration by 2 turns.",
-        specialName: "Jinbe Special",
+        specialName: "Fishman Karate - Sharkskin Palm Thrust",
     },
     2694: {//Buggy
         captain: "Boosts chain multiplier by 1.5x.",
         special: "Reduces enemies' Enrage and Resilience Buffs duration by 2 turns.",
-        specialName: "Buggy Special",
+        specialName: "Exclusive Broadcast of the \"Legendary Pirate\"",
     },
     2695: {//Marco
         captain: "Boosts ATK of Powerhouse characters by 2.5x if HP is below 50% at the start of the turn, 2x otherwise.",
-        special: "Reduces crew's HP to 1, boosts the Color Affinity of Powerhouse characters by 2x for 1 turn and Removes Blindness, Poison, RCV DOWN and No Healing duration completely",
-        specialName: "Marco Special",
+        special: "Reduces crew's HP to 1, boosts the Color Affinity of Powerhouse characters by 2x for 1 turn and removes Blindness, Poison, RCV DOWN and No Healing duration completely",
+        specialName: "Soaring Blue Flames",
         sailor: "Boosts base ATK of Powerhouse characters by 75",
     },
     2696: {//Marco
         captain: "Boosts ATK of Powerhouse characters by 3.5x if HP is below 50% at the start of the turn, 2.5x otherwise.",
-        special: "Reduces crew's HP to 1, boosts the Color Affinity of Powerhouse characters by 2x for 1 turn and Removes Blindness, Poison, RCV DOWN and No Healing duration completely",
-        specialName: "Marco Special",
+        special: "Reduces crew's HP to 1, boosts the Color Affinity of Powerhouse characters by 2x for 1 turn and removes Blindness, Poison, RCV DOWN and No Healing duration completely",
+        specialName: "Soaring Blue Flames",
         sailor: {
             "base": "Boosts base ATK of Powerhouse characters by 75",
             "level1": "Makes [STR] orbs beneficial for Free Spirit characters",
@@ -52149,15 +52149,15 @@ window.details = {
             }
         ],
     },
-    2696: {//Crocodile
+    2697: {//Crocodile
         captain: "Boosts ATK of characters with rarity of 4 or 4+ by 1.75x, boosts ATK of characters with rarity of 5 or 5+ by 2x and boosts ATK of characters with rarity of 6 or 6+ by 2.25x.",
-        special: "Deals 50x character's ATK in Typeless damage to all enemies that will ignore damage negating abilities and barriers, changes [EMPTY], [BLOCK] and [BOMB] orbs into Matching orbs and reduces Chain Multiplier Limit duration by 8 turns. If your Captain is a Striker character, boosts base Chain to 2.0x for 3 turns.",
+        special: "Deals 50x character's ATK in Typeless damage to all enemies that will ignore damage negating abilities and barriers, changes [EMPTY], [BLOCK] and [BOMB] orbs into Matching orbs and reduces Chain Multiplier Limit duration by 8 turns. If your Captain is a Striker or Cerebral character, boosts base Chain to 2.0x for 3 turns.",
         specialNotes: "Chain Multiplier will cap at 35.0x upon using this special",
         specialName: "Battlefield Sables",
     },
-    2697: {//Crocodile
+    2698: {//Crocodile
         captain: "Boosts ATK of characters with rarity of 4 or 4+ by 2.5x, boosts ATK of characters with rarity of 5 or 5+ by 3x and boosts ATK of characters with rarity of 6 or 6+ by 3.5x.",
-        special: "Deals 50x character's ATK in Typeless damage to all enemies that will ignore damage negating abilities and barriers, changes [EMPTY], [BLOCK] and [BOMB] orbs into Matching orbs and reduces Chain Multiplier Limit duration by 8 turns. If your Captain is a Striker character, boosts base Chain to 2.0x for 3 turns.",
+        special: "Deals 50x character's ATK in Typeless damage to all enemies that will ignore damage negating abilities and barriers, changes [EMPTY], [BLOCK] and [BOMB] orbs into Matching orbs and reduces Chain Multiplier Limit duration by 8 turns. If your Captain is a Striker or Cerebral character, boosts base Chain to 2.0x for 3 turns.",
         specialNotes: "Chain Multiplier will cap at 35.0x upon using this special",
         specialName: "Battlefield Sables",
         sailor: {
@@ -52200,6 +52200,20 @@ window.details = {
                 ]
             }
         ],
+    },
+    2699: {//Kaido
+        captain: "Boosts ATK of Striker and Powerhouse characters by 4x, their HP by 1.25x, reduces cooldown of Striker and Powerhouse specials by 2 turns at the start of the fight and deals 400x character's ATK in [DEX] damage to all enemies at the end of each turn. At the start of the fight, this character activates their own special.",
+        captainNotes: "Special Activation will not reset the special cooldown.",
+        special: "Cuts the current HP of all enemies by 20% and deals 400x character's ATK as [DEX] damage to all enemies at the end of the turn for 1 turn. Applies a continuous effect that: cuts the current HP of all enemies by 20% at the start of every stage, and deals 400x character's ATK in [DEX] damage to all enemies at the end of each turn.",
+        specialNotes: "The continuous special effect that triggers at the start of each stage will not stack with other continuous special effects.",
+        specialName: "Boro Breath",
+    },
+    2700: {//Kaido
+        captain: "Boosts ATK of Striker and Powerhouse characters by 4x, their HP by 1.25x, reduces cooldown of Striker and Powerhouse specials by 2 turns at the start of the fight and deals 400x character's ATK in [DEX] damage to all enemies at the end of each turn. At the start of the fight, this character activates their own special.",
+        captainNotes: "Special Activation will not reset the special cooldown.",
+        special: "Cuts the current HP of all enemies by 20% and deals 400x character's ATK as [DEX] damage to all enemies at the end of the turn for 1 turn. Applies a continuous effect that: cuts the current HP of all enemies by 20% at the start of every stage, and deals 400x character's ATK in [DEX] damage to all enemies at the end of each turn.",
+        specialNotes: "The continuous special effect that triggers at the start of each stage will not stack with other continuous special effects.",
+        specialName: "Boro Breath",
     },
     3333: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
@@ -54209,35 +54223,35 @@ window.details = {
     },
     5036: {//Bartolomeo&Cavendish
         captain: "Boosts ATK of Driven characters by 3.25x. If you don't attack with Bartolomeo, reduces damage received by 25% for that turn.",
-        special: "Deals 75x the character's ATK as typeless damage to all enemies, reduces any damage received above 5,000 HP by ?% for 1 turn, boosts ATK of Driven characters by 2.25x for 1 turn and becomes Bartolomeo & Cavendish for 3 turns",
+        special: "Deals 75x the character's ATK as Typeless damage to all enemies, reduces any damage received above 5,000 HP by 97% for 1 turn, boosts ATK of Driven characters by 2.25x for 1 turn and becomes Bartolomeo & Cavendish for 3 turns",
         swap: "When Change is activated, amplifies the effect of own orb by 1.5x for 1 turn, reduces damage received by 25% for 1 turn, recovers 5% of crew's MAX HP and changes their own orb into a Matching orb.",
         specialName: "Beautiful Sword Barrier Barrage",
         sailor: "Boosts base HP of Driven characters by 50",
     },
     5037: {//Bartolomeo&Cavendish
         captain: "Boosts ATK of Driven characters by 3.25x, but boosts his OWN attack by 3.75x",
-        special: "Deals 75x the character's ATK as typeless damage to all enemies, reduces any damage received above 5,000 HP by ?% for 1 turn, boosts ATK of Driven characters by 2.25x for 1 turn and becomes Bartolomeo & Cavendish for 3 turns",
+        special: "Deals 75x the character's ATK as Typeless damage to all enemies, reduces any damage received above 5,000 HP by 97% for 1 turn, boosts ATK of Driven characters by 2.25x for 1 turn and becomes Bartolomeo & Cavendish for 3 turns",
         swap: "When Change is activated, amplifies the effect of own orb by 1.5x for 1 turn, reduces damage received by 25% for 1 turn, recovers 5% of crew's MAX HP and changes their own orb into a Matching orb.",
         specialName: "Beautiful Sword Barrier Barrage",
         sailor: "Boosts base ATK of Driven characters by 50",
     },
     5038: {//Bartolomeo&Cavendish
         captain: "Boosts ATK of Driven characters by 4.25x, reduce damage received by 25% and makes [STR], [DEX] and [QCK] orbs beneficial for Driven characters",
-        special: "Deals 75x the character's ATK as typeless damage to all enemies, reduces any damage received above 5,000 HP by ?% for 1 turn, boosts ATK of Driven characters by 2.25x for 1 turn and becomes Bartolomeo & Cavendish for 3 turns",
+        special: "Deals 75x the character's ATK as Typeless damage to all enemies, reduces any damage received above 5,000 HP by 97% for 1 turn, boosts ATK of Driven characters by 2.25x for 1 turn and becomes Bartolomeo & Cavendish for 3 turns",
         swap: "When Change is activated, amplifies the effect of own orb by 1.5x for 1 turn, reduces damage received by 25% for 1 turn, recovers 5% of crew's MAX HP and changes their own orb into a Matching orb.",
         specialName: "Beautiful Sword Barrier Barrage",
         sailor: "Boosts base ATK and HP of Driven characters by 100",
     },
     5039: {//Bartolomeo&Cavendish
         captain: "Boosts ATK of Driven characters by 4.25x, reduce damage received by 25% and makes [STR], [DEX] and [QCK] orbs beneficial for Driven characters",
-        special: "Deals 75x the character's ATK as typeless damage to all enemies, reduces any damage received above 5,000 HP by ?% for 1 turn, boosts ATK of Driven characters by 2.25x for 1 turn and becomes Bartolomeo & Cavendish for 3 turns",
+        special: "Deals 75x the character's ATK as Typeless damage to all enemies, reduces any damage received above 5,000 HP by 97% for 1 turn, boosts ATK of Driven characters by 2.25x for 1 turn and becomes Bartolomeo & Cavendish for 3 turns",
         swap: "When Change is activated, amplifies the effect of own orb by 1.5x for 1 turn, reduces damage received by 25% for 1 turn, recovers 5% of crew's MAX HP and changes their own orb into a Matching orb.",
         specialName: "Beautiful Sword Barrier Barrage",
         sailor: "Boosts base ATK and HP of Driven characters by 100",
     },
     5040: {//Bartolomeo&Cavendish
         captain: "Boosts ATK of Driven characters by 3.25x. If you don't attack with Bartolomeo, reduces damage received by 25% for that turn.",
-        special: "Deals 75x the character's ATK as typeless damage to all enemies, reduces any damage received above 5,000 HP by ?% for 1 turn, boosts ATK of Driven characters by 2.25x for 1 turn and becomes Bartolomeo & Cavendish for 3 turns",
+        special: "Deals 75x the character's ATK as Typeless damage to all enemies, reduces any damage received above 5,000 HP by 97% for 1 turn, boosts ATK of Driven characters by 2.25x for 1 turn and becomes Bartolomeo & Cavendish for 3 turns",
         swap: "When Change is activated, amplifies the effect of own orb by 1.5x for 1 turn, reduces damage received by 25% for 1 turn, recovers 5% of crew's MAX HP and changes their own orb into a Matching orb.",
         specialName: "Beautiful Sword Barrier Barrage",
         sailor: {
@@ -54311,7 +54325,7 @@ window.details = {
     },
     5041: {//Bartolomeo&Cavendish
         captain: "Boosts ATK of Driven characters by 3.25x, but boosts his OWN attack by 3.75x",
-        special: "Deals 75x the character's ATK as typeless damage to all enemies, reduces any damage received above 5,000 HP by ?% for 1 turn, boosts ATK of Driven characters by 2.25x for 1 turn and becomes Bartolomeo & Cavendish for 3 turns",
+        special: "Deals 75x the character's ATK as Typeless damage to all enemies, reduces any damage received above 5,000 HP by 97% for 1 turn, boosts ATK of Driven characters by 2.25x for 1 turn and becomes Bartolomeo & Cavendish for 3 turns",
         swap: "When Change is activated, amplifies the effect of own orb by 1.5x for 1 turn, reduces damage received by 25% for 1 turn, recovers 5% of crew's MAX HP and changes their own orb into a Matching orb.",
         specialName: "Beautiful Sword Barrier Barrage",
         sailor: {
@@ -54385,7 +54399,7 @@ window.details = {
     },
     5042: {//Bartolomeo&Cavendish
         captain: "Boosts ATK of Driven characters by 4.25x, reduce damage received by 25% and makes [STR], [DEX] and [QCK] orbs beneficial for Driven characters",
-        special: "Deals 75x the character's ATK as typeless damage to all enemies, reduces any damage received above 5,000 HP by ?% for 1 turn, boosts ATK of Driven characters by 2.25x for 1 turn and becomes Bartolomeo & Cavendish for 3 turns",
+        special: "Deals 75x the character's ATK as Typeless damage to all enemies, reduces any damage received above 5,000 HP by 97% for 1 turn, boosts ATK of Driven characters by 2.25x for 1 turn and becomes Bartolomeo & Cavendish for 3 turns",
         swap: "When Change is activated, amplifies the effect of own orb by 1.5x for 1 turn, reduces damage received by 25% for 1 turn, recovers 5% of crew's MAX HP and changes their own orb into a Matching orb.",
         specialName: "Beautiful Sword Barrier Barrage",
         sailor: {
@@ -54459,7 +54473,7 @@ window.details = {
     },
     5043: {//Bartolomeo&Cavendish
         captain: "Boosts ATK of Driven characters by 4.25x, reduce damage received by 25% and makes [STR], [DEX] and [QCK] orbs beneficial for Driven characters",
-        special: "Deals 75x the character's ATK as typeless damage to all enemies, reduces any damage received above 5,000 HP by ?% for 1 turn, boosts ATK of Driven characters by 2.25x for 1 turn and becomes Bartolomeo & Cavendish for 3 turns",
+        special: "Deals 75x the character's ATK as Typeless damage to all enemies, reduces any damage received above 5,000 HP by 97% for 1 turn, boosts ATK of Driven characters by 2.25x for 1 turn and becomes Bartolomeo & Cavendish for 3 turns",
         swap: "When Change is activated, amplifies the effect of own orb by 1.5x for 1 turn, reduces damage received by 25% for 1 turn, recovers 5% of crew's MAX HP and changes their own orb into a Matching orb.",
         specialName: "Beautiful Sword Barrier Barrage",
         sailor: {
