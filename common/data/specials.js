@@ -7542,6 +7542,20 @@ window.specials = {
         def: function(p) { return 0.2; },
         orb: function(p) { return (p.unit.class.has("Powerhouse") || p.unit.class.has("Striker")) ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.75, [p.friendCaptain, p.captain], p.effectName) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1, [p.friendCaptain, p.captain], p.effectName); }
     },
+    2545: {
+        chain: function(p) { return 3; },
+        chainLimiter: function(p) {
+            var prev = p.hitcombo[p.hitcombo.length - 1][p.chainPosition - 1]
+            return p.chainPosition === 0 ? 1 : (prev == 'Good'  || prev == 'Great' || prev == 'Perfect') ? 3 : 1;
+        }
+    },
+    2546: {
+        chain: function(p) { return 3; },
+        chainLimiter: function(p) {
+            var prev = p.hitcombo[p.hitcombo.length - 1][p.chainPosition - 1]
+            return p.chainPosition === 0 ? 1 : (prev == 'Good'  || prev == 'Great' || prev == 'Perfect') ? 3 : 1;
+        }
+    },
     2553: {
         delay: function(p) { return 1; },
         orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.5, [p.friendCaptain, p.captain], p.effectName); },
@@ -8441,6 +8455,19 @@ window.specials = {
         onDeactivation: function(p) {
             window.specials[2736].turnedOn = false;
         }
+    },
+    2739: {
+        staticMult: function(p) { return [ 100, 0 ][window.specials[2739].multiplier]; },
+        atk: function(p) { return p.delayed > 0 ? [ 1, 2 ][window.specials[2739].multiplier] : 1; },
+        type: "condition",
+        onActivation: function(p) {
+            var n = (window.specials[2739].multiplier == 0 ? 1 : 0);
+            window.specials[2739].multiplier = n;
+            p.scope.notify({
+                text: 'Using the ' + ['Tap Timing Bonus', 'Conditional Boost'][n] + ' boost. To switch to the ' + ['Conditional Boost', 'Tap Timing Bonus'][n] + ', disable and re-enable this special',
+                name: '2739warning'
+            });
+        },
     },
     3333: {
         atk: function(p) { return 1.75; },
@@ -9553,5 +9580,47 @@ window.specials = {
     },
     5183: {
         affinity: function(p) { return (p.unit.type == "STR" || p.unit.type == "DEX" || p.unit.type == "QCK") ? 1.75 : 1; },
+    },
+    5184: {
+        atk: function(p) { return [ 1.5, 1.75 ][window.specials[5184].multiplier]; },
+        type: "type",
+        orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, [ 1.5, 1.75 ][window.specials[5184].multiplier], [p.friendCaptain, p.captain], p.effectName); },
+        delay: function(p) { return 1; },
+        onActivation: function(p) {
+            var n = (window.specials[5184].multiplier == 0 ? 1 : 0);
+            window.specials[5184].multiplier = n;
+            p.scope.notify({
+                text: 'Using the ' + ['1.5x', '1.75x'][n] + ' boosts. To switch to the ' + ['1.75x', '1.5x'][n] + ' boosts, disable and re-enable this special',
+                name: '5184warning'
+            });
+        },
+    },
+    5185: {
+        atk: function(p) { return [ 1.5, 1.75 ][window.specials[5185].multiplier]; },
+        type: "type",
+        orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, [ 1.5, 1.75 ][window.specials[5185].multiplier], [p.friendCaptain, p.captain], p.effectName); },
+        delay: function(p) { return 1; },
+        onActivation: function(p) {
+            var n = (window.specials[5185].multiplier == 0 ? 1 : 0);
+            window.specials[5185].multiplier = n;
+            p.scope.notify({
+                text: 'Using the ' + ['1.5x', '1.75x'][n] + ' boosts. To switch to the ' + ['1.75x', '1.5x'][n] + ' boosts, disable and re-enable this special',
+                name: '5185warning'
+            });
+        },
+    },
+    5186: {
+        atk: function(p) { return [ 1.5, 1.75 ][window.specials[5186].multiplier]; },
+        type: "type",
+        orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, [ 1.5, 1.75 ][window.specials[5186].multiplier], [p.friendCaptain, p.captain], p.effectName); },
+        delay: function(p) { return 1; },
+        onActivation: function(p) {
+            var n = (window.specials[5186].multiplier == 0 ? 1 : 0);
+            window.specials[5186].multiplier = n;
+            p.scope.notify({
+                text: 'Using the ' + ['1.5x', '1.75x'][n] + ' boosts. To switch to the ' + ['1.75x', '1.5x'][n] + ' boosts, disable and re-enable this special',
+                name: '5186warning'
+            });
+        },
     },
 };

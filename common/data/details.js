@@ -52786,7 +52786,7 @@ window.details = {
     },
     2707: {//Zorojuro
         captain: "Boosts ATK of Slasher and Powerhouse characters by 2.25x and makes [PSY] orbs beneficial for Slasher and Powerhouse characters.",
-        special: "Deals 40x character's ATK in [PSY] damage to one enemy, reduces Paralysis duration by 4 turns and reduces the defense of all enemies by 100% for 1 turn.",
+        special: "Deals 40x character's ATK in [PSY] damage to one enemy, reduces Paralysis duration by 4 turns, reduces enemies' Resilience duration by 4 turns and reduces the defense of all enemies by 100% for 1 turn.",
         specialName: "Seppuku Blade Style - Magistrate Slashing",
         sailor: "Reduces Paralysis duration by 1 turn",
         limit: [
@@ -53334,6 +53334,81 @@ window.details = {
                     "Level 5: Adds 11% of this character's base ATK to the supported character's base ATK"
                 ]
             }
+        ]
+    },
+    2739: {//Katakuri
+        captain: "Boosts ATK of Slasher, Striker, Driven, Cerebral and Powerhouse characters by 1.95x, reduce damage received by 20% and makes [STR], [PSY], [RCV] and [TND] orbs beneficial for all characters. Has a chance to delay all enemies by 1 turn based on damage dealt in previous turn.",
+        captainNotes: "The bonus is cumulative. Characters with 2 of the boosted classes get a 3.8025x bonus<br>Delay chance is based on damage dealt with normal attacks and does not stack with any other delay specials or effects<br><b>100,000 damage or more:</b> 20% chance to delay<br><b>500,000 damage or more:</b> 50% chance to delay<br><b>1,000,000 damage or more:</b> 100% chance to delay<br><b>2,000,000 damage or more:</b> 100% chance to delay ignoring Delay Debuff Protection",
+        special: "Adds 100x character's ATK as Additional Typeless Damage for 1 turn, changes [BLOCK] orbs on Slasher, Striker, Driven, Cerebral and Powerhouse characters into Matching orbs and makes [STR], [DEX], [QCK], [PSY] and [INT] orbs beneficial for Slasher, Striker, Driven, Cerebral and Powerhouse characters for 2 turns. If during that turn you score 3 PERFECT hits, boosts ATK against delayed enemies by 2x for 1 turn.",
+        specialName: "Mochi Thrust",
+        sailor: {
+            "base": "None",
+            "level1": "Boosts base ATK, HP and RCV of Slasher, Striker, Driven, Cerebral and Powerhouse characters by 50",
+            "level2": "Makes [PSY] orbs beneficial for this character",
+        },
+        limit: [
+            { "description": "Boosts base ATK by 10" },
+            { "description": "Boosts base ATK by 10" },
+            { "description": "Boosts base ATK by 10" },
+            { "description": "Acquire Potential 1: [DEX] Damage Reduction" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Acquire Sailor Ability 1: Boosts base ATK, HP and RCV of Slasher, Striker, Driven, Cerebral and Powerhouse characters by 50" },
+            { "description": "Boosts base ATK by 20" },
+            { "description": "Boosts base ATK by 20" },
+            { "description": "Boosts base ATK by 20" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Acquire Potential 2: Reduce No Healing duration" },
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Boosts base HP by 60" },
+            { "description": "Boosts base ATK by 30" },
+            { "description": "Boosts base ATK by 40" },
+            { "description": "Boosts base ATK by 40" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Acquire Sailor Ability 2: Makes [PSY] orbs beneficial for this character" },
+            { "description": "Boosts base ATK by 50" },
+            { "description": "Boosts base HP by 80" },
+            { "description": "Acquire Potential 3: Critical Hit" },
+        ],
+        potential: [
+            {
+                "Name": "[DEX] Damage Reduction",
+                "description": [
+                    "Level 1: Reduce damage taken from [DEX] characters by 1%",
+                    "Level 2: Reduce damage taken from [DEX] characters by 2%",
+                    "Level 3: Reduce damage taken from [DEX] characters by 3%",
+                    "Level 4: Reduce damage taken from [DEX] characters by 5%",
+                    "Level 5: Reduce damage taken from [DEX] characters by 7%"
+                ]
+            },
+            {
+                "Name": "Reduce No Healing duration",
+                "description": [
+                    "Level 1: Reduces No Healing duration by 1 turn",
+                    "Level 2: Reduces No Healing duration by 2 turns",
+                    "Level 3: Reduces No Healing duration by 3 turns",
+                    "Level 4: Reduces No Healing duration by 5 turns",
+                    "Level 5: Reduces No Healing duration by 7 turns"
+                ]
+            },
+            {
+                "Name": "Critical Hit",
+                "description": [
+                    "Level 1: If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "Level 2: If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 70% chance to deal 6% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a 90% chance to deal 10% of this character's attack in extra damage"
+                ]
+            },
         ]
     },
     3333: {//Kung Fu Luffy
@@ -54078,6 +54153,62 @@ window.details = {
                 ]
             },
         ],
+    },
+    3370: {//Usopp&Chopper
+        captain: {
+            "character1": "If there is a [STR], [DEX], [QCK], [PSY] and [INT] character in your crew, boosts ATK of all characters by 2.75x, their HP by 1.25x and makes [TND] and [RCV] orbs beneficial for all characters.",
+            "character2": "If there is a [STR], [DEX], [QCK], [PSY] and [INT] character in your crew, boosts ATK of all characters by 2.75x, their HP by 1.25x and boosts chances of getting Matching orbs.",
+            "combined": "If there is a [STR], [DEX], [QCK], [PSY] and [INT] character in your crew, boosts ATK of all characters by 3.25x, their HP by 1.25x, boosts chances of getting Matching orbs and makes [TND] and [RCV] orbs beneficial for all characters."
+        },
+        captainNotes: "#{beneficial}",
+        special: "Deals 80x character's ATK in [QCK] damage to one enemy and becomes Usopp & Chopper for 2 turns. If the enemy is delayed, recovers 20% of crew's MAX HP, amplifies the effect of orbs by ?x for 2 turns and boosts ATK of all characters by ?x for 2 turns, delays all enemies for 1 turn, amplifies the effect of orbs by ?x for 1 turn and boosts ATK of all characters by ?x for 1 turn otherwise.",
+        swap: "When Change is activated, recovers 3% of crew's MAX HP and adds 0.3x to Chain multiplier for 1 turn",
+        specialName: "Killer UsoCho Horn Explosion",
+        sailor: {
+            "character1": "Makes [STR] orbs beneficial for this character",
+            "character2": "Makes [STR] orbs beneficial for this character",
+            "combined": "Makes [STR] orbs beneficial for this character",
+            "level1": "Boosts base ATK of characters in the top row by 40",
+        },
+        /*limit: [
+            { "description": "Boosts base RCV by 20" },
+            { "description": "Boosts base HP by 10" },
+            { "description": "Boosts base HP by 30" },
+            { "description": "Acquire Potential 1: [STR] Damage Reduction" },
+            { "description": "Boosts base HP by 40" },
+            { "description": "Boosts base ATK by 40" },
+            { "description": "Boosts base ATK by 30" },
+            { "description": "Acquire Sailor Ability 1: Reduces Silence duration on this character by 3 turns" },
+            { "description": "Boosts base ATK by 30" },
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Boosts base HP by 70" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Boosts base ATK by 60" },
+            { "description": "Reduce No Healing duration" },
+        ],*/
+        potential: [
+            {
+                "Name": "[STR] Damage Reduction",
+                "description": [
+                    "Level 1: Reduce damage taken from [STR] characters by ?%",
+                    "Level 2: Reduce damage taken from [STR] characters by ?%",
+                    "Level 3: Reduce damage taken from [STR] characters by ?%",
+                    "Level 4: Reduce damage taken from [STR] characters by ?%",
+                    "Level 5: Reduce damage taken from [STR] characters by 5%"
+                ]
+            },
+            {
+                "Name": "Reduce No Healing duration",
+                "description": [
+                    "Level 1: Reduces No Healing duration by ? turn",
+                    "Level 2: Reduces No Healing duration by ? turn",
+                    "Level 3: Reduces No Healing duration by ? turn",
+                    "Level 4: Reduces No Healing duration by ? turn",
+                    "Level 5: Reduces No Healing duration by 7 turn"
+                ]
+            },
+        ]
     },
     5000: {//Smoker&Tashigi
         captain: "Boosts ATK of [INT] and [PSY] characters by 2.5x, reduce damage received by 7% and makes [INT] and [PSY] orbs beneficial for [INT] and [PSY] characters",
