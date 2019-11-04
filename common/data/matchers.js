@@ -258,7 +258,7 @@ window.matchers = [
     {
         name: 'Type-boosting specials',
         target: 'special',
-        matcher: /Boosts (ATK|HP|RCV|ATK and HP|ATK and RCV|HP and RCV|ATK, HP and RCV) of[^,]+(STR|DEX|QCK|PSY|INT)\b/i,
+        matcher: /Boosts (ATK|HP|RCV|ATK and HP|ATK and RCV|HP and RCV|ATK, HP and RCV) of[^,]+(STR|DEX|QCK|PSY|INT|Type)\b/i,
         icon: 'atk-up-type'
     },
 
@@ -309,6 +309,30 @@ window.matchers = [
         target: 'special',
         matcher: /Boosts ATK\D*by 2.25x/i,
         icon: 'atk up'
+    },
+
+    {
+        name: 'ATK boosters',
+        target: 'special',
+        matcher: /boosts( own ATK| ATK of)/i
+    },
+    
+    {
+        name: 'Combo Boost Specials',
+        target: 'special',
+        matcher: /Boost.+hit in the chain/i
+    },
+
+    {
+        name: 'Orb boosters',
+        target: 'special',
+        matcher: /amplifies.+orb/i
+    },
+    
+    {
+        name: 'Color Affinity boosters',
+        target: 'special',
+        matcher: /Boosts the Color Affinity/i
     },
 
     {
