@@ -45312,7 +45312,7 @@ window.details = {
             "combined": "Boosts ATK of [QCK], [PSY] and [INT] characters by 2.5x and recovers 1x character's RCV in HP at the end of each turn."
         },
         special: "Boosts chances of getting [QCK] and [PSY] orbs for 2 turns, randomizes all orbs, amplifies the effect of orbs on [QCK], [PSY] and [INT] characters by 2x for 2 turns and becomes Smoothie & Oven for 2 turns",
-        swap: "When Change is activated, makes [QCK] and [PSY] orbs beneficial for [QCK], [PSY] and [INT] characters for 1 turn and deals 20x character's ATK in character's Type damage to all enemies at the end of the turn for 1 turn.",
+        swap: "When Change is activated, makes [QCK] and [PSY] orbs beneficial for [QCK], [PSY] and [INT] characters for 1 turn and deals 20x character's ATK in character's Type damage to all enemies at the end of each turn for 1 turn.",
         specialName: "Brother and Sister Chasing Intruders",
         sailor: {
             "character1": "Boosts base ATK, HP and RCV of [PSY] and [INT] characters by 25",
@@ -45327,7 +45327,7 @@ window.details = {
             "combined": "Boosts ATK of [QCK], [PSY] and [INT] characters by 3.75x and recovers 3x character's RCV in HP at the end of each turn."
         },
         special: "Boosts chances of getting [QCK] and [PSY] orbs for 2 turns, randomizes all orbs, amplifies the effect of orbs on [QCK], [PSY] and [INT] characters by 2x for 2 turns and becomes Smoothie & Oven for 2 turns",
-        swap: "When Change is activated, makes [QCK] and [PSY] orbs beneficial for [QCK], [PSY] and [INT] characters for 1 turn and deals 20x character's ATK in character's Type damage to all enemies at the end of the turn for 1 turn.",
+        swap: "When Change is activated, makes [QCK] and [PSY] orbs beneficial for [QCK], [PSY] and [INT] characters for 1 turn and deals 20x character's ATK in character's Type damage to all enemies at the end of each turn for 1 turn.",
         specialName: "Brother and Sister Chasing Intruders",
         sailor: {
             "character1": "Boosts base ATK, HP and RCV of [PSY] and [INT] characters by 25",
@@ -47754,7 +47754,7 @@ window.details = {
             { "description": "Boosts base RCV by 5" },
             { "description": "Boosts base RCV by 5" },
             { "description": "Boosts base RCV by 10" },
-            { "description": "Acquire Potential 1: Barrier Penetration" },
+            { "description": "Acquire Potential 1: [QCK] Damage Reduction" },
             { "description": "Boosts base HP by 40" },
             { "description": "Boosts base HP by 60" },
             { "description": "Boosts base HP by 100" },
@@ -47765,7 +47765,7 @@ window.details = {
             { "description": "Boosts base ATK by 30" },
             { "description": "Acquire 1 additional Socket slot" },
             { "description": "Boosts base ATK by 50" },
-            { "description": "Acquire Potential 2: Pinch Healing" },
+            { "description": "Acquire Potential 2: [PSY] Damage Reduction" },
         ],
         potential: [
             {
@@ -52924,12 +52924,12 @@ window.details = {
         specialName: "Observing within the Snow Storm [Neo]",
     },
     2713: {//Paulie
-        special: "Reduces the defense of all enemies by 100% for 1 turn, recovers 20% of crew's MAX HP and makes [TND] and [BLOCK] orbs beneficial for all characters for 3 turns",
+        special: "Reduces the defense of all enemies by 100% for 1 turn, recovers 20% of crew's MAX HP and makes [TND] and [BOMB] orbs beneficial for all characters for 3 turns",
         specialName: "Hook, Line and Sinker [Neo]",
         captain: "Boosts ATK of Striker characters by 1.5x"
     },
     2714: {//Paulie
-        special: "Reduces the defense of all enemies by 100% for 1 turn, recovers 20% of crew's MAX HP and makes [TND] and [BLOCK] orbs beneficial for all characters for 3 turns",
+        special: "Reduces the defense of all enemies by 100% for 1 turn, recovers 20% of crew's MAX HP and makes [TND] and [BOMB] orbs beneficial for all characters for 3 turns",
         specialName: "Hook, Line and Sinker [Neo]",
         captain: "Boosts ATK of Striker characters by 2x"
     },
@@ -53829,6 +53829,46 @@ window.details = {
             "base": "Cannot be Blown Away",
             "level1": "Boosts own base ATK by 150 if this character is the last in the chain to attack",
         },
+        limit: [
+            { "description": "Boosts base HP by 25" },
+            { "description": "Boosts base ATK by 25" },
+            { "description": "Boosts base RCV by 20" },
+            { "description": "Acquire Potential 1: Critical Hit" },
+            { "description": "Boosts base HP by 35" },
+            { "description": "Boosts base ATK by 25" },
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Boosts base ATK by 25" },
+            { "description": "Boosts base HP by 40" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Acquire Sailor Ability 1: Boosts own base ATK by 150 if this character is the last in the chain to attack" },
+            { "description": "Boosts base HP by 40" },
+            { "description": "Boosts base ATK by 25" },
+            { "description": "Boosts base HP by 60" },
+            { "description": "Acquire Potential 2: Enrage" },
+        ],
+        potential: [
+            {
+                "Name": "Critical Hit",
+                "description": [
+                    "Level 1: If you hit a PERFECT with this character, there is a 10% chance to deal 1% of this character's attack in extra damage",
+                    "Level 2: If you hit a PERFECT with this character, there is a 30% chance to deal 2% of this character's attack in extra damage",
+                    "Level 3: If you hit a PERFECT with this character, there is a 50% chance to deal 3% of this character's attack in extra damage",
+                    "Level 4: If you hit a PERFECT with this character, there is a 70% chance to deal 5% of this character's attack in extra damage",
+                    "Level 5: If you hit a PERFECT with this character, there is a 80% chance to deal 7% of this character's attack in extra damage"
+                ]
+            },
+            {
+                "Name": "Enrage",
+                "description": [
+                    "Level 1: Boosts base ATK by 50",
+                    "Level 2: Boosts base ATK by 75",
+                    "Level 3: Boosts base ATK by 100",
+                    "Level 4: Boosts base ATK by 125",
+                    "Level 5: Boosts base ATK by 150"
+                ]
+            },
+        ],
+        potentialNotes: "#{enrage}",
         support: [
             {
                 "Characters": "Gecko Moria, Perona, Absalom, Doctor Hogback",
@@ -53847,6 +53887,45 @@ window.details = {
         special: "Deals 10 hits of random Typeless damage to random enemies, reduces Paralysis and ATK DOWN duration by 3 turns and makes [RCV] and [TND] orbs beneficial for Fighter and Free Spirit characters for 3 turns.",
         sailor: "Makes QCK orbs beneficial for this character",
         specialName: "Kung Fu Point",
+        limit: [
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Acquire Potential 1: [DEX] Damage Reduction" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Boosts base ATK by 20" },
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Boosts base ATK by 30" },
+            { "description": "Boosts base RCV by 20" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Boosts base ATK by 50" },
+            { "description": "Acquire Potential 2: Pinch Healing" },
+        ],
+        potential: [
+            {
+                "Name": "[DEX] Damage Reduction",
+                "description": [
+                    "Level 1: Reduce damage taken from [DEX] characters by 1%",
+                    "Level 2: Reduce damage taken from [DEX] characters by 2%",
+                    "Level 3: Reduce damage taken from [DEX] characters by 3%",
+                    "Level 4: Reduce damage taken from [DEX] characters by 4%",
+                    "Level 5: Reduce damage taken from [DEX] characters by 5%"
+                ]
+            },
+            {
+                "Name": "Pinch Healing",
+                "description": [
+                    "Level 1: If HP is below 10% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 2: If HP is below 15% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 3: If HP is below 20% at the start of the turn, recovers 0.5x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 4: If HP is below 30% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character",
+                    "Level 5: If HP is below 50% at the start of the turn, recovers 1x this character's RCV at the end of the turn each time you hit a PERFECT with this character"
+                ]
+            },
+        ],
         support: [
             {
                 "Characters": "Sanji",
@@ -53874,25 +53953,42 @@ window.details = {
             "base": "Boosts base ATK, HP and RCV of Striker and Fighter characters by 50",
             "level1": "If your Captain is a Striker or Fighter character, makes [STR] orbs beneficial for all characters",
         },
+        limit: [
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Boosts base RCV by 20" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Boosts base ATK by 30" },
+            { "description": "Acquire Potential 1: Reduce No Healing duration" },
+            { "description": "Boosts base HP by 100" },
+            { "description": "Boosts base ATK by 50" },
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Boosts base RCV by 20" },
+            { "description": "Boosts base ATK by 70" },
+            { "description": "Boosts base HP by 100" },
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Acquire Sailor Ability 1: If your Captain is a Striker or Fighter character, makes [STR] orbs beneficial for all characters" },
+            { "description": "Acquire Potential 2: Enrage" },
+        ],
         potential: [
             {
                 "Name": "Reduce No Healing duration",
                 "description": [
-                    "Level 1: Reduces No Healing duration by ? turn",
-                    "Level 2: Reduces No Healing duration by ? turn",
-                    "Level 3: Reduces No Healing duration by ? turn",
-                    "Level 4: Reduces No Healing duration by ? turn",
-                    "Level 5: Reduces No Healing duration by ? turn"
+                    "Level 1: Reduces No Healing duration by 1 turn",
+                    "Level 2: Reduces No Healing duration by 2 turn",
+                    "Level 3: Reduces No Healing duration by 3 turn",
+                    "Level 4: Reduces No Healing duration by 4 turn",
+                    "Level 5: Reduces No Healing duration by 7 turn"
                 ]
             },
             {
                 "Name": "Enrage",
                 "description": [
-                    "Level 1: Boosts base ATK by ?",
-                    "Level 2: Boosts base ATK by ?",
-                    "Level 3: Boosts base ATK by ?",
-                    "Level 4: Boosts base ATK by ?",
-                    "Level 5: Boosts base ATK by ?"
+                    "Level 1: Boosts base ATK by 50",
+                    "Level 2: Boosts base ATK by 75",
+                    "Level 3: Boosts base ATK by 100",
+                    "Level 4: Boosts base ATK by 150",
+                    "Level 5: Boosts base ATK by 200"
                 ]
             },
         ],
@@ -53906,6 +54002,123 @@ window.details = {
                     "Level 3: Adds 5% of this character's base ATK and HP to the supported character's base ATK and HP",
                     "Level 4: Adds 7% of this character's base ATK and HP to the supported character's base ATK and HP",
                     "Level 5: Adds 9% of this character's base ATK and HP to the supported character's base ATK and HP"
+                ]
+            }
+        ]
+    },
+    2759: {//Arlong
+        captain: "Boosts ATK of [INT] characters by 1.5x.",
+        special: "Deals 30x character's ATK in [INT] damage to one enemy, changes [EMPTY], [BOMB] and [BLOCK] orbs on [PSY] and [INT] characters into Matching orbs. If you are on a Treasure Map, boosts Color Affinity of [PSY] and [INT] characters depending on your Treasure Map Level for 1 turn",
+        specialNotes: "Level 1-10: 1.75x affinity boost<br\>Level 11-20: 2x affinity boost<br\>Level 21+: 2.25x affinity boost",
+        specialName: "Heart Skewer: Shark on Darts",
+    },
+    2760: {//Miss Doublefinger
+        captain: "Boosts ATK of Fighter characters by 1.5x.",
+        special: "Reduces Paralysis duration by 2 turns. If your Captain is a Fighter or Cerebral character, locks the chain multiplier at 2.5x for 2 turns.",
+        specialName: "Stinger Hedgehog",
+    },
+    2761: {//Kalifa
+        captain: "Boosts ATK of Cerebral characters by 1.5x.",
+        special: "Reduces enemies' Threshold Damage Reduction and Percent Damage Reduction duration by 3 turns. If you are on a Treasure Map, amplifies the effect of orbs for [PSY] and [INT] characters depending on your Treasure Map Level for 1 turn",
+        specialNotes: "Level 1-10: 1.5x affinity boost<br\>Level 11-20: 1.75x affinity boost<br\>Level 21+: 2x affinity boost",
+        specialName: "Golden Hour",
+    },
+    2762: {//TM Nami Again
+        captain: "Boosts ATK of Striker characters by 1.5x",
+        special: "Deals 200,000 Fixed damage to all enemies. If your Captain is a Shooter character, boosts the Color Affinity of all characters by 1.75x for 1 turn. If during that turn you score 3 PERFECT hits, boosts the Color Affinity of all characters by 2x for 1 turn.",
+        specialName: "Mischievious Witch Thundercloud Rod",
+    },
+    2763: {//TM Nami Again
+        captain: {
+            "base": "Boosts ATK of Shooter characters by 1.75x",
+            "level1": "Not Translated",
+            "level2": "Not Translated",
+            "level3": "Not Translated",
+            "level4": "Not Translated",
+            "level5": "Not Translated",
+            "level6": "Boosts ATK of Shooter characters by 2.25x, their Color Affinity by 1.5x and recovers 1.5x character's RCV in HP at the end of each turn",
+        },
+        special: "Deals 200,000 Fixed damage to all enemies. If your Captain is a Shooter character, boosts the Color Affinity of all characters by 1.75x for 1 turn. If during that turn you score 3 PERFECT hits, boosts the Color Affinity of all characters by 2x for 1 turn.",
+        specialName: "Mischievious Witch Thundercloud Rod",
+        sailor: {
+            "base": "None",
+            "level1": "Boosts base ATK, HP and RCV of Shooter characters by 30",
+            "level2": "Reduces Blindness duration by 10 turns",
+        },
+        /*limit: [
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Boosts base ATK by 5" },
+            { "description": "Boosts base ATK by 10" },
+            { "description": "Boosts base ATK by 10" },
+            { "description": "Acquire Potential 1: Enrage" },
+            { "description": "Acquire new Captain Ability: " },
+            { "description": "Acquire Sailor Ability 1: Boosts base ATK, HP and RCV of Striker characters by 50" },
+            { "description": "Boosts base HP by 20" },
+            { "description": "Boosts base HP by 20" },
+            { "description": "Boosts base HP by 20" },
+            { "description": "Acquire new Captain Ability: " },
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Boosts base RCV by 30" },
+            { "description": "Boosts base RCV by 35" },
+            { "description": "Boosts base RCV by 35" },
+            { "description": "Acquire new Captain Ability: " },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "Boosts base HP by 30" },
+            { "description": "Boosts base HP by 40" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Reduce base Special Cooldown by 3 turns" },
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Boosts base ATK by 30" },
+            { "description": "Boosts base ATK by 30" },
+            { "description": "Reduce base Special Cooldown by 4 turns" },
+            { "description": "Acquire new Captain Ability: " },
+            { "description": "Boosts base HP by 60" },
+            { "description": "Boosts base HP by 70" },
+            { "description": "Acquire Sailor Ability 2: Makes [DEX] orbs beneficial for this character" },
+            { "description": "Boosts base ATK by 35" },
+            { "description": "Boosts base ATK by 40" },
+            { "description": "Boosts base ATK by 50" },
+            { "description": "Reduce base Special Cooldown by 5 turns" },
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Acquire new Captain Ability: " },
+            { "description": "Boosts base HP by 70" },
+            { "description": "Boosts base HP by 100" },
+            { "description": "Acquire new Captain Ability: " },
+            { "description": "Acquire Potential 2: Reduce No Healing duration" },
+        ],*/
+        potential: [
+            {
+                "Name": "[PSY] Damage Reduction",
+                "description": [
+                    "Level 1: Reduce damage taken from [PSY] characters by ?%",
+                    "Level 2: Reduce damage taken from [PSY] characters by ?%",
+                    "Level 3: Reduce damage taken from [PSY] characters by ?%",
+                    "Level 4: Reduce damage taken from [PSY] characters by ?%",
+                    "Level 5: Reduce damage taken from [PSY] characters by ?%"
+                ]
+            },
+            {
+                "Name": "Barrier Penetration",
+                "description": [
+                    "Level 1: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
+                    "Level 2: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
+                    "Level 3: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
+                    "Level 4: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
+                    "Level 5: This character's normal attack will ignore barriers if HP is above ?% at the start of the turn",
+                    //"Level 5: This character's normal attack will ignore barriers"
+                ]
+            },
+        ],
+        support: [
+            {
+                "Characters": "[INT] characters",
+                "description": [
+                    "Level 1: Adds 1% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV",
+                    "Level 2: Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV",
+                    "Level 3: Adds 4% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV",
+                    "Level 4: Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV",
+                    "Level 5: Adds 7% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV"
                 ]
             }
         ]
@@ -54472,7 +54685,6 @@ window.details = {
                 ]
             },
         ],
-        potentialNotes: "#{enrage}",
         support: [
             {
                 "Characters": "Aokiji and Kizaru",
@@ -54541,7 +54753,6 @@ window.details = {
                 ]
             },
         ],
-        potentialNotes: "#{enrage}",
         support: [
             {
                 "Characters": "Akainu, Kizaru and Tsuru",
@@ -56814,35 +57025,35 @@ window.details = {
     5058: {//Smoothie&Oven
         captain: "Boosts ATK of [PSY] characters by ?x and boosts ATK of [QCK] and [INT] characters by ?x.",
         special: "Boosts chances of getting [QCK] and [PSY] orbs for 2 turns, randomizes all orbs, amplifies the effect of orbs on [QCK], [PSY] and [INT] characters by 2x for 2 turns and becomes Smoothie & Oven for 2 turns",
-        swap: "When Change is activated, makes [QCK] and [PSY] orbs beneficial for [QCK], [PSY] and [INT] characters for 1 turn and deals 20x character's ATK in character's Type damage to all enemies at the end of the turn for 1 turn.",
+        swap: "When Change is activated, makes [QCK] and [PSY] orbs beneficial for [QCK], [PSY] and [INT] characters for 1 turn and deals 20x character's ATK in character's Type damage to all enemies at the end of each turn for 1 turn.",
         specialName: "Brother and Sister Chasing Intruders",
         sailor: "Boosts base ATK, HP and RCV of [PSY] and [INT] characters by 25",
     },
     5059: {//Smoothie&Oven
         captain: "Boosts ATK of [QCK] characters by ?x and boosts ATK of [PSY] and [INT] characters by ?x.",
         special: "Boosts chances of getting [QCK] and [PSY] orbs for 2 turns, randomizes all orbs, amplifies the effect of orbs on [QCK], [PSY] and [INT] characters by 2x for 2 turns and becomes Smoothie & Oven for 2 turns",
-        swap: "When Change is activated, makes [QCK] and [PSY] orbs beneficial for [QCK], [PSY] and [INT] characters for 1 turn and deals 20x character's ATK in character's Type damage to all enemies at the end of the turn for 1 turn.",
+        swap: "When Change is activated, makes [QCK] and [PSY] orbs beneficial for [QCK], [PSY] and [INT] characters for 1 turn and deals 20x character's ATK in character's Type damage to all enemies at the end of each turn for 1 turn.",
         specialName: "Brother and Sister Chasing Intruders",
         sailor: "Boosts base ATK, HP and RCV of [QCK] and [INT] characters by 25",
     },
     5060: {//Smoothie&Oven
         captain: "Boosts ATK of [QCK], [PSY] and [INT] characters by 2.5x and recovers 1x character's RCV in HP at the end of each turn.",
         special: "Boosts chances of getting [QCK] and [PSY] orbs for 2 turns, randomizes all orbs, amplifies the effect of orbs on [QCK], [PSY] and [INT] characters by 2x for 2 turns and becomes Smoothie & Oven for 2 turns",
-        swap: "When Change is activated, makes [QCK] and [PSY] orbs beneficial for [QCK], [PSY] and [INT] characters for 1 turn and deals 20x character's ATK in character's Type damage to all enemies at the end of the turn for 1 turn.",
+        swap: "When Change is activated, makes [QCK] and [PSY] orbs beneficial for [QCK], [PSY] and [INT] characters for 1 turn and deals 20x character's ATK in character's Type damage to all enemies at the end of each turn for 1 turn.",
         specialName: "Brother and Sister Chasing Intruders",
         sailor: "Boosts base ATK, HP and RCV of [QCK], [PSY] and [INT] characters by 50",
     },
     5061: {//Smoothie&Oven
         captain: "Boosts ATK of [QCK], [PSY] and [INT] characters by 2.5x and recovers 1x character's RCV in HP at the end of each turn.",
         special: "Boosts chances of getting [QCK] and [PSY] orbs for 2 turns, randomizes all orbs, amplifies the effect of orbs on [QCK], [PSY] and [INT] characters by 2x for 2 turns and becomes Smoothie & Oven for 2 turns",
-        swap: "When Change is activated, makes [QCK] and [PSY] orbs beneficial for [QCK], [PSY] and [INT] characters for 1 turn and deals 20x character's ATK in character's Type damage to all enemies at the end of the turn for 1 turn.",
+        swap: "When Change is activated, makes [QCK] and [PSY] orbs beneficial for [QCK], [PSY] and [INT] characters for 1 turn and deals 20x character's ATK in character's Type damage to all enemies at the end of each turn for 1 turn.",
         specialName: "Brother and Sister Chasing Intruders",
         sailor: "Boosts base ATK, HP and RCV of [QCK], [PSY] and [INT] characters by 50",
     },
     5062: {//Smoothie&Oven
         captain: "Boosts ATK of [PSY] characters by 3x and boosts ATK of [QCK] and [INT] characters by 2.5x.",
         special: "Boosts chances of getting [QCK] and [PSY] orbs for 2 turns, randomizes all orbs, amplifies the effect of orbs on [QCK], [PSY] and [INT] characters by 2x for 2 turns and becomes Smoothie & Oven for 2 turns",
-        swap: "When Change is activated, makes [QCK] and [PSY] orbs beneficial for [QCK], [PSY] and [INT] characters for 1 turn and deals 20x character's ATK in character's Type damage to all enemies at the end of the turn for 1 turn.",
+        swap: "When Change is activated, makes [QCK] and [PSY] orbs beneficial for [QCK], [PSY] and [INT] characters for 1 turn and deals 20x character's ATK in character's Type damage to all enemies at the end of each turn for 1 turn.",
         specialName: "Brother and Sister Chasing Intruders",
         sailor: {
             "base": "Boosts base ATK, HP and RCV of [PSY] and [INT] characters by 25",
@@ -56916,7 +57127,7 @@ window.details = {
     5063: {//Smoothie&Oven
         captain: "Boosts ATK of [QCK] characters by 3x and boosts ATK of [PSY] and [INT] characters by 2.5x.",
         special: "Boosts chances of getting [QCK] and [PSY] orbs for 2 turns, randomizes all orbs, amplifies the effect of orbs on [QCK], [PSY] and [INT] characters by 2x for 2 turns and becomes Smoothie & Oven for 2 turns",
-        swap: "When Change is activated, makes [QCK] and [PSY] orbs beneficial for [QCK], [PSY] and [INT] characters for 1 turn and deals 20x character's ATK in character's Type damage to all enemies at the end of the turn for 1 turn.",
+        swap: "When Change is activated, makes [QCK] and [PSY] orbs beneficial for [QCK], [PSY] and [INT] characters for 1 turn and deals 20x character's ATK in character's Type damage to all enemies at the end of each turn for 1 turn.",
         specialName: "Brother and Sister Chasing Intruders",
         sailor: {
             "base": "Boosts base ATK, HP and RCV of [QCK] and [INT] characters by 25",
@@ -56990,7 +57201,7 @@ window.details = {
     5064: {//Smoothie&Oven
         captain: "Boosts ATK of [QCK], [PSY] and [INT] characters by 3.75x and recovers 3x character's RCV in HP at the end of each turn.",
         special: "Boosts chances of getting [QCK] and [PSY] orbs for 2 turns, randomizes all orbs, amplifies the effect of orbs on [QCK], [PSY] and [INT] characters by 2x for 2 turns and becomes Smoothie & Oven for 2 turns",
-        swap: "When Change is activated, makes [QCK] and [PSY] orbs beneficial for [QCK], [PSY] and [INT] characters for 1 turn and deals 20x character's ATK in character's Type damage to all enemies at the end of the turn for 1 turn.",
+        swap: "When Change is activated, makes [QCK] and [PSY] orbs beneficial for [QCK], [PSY] and [INT] characters for 1 turn and deals 20x character's ATK in character's Type damage to all enemies at the end of each turn for 1 turn.",
         specialName: "Brother and Sister Chasing Intruders",
         sailor: {
             "base": "Boosts base ATK, HP and RCV of [QCK], [PSY] and [INT] characters by 50",
@@ -57064,7 +57275,7 @@ window.details = {
     5065: {//Smoothie&Oven
         captain: "Boosts ATK of [QCK], [PSY] and [INT] characters by 3.75x and recovers 3x character's RCV in HP at the end of each turn.",
         special: "Boosts chances of getting [QCK] and [PSY] orbs for 2 turns, randomizes all orbs, amplifies the effect of orbs on [QCK], [PSY] and [INT] characters by 2x for 2 turns and becomes Smoothie & Oven for 2 turns",
-        swap: "When Change is activated, makes [QCK] and [PSY] orbs beneficial for [QCK], [PSY] and [INT] characters for 1 turn and deals 20x character's ATK in character's Type damage to all enemies at the end of the turn for 1 turn.",
+        swap: "When Change is activated, makes [QCK] and [PSY] orbs beneficial for [QCK], [PSY] and [INT] characters for 1 turn and deals 20x character's ATK in character's Type damage to all enemies at the end of each turn for 1 turn.",
         specialName: "Brother and Sister Chasing Intruders",
         sailor: {
             "base": "Boosts base ATK, HP and RCV of [QCK], [PSY] and [INT] characters by 50",
@@ -58986,7 +59197,7 @@ window.details = {
             { "description": "Boosts base RCV by 5" },
             { "description": "Boosts base RCV by 5" },
             { "description": "Boosts base RCV by 10" },
-            { "description": "Acquire Potential 1: Barrier Penetration" },
+            { "description": "Acquire Potential 1: [QCK] Damage Reduction" },
             { "description": "Boosts base HP by 40" },
             { "description": "Boosts base HP by 60" },
             { "description": "Boosts base HP by 100" },
@@ -58997,7 +59208,7 @@ window.details = {
             { "description": "Boosts base ATK by 30" },
             { "description": "Acquire 1 additional Socket slot" },
             { "description": "Boosts base ATK by 50" },
-            { "description": "Acquire Potential 2: Pinch Healing" },
+            { "description": "Acquire Potential 2: [PSY] Damage Reduction" },
         ],
         potential: [
             {
@@ -59035,7 +59246,7 @@ window.details = {
             { "description": "Boosts base RCV by 5" },
             { "description": "Boosts base RCV by 5" },
             { "description": "Boosts base RCV by 10" },
-            { "description": "Acquire Potential 1: Barrier Penetration" },
+            { "description": "Acquire Potential 1: [QCK] Damage Reduction" },
             { "description": "Boosts base HP by 40" },
             { "description": "Boosts base HP by 60" },
             { "description": "Boosts base HP by 100" },
@@ -59046,7 +59257,7 @@ window.details = {
             { "description": "Boosts base ATK by 30" },
             { "description": "Acquire 1 additional Socket slot" },
             { "description": "Boosts base ATK by 50" },
-            { "description": "Acquire Potential 2: Pinch Healing" },
+            { "description": "Acquire Potential 2: [PSY] Damage Reduction" },
         ],
         potential: [
             {
@@ -59084,7 +59295,7 @@ window.details = {
             { "description": "Boosts base RCV by 5" },
             { "description": "Boosts base RCV by 5" },
             { "description": "Boosts base RCV by 10" },
-            { "description": "Acquire Potential 1: Barrier Penetration" },
+            { "description": "Acquire Potential 1: [QCK] Damage Reduction" },
             { "description": "Boosts base HP by 40" },
             { "description": "Boosts base HP by 60" },
             { "description": "Boosts base HP by 100" },
@@ -59095,7 +59306,7 @@ window.details = {
             { "description": "Boosts base ATK by 30" },
             { "description": "Acquire 1 additional Socket slot" },
             { "description": "Boosts base ATK by 50" },
-            { "description": "Acquire Potential 2: Pinch Healing" },
+            { "description": "Acquire Potential 2: [PSY] Damage Reduction" },
         ],
         potential: [
             {
@@ -59133,7 +59344,7 @@ window.details = {
             { "description": "Boosts base RCV by 5" },
             { "description": "Boosts base RCV by 5" },
             { "description": "Boosts base RCV by 10" },
-            { "description": "Acquire Potential 1: Barrier Penetration" },
+            { "description": "Acquire Potential 1: [QCK] Damage Reduction" },
             { "description": "Boosts base HP by 40" },
             { "description": "Boosts base HP by 60" },
             { "description": "Boosts base HP by 100" },
@@ -59144,7 +59355,7 @@ window.details = {
             { "description": "Boosts base ATK by 30" },
             { "description": "Acquire 1 additional Socket slot" },
             { "description": "Boosts base ATK by 50" },
-            { "description": "Acquire Potential 2: Pinch Healing" },
+            { "description": "Acquire Potential 2: [PSY] Damage Reduction" },
         ],
         potential: [
             {

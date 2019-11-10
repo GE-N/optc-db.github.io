@@ -984,6 +984,12 @@ window.matchers = [
         target: 'swap',
         matcher: /Reduces (any )?damage received/i
     },
+    
+    {
+        name: 'End of Turn Damage Dealer',
+        target: 'swap',
+        matcher: /(deals|cuts).+end of each turn/i
+    },
 
     {
         name: 'Bind reducers',
@@ -1019,6 +1025,12 @@ window.matchers = [
         name: 'Slot Bind reducers',
         target: 'swap',
         matcher: /(reduces|removes).+Slot Bind.+duration/i 
+    },
+
+    {
+        name: 'Poison removers',
+        target: 'swap',
+        matcher: /(removes|reduces).+poison.+(duration completely|duration)/i 
     },
 
     /*{
@@ -1477,6 +1489,12 @@ window.matchers = [
         name: 'Special cooldown reducers',
         target: 'support',
         matcher: /reduces special cooldown/i
+    },
+
+    {
+        name: 'Poison removers',
+        target: 'support',
+        matcher: /(removes|reduces).+poison.+duration completely/i 
     },
 
     {

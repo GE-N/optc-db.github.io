@@ -2445,7 +2445,7 @@ window.drops = {
             thumb: 2524,
             nakama: 2252400,
             gamewith: 150791,
-            'All Difficulties': [ 2523, 2524, 2525, 2526, 2527, -2074, -2363, -2365, -2072, -2078, -2115, -2304, -2189, -2285, -2367, -2371, -2538, -2540, -2542, -2544, -2231 ]
+            'All Difficulties': [ 2523, 2524, 2525, 2526, 2527, -2074, -2363, -2365, -2072, -1957, -2115, -2304, -2189, -2285, -2367, -2371, -2538, -2540, -2542, -2544, -2231 ]
         },
         
         {
@@ -4531,6 +4531,15 @@ window.drops = {
             gamewith: null,
             'Raging Sea': [ 2728 ]
         },
+
+        {
+            name: 'Witch Nami',
+            dropID: 'treasuremap27',
+            thumb: 2763,
+            nakama: null,
+            gamewith: null,
+            'Raging Sea': [ 2762 ]
+        },
         
     ],
 
@@ -4710,7 +4719,7 @@ window.drops = {
             name: 'Dead or Treat!! Devilish Party',
             thumb: 2749,
             gamewith: null,
-            'All Difficulties': [ 2478 ],
+            'All Difficulties': [ 2748 ],
         },
         
         {
@@ -4759,6 +4768,14 @@ window.drops = {
             condition: '40 Stamina drops all Final Forbidden Tomes',
             '30 Stamina': [ 1600, 189, 190, 191, 192, 193, 118, 110, 111, 112, 113, 114, 117, 116, 115 ],
             '40 Stamina': [ 189, 190, 191, 192, 193, 118, 110, 111, 112, 113, 114, 117, 116, 115 ],
+        },
+
+        {
+            name: 'Garp Challenge',
+            thumb: 1318,
+            global: true,
+            nakama: 6334000,
+            gamewith: [ 155027, 155105, 155056, 154932, 132931, 159295 ],
         },
         
         {
