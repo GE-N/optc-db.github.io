@@ -637,6 +637,18 @@ window.matchers = [
         matcher: /(Deals|Cuts).+ignore damage negating abilities and barriers/i,
         icon: 'damage-dealer'
     },
+    
+    {
+        name: 'Additional Damage dealer',
+        target: 'special',
+        matcher: /Additional.+Damage/i
+    },
+    
+    {
+        name: 'Instant Defeat special',
+        target: 'special',
+        matcher: /instantly defeat/i
+    },
 
     {
         name: 'Healers',
