@@ -2929,7 +2929,7 @@ window.drops = {
             thumb: 1108,
             global: true,
             nakama: 4110800,
-            gamewith: 33648,
+            gamewith: 27708,
             slefty: 'raid_bosses/25',
             Ultimate: [ 1107 ],
             Master: [ 1107 ],
@@ -3284,7 +3284,7 @@ window.drops = {
         },
         
         {
-            name: 'Game!! Leo',
+            name: 'Fight, Leo',
             dropID: 'clash46',
             thumb: 2559,
             nakama: 4255900,
@@ -3348,7 +3348,7 @@ window.drops = {
         },
         
         {
-            name: 'Game!! Zorojuro',
+            name: 'Fight, Zorojuro',
             dropID: 'clash52',
             thumb: 2707,
             nakama: 4270700,
@@ -3387,6 +3387,17 @@ window.drops = {
             gamewith: null,
             Expert: [ 3370 ],
             Ultimate: [ 3370 ],
+        },
+        
+        {
+            name: 'Clash!! Carrot',
+            dropID: 'clash53',
+            thumb: 2781,
+            nakama: null,
+            gamewith: null,
+            Master: [ 2781 ],
+            Expert: [ 2781 ],
+            Ultimate: [ 2781 ],
         },
 
     ],
