@@ -7062,11 +7062,10 @@ window.specials = {
         orb: function(p) { return p.unit.class.has("Slasher") ? CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.5, [p.friendCaptain, p.captain], p.effectName) : CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1, [p.friendCaptain, p.captain], p.effectName); }	
     },
     2429: {
-        def: function(p) { return window.specials[2425].turnedOn ? 0.5 : 1; },
+        def: function(p) { return window.specials[2429].turnedOn ? 0.5 : 1; },
         turnedOn: false,
         onActivation: function(p) {
-            window.specials[2425].turnedOn = false;
-            window.specials[2425].turnedOn = p.captain.class.has("Slasher") ? true : false;
+            window.specials[2429].turnedOn = p.captain.class.has("Slasher") ? true : false;
         },
     },
     2434: {
@@ -7975,11 +7974,11 @@ window.specials = {
     2628: {
         chainAddition: function(p) { return 0.4; }
     },
-    2429: {
+    2629: {
         atk: function(p) { return (p.unit.type == "STR" || p.unit.type == "QCK" || p.unit.type == "INT") ? 1.75 : 1; },
         type: "type"
     },
-    2429: {
+    2630: {
         atk: function(p) { return (p.unit.type == "STR" || p.unit.type == "QCK" || p.unit.type == "INT") ? 1.75 : 1; },
         type: "type"
     },
@@ -8721,6 +8720,17 @@ window.specials = {
                 name: '2781warning'
             });
         },
+    },
+    2785: {
+        chainAddition: function(p) { return window.specials[2785].multiplier; },
+        onActivation: function(p) {
+            var n = (p.percHP >= 99 ? 0.9 : 0.7);
+            window.specials[2582].multiplier = n;
+            p.scope.notify({
+                text: 'HP ' + (n == 0.9 ? 'above' : 'below') + ' 99%, using the ' + n + 'x multiplier.',
+                name: '2582warning'
+            });
+        }
     },
     3333: {
         atk: function(p) { return 1.75; },
