@@ -8721,6 +8721,10 @@ window.specials = {
             });
         },
     },
+    2784: {
+        def: function(p) { return .2; },
+        affinity: function(p) { return p.unit.class.has("Shooter") ? 2 : 1; },
+    },
     2785: {
         chainAddition: function(p) { return window.specials[2785].multiplier; },
         onActivation: function(p) {
@@ -8732,6 +8736,29 @@ window.specials = {
             });
         }
     },
+    2786: {
+        delay: function(p) { return 2; },
+    },
+    2787: {
+        delay: function(p) { return 2; },
+    },
+    2788: {
+        chainAddition: function(p) { return 0.7; }
+    },
+    2789: {
+        chainAddition: function(p) { return 0.7; }
+    },
+    2790: {
+        affinity: function(p) { return (p.unit.type == "QCK" || p.unit.type == "INT") ? window.specials[2790].multiplier : 1; },
+        onActivation: function(p) {
+            var n = (window.specials[2790].multiplier == 1.75 ? 1 : window.specials[2790].multiplier == 2 ? 2.25 : 0);
+            window.specials[2790].multiplier = [1.75, 2, 2.25][n];
+            p.scope.notify({
+                text: 'Using the ' + [1.75, 2, 2.25][n] + 'x affinity boost. To switch to the ' + [2, 2.25, 1.75][n] + 'x affinity boost, disable and re-enable this special',
+                name: '2790warning'
+            });
+        }
+    },
     3333: {
         atk: function(p) { return 1.75; },
         type: "type",
@@ -8739,10 +8766,6 @@ window.specials = {
     3334: {
         atk: function(p) { return 1.75; },
         type: "type",
-    },
-    3336: {
-        def: function(p) { return .2; },
-        affinity: function(p) { return p.unit.class.has("Shooter") ? 2 : 1; },
     },
     3339: {
         atk: function(p) { return p.unit.class.has("Fighter") ? 1.75 : 1; },
@@ -8793,6 +8816,9 @@ window.specials = {
     3368: {
         atk: function(p) { return p.unit.class.has("Shooter") ? 1.75 : 1; },
         type: "class"
+    },
+    3374: {
+        orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 1.5, [p.friendCaptain, p.captain], p.effectName); },
     },
     5000: {
         atk: function(p) { return p.unit.type == "PSY" || p.unit.type == "INT" ? 1.5 : 1; },

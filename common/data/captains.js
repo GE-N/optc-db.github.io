@@ -9858,9 +9858,40 @@ window.captains = {
     2783: {
         atk: function(p) { return p.unit.type == "PSY" ? 2 : 1; },
     },
+    2784: {
+        damageSorter: function(d) { return CrunchUtils.classSort(d, 4.026275, [ "Shooter" ]); },
+        hitAtk: function(p) {
+            if (!p.unit.class.has("Shooter")) return 1;
+            return p.modifiers.slice(0, p.chainPosition).subcontains(["Perfect", "Perfect", "Perfect", "Perfect", "Perfect"]) ? 4.147915078125 : p.modifiers.slice(0, p.chainPosition).subcontains(["Perfect", "Perfect", "Perfect", "Perfect"]) ? 3.9503953125 : p.modifiers.slice(0, p.chainPosition).subcontains(["Perfect", "Perfect", "Perfect"]) ? 3.76228125 : p.modifiers.slice(0, p.chainPosition).subcontains(["Perfect", "Perfect"]) ? 3.583125 : p.modifiers.slice(0, p.chainPosition).subcontains(["Perfect"]) ? 3.4125 : 3.25;
+        },
+        hitModifiers: ["Perfect", "Perfect", "Perfect", "Perfect", "Perfect", "Perfect"],
+        rcv: function(p) { return 0; },
+    },
     2785: {
         atk: function(p) { return (p.unit.class.has("Slasher") || p.unit.class.has("Cerebral")) ? 2.75 : 1; },
         hp: function(p) { return (p.unit.class.has("Slasher") || p.unit.class.has("Cerebral")) ? 1.2 : 1; },
+    },
+    2786: {
+        atk: function(p) { return p.unit.type == "QCK" || p.unit.type == "INT" ? 1.5 : 1; },
+    },
+    2787: {
+        atk: function(p) { return p.unit.type == "QCK" || p.unit.type == "INT" ? 2.25 : 1; },
+    },
+    2788: {
+        atk: function(p) { return p.unit.type == "QCK" || p.unit.type == "INT" ? 2 : 1; },
+    },
+    2789: {
+        atk: function(p) { return p.unit.type == "QCK" || p.unit.type == "INT" ? 2.5 : 1; },
+        hp: function(p) { return p.unit.type == "QCK" || p.unit.type == "INT" ? 1.2 : 1; },
+    },
+    2790: {
+        atk: function(p) { return p.unit.class.has("Free Spirit") ? 1.5 : 1; },
+    },
+    2791: {
+        atk: function(p) { return p.unit.type == "QCK" || p.unit.type == "INT" ? 1.5 : 1; },
+    },
+    2792: {
+        atk: function(p) { return p.unit.type == "QCK" || p.unit.type == "INT" ? p.actions[p.sourceSlot] ? 3.25 : 1.75 : 1; },
     },
     3333: {
         hitAtk: function(p) {
@@ -9877,15 +9908,6 @@ window.captains = {
         },
         hitModifiers: ["Perfect", "Perfect", "Perfect", "Perfect", "Perfect", "Perfect"],
         hp: function(p) { return 1.5; },
-    },
-    3336: {
-        damageSorter: function(d) { return CrunchUtils.classSort(d, 4.026275, [ "Shooter" ]); },
-        hitAtk: function(p) {
-            if (!p.unit.class.has("Shooter")) return 1;
-            return p.modifiers.slice(0, p.chainPosition).subcontains(["Perfect", "Perfect", "Perfect", "Perfect", "Perfect"]) ? 4.147915078125 : p.modifiers.slice(0, p.chainPosition).subcontains(["Perfect", "Perfect", "Perfect", "Perfect"]) ? 3.9503953125 : p.modifiers.slice(0, p.chainPosition).subcontains(["Perfect", "Perfect", "Perfect"]) ? 3.76228125 : p.modifiers.slice(0, p.chainPosition).subcontains(["Perfect", "Perfect"]) ? 3.583125 : p.modifiers.slice(0, p.chainPosition).subcontains(["Perfect"]) ? 3.4125 : 3.25;
-        },
-        hitModifiers: ["Perfect", "Perfect", "Perfect", "Perfect", "Perfect", "Perfect"],
-        rcv: function(p) { return 0; },
     },
     3339: {
         atk: function(p) { return (p.unit.class.has("Fighter")) ? 1.5 : 1; },
@@ -9988,6 +10010,10 @@ window.captains = {
     3373: {
         atk: function(p) { return (p.unit.class.has("Driven")) ? 1.5 : 1; },
         hp: function(p) { return (p.unit.class.has("Driven")) ? 1.5 : 1; },
+    },
+    3374: {
+        atk: function(p) { return (p.unit.class.has("Cerebral")) ? 1.75 : 1; },
+        rcv: function(p) { return (p.unit.class.has("Cerebral")) ? 1.75 : 1; },
     },
     5000: {
         atk: function(p) { return p.unit.type == "PSY" || p.unit.type == "INT" ? 2.5 : 1; },

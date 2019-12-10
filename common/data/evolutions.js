@@ -4447,13 +4447,25 @@ window.evolutions = {
         evolution: 2780,
         evolvers: [ 94, 1180, 304, 99, 104 ]
     },
+    1763: {
+        evolution: 2784,
+        evolvers: [ 'skullQCK', 'skullQCK', 'skullQCK', 1180, 301 ]
+    },
+    2786: {
+        evolution: 2787,
+        evolvers: [  ]
+    },
+    2788: {
+        evolution: 2789,
+        evolvers: [  ]
+    },
+    2791: {
+        evolution: 2792,
+        evolvers: [  ]
+    },
     3333: {
         evolution: 3334,
         evolvers: [ 118, 86, 266, 302, 267 ]
-    },
-    1763: {
-        evolution: 3336,
-        evolvers: [ 'skullQCK', 'skullQCK', 'skullQCK', 1180, 301 ]
     },
     3339: {
         evolution: 3340,
