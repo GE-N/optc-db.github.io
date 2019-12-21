@@ -2451,6 +2451,7 @@ window.drops = {
         {
             name: 'Hell\'s Past! Young Doflamingo',
             dropID: 'event121',
+            global: true,
             thumb: 2571,
             nakama: 2257100,
             gamewith: 153186,
@@ -2516,7 +2517,7 @@ window.drops = {
             dropID: 'event127',
             thumb: 2782,
             nakama: null,
-            gamewith: null,
+            gamewith: 178712,
             'All Difficulties': [ 2782, 2783, -1001, -1953, -2080, -2156, -2195, -2603, -2605, -2674, -2676, -2678, -2596 ]
         },
         
@@ -2676,6 +2677,17 @@ window.drops = {
             slefty: 'raid_bosses/9',
             Master: [ 87, 97, 113, 117, 118, 294, 295, 303, 429, 515 ],
             Expert: [ 87, 98, 113, 117, 293, 295, 429, 379, 515 ]
+        },
+
+        {
+            name: 'Clash Neo!! Heracles\'n',
+            dropID: 'clashneo9',
+            thumb: 3376,
+            global: true,
+            nakama: null,
+            gamewith: null,
+            slefty: 'raid_bosses/9',
+            Expert: [ 3375 ]
         },
 
         {
@@ -3378,6 +3390,28 @@ window.drops = {
         },
         
         {
+            name: 'Clash!! Carrot',
+            dropID: 'clash54',
+            thumb: 2781,
+            nakama: null,
+            gamewith: null,
+            Master: [ 2781 ],
+            Expert: [ 2781 ],
+            Ultimate: [ 2781 ],
+        },
+        
+        {
+            name: 'Clash!! Coby & Helmeppo',
+            dropID: 'clash55',
+            thumb: 2795,
+            nakama: null,
+            gamewith: null,
+            Master: [ 2795 ],
+            Expert: [ 2795 ],
+            Ultimate: [ 2795 ],
+        },
+        
+        {
             name: 'Showdown!! Shanks & Mihawk',
             thumb: 3342,
             global: true,
@@ -3396,17 +3430,6 @@ window.drops = {
             gamewith: null,
             Expert: [ 3370 ],
             Ultimate: [ 3370 ],
-        },
-        
-        {
-            name: 'Clash!! Carrot',
-            dropID: 'clash53',
-            thumb: 2781,
-            nakama: null,
-            gamewith: null,
-            Master: [ 2781 ],
-            Expert: [ 2781 ],
-            Ultimate: [ 2781 ],
         },
 
     ],
@@ -4299,7 +4322,7 @@ window.drops = {
             thumb: 2785,
             showManual: true,
             nakama: null,
-            gamewith: null,
+            gamewith: 178924,
             slefty: 'coliseums',
             Chaos: [ 2785, -2785 ],
         },
@@ -4698,6 +4721,15 @@ window.drops = {
             nakama: null,
             gamewith: [ 174864 ],
             'All Difficulties': [ 2757 ],
+        },
+        
+        {
+            name: 'Christmas Party Shirahoshi',
+            dropID: 'bond3',
+            thumb: 2794,
+            nakama: null,
+            gamewith: 148537,
+            'All Difficulties': [ 2794 ],
         },
         
     ],
@@ -5192,8 +5224,9 @@ window.drops = {
         },
         
         {
-            name: 'Beautiful Women\'s Relief - Nami',
+            name: 'Ladies\' Repose - Nami',
             thumb: 2588,
+            global: true,
             nakama: null,
             gamewith: 155238,
             showManual: true,
@@ -5201,8 +5234,9 @@ window.drops = {
         },
         
         {
-            name: 'Beautiful Women\'s Relief - Hancock',
+            name: 'Ladies\' Repose - Hancock',
             thumb: 2434,
+            global: true,
             nakama: null,
             gamewith: 155240,
             showManual: true,
@@ -5235,6 +5269,15 @@ window.drops = {
             gamewith: 162504,
             condition: 'Certain units stats boosted by 1.5x and 5 turns special cooldown reduction. Some units will increase drop chance of items.\nChance to drop the 「Simple Pistol, Swordsman\'s Loot」, 「Heavy Pistol, Swordsman\'s Loot」, and 「Luxorious Pistol, Marine\'s Loot」.',
             'Chopperman Missions': [ 2667 ],
+        },
+        
+        {
+            name: 'Tragic Country\'s Conflict',
+            thumb: 2767,
+            nakama: null,
+            gamewith: 176351,
+            condition: 'Certain units stats boosted by 1.5x and 5 turns special cooldown reduction. Some units will increase drop chance of items.\nChance to drop the 「Toy Bear」, 「Armored Toy Bear」, and 「Fully Armored Toy Bear」.',
+            'Chopperman Missions': [ 2766 ],
         },
         
         {
