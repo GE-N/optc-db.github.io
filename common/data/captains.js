@@ -9435,7 +9435,7 @@ window.captains = {
     2655: {
         atk: function(p) { return p.unit.type == "INT" ? 2.5 : (p.unit.type == "QCK" || p.unit.type == "STR") ? 2 : 1; },
     },
-    2655: {
+    2656: {
         atk: function(p) { return p.unit.type == "QCK" ? 2 : 1; },
         hp: function(p) { return p.unit.type == "QCK" ? 1.2 : 1; },
     },
@@ -10003,6 +10003,29 @@ window.captains = {
     },
     2823: {
         atk: function(p) { return p.unit.class.has("Slasher") ? p.actions[p.sourceSlot] ? 3.25 : 1.75 : 1; },
+    },
+    2824: {
+        atk: function(p) { return (p.unit.class.has("Shooter") || p.unit.class.has("Free Spirit")) ? 2.75 : 1; },
+        hp: function(p) { return (p.unit.class.has("Shooter") || p.unit.class.has("Free Spirit")) ? 1.3 : 1; },
+    },
+    2825: {
+        atk: function(p) { return (p.unit.class.has("Shooter") || p.unit.class.has("Free Spirit")) ? 2.75 : 1; },
+        hp: function(p) { return (p.unit.class.has("Shooter") || p.unit.class.has("Free Spirit")) ? 1.3 : 1; },
+    },
+    2826: {
+        atk: function(p) { return (p.unit.class.has("Slasher") || p.unit.class.has("Cerebral")) ? ((CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 2, [p.friendCaptain, p.captain], p.effectName) == 2) && (p.orb != 'g')) ? 3.25 : 2.5 : 1; },
+    },
+    2827: {
+        atk: function(p) { return (p.unit.class.has("Slasher") || p.unit.class.has("Cerebral")) ? ((CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 2, [p.friendCaptain, p.captain], p.effectName) == 2) && (p.orb != 'g')) ? 3.25 : 2.5 : 1; },
+    },
+    2828: {
+        atk: function(p) { return (p.unit.class.has("Striker") || p.unit.class.has("Driven")) ? 2 + 1.25 * (1 - (p.percHP) / 100) : 1; },
+    },
+    2829: {
+        atk: function(p) { return (p.unit.class.has("Striker") || p.unit.class.has("Driven")) ? 2 + 1.25 * (1 - (p.percHP) / 100) : 1; },
+    },
+    2830: {
+        atk: function(p) { return p.unit.class.has("Cerebral") ? 1.5 : 1; },
     },
     3333: {
         hitAtk: function(p) {
