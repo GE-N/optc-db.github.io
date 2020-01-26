@@ -436,6 +436,18 @@ window.matchers = [
         matcher: /(Following the activation|If during that turn)/i,
         icon: 'https://i.imgur.com/i56HFLv.png'
     },
+
+    {
+        name: 'Multiple-Turn boosting specials',
+        target: 'special',
+        matcher: /x for \d{1,} turns/i
+    },
+
+    {
+        name: 'Multiple-Turn Buff/Debuff specials',
+        target: 'special',
+        matcher: /for \d{1,} turns/i
+    },
     
     {
         name: 'Color Affinity boosters',
@@ -756,6 +768,12 @@ window.matchers = [
         target: 'specialNotes',
         matcher: /specialProportional/i,
         icon: 'health-cut'
+    },
+
+    {
+        name: 'Multiple-Turn Buff/Debuff Removing specials',
+        target: 'special',
+        matcher: /by \d{1,} turns/i
     },
 
     {
@@ -1609,6 +1627,18 @@ window.matchers = [
         name: 'Blindness reducers',
         target: 'support',
         matcher: /(reduces|removes).+blindness.+duration/i
+    },
+    
+    {
+        name: 'Chain Multiplier Limit and Chain Lock reducer',
+        target: 'support',
+        matcher: /(removes|reduces).+Chain Multiplier Limit/i 
+    },
+    
+    {
+        name: 'Chain Coefficient Reduction reducer',
+        target: 'support',
+        matcher: /(removes|reduces).+Chain Coefficient Reduction/i 
     },
     
     {
