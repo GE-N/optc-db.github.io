@@ -3427,6 +3427,7 @@ window.drops = {
         
         {
             name: 'Showdown!! Shanks & Mihawk',
+            dropID: 'clash56',
             thumb: 2819,
             global: true,
             nakama: 4281900,
@@ -3434,6 +3435,16 @@ window.drops = {
             Master: [ 2818 ],
             Expert: [ 2818 ],
             Ultimate: [ 2818 ],
+        },
+        
+        {
+            name: 'Clash!! Bonney',
+            dropID: 'clash57',
+            thumb: 2846,
+            nakama: null,
+            gamewith: null,
+            Expert: [ 2846 ],
+            Ultimate: [ 2846 ],
         },
         
         {
@@ -4722,7 +4733,7 @@ window.drops = {
             thumb: 2659,
             nakama: null,
             gamewith: 162014,
-            'Expo Sea': [ 2658, 2660 ]
+            'Sea Near the Pirate Expo': [ 2658, 2660 ]
         },
 
         {
@@ -4768,6 +4779,15 @@ window.drops = {
             nakama: null,
             gamewith: null,
             'Raging Sea': [ 2823 ]
+        },
+
+        {
+            name: 'Rebecca & Viola',
+            dropID: 'treasuremap30',
+            thumb: 2850,
+            nakama: null,
+            gamewith: null,
+            'Raging Sea': [ 2850 ]
         },
         
     ],
@@ -4906,6 +4926,7 @@ window.drops = {
             nakama: null,
             gamewith: null,
             'All Difficulties': [ 2831 ],
+            'Round 2': [ 2854 ],
         },
         
     ],
@@ -4999,6 +5020,15 @@ window.drops = {
             gamewith: 88896,
             'Sanji': [ 1960, 83, 94, 266, 1180, 81, 87, 92, 98, 113 ],
             'Pudding': [ 1962, 83, 94, 266, 1180, 82, 88, 93, 99, 114 ],
+        },
+        
+        {
+            name: 'Kizuna Clash! - Preparation Battle',
+            thumb: 2833,
+            nakama: null,
+            gamewith: null,
+            'Round 1': [ 2833 ],
+            'Round 2': [ 2852 ]
         },
 
         {
@@ -5421,6 +5451,16 @@ window.drops = {
         },
         
         {
+            name: 'The Great Pirate\'s Legacy',
+            thumb: 3379,
+            global: true,
+            nakama: null,
+            gamewith: null,
+            showManual: true,
+            'All Difficulties': [ 9035, -261, -1413, -2686, -3379 ],
+        },
+        
+        {
             name: 'Escape! Whole Cake Island',
             thumb: 2234,
             global: true,
@@ -5509,6 +5549,13 @@ window.drops = {
             nakama: null,
             condition: 'Mihawk: Slasher or Cerebral only. Hancock: Shooter or Free Spirit only. Crocodile: Striker or Driven only',
             gamewith: 183779,
+        },
+        
+        {
+            name: 'Sweet Party!',
+            thumb: 2857,
+            gamewith: null,
+            'Chopperman Missions': [ 2855 ],
         },
         
         {

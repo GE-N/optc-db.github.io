@@ -4768,7 +4768,7 @@ window.captains = {
     },
     1612: {
         atk: function(p) { return p.unit.class.has("Shooter") ? 2.5 : 1; },
-        hp: function(p) { return p.unit.class.has("Shooter") ? 1.2 : 1; },
+        hp: function(p) { return p.unit.class.has("Shooter") ? 1.25 : 1; },
     },
     1613: {
         atk: function(p) { return p.unit.class.has("Fighter") ? 2.25 : 1; },
@@ -10024,6 +10024,10 @@ window.captains = {
     2829: {
         atk: function(p) { return (p.unit.class.has("Striker") || p.unit.class.has("Driven")) ? 2 + 1.25 * (1 - (p.percHP) / 100) : 1; },
     },
+    2830: {
+        atk: function(p) { return p.unit.class.has("Cerebral") ? 3.75 : 1; },
+        rcv: function(p) { return p.unit.class.has("Cerebral") ? 1.5 : 1; },
+    },
     2832: {
         atk: function(p) {
             return p.unit.type == "DEX" ? ((p.orb == 2) ? p.actions[p.sourceSlot] ? 4.2 : 3 : p.actions[p.sourceSlot] ? 3.5 : 2.5) : (p.unit.type == "QCK" ? (p.orb == 0.5 ? 1.2 : 1) : (p.orb == 'dex' ? 1.2 : 1));
@@ -10063,6 +10067,37 @@ window.captains = {
     },
     2845: {
         atk: function(p) { return p.unit.type == "INT" ? 2.75 : 1; },
+    },
+    2846: {
+        atk: function(p) { return p.unit.class.has("Free Spirit") ? p.orb == 'meat' ? 3 : 2.5 : 1; },
+    },
+    2848: {
+        atk: function(p) { return (p.unit.class.has("Driven")) ? 1.5 : 1; },
+    },
+    2849: {
+        atk: function(p) { return (p.unit.class.has("Free Spirit")) ? 1.5 : 1; },
+    },
+    2852: {
+        atk: function(p) { return p.unit.type == "PSY" ? 1.5 : 1; },
+    },
+    2853: {
+        atk: function(p) { return p.unit.type == "PSY" ? ((CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 2, [p.friendCaptain, p.captain], p.effectName) == 2) && (p.orb != 'g')) ? p.actions[p.sourceSlot] ? 4.2 : 3 : p.actions[p.sourceSlot] ? 3 : 2.5 : 1; },
+    },
+    2854: {
+        atk: function(p) { return (p.unit.class.has("Fighter") || p.unit.class.has("Free Spirit")) ? 3 : 1; },
+    },
+    2855: {
+        atk: function(p) { return (p.unit.type == "DEX" || p.unit.type == "PSY" || p.unit.type == "INT") ? 2.25 : 1; },
+        hp: function(p) { return (p.unit.type == "DEX" || p.unit.type == "PSY" || p.unit.type == "INT") ? 1.25 : 1; },
+    },
+    2856: {
+        atk: function(p) { return (p.colorCount.DEX>=1 || p.colorCount.PSY>=1 || p.colorCount.INT>=1) ? p.actions[p.sourceSlot] ? 4.5 : 2.75 : 1; },
+    },
+    2857: {
+        //atk: function(p) { return (p.colorCount.DEX>=1 || p.colorCount.PSY>=1 || p.colorCount.INT>=1) ? p.actions[p.sourceSlot] ? 4.5 : 2.75 : 1; }, Change this eventually I guess
+    },
+    2858: {
+        atk: function(p) { return (p.colorCount.DEX>=1 || p.colorCount.PSY>=1 || p.colorCount.INT>=1) ? p.actions[p.sourceSlot] ? 4.5 : 2.75 : 1; },
     },
     3333: {
         hitAtk: function(p) {
@@ -10205,8 +10240,8 @@ window.captains = {
         chainModifier: function(p) { return  (p.colorCount.INT==0 && p.colorCount.PSY==0 && p.colorCount.STR>=1 && p.colorCount.DEX>=1 && p.colorCount.QCK>=1) ? 4 : 1; }
     },
     3379: {
-        atk: function(p) { return p.unit.class.has("Cerebral") ? 3.75 : 1; },
-        rcv: function(p) { return p.unit.class.has("Cerebral") ? 1.5 : 1; },
+        atk: function(p) { return (p.unit.class.has("Striker") || p.unit.class.has("Powerhouse")) ? 3.25 + 1.25 * (1 - (p.percHP) / 100) : 1; },
+        rcv: function(p) { return 0; },
     },
     5000: {
         atk: function(p) { return p.unit.type == "PSY" || p.unit.type == "INT" ? 2.5 : 1; },
@@ -11107,5 +11142,17 @@ window.captains = {
     },
     5209: {
         atk: function(p) { return (p.unit.type == "DEX" || p.unit.type == "INT") ? (p.orb == 'empty') ? 6 : 4.5 : 1; },
+    },
+    5210: {
+        atk: function(p) { return p.unit.type == "DEX" ? 3 : p.unit.type == "INT" ? 2.25 : 1; },
+    },
+    5211: {
+        atk: function(p) { return p.unit.type == "INT" ? 3 : p.unit.type == "DEX" ? 2.25 : 1; },
+    },
+    5212: {
+        atk: function(p) { return p.unit.type == "DEX" || p.unit.type == "INT" ? 3.75 : 1; },
+    },
+    5213: {
+        atk: function(p) { return p.unit.type == "DEX" || p.unit.type == "INT" ? 3.75 : 1; },
     },
 };

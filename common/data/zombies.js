@@ -854,6 +854,18 @@ window.zombies = {
         type: 'healer',
         amount: 500
     },
+    2847: { // Mansherry
+        type: 'healer',
+        multiplier: 3
+    },
+    2855: { // Custard
+        type: 'healer',
+        multiplier: 3
+    },
+    2857: { // Flampe
+        type: 'healer',
+        multiplier: 5
+    },
     3376: {//Hera
         type: 'healer',
         multiplier: 1

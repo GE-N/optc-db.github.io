@@ -1341,10 +1341,22 @@ window.matchers = [
     },
     
     {
-        name: 'Slot Bind Self-reduction Potential Ability',
+        name: 'Slot Bind Reduction Potential Ability',
         target: 'limit',
-        matcher: /Slot Bind Self-reduction/i,
+        matcher: /Slot Bind Reduction/i,
         icon: 'slot-bind-reduction'
+    },
+    
+    {
+        name: 'Ship Bind Reduction Potential Ability',
+        target: 'limit',
+        matcher: /Ship-Bind Reduction/i
+    },
+    
+    {
+        name: 'Sailor Despair Reduction Potential Ability',
+        target: 'limit',
+        matcher: /Sailor-Despair Reduction/i
     },
     
     {
