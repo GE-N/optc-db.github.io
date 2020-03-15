@@ -164,19 +164,22 @@ window.matchers = [
     {
         name: 'HP Threshold Requirement captains',
         target: 'captain',
-        matcher: /if HP is (below|above)/i
+        matcher: /if HP is (below|above)/i,
+        icon: 'exp-boost'
     },
 
     {
         name: 'Team Composition Requirement captains',
         target: 'captain',
-        matcher: /your crew/i
+        matcher: /your crew/i,
+        icon: 'hp up'
     },
 
     {
         name: 'Captain Swap Requirement captains',
         target: 'captain',
-        matcher: /becomes your captain/i
+        matcher: /becomes your captain/i,
+        icon: 'hp up'
     },
 
     {
@@ -297,25 +300,29 @@ window.matchers = [
     {
         name: 'HP Threshold Requirement specials',
         target: 'special',
-        matcher: /if HP is (below|above)/i
+        matcher: /if HP is (below|above)/i,
+        icon: 'exp-boost'
     },
 
     {
         name: 'Team Composition Requirement specials',
         target: 'special',
-        matcher: /your crew/i
+        matcher: /your crew/i,
+        icon: 'hp up'
     },
 
     {
         name: 'Team Orb Composition Requirement specials',
         target: 'special',
-        matcher: /your( crew.+characters with|.+Captain's orb is)/i
+        matcher: /your( crew.+characters with|.+Captain's orb is)/i,
+        icon: 'color affinity'
     },
 
     {
         name: 'Captain Composition Requirement specials',
         target: 'special',
-        matcher: /your captain /i
+        matcher: /your captain /i,
+        icon: 'hp up'
     },
 
     {
@@ -401,7 +408,8 @@ window.matchers = [
     {
         name: 'Increase Defense Status ATK boosters',
         target: 'special',
-        matcher: /Boosts ATK.+against.+enemies.+increased defense/i
+        matcher: /Boosts ATK.+against.+enemies.+increased defense/i,
+        icon: 'defense boost'
     },
 
     {
@@ -440,13 +448,15 @@ window.matchers = [
     {
         name: 'Multiple-Turn boosting specials',
         target: 'special',
-        matcher: /x for \d{1,} turns/i
+        matcher: /x for \d{1,} turns/i,
+        icon: 'atk up'
     },
 
     {
         name: 'Multiple-Turn Buff/Debuff specials',
         target: 'special',
-        matcher: /for \d{1,} turns/i
+        matcher: /for \d{1,} turns/i,
+        icon: 'atk up'
     },
     
     {
@@ -719,7 +729,8 @@ window.matchers = [
     {
         name: 'Instant Defeat special',
         target: 'special',
-        matcher: /instantly defeat/i
+        matcher: /instantly defeat/i,
+        icon: 'poison'
     },
 
     {
@@ -773,7 +784,8 @@ window.matchers = [
     {
         name: 'Multiple-Turn Buff/Debuff Removing specials',
         target: 'special',
-        matcher: /by \d{1,} turns/i
+        matcher: /by \d{1,} turns/i,
+        icon: 'heal'
     },
 
     {
@@ -1350,13 +1362,15 @@ window.matchers = [
     {
         name: 'Ship Bind Reduction Potential Ability',
         target: 'limit',
-        matcher: /Ship-Bind Reduction/i
+        matcher: /Ship-Bind Reduction/i,
+        icon: ''
     },
     
     {
         name: 'Sailor Despair Reduction Potential Ability',
         target: 'limit',
-        matcher: /Sailor-Despair Reduction/i
+        matcher: /Sailor-Despair Reduction/i,
+        icon: 'reduce despair'
     },
     
     {
