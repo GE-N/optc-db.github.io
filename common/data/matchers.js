@@ -1353,9 +1353,9 @@ window.matchers = [
     },
     
     {
-        name: 'Slot Bind Reduction Potential Ability',
+        name: 'Reduce Slot Bind duration Potential Ability',
         target: 'limit',
-        matcher: /Slot Bind Reduction/i,
+        matcher: /Reduce Slot Bind duration/i,
         icon: 'slot-bind-reduction'
     },
     
@@ -1511,11 +1511,11 @@ window.matchers = [
         matcher: /boosts( own ATK| ATK of)/i
     },
     
-    /*{
+    {
         name: 'Combo Boost Specials',
         target: 'support',
         matcher: /Boost.+hit in the chain/i
-    },*/
+    },
 
     {
         name: 'Orb boosters',
@@ -1587,6 +1587,12 @@ window.matchers = [
         name: 'Orb lockers',
         target: 'support',
         matcher: /locks (the supported character's orb|orbs|all orbs|orb|own orb)/i
+    },
+    
+    {
+        name: 'Beneficial Orb support',
+        target: 'support',
+        matcher: /beneficial/i
     },
     
     {
@@ -1721,13 +1727,13 @@ window.matchers = [
         matcher: /(removes|reduces).+Increased Defense.+duration/i 
     },
 
-    /*{
+    {
         name: 'Enemy Percent Damage Reduction reducer',
         target: 'support',
         matcher: /(removes|reduces).+Percent Damage Reduction.+duration/i 
     },
 
-    {
+    /*{
         name: 'Enemy Damage Nullification reducer',
         target: 'support',
         matcher: /(removes|reduces).+Damage Nullification.+duration/i 
