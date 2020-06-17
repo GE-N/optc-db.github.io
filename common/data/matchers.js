@@ -192,7 +192,7 @@ window.matchers = [
     {
         name: 'Beneficial Orb captains',
         target: 'captain',
-        matcher: /orbs beneficial/i
+        matcher: /orbs beneficial/i,
         //matcher: /Makes ((STR|DEX|QCK|PSY|INT|\[RCV\]|\[TND\])|((STR|DEX|QCK|PSY|INT|\[RCV\]|\[TND\]) and (STR|DEX|QCK|PSY|INT|\[RCV\]|\[TND\]))) orbs "beneficial"/i
         icon: 'orb match'
     },
