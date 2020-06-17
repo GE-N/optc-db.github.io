@@ -870,9 +870,62 @@ window.zombies = {
         type: 'healer',
         multiplier: 5
     },
+    2890: { // Moria
+        type: 'healer',
+        multiplier: 5
+    },
+    2911: { // Camie
+        type: 'healer',
+        multiplier: 5
+    },
+    2913: { // Shirahoshi
+        type: 'healer',
+    },
+    2915: { // Rebecca
+        type: 'healer',
+        multiplier: 5
+    },
+    2931: { // Otama
+        type: 'healer',
+        amount: 401
+    },
+    2939: { // Nami
+        type: 'healer',
+        multiplier: 3
+    },
+    2940: { // Nami
+        type: 'healer',
+        multiplier: 5
+    },
+    2951: { // Brook
+        type: 'zombie',
+        threshold: 0.99
+    },
+    2952: { // Brook
+        type: 'zombie',
+        threshold: 0.50//CHANGE THIS
+    },
+    2959: { // Sabo
+        type: 'healer',
+    },
+    2960: { // Sabo
+        type: 'healer',
+    },
+    2969: { // Enel
+        type: 'healer',
+        multiplier: 3
+    },
+    2970: { // Enel
+        type: 'healer',
+        multiplier: 5
+    },
     3376: {//Hera
         type: 'healer',
         multiplier: 1
+    },
+    3380: { // Condoriano
+        type: 'healer',
+        amount: 401
     },
     5001: { // Smoker/Tashigi
         type: 'healer',
@@ -995,5 +1048,14 @@ window.zombies = {
         type: 'healer',
         multiplier: 5,
         threshold: 0.5
+    },
+    5255: { // Law/Chopper
+        type: 'healer',
+    },
+    5257: { // Law/Chopper
+        type: 'healer',
+    },
+    5258: { // Law/Chopper
+        type: 'healer',
     },
 };
